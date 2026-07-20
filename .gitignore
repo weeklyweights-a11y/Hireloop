@@ -22,13 +22,13 @@ _*.txt
 
 # Specs & docs (not required to run; may contain private deploy notes)
 *.md
+!README.md
 docs/
 PHASE-*.md
 PROGRESS.md
 project.md
 COMPANIES.md
 CONTRIBUTING.md
-README.md
 
 # Misc local artifacts
 .github/
