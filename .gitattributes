@@ -1,0 +1,3 @@
+# Keep shell scripts LF so Linux containers can exec them on Windows checkouts
+entrypoint.sh text eol=lf
+*.sh text eol=lf

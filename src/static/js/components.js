@@ -74,14 +74,12 @@
         ? '<span class="visa-pill">Sponsors visa</span>'
         : "";
     const meta = [job.experience, visa, job.employment_type].filter(Boolean).join(" · ");
-    const posted = job.first_seen
-      ? "Posted " + (job.freshness || relativeHint(job.first_seen))
-      : "";
-    const verified = job.last_verified
-      ? "Verified " + (job.freshness || "")
-      : "";
-    // Prefer API freshness for verified line; posted uses first_seen label when available
-    const freshLine = [job.freshness ? "Verified " + job.freshness : "", posted]
+    const postedAgo = relativeHint(job.first_seen);
+    const verifiedAgo = relativeHint(job.last_verified) || job.freshness || "";
+    const freshLine = [
+      postedAgo ? "First seen " + postedAgo : "",
+      verifiedAgo ? "Verified " + verifiedAgo : "",
+    ]
       .filter(Boolean)
       .join(" · ");
 
@@ -120,8 +118,16 @@
     return card;
   }
 
-  function relativeHint() {
-    return "";
+  function relativeHint(iso) {
+    if (!iso) return "";
+    const t = new Date(iso).getTime();
+    if (Number.isNaN(t)) return "";
+    const mins = Math.max(0, Math.round((Date.now() - t) / 60000));
+    if (mins < 60) return mins <= 1 ? "1 minute ago" : mins + " minutes ago";
+    const hours = Math.round(mins / 60);
+    if (hours < 48) return hours === 1 ? "1 hour ago" : hours + " hours ago";
+    const days = Math.round(hours / 24);
+    return days === 1 ? "1 day ago" : days + " days ago";
   }
 
   function renderJobDetail(detail) {
