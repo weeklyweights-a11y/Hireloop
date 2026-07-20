@@ -290,3 +290,5 @@ MIT — see [LICENSE](LICENSE).
 | MCP tools missing in Cursor | Confirm `http://localhost:8000/mcp` and that the API container is up |
 
 Health JSON (`/health`) shows `last_poll`, `next_poll`, and active job counts — start there when debugging.
+
+Contact: bhargavin189@gmail.com
