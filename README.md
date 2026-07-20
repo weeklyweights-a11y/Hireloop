@@ -1,6 +1,6 @@
 # HireLoop
 
-**Live US job data from 400+ company career pages — refreshed every ~2 hours — for browsers and AI clients.**
+**Live US job data from 250+ company career pages — refreshed every ~2 hours — for browsers and AI clients.**
 
 HireLoop is a self-hosted job-data platform. It polls company ATS APIs (Greenhouse, Lever, Ashby, Workday, and custom endpoints), parses each listing into structured fields, stores them in Postgres, builds a Neo4j skill/role graph, and exposes everything through:
 
@@ -12,7 +12,7 @@ HireLoop is a self-hosted job-data platform. It polls company ATS APIs (Greenhou
 
 Every job is verified on the company’s own career page. No aggregator scrapers. No ghost listings that vanished months ago. HireLoop hosts **no LLM** — your AI client (or the heuristic matcher) does the reasoning.
 
-> Inspired by the open job-search tooling wave (e.g. [career-ops](https://github.com/santifer/career-ops)): AI helps you **choose** roles worth your time. HireLoop’s job is the other half — **fresh, structured, source-verified listings** that those agents can query.
+> Inspired by the open job-search tooling wave: AI helps you **choose** roles worth your time. HireLoop’s job is the other half — **fresh, structured, source-verified listings** that those agents can query.
 
 ---
 
@@ -20,7 +20,7 @@ Every job is verified on the company’s own career page. No aggregator scrapers
 
 | Feature | Description |
 |---|---|
-| **Live polling** | ~379 configured sources; full poll about every 2 hours |
+| **Live polling** | ~250 configured sources; full poll about every 2 hours |
 | **Structured jobs** | Title, location, remote policy, salary, seniority, skills, visa, apply URL |
 | **Web Browse** | Search + filters (location, remote, experience, salary, seniority, visa, **posted date**) |
 | **Web Matches** | Upload/paste resume → extract skills → preferences → ranked matches via **MCP `match_jobs`** |
