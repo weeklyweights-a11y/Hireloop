@@ -291,4 +291,4 @@ MIT — see [LICENSE](LICENSE).
 
 Health JSON (`/health`) shows `last_poll`, `next_poll`, and active job counts — start there when debugging.
 
-# Contact: bhargavin189@gmail.com
+Contact: weeklyweights@gmail.com
