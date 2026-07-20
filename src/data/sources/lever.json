@@ -1,0 +1,366 @@
+[
+  {
+    "company_name": "Alloy",
+    "company_slug": "alloy-2",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/alloy?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Anyscale",
+    "company_slug": "anyscale",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/anyscale?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Gopuff",
+    "company_slug": "gopuff",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/gopuff?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "HCVT",
+    "company_slug": "hcvt",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/hcvt?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "LinkedIn",
+    "company_slug": "linkedin",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/linkedin?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Neon",
+    "company_slug": "neon",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/neon?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Outreach",
+    "company_slug": "outreach",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/outreach?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Palantir",
+    "company_slug": "palantir",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/palantir?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Prosper",
+    "company_slug": "prosper",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/prosper?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Shield AI",
+    "company_slug": "shield-ai",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/shieldai?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Spotify",
+    "company_slug": "spotify",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/spotify?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "WHOOP",
+    "company_slug": "whoop",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/whoop?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  },
+  {
+    "company_name": "Zoox",
+    "company_slug": "zoox",
+    "company_website": "https://jobs.lever.co",
+    "ats_type": "lever",
+    "api_endpoint": "https://api.lever.co/v0/postings/zoox?mode=json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "mode": "json"
+    },
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id",
+      "title": "text",
+      "location": "categories.location",
+      "description": "descriptionPlain",
+      "apply_url": "hostedUrl",
+      "department": "categories.department",
+      "updated_at": "createdAt"
+    },
+    "pagination_config": {
+      "type": "offset",
+      "param": "skip",
+      "limit": 100
+    }
+  }
+]

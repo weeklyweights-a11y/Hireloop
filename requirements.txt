@@ -1,0 +1,37 @@
+# API
+fastapi==0.139.*
+uvicorn[standard]==0.32.*
+pydantic==2.11.*
+pydantic-settings==2.9.*
+
+# Database
+sqlalchemy[asyncio]==2.0.*
+asyncpg==0.30.*
+psycopg2-binary==2.9.*
+alembic==1.15.*
+
+# Celery
+celery[redis]==5.5.*
+redis==5.3.*
+
+# HTTP client
+httpx==0.28.*
+
+# Parsing
+rapidfuzz==3.12.*
+
+# Graph
+neo4j==5.*
+
+# MCP
+mcp==1.28.*
+
+# Logging
+structlog==25.*
+
+# Testing
+pytest==8.*
+pytest-asyncio==0.25.*
+
+# Linting
+ruff==0.9.*

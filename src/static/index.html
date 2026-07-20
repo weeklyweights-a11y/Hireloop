@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HireLoop — Live US job data</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+  <link rel="icon" href="/static/assets/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container inner">
+      <a class="brand" href="/">
+        <img src="/static/assets/logo.svg" alt="" width="28" height="28" />
+        <span>HireLoop</span>
+      </a>
+      <div class="stats-pill" id="stats-pill">Loading…</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="tabs" role="tablist" aria-label="Main">
+      <button type="button" class="tab-btn active" role="tab" id="tab-browse" data-tab="browse" aria-selected="true">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+        Browse Jobs
+      </button>
+      <button type="button" class="tab-btn" role="tab" id="tab-matches" data-tab="matches" aria-selected="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5L12 2zm7 11l.8 2.7L22.5 17l-2.7.8L19 20.5l-.8-2.7L15.5 17l2.7-.8L19 13zM5.5 14l.6 2 2 0.6-2 .6-.6 2-.6-2-2-.6 2-.6.6-2z"/></svg>
+        My Matches
+      </button>
+    </nav>
+
+    <section id="panel-browse" class="tab-panel active" role="tabpanel" aria-labelledby="tab-browse">
+      <div class="placeholder-panel" id="browse-placeholder">Browse Jobs — search and filters coming next.</div>
+      <div id="browse-root" hidden></div>
+    </section>
+
+    <section id="panel-matches" class="tab-panel" role="tabpanel" aria-labelledby="tab-matches" hidden>
+      <div class="placeholder-panel" id="matches-placeholder">My Matches — upload a resume to find ranked fits.</div>
+      <div id="matches-root" hidden></div>
+    </section>
+
+    <div id="company-view" class="tab-panel" hidden></div>
+
+    <div id="global-error" class="inline-error" role="alert"></div>
+
+    <section id="stats-footer" class="card" style="margin-top:24px">
+      <p id="stats-footer-body" style="margin:0;color:var(--gray-500)">Platform stats load with the page.</p>
+    </section>
+
+    <section id="mcp-setup" style="margin-top:24px">
+      <details class="card mcp-accordion">
+        <summary>Connect HireLoop to your AI client</summary>
+        <p class="muted">13 tools available. Search, match, analyze skills, monitor companies, and more — all through chat.</p>
+        <h3>Claude Desktop</h3>
+        <pre id="mcp-claude-json" class="code-block">{
+  "mcpServers": {
+    "hireloop": {
+      "type": "streamable-http",
+      "url": "http://localhost:8000/mcp"
+    }
+  }
+}</pre>
+        <button type="button" class="btn btn-secondary btn-sm" id="copy-claude">Copy</button>
+        <h3>Cursor</h3>
+        <p>Settings → MCP Servers → Add → URL: <code>http://localhost:8000/mcp</code></p>
+        <h3>ChatGPT</h3>
+        <p class="muted">If your client supports Streamable HTTP MCP, point it at <code>http://localhost:8000/mcp</code>.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container inner">
+      <span>HireLoop — Open source job data from 400+ US career pages</span>
+      <span class="links">
+        <a href="#mcp-setup">Connect via MCP</a>
+        <a href="https://github.com/weeklyweights-a11y/Hireloop" rel="noopener noreferrer" target="_blank">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/static/js/api.js" defer></script>
+  <script src="/static/js/mcp.js" defer></script>
+  <script src="/static/js/components.js" defer></script>
+  <script src="/static/js/browse.js" defer></script>
+  <script src="/static/js/matches.js" defer></script>
+  <script src="/static/js/app.js" defer></script>
+</body>
+</html>

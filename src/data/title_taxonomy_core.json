@@ -1,0 +1,3212 @@
+[
+  {
+    "canonical": "Software Engineer",
+    "function": "engineering",
+    "aliases": [
+      "software developer",
+      "swe",
+      "sde",
+      "software eng",
+      "software engineer i",
+      "software engineer ii",
+      "software engineer iii",
+      "full time software engineer",
+      "senior software engineer",
+      "senior software eng",
+      "sr software engineer",
+      "sr software eng",
+      "staff software engineer",
+      "staff software eng",
+      "principal software engineer",
+      "principal software eng",
+      "lead software engineer",
+      "lead software eng"
+    ]
+  },
+  {
+    "canonical": "Backend Engineer",
+    "function": "engineering",
+    "aliases": [
+      "backend developer",
+      "back-end engineer",
+      "back end developer",
+      "server-side engineer",
+      "api engineer",
+      "backend software engineer",
+      "backend eng",
+      "back end engineer",
+      "senior backend engineer",
+      "senior backend eng",
+      "sr backend engineer",
+      "sr backend eng",
+      "staff backend engineer",
+      "staff backend eng",
+      "principal backend engineer",
+      "principal backend eng",
+      "lead backend engineer",
+      "lead backend eng"
+    ]
+  },
+  {
+    "canonical": "Frontend Engineer",
+    "function": "engineering",
+    "aliases": [
+      "frontend developer",
+      "front-end engineer",
+      "front end developer",
+      "ui engineer",
+      "frontend software engineer",
+      "front-end developer",
+      "fe engineer",
+      "senior frontend engineer",
+      "senior frontend eng",
+      "sr frontend engineer",
+      "sr frontend eng",
+      "staff frontend engineer",
+      "staff frontend eng",
+      "principal frontend engineer",
+      "principal frontend eng",
+      "lead frontend engineer",
+      "lead frontend eng"
+    ]
+  },
+  {
+    "canonical": "Full Stack Engineer",
+    "function": "engineering",
+    "aliases": [
+      "fullstack engineer",
+      "full-stack engineer",
+      "full stack developer",
+      "fullstack developer",
+      "full-stack developer",
+      "senior full stack engineer",
+      "senior full stack eng",
+      "sr full stack engineer",
+      "sr full stack eng",
+      "staff full stack engineer",
+      "staff full stack eng",
+      "principal full stack engineer",
+      "principal full stack eng",
+      "lead full stack engineer",
+      "lead full stack eng"
+    ]
+  },
+  {
+    "canonical": "Mobile Engineer (iOS)",
+    "function": "engineering",
+    "aliases": [
+      "ios engineer",
+      "ios developer",
+      "iphone developer",
+      "swift engineer",
+      "ios software engineer",
+      "senior mobile engineer (ios)",
+      "senior mobile eng (ios)",
+      "sr mobile engineer (ios)",
+      "sr mobile eng (ios)",
+      "staff mobile engineer (ios)",
+      "staff mobile eng (ios)",
+      "principal mobile engineer (ios)",
+      "principal mobile eng (ios)",
+      "lead mobile engineer (ios)",
+      "lead mobile eng (ios)"
+    ]
+  },
+  {
+    "canonical": "Mobile Engineer (Android)",
+    "function": "engineering",
+    "aliases": [
+      "android engineer",
+      "android developer",
+      "kotlin engineer",
+      "android software engineer",
+      "senior mobile engineer (android)",
+      "senior mobile eng (android)",
+      "sr mobile engineer (android)",
+      "sr mobile eng (android)",
+      "staff mobile engineer (android)",
+      "staff mobile eng (android)",
+      "principal mobile engineer (android)",
+      "principal mobile eng (android)",
+      "lead mobile engineer (android)",
+      "lead mobile eng (android)"
+    ]
+  },
+  {
+    "canonical": "Platform Engineer",
+    "function": "engineering",
+    "aliases": [
+      "platform developer",
+      "developer platform engineer",
+      "internal platform engineer",
+      "senior platform engineer",
+      "senior platform eng",
+      "sr platform engineer",
+      "sr platform eng",
+      "staff platform engineer",
+      "staff platform eng",
+      "principal platform engineer",
+      "principal platform eng",
+      "lead platform engineer",
+      "lead platform eng"
+    ]
+  },
+  {
+    "canonical": "Infrastructure Engineer",
+    "function": "engineering",
+    "aliases": [
+      "infra engineer",
+      "infrastructure developer",
+      "swe infrastructure",
+      "senior infrastructure engineer",
+      "senior infrastructure eng",
+      "sr infrastructure engineer",
+      "sr infrastructure eng",
+      "staff infrastructure engineer",
+      "staff infrastructure eng",
+      "principal infrastructure engineer",
+      "principal infrastructure eng",
+      "lead infrastructure engineer",
+      "lead infrastructure eng"
+    ]
+  },
+  {
+    "canonical": "Embedded Engineer",
+    "function": "engineering",
+    "aliases": [
+      "embedded developer",
+      "embedded systems engineer",
+      "firmware engineer",
+      "senior embedded engineer",
+      "senior embedded eng",
+      "sr embedded engineer",
+      "sr embedded eng",
+      "staff embedded engineer",
+      "staff embedded eng",
+      "principal embedded engineer",
+      "principal embedded eng",
+      "lead embedded engineer",
+      "lead embedded eng"
+    ]
+  },
+  {
+    "canonical": "Systems Engineer",
+    "function": "engineering",
+    "aliases": [
+      "systems developer",
+      "system engineer",
+      "senior systems engineer",
+      "senior systems eng",
+      "sr systems engineer",
+      "sr systems eng",
+      "staff systems engineer",
+      "staff systems eng",
+      "principal systems engineer",
+      "principal systems eng",
+      "lead systems engineer",
+      "lead systems eng"
+    ]
+  },
+  {
+    "canonical": "Solutions Engineer",
+    "function": "engineering",
+    "aliases": [
+      "solutions developer",
+      "pre-sales engineer",
+      "presales engineer",
+      "senior solutions engineer",
+      "senior solutions eng",
+      "sr solutions engineer",
+      "sr solutions eng",
+      "staff solutions engineer",
+      "staff solutions eng",
+      "principal solutions engineer",
+      "principal solutions eng",
+      "lead solutions engineer",
+      "lead solutions eng"
+    ]
+  },
+  {
+    "canonical": "Support Engineer",
+    "function": "engineering",
+    "aliases": [
+      "technical support engineer",
+      "customer support engineer",
+      "product support engineer",
+      "senior support engineer",
+      "senior support eng",
+      "sr support engineer",
+      "sr support eng",
+      "staff support engineer",
+      "staff support eng",
+      "principal support engineer",
+      "principal support eng",
+      "lead support engineer",
+      "lead support eng"
+    ]
+  },
+  {
+    "canonical": "Implementation Engineer",
+    "function": "engineering",
+    "aliases": [
+      "implementation specialist",
+      "implementation consultant",
+      "senior implementation engineer",
+      "senior implementation eng",
+      "sr implementation engineer",
+      "sr implementation eng",
+      "staff implementation engineer",
+      "staff implementation eng",
+      "principal implementation engineer",
+      "principal implementation eng",
+      "lead implementation engineer",
+      "lead implementation eng"
+    ]
+  },
+  {
+    "canonical": "Integration Engineer",
+    "function": "engineering",
+    "aliases": [
+      "integrations engineer",
+      "api integration engineer",
+      "senior integration engineer",
+      "senior integration eng",
+      "sr integration engineer",
+      "sr integration eng",
+      "staff integration engineer",
+      "staff integration eng",
+      "principal integration engineer",
+      "principal integration eng",
+      "lead integration engineer",
+      "lead integration eng"
+    ]
+  },
+  {
+    "canonical": "Site Reliability Engineer",
+    "function": "devops",
+    "aliases": [
+      "sre",
+      "site reliability",
+      "reliability engineer",
+      "senior site reliability engineer",
+      "senior site reliability eng",
+      "sr site reliability engineer",
+      "sr site reliability eng",
+      "staff site reliability engineer",
+      "staff site reliability eng",
+      "principal site reliability engineer",
+      "principal site reliability eng",
+      "lead site reliability engineer",
+      "lead site reliability eng"
+    ]
+  },
+  {
+    "canonical": "DevOps Engineer",
+    "function": "devops",
+    "aliases": [
+      "devops",
+      "dev ops engineer",
+      "devops developer",
+      "senior devops engineer",
+      "senior devops eng",
+      "sr devops engineer",
+      "sr devops eng",
+      "staff devops engineer",
+      "staff devops eng",
+      "principal devops engineer",
+      "principal devops eng",
+      "lead devops engineer",
+      "lead devops eng"
+    ]
+  },
+  {
+    "canonical": "Cloud Engineer",
+    "function": "devops",
+    "aliases": [
+      "cloud developer",
+      "aws engineer",
+      "gcp engineer",
+      "azure engineer",
+      "senior cloud engineer",
+      "senior cloud eng",
+      "sr cloud engineer",
+      "sr cloud eng",
+      "staff cloud engineer",
+      "staff cloud eng",
+      "principal cloud engineer",
+      "principal cloud eng",
+      "lead cloud engineer",
+      "lead cloud eng"
+    ]
+  },
+  {
+    "canonical": "Cloud Architect",
+    "function": "devops",
+    "aliases": [
+      "cloud architecture",
+      "aws architect",
+      "solutions architect cloud",
+      "senior cloud architect",
+      "senior cloud architect",
+      "sr cloud architect",
+      "sr cloud architect",
+      "staff cloud architect",
+      "staff cloud architect",
+      "principal cloud architect",
+      "principal cloud architect",
+      "lead cloud architect",
+      "lead cloud architect"
+    ]
+  },
+  {
+    "canonical": "Kubernetes Engineer",
+    "function": "devops",
+    "aliases": [
+      "k8s engineer",
+      "kubernetes developer",
+      "senior kubernetes engineer",
+      "senior kubernetes eng",
+      "sr kubernetes engineer",
+      "sr kubernetes eng",
+      "staff kubernetes engineer",
+      "staff kubernetes eng",
+      "principal kubernetes engineer",
+      "principal kubernetes eng",
+      "lead kubernetes engineer",
+      "lead kubernetes eng"
+    ]
+  },
+  {
+    "canonical": "Release Engineer",
+    "function": "devops",
+    "aliases": [
+      "release manager engineer",
+      "build and release engineer",
+      "senior release engineer",
+      "senior release eng",
+      "sr release engineer",
+      "sr release eng",
+      "staff release engineer",
+      "staff release eng",
+      "principal release engineer",
+      "principal release eng",
+      "lead release engineer",
+      "lead release eng"
+    ]
+  },
+  {
+    "canonical": "Build Engineer",
+    "function": "devops",
+    "aliases": [
+      "build systems engineer",
+      "ci engineer",
+      "senior build engineer",
+      "senior build eng",
+      "sr build engineer",
+      "sr build eng",
+      "staff build engineer",
+      "staff build eng",
+      "principal build engineer",
+      "principal build eng",
+      "lead build engineer",
+      "lead build eng"
+    ]
+  },
+  {
+    "canonical": "Network Engineer",
+    "function": "devops",
+    "aliases": [
+      "networking engineer",
+      "network systems engineer",
+      "senior network engineer",
+      "senior network eng",
+      "sr network engineer",
+      "sr network eng",
+      "staff network engineer",
+      "staff network eng",
+      "principal network engineer",
+      "principal network eng",
+      "lead network engineer",
+      "lead network eng"
+    ]
+  },
+  {
+    "canonical": "Security Engineer",
+    "function": "security",
+    "aliases": [
+      "infosec engineer",
+      "cybersecurity engineer",
+      "security software engineer",
+      "senior security engineer",
+      "senior security eng",
+      "sr security engineer",
+      "sr security eng",
+      "staff security engineer",
+      "staff security eng",
+      "principal security engineer",
+      "principal security eng",
+      "lead security engineer",
+      "lead security eng"
+    ]
+  },
+  {
+    "canonical": "Application Security Engineer",
+    "function": "security",
+    "aliases": [
+      "appsec engineer",
+      "application security",
+      "app sec",
+      "senior application security engineer",
+      "senior application security eng",
+      "sr application security engineer",
+      "sr application security eng",
+      "staff application security engineer",
+      "staff application security eng",
+      "principal application security engineer",
+      "principal application security eng",
+      "lead application security engineer",
+      "lead application security eng"
+    ]
+  },
+  {
+    "canonical": "Security Analyst",
+    "function": "security",
+    "aliases": [
+      "infosec analyst",
+      "cybersecurity analyst",
+      "security operations analyst",
+      "senior security analyst",
+      "senior security analyst",
+      "sr security analyst",
+      "sr security analyst",
+      "staff security analyst",
+      "staff security analyst",
+      "principal security analyst",
+      "principal security analyst",
+      "lead security analyst",
+      "lead security analyst"
+    ]
+  },
+  {
+    "canonical": "Penetration Tester",
+    "function": "engineering",
+    "aliases": [
+      "pentester",
+      "ethical hacker",
+      "penetration testing engineer",
+      "senior penetration tester",
+      "senior penetration tester",
+      "sr penetration tester",
+      "sr penetration tester",
+      "staff penetration tester",
+      "staff penetration tester",
+      "principal penetration tester",
+      "principal penetration tester",
+      "lead penetration tester",
+      "lead penetration tester"
+    ]
+  },
+  {
+    "canonical": "Security Architect",
+    "function": "security",
+    "aliases": [
+      "infosec architect",
+      "cybersecurity architect",
+      "senior security architect",
+      "senior security architect",
+      "sr security architect",
+      "sr security architect",
+      "staff security architect",
+      "staff security architect",
+      "principal security architect",
+      "principal security architect",
+      "lead security architect",
+      "lead security architect"
+    ]
+  },
+  {
+    "canonical": "SOC Analyst",
+    "function": "engineering",
+    "aliases": [
+      "security operations center analyst",
+      "soc engineer",
+      "senior soc analyst",
+      "senior soc analyst",
+      "sr soc analyst",
+      "sr soc analyst",
+      "staff soc analyst",
+      "staff soc analyst",
+      "principal soc analyst",
+      "principal soc analyst",
+      "lead soc analyst",
+      "lead soc analyst"
+    ]
+  },
+  {
+    "canonical": "QA Engineer",
+    "function": "qa",
+    "aliases": [
+      "quality assurance engineer",
+      "qa",
+      "quality engineer",
+      "senior qa engineer",
+      "senior qa eng",
+      "sr qa engineer",
+      "sr qa eng",
+      "staff qa engineer",
+      "staff qa eng",
+      "principal qa engineer",
+      "principal qa eng",
+      "lead qa engineer",
+      "lead qa eng"
+    ]
+  },
+  {
+    "canonical": "Test Engineer",
+    "function": "qa",
+    "aliases": [
+      "software test engineer",
+      "testing engineer",
+      "senior test engineer",
+      "senior test eng",
+      "sr test engineer",
+      "sr test eng",
+      "staff test engineer",
+      "staff test eng",
+      "principal test engineer",
+      "principal test eng",
+      "lead test engineer",
+      "lead test eng"
+    ]
+  },
+  {
+    "canonical": "SDET",
+    "function": "qa",
+    "aliases": [
+      "software development engineer in test",
+      "sdet engineer",
+      "test automation engineer",
+      "senior sdet",
+      "senior sdet",
+      "sr sdet",
+      "sr sdet",
+      "staff sdet",
+      "staff sdet",
+      "principal sdet",
+      "principal sdet",
+      "lead sdet",
+      "lead sdet"
+    ]
+  },
+  {
+    "canonical": "QA Analyst",
+    "function": "qa",
+    "aliases": [
+      "quality assurance analyst",
+      "qa tester",
+      "senior qa analyst",
+      "senior qa analyst",
+      "sr qa analyst",
+      "sr qa analyst",
+      "staff qa analyst",
+      "staff qa analyst",
+      "principal qa analyst",
+      "principal qa analyst",
+      "lead qa analyst",
+      "lead qa analyst"
+    ]
+  },
+  {
+    "canonical": "Automation Engineer",
+    "function": "qa",
+    "aliases": [
+      "test automation",
+      "automation qa",
+      "qa automation engineer",
+      "senior automation engineer",
+      "senior automation eng",
+      "sr automation engineer",
+      "sr automation eng",
+      "staff automation engineer",
+      "staff automation eng",
+      "principal automation engineer",
+      "principal automation eng",
+      "lead automation engineer",
+      "lead automation eng"
+    ]
+  },
+  {
+    "canonical": "Technical Writer",
+    "function": "other",
+    "aliases": [
+      "docs engineer",
+      "documentation engineer",
+      "technical documentation",
+      "senior technical writer",
+      "senior technical writer",
+      "sr technical writer",
+      "sr technical writer",
+      "staff technical writer",
+      "staff technical writer",
+      "principal technical writer",
+      "principal technical writer",
+      "lead technical writer",
+      "lead technical writer"
+    ]
+  },
+  {
+    "canonical": "Developer Advocate",
+    "function": "other",
+    "aliases": [
+      "developer relations",
+      "devrel",
+      "developer evangelist",
+      "senior developer advocate",
+      "senior developer advocate",
+      "sr developer advocate",
+      "sr developer advocate",
+      "staff developer advocate",
+      "staff developer advocate",
+      "principal developer advocate",
+      "principal developer advocate",
+      "lead developer advocate",
+      "lead developer advocate"
+    ]
+  },
+  {
+    "canonical": "Sales Engineer",
+    "function": "other",
+    "aliases": [
+      "sales engineering",
+      "se",
+      "pre sales engineer",
+      "senior sales engineer",
+      "senior sales eng",
+      "sr sales engineer",
+      "sr sales eng",
+      "staff sales engineer",
+      "staff sales eng",
+      "principal sales engineer",
+      "principal sales eng",
+      "lead sales engineer",
+      "lead sales eng"
+    ]
+  },
+  {
+    "canonical": "Customer Success Engineer",
+    "function": "other",
+    "aliases": [
+      "cse",
+      "customer success technical",
+      "senior customer success engineer",
+      "senior customer success eng",
+      "sr customer success engineer",
+      "sr customer success eng",
+      "staff customer success engineer",
+      "staff customer success eng",
+      "principal customer success engineer",
+      "principal customer success eng",
+      "lead customer success engineer",
+      "lead customer success eng"
+    ]
+  },
+  {
+    "canonical": "Technical Account Manager",
+    "function": "other",
+    "aliases": [
+      "tam",
+      "technical account mgr",
+      "senior technical account manager",
+      "senior technical account manager",
+      "sr technical account manager",
+      "sr technical account manager",
+      "staff technical account manager",
+      "staff technical account manager",
+      "principal technical account manager",
+      "principal technical account manager",
+      "lead technical account manager",
+      "lead technical account manager"
+    ]
+  },
+  {
+    "canonical": "Data Engineer",
+    "function": "data",
+    "aliases": [
+      "data eng",
+      "etl engineer",
+      "data platform engineer",
+      "senior data engineer",
+      "sr data engineer",
+      "staff data engineer"
+    ]
+  },
+  {
+    "canonical": "Data Scientist",
+    "function": "data",
+    "aliases": [
+      "data science",
+      "ds",
+      "applied data scientist",
+      "senior data scientist",
+      "sr data scientist",
+      "staff data scientist"
+    ]
+  },
+  {
+    "canonical": "Data Analyst",
+    "function": "data",
+    "aliases": [
+      "data analytics",
+      "analytics analyst",
+      "business data analyst",
+      "senior data analyst",
+      "sr data analyst",
+      "staff data analyst"
+    ]
+  },
+  {
+    "canonical": "Analytics Engineer",
+    "function": "data",
+    "aliases": [
+      "analytics eng",
+      "data analytics engineer",
+      "senior analytics engineer",
+      "sr analytics engineer",
+      "staff analytics engineer"
+    ]
+  },
+  {
+    "canonical": "BI Analyst",
+    "function": "data",
+    "aliases": [
+      "business intelligence analyst",
+      "bi developer",
+      "power bi analyst",
+      "senior bi analyst",
+      "sr bi analyst",
+      "staff bi analyst"
+    ]
+  },
+  {
+    "canonical": "Machine Learning Engineer",
+    "function": "data",
+    "aliases": [
+      "ml engineer",
+      "ml eng",
+      "machine learning eng",
+      "mle",
+      "senior machine learning engineer",
+      "sr machine learning engineer",
+      "staff machine learning engineer"
+    ]
+  },
+  {
+    "canonical": "AI/ML Engineer",
+    "function": "data",
+    "aliases": [
+      "ai engineer",
+      "ai ml engineer",
+      "artificial intelligence engineer",
+      "senior ai/ml engineer",
+      "sr ai/ml engineer",
+      "staff ai/ml engineer"
+    ]
+  },
+  {
+    "canonical": "Research Scientist",
+    "function": "data",
+    "aliases": [
+      "research sci",
+      "scientist research",
+      "senior research scientist",
+      "sr research scientist",
+      "staff research scientist"
+    ]
+  },
+  {
+    "canonical": "Applied Scientist",
+    "function": "data",
+    "aliases": [
+      "applied research scientist",
+      "senior applied scientist",
+      "sr applied scientist",
+      "staff applied scientist"
+    ]
+  },
+  {
+    "canonical": "ML Platform Engineer",
+    "function": "data",
+    "aliases": [
+      "mlops engineer",
+      "ml infra engineer",
+      "ml platform",
+      "senior ml platform engineer",
+      "sr ml platform engineer",
+      "staff ml platform engineer"
+    ]
+  },
+  {
+    "canonical": "NLP Engineer",
+    "function": "data",
+    "aliases": [
+      "natural language processing engineer",
+      "nlp scientist",
+      "senior nlp engineer",
+      "sr nlp engineer",
+      "staff nlp engineer"
+    ]
+  },
+  {
+    "canonical": "Computer Vision Engineer",
+    "function": "data",
+    "aliases": [
+      "cv engineer",
+      "vision engineer",
+      "computer vision",
+      "senior computer vision engineer",
+      "sr computer vision engineer",
+      "staff computer vision engineer"
+    ]
+  },
+  {
+    "canonical": "Data Platform Engineer",
+    "function": "data",
+    "aliases": [
+      "data platforms engineer",
+      "data infra engineer",
+      "senior data platform engineer",
+      "sr data platform engineer",
+      "staff data platform engineer"
+    ]
+  },
+  {
+    "canonical": "Product Manager",
+    "function": "product",
+    "aliases": [
+      "pm",
+      "product mgr",
+      "digital product manager",
+      "senior product manager",
+      "lead product manager"
+    ]
+  },
+  {
+    "canonical": "Technical Product Manager",
+    "function": "product",
+    "aliases": [
+      "tpm",
+      "technical pm",
+      "tech product manager",
+      "senior technical product manager",
+      "lead technical product manager"
+    ]
+  },
+  {
+    "canonical": "Product Designer",
+    "function": "design",
+    "aliases": [
+      "product design",
+      "digital product designer",
+      "senior product designer",
+      "lead product designer"
+    ]
+  },
+  {
+    "canonical": "UX Designer",
+    "function": "design",
+    "aliases": [
+      "user experience designer",
+      "user experience designer",
+      "senior ux designer",
+      "lead ux designer"
+    ]
+  },
+  {
+    "canonical": "UI Designer",
+    "function": "design",
+    "aliases": [
+      "user interface designer",
+      "visual ui designer",
+      "senior ui designer",
+      "lead ui designer"
+    ]
+  },
+  {
+    "canonical": "UX Researcher",
+    "function": "design",
+    "aliases": [
+      "user researcher",
+      "ux research",
+      "senior ux researcher",
+      "lead ux researcher"
+    ]
+  },
+  {
+    "canonical": "Design Manager",
+    "function": "design",
+    "aliases": [
+      "design lead",
+      "head of design",
+      "senior design manager",
+      "lead design manager"
+    ]
+  },
+  {
+    "canonical": "Content Designer",
+    "function": "design",
+    "aliases": [
+      "content design",
+      "ux writer",
+      "ux content designer",
+      "senior content designer",
+      "lead content designer"
+    ]
+  },
+  {
+    "canonical": "Engineering Manager",
+    "function": "management",
+    "aliases": [
+      "eng manager",
+      "software engineering manager",
+      "manager engineering",
+      "em"
+    ]
+  },
+  {
+    "canonical": "Director of Engineering",
+    "function": "management",
+    "aliases": [
+      "engineering director",
+      "dir of engineering",
+      "director engineering"
+    ]
+  },
+  {
+    "canonical": "VP of Engineering",
+    "function": "management",
+    "aliases": [
+      "vice president of engineering",
+      "vp engineering",
+      "vpe"
+    ]
+  },
+  {
+    "canonical": "CTO",
+    "function": "management",
+    "aliases": [
+      "chief technology officer",
+      "chief technical officer"
+    ]
+  },
+  {
+    "canonical": "Technical Lead",
+    "function": "management",
+    "aliases": [
+      "tech lead",
+      "team lead engineering",
+      "engineering tech lead"
+    ]
+  },
+  {
+    "canonical": "Architect",
+    "function": "management",
+    "aliases": [
+      "software architect",
+      "technical architect",
+      "system architect"
+    ]
+  },
+  {
+    "canonical": "Solutions Architect",
+    "function": "management",
+    "aliases": [
+      "solution architect",
+      "enterprise solutions architect"
+    ]
+  },
+  {
+    "canonical": "Business Analyst",
+    "function": "business",
+    "aliases": [
+      "ba",
+      "business analysis",
+      "it business analyst",
+      "senior business analyst"
+    ]
+  },
+  {
+    "canonical": "Financial Analyst",
+    "function": "business",
+    "aliases": [
+      "finance analyst",
+      "fp&a analyst",
+      "senior financial analyst"
+    ]
+  },
+  {
+    "canonical": "Operations Manager",
+    "function": "business",
+    "aliases": [
+      "ops manager",
+      "business operations manager",
+      "senior operations manager"
+    ]
+  },
+  {
+    "canonical": "Project Manager",
+    "function": "business",
+    "aliases": [
+      "project mgr",
+      "technical project manager",
+      "pmp",
+      "senior project manager"
+    ]
+  },
+  {
+    "canonical": "Program Manager",
+    "function": "business",
+    "aliases": [
+      "program mgr",
+      "technical program manager",
+      "tpm program",
+      "senior program manager"
+    ]
+  },
+  {
+    "canonical": "Scrum Master",
+    "function": "business",
+    "aliases": [
+      "agile scrum master",
+      "certified scrum master",
+      "senior scrum master"
+    ]
+  },
+  {
+    "canonical": "Account Executive",
+    "function": "business",
+    "aliases": [
+      "ae",
+      "enterprise account executive",
+      "sales account executive",
+      "senior account executive"
+    ]
+  },
+  {
+    "canonical": "Account Manager",
+    "function": "business",
+    "aliases": [
+      "am",
+      "client account manager",
+      "customer account manager",
+      "senior account manager"
+    ]
+  },
+  {
+    "canonical": "SDR",
+    "function": "business",
+    "aliases": [
+      "sales development representative",
+      "bdr",
+      "business development representative",
+      "senior sdr"
+    ]
+  },
+  {
+    "canonical": "Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "digital marketing manager",
+      "marketing mgr",
+      "senior marketing manager"
+    ]
+  },
+  {
+    "canonical": "Growth Manager",
+    "function": "business",
+    "aliases": [
+      "growth marketing manager",
+      "growth lead",
+      "senior growth manager"
+    ]
+  },
+  {
+    "canonical": "Content Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "content marketing",
+      "content manager marketing",
+      "senior content marketing manager"
+    ]
+  },
+  {
+    "canonical": "Recruiter",
+    "function": "business",
+    "aliases": [
+      "talent recruiter",
+      "technical recruiting",
+      "recruiting specialist",
+      "senior recruiter"
+    ]
+  },
+  {
+    "canonical": "Technical Recruiter",
+    "function": "business",
+    "aliases": [
+      "tech recruiter",
+      "engineering recruiter",
+      "software recruiter",
+      "senior technical recruiter"
+    ]
+  },
+  {
+    "canonical": "HR Manager",
+    "function": "business",
+    "aliases": [
+      "human resources manager",
+      "people manager hr",
+      "senior hr manager"
+    ]
+  },
+  {
+    "canonical": "People Operations Manager",
+    "function": "business",
+    "aliases": [
+      "people ops manager",
+      "peopleops",
+      "people operations",
+      "senior people operations manager"
+    ]
+  },
+  {
+    "canonical": "Customer Success Manager",
+    "function": "business",
+    "aliases": [
+      "csm",
+      "customer success",
+      "client success manager",
+      "senior customer success manager"
+    ]
+  },
+  {
+    "canonical": "Mobile Engineer",
+    "function": "engineering",
+    "aliases": [
+      "mobile developer",
+      "mobile software engineer",
+      "react native engineer",
+      "senior mobile engineer",
+      "sr. mobile engineer"
+    ]
+  },
+  {
+    "canonical": "Game Engineer",
+    "function": "engineering",
+    "aliases": [
+      "game developer",
+      "gameplay engineer",
+      "unity engineer",
+      "senior game engineer",
+      "sr. game engineer"
+    ]
+  },
+  {
+    "canonical": "Blockchain Engineer",
+    "function": "engineering",
+    "aliases": [
+      "web3 engineer",
+      "smart contract engineer",
+      "crypto engineer",
+      "senior blockchain engineer",
+      "sr. blockchain engineer"
+    ]
+  },
+  {
+    "canonical": "Firmware Engineer",
+    "function": "engineering",
+    "aliases": [
+      "firmware developer",
+      "embedded firmware",
+      "senior firmware engineer",
+      "sr. firmware engineer"
+    ]
+  },
+  {
+    "canonical": "Hardware Engineer",
+    "function": "engineering",
+    "aliases": [
+      "hardware developer",
+      "electrical hardware engineer",
+      "senior hardware engineer",
+      "sr. hardware engineer"
+    ]
+  },
+  {
+    "canonical": "Database Engineer",
+    "function": "engineering",
+    "aliases": [
+      "dba engineer",
+      "database developer",
+      "sql engineer",
+      "senior database engineer",
+      "sr. database engineer"
+    ]
+  },
+  {
+    "canonical": "Search Engineer",
+    "function": "engineering",
+    "aliases": [
+      "search relevance engineer",
+      "elasticsearch engineer",
+      "senior search engineer",
+      "sr. search engineer"
+    ]
+  },
+  {
+    "canonical": "Performance Engineer",
+    "function": "engineering",
+    "aliases": [
+      "perf engineer",
+      "performance software engineer",
+      "senior performance engineer",
+      "sr. performance engineer"
+    ]
+  },
+  {
+    "canonical": "Privacy Engineer",
+    "function": "engineering",
+    "aliases": [
+      "privacy software engineer",
+      "data privacy engineer",
+      "senior privacy engineer",
+      "sr. privacy engineer"
+    ]
+  },
+  {
+    "canonical": "Growth Engineer",
+    "function": "engineering",
+    "aliases": [
+      "growth software engineer",
+      "growth hacker engineer",
+      "senior growth engineer",
+      "sr. growth engineer"
+    ]
+  },
+  {
+    "canonical": "AI Engineer",
+    "function": "data",
+    "aliases": [
+      "artificial intelligence engineer",
+      "generative ai engineer",
+      "senior ai engineer",
+      "sr. ai engineer"
+    ]
+  },
+  {
+    "canonical": "Prompt Engineer",
+    "function": "data",
+    "aliases": [
+      "llm prompt engineer",
+      "genai prompt engineer",
+      "senior prompt engineer",
+      "sr. prompt engineer"
+    ]
+  },
+  {
+    "canonical": "Data Architect",
+    "function": "data",
+    "aliases": [
+      "enterprise data architect",
+      "data architecture",
+      "senior data architect",
+      "sr. data architect"
+    ]
+  },
+  {
+    "canonical": "Analytics Manager",
+    "function": "data",
+    "aliases": [
+      "analytics lead",
+      "head of analytics",
+      "senior analytics manager",
+      "sr. analytics manager"
+    ]
+  },
+  {
+    "canonical": "Product Analyst",
+    "function": "data",
+    "aliases": [
+      "product analytics",
+      "product data analyst",
+      "senior product analyst",
+      "sr. product analyst"
+    ]
+  },
+  {
+    "canonical": "Quant Analyst",
+    "function": "data",
+    "aliases": [
+      "quantitative analyst",
+      "quant",
+      "senior quant analyst",
+      "sr. quant analyst"
+    ]
+  },
+  {
+    "canonical": "Design Engineer",
+    "function": "design",
+    "aliases": [
+      "design systems engineer",
+      "ui engineering",
+      "senior design engineer",
+      "sr. design engineer"
+    ]
+  },
+  {
+    "canonical": "Brand Designer",
+    "function": "design",
+    "aliases": [
+      "brand design",
+      "visual brand designer",
+      "senior brand designer",
+      "sr. brand designer"
+    ]
+  },
+  {
+    "canonical": "Graphic Designer",
+    "function": "design",
+    "aliases": [
+      "visual designer graphic",
+      "senior graphic designer",
+      "sr. graphic designer"
+    ]
+  },
+  {
+    "canonical": "Motion Designer",
+    "function": "design",
+    "aliases": [
+      "motion graphics designer",
+      "senior motion designer",
+      "sr. motion designer"
+    ]
+  },
+  {
+    "canonical": "Illustrator",
+    "function": "design",
+    "aliases": [
+      "digital illustrator",
+      "senior illustrator",
+      "sr. illustrator"
+    ]
+  },
+  {
+    "canonical": "Research Engineer",
+    "function": "data",
+    "aliases": [
+      "applied research engineer",
+      "senior research engineer",
+      "sr. research engineer"
+    ]
+  },
+  {
+    "canonical": "Staff Engineer",
+    "function": "engineering",
+    "aliases": [
+      "staff software engineer",
+      "staff swe",
+      "senior staff engineer",
+      "sr. staff engineer"
+    ]
+  },
+  {
+    "canonical": "Principal Engineer",
+    "function": "engineering",
+    "aliases": [
+      "principal software engineer",
+      "principal swe",
+      "senior principal engineer",
+      "sr. principal engineer"
+    ]
+  },
+  {
+    "canonical": "Distinguished Engineer",
+    "function": "engineering",
+    "aliases": [
+      "distinguished software engineer",
+      "senior distinguished engineer",
+      "sr. distinguished engineer"
+    ]
+  },
+  {
+    "canonical": "Fellow",
+    "function": "engineering",
+    "aliases": [
+      "technical fellow",
+      "engineering fellow",
+      "senior fellow",
+      "sr. fellow"
+    ]
+  },
+  {
+    "canonical": "Engineering Director",
+    "function": "management",
+    "aliases": [
+      "director engineering",
+      "eng director",
+      "senior engineering director",
+      "sr. engineering director"
+    ]
+  },
+  {
+    "canonical": "Head of Engineering",
+    "function": "management",
+    "aliases": [
+      "head of eng",
+      "engineering head",
+      "senior head of engineering",
+      "sr. head of engineering"
+    ]
+  },
+  {
+    "canonical": "VP Product",
+    "function": "management",
+    "aliases": [
+      "vice president of product",
+      "vp of product",
+      "senior vp product",
+      "sr. vp product"
+    ]
+  },
+  {
+    "canonical": "CPO",
+    "function": "management",
+    "aliases": [
+      "chief product officer",
+      "senior cpo",
+      "sr. cpo"
+    ]
+  },
+  {
+    "canonical": "CIO",
+    "function": "management",
+    "aliases": [
+      "chief information officer",
+      "senior cio",
+      "sr. cio"
+    ]
+  },
+  {
+    "canonical": "CISO",
+    "function": "management",
+    "aliases": [
+      "chief information security officer",
+      "senior ciso",
+      "sr. ciso"
+    ]
+  },
+  {
+    "canonical": "IT Manager",
+    "function": "business",
+    "aliases": [
+      "information technology manager",
+      "it operations manager",
+      "senior it manager",
+      "sr. it manager"
+    ]
+  },
+  {
+    "canonical": "IT Support Specialist",
+    "function": "business",
+    "aliases": [
+      "help desk specialist",
+      "desktop support",
+      "senior it support specialist",
+      "sr. it support specialist"
+    ]
+  },
+  {
+    "canonical": "Systems Administrator",
+    "function": "devops",
+    "aliases": [
+      "sysadmin",
+      "system administrator",
+      "linux administrator",
+      "senior systems administrator",
+      "sr. systems administrator"
+    ]
+  },
+  {
+    "canonical": "Database Administrator",
+    "function": "devops",
+    "aliases": [
+      "dba",
+      "oracle dba",
+      "postgres dba",
+      "senior database administrator",
+      "sr. database administrator"
+    ]
+  },
+  {
+    "canonical": "Network Administrator",
+    "function": "devops",
+    "aliases": [
+      "network admin",
+      "senior network administrator",
+      "sr. network administrator"
+    ]
+  },
+  {
+    "canonical": "Cloud Security Engineer",
+    "function": "security",
+    "aliases": [
+      "cloudsec engineer",
+      "aws security engineer",
+      "senior cloud security engineer",
+      "sr. cloud security engineer"
+    ]
+  },
+  {
+    "canonical": "Identity Engineer",
+    "function": "security",
+    "aliases": [
+      "iam engineer",
+      "identity and access engineer",
+      "senior identity engineer",
+      "sr. identity engineer"
+    ]
+  },
+  {
+    "canonical": "Threat Intelligence Analyst",
+    "function": "security",
+    "aliases": [
+      "threat intel analyst",
+      "senior threat intelligence analyst",
+      "sr. threat intelligence analyst"
+    ]
+  },
+  {
+    "canonical": "Compliance Analyst",
+    "function": "security",
+    "aliases": [
+      "grc analyst",
+      "security compliance",
+      "senior compliance analyst",
+      "sr. compliance analyst"
+    ]
+  },
+  {
+    "canonical": "Salesforce Engineer",
+    "function": "engineering",
+    "aliases": [
+      "salesforce developer",
+      "salesforce admin engineer",
+      "senior salesforce engineer",
+      "sr. salesforce engineer"
+    ]
+  },
+  {
+    "canonical": "Workday Engineer",
+    "function": "engineering",
+    "aliases": [
+      "workday developer",
+      "workday integration",
+      "senior workday engineer",
+      "sr. workday engineer"
+    ]
+  },
+  {
+    "canonical": "ERP Analyst",
+    "function": "business",
+    "aliases": [
+      "sap analyst",
+      "oracle erp analyst",
+      "senior erp analyst",
+      "sr. erp analyst"
+    ]
+  },
+  {
+    "canonical": "Supply Chain Analyst",
+    "function": "business",
+    "aliases": [
+      "supply chain",
+      "senior supply chain analyst",
+      "sr. supply chain analyst"
+    ]
+  },
+  {
+    "canonical": "Logistics Manager",
+    "function": "business",
+    "aliases": [
+      "logistics",
+      "senior logistics manager",
+      "sr. logistics manager"
+    ]
+  },
+  {
+    "canonical": "Partnerships Manager",
+    "function": "business",
+    "aliases": [
+      "strategic partnerships",
+      "partner manager",
+      "senior partnerships manager",
+      "sr. partnerships manager"
+    ]
+  },
+  {
+    "canonical": "Business Development Manager",
+    "function": "business",
+    "aliases": [
+      "bdm",
+      "bizdev manager",
+      "senior business development manager",
+      "sr. business development manager"
+    ]
+  },
+  {
+    "canonical": "Revenue Operations Manager",
+    "function": "business",
+    "aliases": [
+      "revops manager",
+      "revenue ops",
+      "senior revenue operations manager",
+      "sr. revenue operations manager"
+    ]
+  },
+  {
+    "canonical": "Sales Operations Manager",
+    "function": "business",
+    "aliases": [
+      "sales ops manager",
+      "salesops",
+      "senior sales operations manager",
+      "sr. sales operations manager"
+    ]
+  },
+  {
+    "canonical": "Marketing Operations Manager",
+    "function": "business",
+    "aliases": [
+      "mops",
+      "marketing ops",
+      "senior marketing operations manager",
+      "sr. marketing operations manager"
+    ]
+  },
+  {
+    "canonical": "SEO Specialist",
+    "function": "business",
+    "aliases": [
+      "seo manager",
+      "search engine optimization",
+      "senior seo specialist",
+      "sr. seo specialist"
+    ]
+  },
+  {
+    "canonical": "SEM Specialist",
+    "function": "business",
+    "aliases": [
+      "paid search specialist",
+      "ppc specialist",
+      "senior sem specialist",
+      "sr. sem specialist"
+    ]
+  },
+  {
+    "canonical": "Social Media Manager",
+    "function": "business",
+    "aliases": [
+      "social media specialist",
+      "senior social media manager",
+      "sr. social media manager"
+    ]
+  },
+  {
+    "canonical": "Community Manager",
+    "function": "business",
+    "aliases": [
+      "community lead",
+      "senior community manager",
+      "sr. community manager"
+    ]
+  },
+  {
+    "canonical": "Event Manager",
+    "function": "business",
+    "aliases": [
+      "events manager",
+      "senior event manager",
+      "sr. event manager"
+    ]
+  },
+  {
+    "canonical": "PR Manager",
+    "function": "business",
+    "aliases": [
+      "public relations manager",
+      "communications manager",
+      "senior pr manager",
+      "sr. pr manager"
+    ]
+  },
+  {
+    "canonical": "Copywriter",
+    "function": "business",
+    "aliases": [
+      "marketing copywriter",
+      "content writer",
+      "senior copywriter",
+      "sr. copywriter"
+    ]
+  },
+  {
+    "canonical": "Editor",
+    "function": "business",
+    "aliases": [
+      "content editor",
+      "senior editor",
+      "sr. editor"
+    ]
+  },
+  {
+    "canonical": "Legal Counsel",
+    "function": "business",
+    "aliases": [
+      "corporate counsel",
+      "attorney",
+      "senior legal counsel",
+      "sr. legal counsel"
+    ]
+  },
+  {
+    "canonical": "Paralegal",
+    "function": "business",
+    "aliases": [
+      "legal assistant",
+      "senior paralegal",
+      "sr. paralegal"
+    ]
+  },
+  {
+    "canonical": "Finance Manager",
+    "function": "business",
+    "aliases": [
+      "financial manager",
+      "senior finance manager",
+      "sr. finance manager"
+    ]
+  },
+  {
+    "canonical": "Controller",
+    "function": "business",
+    "aliases": [
+      "financial controller",
+      "accounting controller",
+      "senior controller",
+      "sr. controller"
+    ]
+  },
+  {
+    "canonical": "Accountant",
+    "function": "business",
+    "aliases": [
+      "staff accountant",
+      "senior accountant",
+      "senior accountant",
+      "sr. accountant"
+    ]
+  },
+  {
+    "canonical": "Payroll Specialist",
+    "function": "business",
+    "aliases": [
+      "payroll administrator",
+      "senior payroll specialist",
+      "sr. payroll specialist"
+    ]
+  },
+  {
+    "canonical": "Office Manager",
+    "function": "business",
+    "aliases": [
+      "office administrator",
+      "senior office manager",
+      "sr. office manager"
+    ]
+  },
+  {
+    "canonical": "Executive Assistant",
+    "function": "business",
+    "aliases": [
+      "ea",
+      "exec assistant",
+      "senior executive assistant",
+      "sr. executive assistant"
+    ]
+  },
+  {
+    "canonical": "Chief of Staff",
+    "function": "business",
+    "aliases": [
+      "chief of staff to ceo",
+      "senior chief of staff",
+      "sr. chief of staff"
+    ]
+  },
+  {
+    "canonical": "Strategy Manager",
+    "function": "business",
+    "aliases": [
+      "corporate strategy",
+      "strategic initiatives",
+      "senior strategy manager",
+      "sr. strategy manager"
+    ]
+  },
+  {
+    "canonical": "Management Consultant",
+    "function": "business",
+    "aliases": [
+      "consultant",
+      "strategy consultant",
+      "senior management consultant",
+      "sr. management consultant"
+    ]
+  },
+  {
+    "canonical": "Customer Support Specialist",
+    "function": "business",
+    "aliases": [
+      "support specialist",
+      "customer service specialist",
+      "senior customer support specialist",
+      "sr. customer support specialist"
+    ]
+  },
+  {
+    "canonical": "Support Manager",
+    "function": "business",
+    "aliases": [
+      "customer support manager",
+      "support team lead",
+      "senior support manager",
+      "sr. support manager"
+    ]
+  },
+  {
+    "canonical": "Onboarding Specialist",
+    "function": "business",
+    "aliases": [
+      "customer onboarding",
+      "senior onboarding specialist",
+      "sr. onboarding specialist"
+    ]
+  },
+  {
+    "canonical": "Implementation Consultant",
+    "function": "business",
+    "aliases": [
+      "implementation specialist consultant",
+      "senior implementation consultant",
+      "sr. implementation consultant"
+    ]
+  },
+  {
+    "canonical": "Trainer",
+    "function": "business",
+    "aliases": [
+      "corporate trainer",
+      "learning and development",
+      "senior trainer",
+      "sr. trainer"
+    ]
+  },
+  {
+    "canonical": "Instructional Designer",
+    "function": "business",
+    "aliases": [
+      "l&d designer",
+      "learning designer",
+      "senior instructional designer",
+      "sr. instructional designer"
+    ]
+  },
+  {
+    "canonical": "Compensation Analyst",
+    "function": "business",
+    "aliases": [
+      "comp analyst",
+      "total rewards analyst",
+      "senior compensation analyst",
+      "sr. compensation analyst"
+    ]
+  },
+  {
+    "canonical": "Benefits Specialist",
+    "function": "business",
+    "aliases": [
+      "employee benefits",
+      "senior benefits specialist",
+      "sr. benefits specialist"
+    ]
+  },
+  {
+    "canonical": "Talent Acquisition Manager",
+    "function": "business",
+    "aliases": [
+      "ta manager",
+      "recruiting manager",
+      "senior talent acquisition manager",
+      "sr. talent acquisition manager"
+    ]
+  },
+  {
+    "canonical": "Sourcer",
+    "function": "business",
+    "aliases": [
+      "talent sourcer",
+      "recruiting sourcer",
+      "senior sourcer",
+      "sr. sourcer"
+    ]
+  },
+  {
+    "canonical": "HR Business Partner",
+    "function": "business",
+    "aliases": [
+      "hrbp",
+      "people business partner",
+      "senior hr business partner",
+      "sr. hr business partner"
+    ]
+  },
+  {
+    "canonical": "Diversity Recruiter",
+    "function": "business",
+    "aliases": [
+      "dei recruiter",
+      "senior diversity recruiter",
+      "sr. diversity recruiter"
+    ]
+  },
+  {
+    "canonical": "Internal Communications Manager",
+    "function": "business",
+    "aliases": [
+      "employee communications",
+      "senior internal communications manager",
+      "sr. internal communications manager"
+    ]
+  },
+  {
+    "canonical": "Facilities Manager",
+    "function": "business",
+    "aliases": [
+      "workplace manager",
+      "senior facilities manager",
+      "sr. facilities manager"
+    ]
+  },
+  {
+    "canonical": "Real Estate Manager",
+    "function": "business",
+    "aliases": [
+      "corporate real estate",
+      "senior real estate manager",
+      "sr. real estate manager"
+    ]
+  },
+  {
+    "canonical": "Procurement Manager",
+    "function": "business",
+    "aliases": [
+      "purchasing manager",
+      "sourcing manager",
+      "senior procurement manager",
+      "sr. procurement manager"
+    ]
+  },
+  {
+    "canonical": "Vendor Manager",
+    "function": "business",
+    "aliases": [
+      "vendor management",
+      "senior vendor manager",
+      "sr. vendor manager"
+    ]
+  },
+  {
+    "canonical": "Quality Manager",
+    "function": "qa",
+    "aliases": [
+      "quality assurance manager",
+      "senior quality manager",
+      "sr. quality manager"
+    ]
+  },
+  {
+    "canonical": "Manufacturing Engineer",
+    "function": "engineering",
+    "aliases": [
+      "process manufacturing engineer",
+      "senior manufacturing engineer",
+      "sr. manufacturing engineer"
+    ]
+  },
+  {
+    "canonical": "Mechanical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "mech engineer",
+      "senior mechanical engineer",
+      "sr. mechanical engineer"
+    ]
+  },
+  {
+    "canonical": "Electrical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "ee",
+      "electrical eng",
+      "senior electrical engineer",
+      "sr. electrical engineer"
+    ]
+  },
+  {
+    "canonical": "Civil Engineer",
+    "function": "engineering",
+    "aliases": [
+      "civil eng",
+      "senior civil engineer",
+      "sr. civil engineer"
+    ]
+  },
+  {
+    "canonical": "Chemical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "chem engineer",
+      "senior chemical engineer",
+      "sr. chemical engineer"
+    ]
+  },
+  {
+    "canonical": "Biomedical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "bioengineer",
+      "senior biomedical engineer",
+      "sr. biomedical engineer"
+    ]
+  },
+  {
+    "canonical": "Robotics Engineer",
+    "function": "engineering",
+    "aliases": [
+      "robotics developer",
+      "senior robotics engineer",
+      "sr. robotics engineer"
+    ]
+  },
+  {
+    "canonical": "Autonomous Vehicle Engineer",
+    "function": "engineering",
+    "aliases": [
+      "av engineer",
+      "self-driving engineer",
+      "senior autonomous vehicle engineer",
+      "sr. autonomous vehicle engineer"
+    ]
+  },
+  {
+    "canonical": "Computer Vision Scientist",
+    "function": "data",
+    "aliases": [
+      "cv scientist",
+      "senior computer vision scientist",
+      "sr. computer vision scientist"
+    ]
+  },
+  {
+    "canonical": "ML Research Scientist",
+    "function": "data",
+    "aliases": [
+      "machine learning researcher",
+      "senior ml research scientist",
+      "sr. ml research scientist"
+    ]
+  },
+  {
+    "canonical": "Statistician",
+    "function": "data",
+    "aliases": [
+      "statistical analyst",
+      "senior statistician",
+      "sr. statistician"
+    ]
+  },
+  {
+    "canonical": "Economist",
+    "function": "data",
+    "aliases": [
+      "quantitative economist",
+      "senior economist",
+      "sr. economist"
+    ]
+  },
+  {
+    "canonical": "Actuary",
+    "function": "data",
+    "aliases": [
+      "actuarial analyst",
+      "senior actuary",
+      "sr. actuary"
+    ]
+  },
+  {
+    "canonical": "Risk Analyst",
+    "function": "business",
+    "aliases": [
+      "credit risk analyst",
+      "operational risk",
+      "senior risk analyst",
+      "sr. risk analyst"
+    ]
+  },
+  {
+    "canonical": "Fraud Analyst",
+    "function": "business",
+    "aliases": [
+      "fraud detection analyst",
+      "senior fraud analyst",
+      "sr. fraud analyst"
+    ]
+  },
+  {
+    "canonical": "Underwriter",
+    "function": "business",
+    "aliases": [
+      "insurance underwriter",
+      "senior underwriter",
+      "sr. underwriter"
+    ]
+  },
+  {
+    "canonical": "Claims Adjuster",
+    "function": "business",
+    "aliases": [
+      "claims specialist",
+      "senior claims adjuster",
+      "sr. claims adjuster"
+    ]
+  },
+  {
+    "canonical": "Nurse Practitioner",
+    "function": "business",
+    "aliases": [
+      "np",
+      "senior nurse practitioner",
+      "sr. nurse practitioner"
+    ]
+  },
+  {
+    "canonical": "Clinical Research Associate",
+    "function": "business",
+    "aliases": [
+      "cra",
+      "senior clinical research associate",
+      "sr. clinical research associate"
+    ]
+  },
+  {
+    "canonical": "Lab Technician",
+    "function": "business",
+    "aliases": [
+      "laboratory technician",
+      "senior lab technician",
+      "sr. lab technician"
+    ]
+  },
+  {
+    "canonical": "Pharmacy Manager",
+    "function": "business",
+    "aliases": [
+      "pharmacist manager",
+      "senior pharmacy manager",
+      "sr. pharmacy manager"
+    ]
+  },
+  {
+    "canonical": "Teacher",
+    "function": "business",
+    "aliases": [
+      "educator",
+      "instructor",
+      "senior teacher",
+      "sr. teacher"
+    ]
+  },
+  {
+    "canonical": "Professor",
+    "function": "business",
+    "aliases": [
+      "assistant professor",
+      "associate professor",
+      "senior professor",
+      "sr. professor"
+    ]
+  },
+  {
+    "canonical": "Librarian",
+    "function": "business",
+    "aliases": [
+      "research librarian",
+      "senior librarian",
+      "sr. librarian"
+    ]
+  },
+  {
+    "canonical": "Journalist",
+    "function": "business",
+    "aliases": [
+      "reporter",
+      "news writer",
+      "senior journalist",
+      "sr. journalist"
+    ]
+  },
+  {
+    "canonical": "Photographer",
+    "function": "design",
+    "aliases": [
+      "digital photographer",
+      "senior photographer",
+      "sr. photographer"
+    ]
+  },
+  {
+    "canonical": "Videographer",
+    "function": "design",
+    "aliases": [
+      "video producer",
+      "senior videographer",
+      "sr. videographer"
+    ]
+  },
+  {
+    "canonical": "Producer",
+    "function": "business",
+    "aliases": [
+      "content producer",
+      "digital producer",
+      "senior producer",
+      "sr. producer"
+    ]
+  },
+  {
+    "canonical": "Project Coordinator",
+    "function": "business",
+    "aliases": [
+      "program coordinator",
+      "senior project coordinator",
+      "sr. project coordinator"
+    ]
+  },
+  {
+    "canonical": "Operations Analyst",
+    "function": "business",
+    "aliases": [
+      "ops analyst",
+      "business operations analyst",
+      "senior operations analyst",
+      "sr. operations analyst"
+    ]
+  },
+  {
+    "canonical": "Strategy Analyst",
+    "function": "business",
+    "aliases": [
+      "corporate strategy analyst",
+      "senior strategy analyst",
+      "sr. strategy analyst"
+    ]
+  },
+  {
+    "canonical": "Investment Analyst",
+    "function": "business",
+    "aliases": [
+      "equity research analyst",
+      "senior investment analyst",
+      "sr. investment analyst"
+    ]
+  },
+  {
+    "canonical": "Portfolio Manager",
+    "function": "business",
+    "aliases": [
+      "investment portfolio manager",
+      "senior portfolio manager",
+      "sr. portfolio manager"
+    ]
+  },
+  {
+    "canonical": "Trader",
+    "function": "business",
+    "aliases": [
+      "equity trader",
+      "sales trader",
+      "senior trader",
+      "sr. trader"
+    ]
+  },
+  {
+    "canonical": "Banker",
+    "function": "business",
+    "aliases": [
+      "investment banker",
+      "relationship banker",
+      "senior banker",
+      "sr. banker"
+    ]
+  },
+  {
+    "canonical": "Loan Officer",
+    "function": "business",
+    "aliases": [
+      "mortgage loan officer",
+      "senior loan officer",
+      "sr. loan officer"
+    ]
+  },
+  {
+    "canonical": "Branch Manager",
+    "function": "business",
+    "aliases": [
+      "bank branch manager",
+      "senior branch manager",
+      "sr. branch manager"
+    ]
+  },
+  {
+    "canonical": "Store Manager",
+    "function": "business",
+    "aliases": [
+      "retail store manager",
+      "senior store manager",
+      "sr. store manager"
+    ]
+  },
+  {
+    "canonical": "General Manager",
+    "function": "business",
+    "aliases": [
+      "gm",
+      "business general manager",
+      "senior general manager",
+      "sr. general manager"
+    ]
+  },
+  {
+    "canonical": "Restaurant Manager",
+    "function": "business",
+    "aliases": [
+      "f&b manager",
+      "senior restaurant manager",
+      "sr. restaurant manager"
+    ]
+  },
+  {
+    "canonical": "Chef",
+    "function": "business",
+    "aliases": [
+      "executive chef",
+      "sous chef",
+      "senior chef",
+      "sr. chef"
+    ]
+  },
+  {
+    "canonical": "Hotel Manager",
+    "function": "business",
+    "aliases": [
+      "hospitality manager",
+      "senior hotel manager",
+      "sr. hotel manager"
+    ]
+  },
+  {
+    "canonical": "Flight Attendant",
+    "function": "business",
+    "aliases": [
+      "cabin crew",
+      "senior flight attendant",
+      "sr. flight attendant"
+    ]
+  },
+  {
+    "canonical": "Pilot",
+    "function": "business",
+    "aliases": [
+      "airline pilot",
+      "commercial pilot",
+      "senior pilot",
+      "sr. pilot"
+    ]
+  },
+  {
+    "canonical": "Driver",
+    "function": "business",
+    "aliases": [
+      "delivery driver",
+      "truck driver",
+      "senior driver",
+      "sr. driver"
+    ]
+  },
+  {
+    "canonical": "Warehouse Associate",
+    "function": "business",
+    "aliases": [
+      "warehouse worker",
+      "fulfillment associate",
+      "senior warehouse associate",
+      "sr. warehouse associate"
+    ]
+  },
+  {
+    "canonical": "Logistics Coordinator",
+    "function": "business",
+    "aliases": [
+      "shipping coordinator",
+      "senior logistics coordinator",
+      "sr. logistics coordinator"
+    ]
+  },
+  {
+    "canonical": "Inventory Analyst",
+    "function": "business",
+    "aliases": [
+      "inventory control analyst",
+      "senior inventory analyst",
+      "sr. inventory analyst"
+    ]
+  },
+  {
+    "canonical": "Buyer",
+    "function": "business",
+    "aliases": [
+      "merchandise buyer",
+      "procurement buyer",
+      "senior buyer",
+      "sr. buyer"
+    ]
+  },
+  {
+    "canonical": "Merchandiser",
+    "function": "business",
+    "aliases": [
+      "visual merchandiser",
+      "senior merchandiser",
+      "sr. merchandiser"
+    ]
+  },
+  {
+    "canonical": "Category Manager",
+    "function": "business",
+    "aliases": [
+      "category management",
+      "senior category manager",
+      "sr. category manager"
+    ]
+  },
+  {
+    "canonical": "Brand Manager",
+    "function": "business",
+    "aliases": [
+      "brand management",
+      "senior brand manager",
+      "sr. brand manager"
+    ]
+  },
+  {
+    "canonical": "Product Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "pmm",
+      "product marketing",
+      "senior product marketing manager",
+      "sr. product marketing manager"
+    ]
+  },
+  {
+    "canonical": "Demand Generation Manager",
+    "function": "business",
+    "aliases": [
+      "demand gen manager",
+      "senior demand generation manager",
+      "sr. demand generation manager"
+    ]
+  },
+  {
+    "canonical": "Field Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "field marketing",
+      "senior field marketing manager",
+      "sr. field marketing manager"
+    ]
+  },
+  {
+    "canonical": "Partner Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "channel marketing",
+      "senior partner marketing manager",
+      "sr. partner marketing manager"
+    ]
+  },
+  {
+    "canonical": "Lifecycle Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "crm marketing manager",
+      "email marketing manager",
+      "senior lifecycle marketing manager",
+      "sr. lifecycle marketing manager"
+    ]
+  },
+  {
+    "canonical": "Performance Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "paid media manager",
+      "senior performance marketing manager",
+      "sr. performance marketing manager"
+    ]
+  },
+  {
+    "canonical": "Creative Director",
+    "function": "design",
+    "aliases": [
+      "art director creative",
+      "senior creative director",
+      "sr. creative director"
+    ]
+  },
+  {
+    "canonical": "Art Director",
+    "function": "design",
+    "aliases": [
+      "advertising art director",
+      "senior art director",
+      "sr. art director"
+    ]
+  },
+  {
+    "canonical": "UX Manager",
+    "function": "design",
+    "aliases": [
+      "ux design manager",
+      "head of ux",
+      "senior ux manager",
+      "sr. ux manager"
+    ]
+  },
+  {
+    "canonical": "Research Manager",
+    "function": "design",
+    "aliases": [
+      "user research manager",
+      "senior research manager",
+      "sr. research manager"
+    ]
+  },
+  {
+    "canonical": "Service Designer",
+    "function": "design",
+    "aliases": [
+      "service design",
+      "senior service designer",
+      "sr. service designer"
+    ]
+  },
+  {
+    "canonical": "Industrial Designer",
+    "function": "design",
+    "aliases": [
+      "product industrial designer",
+      "senior industrial designer",
+      "sr. industrial designer"
+    ]
+  },
+  {
+    "canonical": "Interior Designer",
+    "function": "design",
+    "aliases": [
+      "interior design",
+      "senior interior designer",
+      "sr. interior designer"
+    ]
+  },
+  {
+    "canonical": "Architect (Building)",
+    "function": "business",
+    "aliases": [
+      "building architect",
+      "licensed architect",
+      "senior architect (building)",
+      "sr. architect (building)"
+    ]
+  },
+  {
+    "canonical": "Urban Planner",
+    "function": "business",
+    "aliases": [
+      "city planner",
+      "senior urban planner",
+      "sr. urban planner"
+    ]
+  },
+  {
+    "canonical": "Environmental Scientist",
+    "function": "business",
+    "aliases": [
+      "environmental analyst",
+      "senior environmental scientist",
+      "sr. environmental scientist"
+    ]
+  },
+  {
+    "canonical": "Sustainability Manager",
+    "function": "business",
+    "aliases": [
+      "esg manager",
+      "sustainability lead",
+      "senior sustainability manager",
+      "sr. sustainability manager"
+    ]
+  },
+  {
+    "canonical": "EHS Specialist",
+    "function": "business",
+    "aliases": [
+      "environmental health and safety",
+      "senior ehs specialist",
+      "sr. ehs specialist"
+    ]
+  },
+  {
+    "canonical": "Quality Control Inspector",
+    "function": "qa",
+    "aliases": [
+      "qc inspector",
+      "senior quality control inspector",
+      "sr. quality control inspector"
+    ]
+  },
+  {
+    "canonical": "Lab Manager",
+    "function": "business",
+    "aliases": [
+      "laboratory manager",
+      "senior lab manager",
+      "sr. lab manager"
+    ]
+  },
+  {
+    "canonical": "Clinical Manager",
+    "function": "business",
+    "aliases": [
+      "clinic manager",
+      "senior clinical manager",
+      "sr. clinical manager"
+    ]
+  },
+  {
+    "canonical": "Medical Director",
+    "function": "business",
+    "aliases": [
+      "clinical medical director",
+      "senior medical director",
+      "sr. medical director"
+    ]
+  },
+  {
+    "canonical": "Physician",
+    "function": "business",
+    "aliases": [
+      "md",
+      "doctor",
+      "senior physician",
+      "sr. physician"
+    ]
+  },
+  {
+    "canonical": "Dentist",
+    "function": "business",
+    "aliases": [
+      "dental surgeon",
+      "senior dentist",
+      "sr. dentist"
+    ]
+  },
+  {
+    "canonical": "Veterinarian",
+    "function": "business",
+    "aliases": [
+      "vet",
+      "dvm",
+      "senior veterinarian",
+      "sr. veterinarian"
+    ]
+  },
+  {
+    "canonical": "Therapist",
+    "function": "business",
+    "aliases": [
+      "mental health therapist",
+      "counselor",
+      "senior therapist",
+      "sr. therapist"
+    ]
+  },
+  {
+    "canonical": "Social Worker",
+    "function": "business",
+    "aliases": [
+      "licensed social worker",
+      "lcsw",
+      "senior social worker",
+      "sr. social worker"
+    ]
+  },
+  {
+    "canonical": "Case Manager",
+    "function": "business",
+    "aliases": [
+      "case management",
+      "senior case manager",
+      "sr. case manager"
+    ]
+  },
+  {
+    "canonical": "Nonprofit Manager",
+    "function": "business",
+    "aliases": [
+      "nonprofit program manager",
+      "senior nonprofit manager",
+      "sr. nonprofit manager"
+    ]
+  },
+  {
+    "canonical": "Fundraising Manager",
+    "function": "business",
+    "aliases": [
+      "development manager nonprofit",
+      "senior fundraising manager",
+      "sr. fundraising manager"
+    ]
+  },
+  {
+    "canonical": "Grant Writer",
+    "function": "business",
+    "aliases": [
+      "grants specialist",
+      "senior grant writer",
+      "sr. grant writer"
+    ]
+  },
+  {
+    "canonical": "Policy Analyst",
+    "function": "business",
+    "aliases": [
+      "public policy analyst",
+      "senior policy analyst",
+      "sr. policy analyst"
+    ]
+  },
+  {
+    "canonical": "Lobbyist",
+    "function": "business",
+    "aliases": [
+      "government affairs",
+      "senior lobbyist",
+      "sr. lobbyist"
+    ]
+  },
+  {
+    "canonical": "Campaign Manager",
+    "function": "business",
+    "aliases": [
+      "political campaign manager",
+      "senior campaign manager",
+      "sr. campaign manager"
+    ]
+  },
+  {
+    "canonical": "Military Officer",
+    "function": "business",
+    "aliases": [
+      "commissioned officer",
+      "senior military officer",
+      "sr. military officer"
+    ]
+  },
+  {
+    "canonical": "Police Officer",
+    "function": "business",
+    "aliases": [
+      "law enforcement officer",
+      "senior police officer",
+      "sr. police officer"
+    ]
+  },
+  {
+    "canonical": "Firefighter",
+    "function": "business",
+    "aliases": [
+      "fire fighter",
+      "senior firefighter",
+      "sr. firefighter"
+    ]
+  },
+  {
+    "canonical": "Paramedic",
+    "function": "business",
+    "aliases": [
+      "emt paramedic",
+      "senior paramedic",
+      "sr. paramedic"
+    ]
+  },
+  {
+    "canonical": "Security Guard",
+    "function": "business",
+    "aliases": [
+      "security officer",
+      "senior security guard",
+      "sr. security guard"
+    ]
+  },
+  {
+    "canonical": "Janitor",
+    "function": "business",
+    "aliases": [
+      "custodian",
+      "cleaner",
+      "senior janitor",
+      "sr. janitor"
+    ]
+  },
+  {
+    "canonical": "Maintenance Technician",
+    "function": "business",
+    "aliases": [
+      "facilities technician",
+      "building maintenance",
+      "senior maintenance technician",
+      "sr. maintenance technician"
+    ]
+  },
+  {
+    "canonical": "Electrician",
+    "function": "business",
+    "aliases": [
+      "licensed electrician",
+      "senior electrician",
+      "sr. electrician"
+    ]
+  },
+  {
+    "canonical": "Plumber",
+    "function": "business",
+    "aliases": [
+      "licensed plumber",
+      "senior plumber",
+      "sr. plumber"
+    ]
+  },
+  {
+    "canonical": "HVAC Technician",
+    "function": "business",
+    "aliases": [
+      "hvac tech",
+      "senior hvac technician",
+      "sr. hvac technician"
+    ]
+  },
+  {
+    "canonical": "Welder",
+    "function": "business",
+    "aliases": [
+      "welding technician",
+      "senior welder",
+      "sr. welder"
+    ]
+  },
+  {
+    "canonical": "Machinist",
+    "function": "business",
+    "aliases": [
+      "cnc machinist",
+      "senior machinist",
+      "sr. machinist"
+    ]
+  },
+  {
+    "canonical": "Assembler",
+    "function": "business",
+    "aliases": [
+      "production assembler",
+      "senior assembler",
+      "sr. assembler"
+    ]
+  },
+  {
+    "canonical": "Production Supervisor",
+    "function": "business",
+    "aliases": [
+      "manufacturing supervisor",
+      "senior production supervisor",
+      "sr. production supervisor"
+    ]
+  },
+  {
+    "canonical": "Plant Manager",
+    "function": "business",
+    "aliases": [
+      "factory manager",
+      "senior plant manager",
+      "sr. plant manager"
+    ]
+  },
+  {
+    "canonical": "Lean Engineer",
+    "function": "engineering",
+    "aliases": [
+      "continuous improvement engineer",
+      "six sigma engineer",
+      "senior lean engineer",
+      "sr. lean engineer"
+    ]
+  },
+  {
+    "canonical": "Process Engineer",
+    "function": "engineering",
+    "aliases": [
+      "manufacturing process engineer",
+      "senior process engineer",
+      "sr. process engineer"
+    ]
+  },
+  {
+    "canonical": "Reliability Engineer",
+    "function": "engineering",
+    "aliases": [
+      "equipment reliability engineer",
+      "senior reliability engineer",
+      "sr. reliability engineer"
+    ]
+  },
+  {
+    "canonical": "Validation Engineer",
+    "function": "engineering",
+    "aliases": [
+      "csv engineer",
+      "validation specialist",
+      "senior validation engineer",
+      "sr. validation engineer"
+    ]
+  },
+  {
+    "canonical": "Controls Engineer",
+    "function": "engineering",
+    "aliases": [
+      "plc engineer",
+      "automation controls",
+      "senior controls engineer",
+      "sr. controls engineer"
+    ]
+  },
+  {
+    "canonical": "FPGA Engineer",
+    "function": "engineering",
+    "aliases": [
+      "fpga developer",
+      "senior fpga engineer",
+      "sr. fpga engineer"
+    ]
+  },
+  {
+    "canonical": "ASIC Engineer",
+    "function": "engineering",
+    "aliases": [
+      "asic design engineer",
+      "senior asic engineer",
+      "sr. asic engineer"
+    ]
+  },
+  {
+    "canonical": "RF Engineer",
+    "function": "engineering",
+    "aliases": [
+      "radio frequency engineer",
+      "senior rf engineer",
+      "sr. rf engineer"
+    ]
+  },
+  {
+    "canonical": "Antenna Engineer",
+    "function": "engineering",
+    "aliases": [
+      "rf antenna engineer",
+      "senior antenna engineer",
+      "sr. antenna engineer"
+    ]
+  },
+  {
+    "canonical": "Optical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "photonics engineer",
+      "senior optical engineer",
+      "sr. optical engineer"
+    ]
+  },
+  {
+    "canonical": "Materials Engineer",
+    "function": "engineering",
+    "aliases": [
+      "materials science engineer",
+      "senior materials engineer",
+      "sr. materials engineer"
+    ]
+  },
+  {
+    "canonical": "Packaging Engineer",
+    "function": "engineering",
+    "aliases": [
+      "product packaging engineer",
+      "senior packaging engineer",
+      "sr. packaging engineer"
+    ]
+  },
+  {
+    "canonical": "Test Automation Architect",
+    "function": "qa",
+    "aliases": [
+      "automation architect",
+      "senior test automation architect",
+      "sr. test automation architect"
+    ]
+  },
+  {
+    "canonical": "QA Lead",
+    "function": "qa",
+    "aliases": [
+      "qa team lead",
+      "lead qa engineer",
+      "senior qa lead",
+      "sr. qa lead"
+    ]
+  },
+  {
+    "canonical": "QA Manager",
+    "function": "qa",
+    "aliases": [
+      "quality assurance manager",
+      "senior qa manager",
+      "sr. qa manager"
+    ]
+  },
+  {
+    "canonical": "Release Manager",
+    "function": "devops",
+    "aliases": [
+      "software release manager",
+      "senior release manager",
+      "sr. release manager"
+    ]
+  },
+  {
+    "canonical": "Change Manager",
+    "function": "devops",
+    "aliases": [
+      "it change manager",
+      "senior change manager",
+      "sr. change manager"
+    ]
+  },
+  {
+    "canonical": "Incident Manager",
+    "function": "devops",
+    "aliases": [
+      "incident response manager",
+      "senior incident manager",
+      "sr. incident manager"
+    ]
+  },
+  {
+    "canonical": "Capacity Planner",
+    "function": "devops",
+    "aliases": [
+      "capacity planning analyst",
+      "senior capacity planner",
+      "sr. capacity planner"
+    ]
+  },
+  {
+    "canonical": "Observability Engineer",
+    "function": "devops",
+    "aliases": [
+      "monitoring engineer",
+      "observability",
+      "senior observability engineer",
+      "sr. observability engineer"
+    ]
+  },
+  {
+    "canonical": "Platform Architect",
+    "function": "devops",
+    "aliases": [
+      "developer platform architect",
+      "senior platform architect",
+      "sr. platform architect"
+    ]
+  },
+  {
+    "canonical": "Enterprise Architect",
+    "function": "management",
+    "aliases": [
+      "enterprise architecture",
+      "senior enterprise architect",
+      "sr. enterprise architect"
+    ]
+  },
+  {
+    "canonical": "Data Governance Manager",
+    "function": "data",
+    "aliases": [
+      "data governance",
+      "senior data governance manager",
+      "sr. data governance manager"
+    ]
+  },
+  {
+    "canonical": "Chief Data Officer",
+    "function": "management",
+    "aliases": [
+      "cdo",
+      "senior chief data officer",
+      "sr. chief data officer"
+    ]
+  },
+  {
+    "canonical": "Chief Analytics Officer",
+    "function": "management",
+    "aliases": [
+      "cao analytics",
+      "senior chief analytics officer",
+      "sr. chief analytics officer"
+    ]
+  }
+]

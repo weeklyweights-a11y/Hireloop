@@ -1,0 +1,3937 @@
+[
+  {
+    "canonical": ".NET",
+    "category": "framework",
+    "aliases": [
+      "Dotnet",
+      "ASP.NET"
+    ]
+  },
+  {
+    "canonical": "A* Search",
+    "category": "cs_concept",
+    "aliases": [
+      "A-Star"
+    ]
+  },
+  {
+    "canonical": "A/B Testing",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "A/B Testing for ML",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Abstraction",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "ACID Properties",
+    "category": "cs_concept",
+    "aliases": [
+      "ACID"
+    ]
+  },
+  {
+    "canonical": "Agentic AI",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "AI",
+    "category": "ai_ml",
+    "aliases": [
+      "artificial intelligence"
+    ]
+  },
+  {
+    "canonical": "Airflow",
+    "category": "framework",
+    "aliases": [
+      "Apache Airflow"
+    ]
+  },
+  {
+    "canonical": "Algolia",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Algorithms",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Amazon Aurora",
+    "category": "database",
+    "aliases": [
+      "Aurora"
+    ]
+  },
+  {
+    "canonical": "Amazon S3",
+    "category": "database",
+    "aliases": [
+      "S3"
+    ]
+  },
+  {
+    "canonical": "Amazon SNS",
+    "category": "database",
+    "aliases": [
+      "SNS"
+    ]
+  },
+  {
+    "canonical": "Amazon SQS",
+    "category": "database",
+    "aliases": [
+      "SQS"
+    ]
+  },
+  {
+    "canonical": "Amplitude",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Android SDK",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Android Studio",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Angular",
+    "category": "framework",
+    "aliases": [
+      "AngularJS",
+      "angular.js"
+    ]
+  },
+  {
+    "canonical": "Anomaly Detection",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Ansible",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Ant Design",
+    "category": "framework",
+    "aliases": [
+      "AntD"
+    ]
+  },
+  {
+    "canonical": "Apache",
+    "category": "devops",
+    "aliases": [
+      "Apache HTTP Server"
+    ]
+  },
+  {
+    "canonical": "Apache Kafka",
+    "category": "database",
+    "aliases": [
+      "Kafka"
+    ]
+  },
+  {
+    "canonical": "Apache Pulsar",
+    "category": "database",
+    "aliases": [
+      "Pulsar"
+    ]
+  },
+  {
+    "canonical": "Apache Spark",
+    "category": "framework",
+    "aliases": [
+      "Spark"
+    ]
+  },
+  {
+    "canonical": "API Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "API Gateway",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Apollo GraphQL",
+    "category": "framework",
+    "aliases": [
+      "Apollo"
+    ]
+  },
+  {
+    "canonical": "Appium",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "ArgoCD",
+    "category": "devops",
+    "aliases": [
+      "Argo CD"
+    ]
+  },
+  {
+    "canonical": "Arrays",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Asana",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Assembly",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Astro",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "AtCoder",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Attention Mechanism",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Auth0",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Autoencoders",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "AutoGen",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Automata Theory",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "AutoML",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS",
+    "category": "devops",
+    "aliases": [
+      "Amazon Web Services"
+    ]
+  },
+  {
+    "canonical": "AWS API Gateway",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS Bedrock",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS CDK",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS CloudFormation",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS CloudFront",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS CloudWatch",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS EC2",
+    "category": "devops",
+    "aliases": [
+      "EC2"
+    ]
+  },
+  {
+    "canonical": "AWS ECS",
+    "category": "devops",
+    "aliases": [
+      "ECS"
+    ]
+  },
+  {
+    "canonical": "AWS EKS",
+    "category": "devops",
+    "aliases": [
+      "EKS"
+    ]
+  },
+  {
+    "canonical": "AWS Fargate",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS IAM",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS Lambda",
+    "category": "devops",
+    "aliases": [
+      "Lambda"
+    ]
+  },
+  {
+    "canonical": "AWS RDS",
+    "category": "devops",
+    "aliases": [
+      "RDS"
+    ]
+  },
+  {
+    "canonical": "AWS S3",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS SageMaker",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS Step Functions",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "AWS VPC",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Axios",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Azure",
+    "category": "devops",
+    "aliases": [
+      "Microsoft Azure"
+    ]
+  },
+  {
+    "canonical": "Azure AD",
+    "category": "devops",
+    "aliases": [
+      "Entra ID"
+    ]
+  },
+  {
+    "canonical": "Azure AKS",
+    "category": "devops",
+    "aliases": [
+      "AKS"
+    ]
+  },
+  {
+    "canonical": "Azure App Service",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Azure Cosmos DB",
+    "category": "database",
+    "aliases": [
+      "Cosmos DB"
+    ]
+  },
+  {
+    "canonical": "Azure DevOps",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Azure Functions",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Azure Key Vault",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Babel",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Backtracking",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Batch Normalization",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Beautiful Soup",
+    "category": "framework",
+    "aliases": [
+      "BeautifulSoup"
+    ]
+  },
+  {
+    "canonical": "BentoML",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "BERT",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "BFF Pattern",
+    "category": "cs_concept",
+    "aliases": [
+      "Backend for Frontend"
+    ]
+  },
+  {
+    "canonical": "BFS",
+    "category": "cs_concept",
+    "aliases": [
+      "Breadth-First Search"
+    ]
+  },
+  {
+    "canonical": "Bias-Variance Tradeoff",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Big O Notation",
+    "category": "cs_concept",
+    "aliases": [
+      "Big O"
+    ]
+  },
+  {
+    "canonical": "BigQuery",
+    "category": "database",
+    "aliases": [
+      "GCP BigQuery"
+    ]
+  },
+  {
+    "canonical": "Binary Search",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Binary Search Trees",
+    "category": "cs_concept",
+    "aliases": [
+      "BST"
+    ]
+  },
+  {
+    "canonical": "Binary Trees",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Bit Manipulation",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Bitbucket",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Blazor",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Blue-Green Deployment",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Bokeh",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Bootstrap",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "C",
+    "category": "programming_language",
+    "aliases": [
+      "c language",
+      "c programming"
+    ]
+  },
+  {
+    "canonical": "C#",
+    "category": "programming_language",
+    "aliases": [
+      "C Sharp"
+    ]
+  },
+  {
+    "canonical": "C++",
+    "category": "programming_language",
+    "aliases": [
+      "CPP"
+    ]
+  },
+  {
+    "canonical": "Caching Strategies",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Caddy",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Canary Deployment",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Canva",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "CAP Theorem",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Capacitor",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Capacity Planning",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Cassandra",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "CatBoost",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "CDN",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Celery",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "cert-manager",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Chai",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Chain of Thought",
+    "category": "ai_ml",
+    "aliases": [
+      "CoT"
+    ]
+  },
+  {
+    "canonical": "Chakra UI",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Chaos Engineering",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Chart.js",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Chat System Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "ChatGPT",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Checkov",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Chroma",
+    "category": "database",
+    "aliases": [
+      "ChromaDB"
+    ]
+  },
+  {
+    "canonical": "Chrome DevTools",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "CI/CD",
+    "category": "devops",
+    "aliases": [
+      "CICD"
+    ]
+  },
+  {
+    "canonical": "CI/CD Pipelines",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "CircleCI",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Circuit Breaker",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Classification",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Claude",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Clean Architecture",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Clerk",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "ClickHouse",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "CLIP",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Clojure",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Cloud",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Cloudflare",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Cloudflare Workers",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Clustering",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "CNNs",
+    "category": "ai_ml",
+    "aliases": [
+      "Convolutional Neural Networks"
+    ]
+  },
+  {
+    "canonical": "CockroachDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Codeforces",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "CodeSandbox",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Collaborative Filtering",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Compiler Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Computer Vision",
+    "category": "ai_ml",
+    "aliases": [
+      "CV"
+    ]
+  },
+  {
+    "canonical": "Concept Drift",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Concurrency",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "conda",
+    "category": "platform",
+    "aliases": [
+      "Anaconda"
+    ]
+  },
+  {
+    "canonical": "Confluence",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Consensus Algorithms",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Consistent Hashing",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Consul",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Content-Based Filtering",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "CORS",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "CouchDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "CQRS",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "CrewAI",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Cross-Validation",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "CSRF",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "CSS",
+    "category": "programming_language",
+    "aliases": [
+      "CSS3"
+    ]
+  },
+  {
+    "canonical": "curl",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Cursor",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Cypress",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "D3.js",
+    "category": "framework",
+    "aliases": [
+      "D3"
+    ]
+  },
+  {
+    "canonical": "Dagster",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Dart",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Dash",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Data Drift",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Data Lake",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Data Structures",
+    "category": "cs_concept",
+    "aliases": [
+      "DSA"
+    ]
+  },
+  {
+    "canonical": "Data Visualization",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Data Warehouse",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Database Normalization",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Database Replication",
+    "category": "cs_concept",
+    "aliases": [
+      "Replication"
+    ]
+  },
+  {
+    "canonical": "Database Sharding",
+    "category": "cs_concept",
+    "aliases": [
+      "Sharding"
+    ]
+  },
+  {
+    "canonical": "Databases",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Datadog",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "DataGrip",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "DBeaver",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "DBSCAN",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "dbt",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Deadlocks",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Decision Trees",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Deep Learning",
+    "category": "ai_ml",
+    "aliases": [
+      "DL"
+    ]
+  },
+  {
+    "canonical": "DeepSpeed",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Delta Lake",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Dependency Injection",
+    "category": "cs_concept",
+    "aliases": [
+      "DI"
+    ]
+  },
+  {
+    "canonical": "Design Patterns",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "DFS",
+    "category": "cs_concept",
+    "aliases": [
+      "Depth-First Search"
+    ]
+  },
+  {
+    "canonical": "Diffusion Models",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "DigitalOcean",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Dijkstra's Algorithm",
+    "category": "cs_concept",
+    "aliases": [
+      "Dijkstra"
+    ]
+  },
+  {
+    "canonical": "Dimensionality Reduction",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Disaster Recovery",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Discord",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Discrete Mathematics",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Distributed Systems",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Divide and Conquer",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Django",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "DNS",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Docker",
+    "category": "devops",
+    "aliases": [
+      "docker compose"
+    ]
+  },
+  {
+    "canonical": "Docker Desktop",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Docker Swarm",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Domain-Driven Design",
+    "category": "cs_concept",
+    "aliases": [
+      "DDD"
+    ]
+  },
+  {
+    "canonical": "Draw.io",
+    "category": "platform",
+    "aliases": [
+      "diagrams.net"
+    ]
+  },
+  {
+    "canonical": "Drizzle",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Dropout",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "DuckDB",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "DVC",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Dynamic Programming",
+    "category": "cs_concept",
+    "aliases": [
+      "DP"
+    ]
+  },
+  {
+    "canonical": "DynamoDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "E-commerce Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Edge Computing",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Elasticsearch",
+    "category": "database",
+    "aliases": [
+      "ES"
+    ]
+  },
+  {
+    "canonical": "Electron",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Elixir",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "ELK Stack",
+    "category": "devops",
+    "aliases": [
+      "Elastic Stack"
+    ]
+  },
+  {
+    "canonical": "Emacs",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Embeddings",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Encapsulation",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Ensemble Methods",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Entity Framework",
+    "category": "framework",
+    "aliases": [
+      "EF Core"
+    ]
+  },
+  {
+    "canonical": "Envoy",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "esbuild",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "etcd",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "ETL Pipelines",
+    "category": "cs_concept",
+    "aliases": [
+      "ETL"
+    ]
+  },
+  {
+    "canonical": "Event Sourcing",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Event-Driven Architecture",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Excalidraw",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Excel",
+    "category": "platform",
+    "aliases": [
+      "Microsoft Excel"
+    ]
+  },
+  {
+    "canonical": "Explainable AI",
+    "category": "ai_ml",
+    "aliases": [
+      "XAI"
+    ]
+  },
+  {
+    "canonical": "Express.js",
+    "category": "framework",
+    "aliases": [
+      "Express"
+    ]
+  },
+  {
+    "canonical": "FAISS",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Falco",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "FastAPI",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Fastify",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Fault Tolerance",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Feast",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Feature Engineering",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Feature Flags",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Feature Selection",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Federated Learning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Few-Shot Learning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Fiber",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "FigJam",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Figma",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "File Systems",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Fine-tuning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Firebase",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Firebase Auth",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Firebase Firestore",
+    "category": "database",
+    "aliases": [
+      "Firestore"
+    ]
+  },
+  {
+    "canonical": "Flash Attention",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Flask",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Fluentd",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Flutter",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Flux",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Fly.io",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Foundation Models",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Framer Motion",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Functional Programming",
+    "category": "cs_concept",
+    "aliases": [
+      "FP"
+    ]
+  },
+  {
+    "canonical": "GANs",
+    "category": "ai_ml",
+    "aliases": [
+      "Generative Adversarial Networks"
+    ]
+  },
+  {
+    "canonical": "Garbage Collection",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Gatling",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GCP",
+    "category": "devops",
+    "aliases": [
+      "Google Cloud",
+      "google cloud platform"
+    ]
+  },
+  {
+    "canonical": "GCP BigQuery",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GCP Cloud Functions",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GCP Cloud Run",
+    "category": "devops",
+    "aliases": [
+      "Cloud Run"
+    ]
+  },
+  {
+    "canonical": "GCP Cloud SQL",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GCP Dataflow",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GCP GKE",
+    "category": "devops",
+    "aliases": [
+      "GKE"
+    ]
+  },
+  {
+    "canonical": "GCP Vertex AI",
+    "category": "devops",
+    "aliases": [
+      "Vertex AI"
+    ]
+  },
+  {
+    "canonical": "GeeksforGeeks",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Gemini",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Gensim",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Gin",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Git",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "GitHub",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "GitHub Actions",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GitHub Copilot",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "GitLab",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "GitLab CI",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GitOps",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "GloVe",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Go",
+    "category": "programming_language",
+    "aliases": [
+      "Golang"
+    ]
+  },
+  {
+    "canonical": "Google Analytics",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Google Cloud Storage",
+    "category": "database",
+    "aliases": [
+      "GCS"
+    ]
+  },
+  {
+    "canonical": "Google Colab",
+    "category": "platform",
+    "aliases": [
+      "Colab"
+    ]
+  },
+  {
+    "canonical": "Google Pub/Sub",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Google Sheets",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "GPT",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Gradient Boosting",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Gradio",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Gradle",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Grafana",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Graph Algorithms",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Graph Neural Networks",
+    "category": "ai_ml",
+    "aliases": [
+      "GNN"
+    ]
+  },
+  {
+    "canonical": "GraphQL",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Graphs",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Greedy Algorithms",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Groovy",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "gRPC",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "GRUs",
+    "category": "ai_ml",
+    "aliases": [
+      "Gated Recurrent Units"
+    ]
+  },
+  {
+    "canonical": "Gson",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Guardrails",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "HackerRank",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Hadoop",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Hallucination Detection",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Hash Tables",
+    "category": "cs_concept",
+    "aliases": [
+      "HashMap",
+      "Dictionary"
+    ]
+  },
+  {
+    "canonical": "Haskell",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Haystack",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Hazelcast",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Heaps",
+    "category": "cs_concept",
+    "aliases": [
+      "Priority Queue"
+    ]
+  },
+  {
+    "canonical": "Helm",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Heroku",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Hibernate",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Hierarchical Clustering",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "High Availability",
+    "category": "cs_concept",
+    "aliases": [
+      "HA"
+    ]
+  },
+  {
+    "canonical": "Hono",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Horizontal Scaling",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Hotwire",
+    "category": "framework",
+    "aliases": [
+      "Turbo Rails"
+    ]
+  },
+  {
+    "canonical": "HTML",
+    "category": "programming_language",
+    "aliases": [
+      "HTML5"
+    ]
+  },
+  {
+    "canonical": "HTMX",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "HTTP/HTTPS",
+    "category": "cs_concept",
+    "aliases": [
+      "HTTP",
+      "HTTPS"
+    ]
+  },
+  {
+    "canonical": "httpie",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "httpx",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Hugging Face",
+    "category": "framework",
+    "aliases": [
+      "HuggingFace"
+    ]
+  },
+  {
+    "canonical": "Hugging Face Hub",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Hybrid Search",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Hyperparameter Tuning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Image Classification",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Image Segmentation",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Indexing",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "InfluxDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Infrastructure as Code",
+    "category": "cs_concept",
+    "aliases": [
+      "IaC"
+    ]
+  },
+  {
+    "canonical": "Inheritance",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Insomnia",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "IntelliJ IDEA",
+    "category": "platform",
+    "aliases": [
+      "IntelliJ"
+    ]
+  },
+  {
+    "canonical": "InterviewBit",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Ionic",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "iOS SDK",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Istio",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Jackson",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Jaeger",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Java",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "JavaScript",
+    "category": "programming_language",
+    "aliases": [
+      "JS"
+    ]
+  },
+  {
+    "canonical": "JAX",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Jenkins",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Jest",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Jetpack Compose",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Jira",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "JMeter",
+    "category": "devops",
+    "aliases": [
+      "Apache JMeter"
+    ]
+  },
+  {
+    "canonical": "Joins",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "jq",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "jQuery",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Julia",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "JUnit",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Jupyter Notebook",
+    "category": "platform",
+    "aliases": [
+      "Jupyter"
+    ]
+  },
+  {
+    "canonical": "JWT",
+    "category": "cs_concept",
+    "aliases": [
+      "JSON Web Token"
+    ]
+  },
+  {
+    "canonical": "K-Means",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "k6",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "k9s",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Kaggle",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Keras",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Kibana",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Knex.js",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "KNN",
+    "category": "ai_ml",
+    "aliases": [
+      "K-Nearest Neighbors"
+    ]
+  },
+  {
+    "canonical": "Knowledge Distillation",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Koa",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Kong",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Kotlin",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Ktor",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "kubectl",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Kubeflow",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Kubernetes",
+    "category": "devops",
+    "aliases": [
+      "K8s",
+      "kube"
+    ]
+  },
+  {
+    "canonical": "Kustomize",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "L1/L2",
+    "category": "ai_ml",
+    "aliases": [
+      "Lasso",
+      "Ridge"
+    ]
+  },
+  {
+    "canonical": "LangChain",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "LangGraph",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Laravel",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Latency Optimization",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Leader Election",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "LeetCode",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Lens",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "LightGBM",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Lightning",
+    "category": "framework",
+    "aliases": [
+      "PyTorch Lightning"
+    ]
+  },
+  {
+    "canonical": "LIME",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Linear",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Linear Algebra",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Linear Regression",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Linked Lists",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Linkerd",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Linode",
+    "category": "devops",
+    "aliases": [
+      "Akamai Linode"
+    ]
+  },
+  {
+    "canonical": "Linux",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "LlamaIndex",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "LLM Evaluation",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "LLMs",
+    "category": "ai_ml",
+    "aliases": [
+      "Large Language Models"
+    ]
+  },
+  {
+    "canonical": "Load Balancing",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Locust",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Logging",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Logistic Regression",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Loki",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Lombok",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Loom",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "LoRA",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "LSTMs",
+    "category": "ai_ml",
+    "aliases": [
+      "Long Short-Term Memory"
+    ]
+  },
+  {
+    "canonical": "Lua",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Lucidchart",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Machine Learning",
+    "category": "ai_ml",
+    "aliases": [
+      "ML"
+    ]
+  },
+  {
+    "canonical": "macOS",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "make",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "MariaDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Marshmallow",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Material UI",
+    "category": "framework",
+    "aliases": [
+      "MUI"
+    ]
+  },
+  {
+    "canonical": "MATLAB",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Matplotlib",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Maven",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Meilisearch",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Memcached",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Memoization",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Memory Management",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Mermaid",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Message Queues",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Micronaut",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Microservices",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Microsoft Teams",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Milvus",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "MinIO",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Miro",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Mixpanel",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Mixture of Experts",
+    "category": "ai_ml",
+    "aliases": [
+      "MoE"
+    ]
+  },
+  {
+    "canonical": "MLflow",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "MLOps",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Mocha",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Mockito",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Model Deployment",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Model Monitoring",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "MongoDB",
+    "category": "database",
+    "aliases": [
+      "Mongo"
+    ]
+  },
+  {
+    "canonical": "MongoDB Compass",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Mongoose",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Monitoring and Alerting",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Monolithic Architecture",
+    "category": "cs_concept",
+    "aliases": [
+      "Monolith"
+    ]
+  },
+  {
+    "canonical": "MSW",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Multi-Agent Systems",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Multi-Tenancy",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Multithreading",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Mutex",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "MVC",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "MyBatis",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "MySQL",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Naive Bayes",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Named Entity Recognition",
+    "category": "ai_ml",
+    "aliases": [
+      "NER"
+    ]
+  },
+  {
+    "canonical": "NATS",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Neo4j",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Neo4j Browser",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Neon",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "NestJS",
+    "category": "framework",
+    "aliases": [
+      "Nest.js"
+    ]
+  },
+  {
+    "canonical": "Netlify",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Networking",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "NetworkX",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Neural Networks",
+    "category": "ai_ml",
+    "aliases": [
+      "NN"
+    ]
+  },
+  {
+    "canonical": "New Relic",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "News Feed Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Next.js",
+    "category": "framework",
+    "aliases": [
+      "NextJS"
+    ]
+  },
+  {
+    "canonical": "Nginx",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "NLP",
+    "category": "ai_ml",
+    "aliases": [
+      "Natural Language Processing"
+    ]
+  },
+  {
+    "canonical": "NLTK",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Node.js",
+    "category": "framework",
+    "aliases": [
+      "NodeJS"
+    ]
+  },
+  {
+    "canonical": "Notion",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "npm",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "NumPy",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Nuxt.js",
+    "category": "framework",
+    "aliases": [
+      "Nuxt"
+    ]
+  },
+  {
+    "canonical": "OAuth",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Object Detection",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Object-Oriented Programming",
+    "category": "cs_concept",
+    "aliases": [
+      "OOP"
+    ]
+  },
+  {
+    "canonical": "Obsidian",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "OCR",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "OLAP",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Ollama",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "OLTP",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "ONNX",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "OPA",
+    "category": "devops",
+    "aliases": [
+      "Open Policy Agent"
+    ]
+  },
+  {
+    "canonical": "OpenAI API",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "OpenAPI",
+    "category": "framework",
+    "aliases": [
+      "Swagger Spec"
+    ]
+  },
+  {
+    "canonical": "OpenCV",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "OpenSearch",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "OpenStack",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "OpenTelemetry",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Operating Systems",
+    "category": "cs_concept",
+    "aliases": [
+      "OS"
+    ]
+  },
+  {
+    "canonical": "Optuna",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Oracle Cloud",
+    "category": "devops",
+    "aliases": [
+      "OCI"
+    ]
+  },
+  {
+    "canonical": "Oracle Database",
+    "category": "database",
+    "aliases": [
+      "Oracle"
+    ]
+  },
+  {
+    "canonical": "Overfitting",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "OWASP Top 10",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "PagerDuty",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "pandas",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Parquet",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "PCA",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "PEFT",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Perl",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Perplexity",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "pgAdmin",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Phoenix",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "PHP",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Pinecone",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "pip",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "PlanetScale",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "PlantUML",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Playwright",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Plotly",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "pnpm",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Podman",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "poetry",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Polars",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Polymorphism",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Pose Estimation",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "PostgreSQL",
+    "category": "database",
+    "aliases": [
+      "Postgres",
+      "psql"
+    ]
+  },
+  {
+    "canonical": "Postman",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Power BI",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Prefect",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Prisma",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Probability",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Process Management",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Prometheus",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Prompt Engineering",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Protocol Buffers",
+    "category": "framework",
+    "aliases": [
+      "protobuf"
+    ]
+  },
+  {
+    "canonical": "Pruning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Pub/Sub",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Pulumi",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "PyCharm",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Pydantic",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "PySpark",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Pytest",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Python",
+    "category": "programming_language",
+    "aliases": [
+      "Py",
+      "python3",
+      "python 3"
+    ]
+  },
+  {
+    "canonical": "PyTorch",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Qdrant",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "QLoRA",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Quantization",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Quarkus",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Question Answering",
+    "category": "ai_ml",
+    "aliases": [
+      "QA"
+    ]
+  },
+  {
+    "canonical": "Queues",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "R",
+    "category": "programming_language",
+    "aliases": [
+      "r language",
+      "r programming"
+    ]
+  },
+  {
+    "canonical": "RabbitMQ",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Radix UI",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "RAG",
+    "category": "ai_ml",
+    "aliases": [
+      "Retrieval Augmented Generation"
+    ]
+  },
+  {
+    "canonical": "RAG Architecture",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Rails",
+    "category": "framework",
+    "aliases": [
+      "Ruby on Rails"
+    ]
+  },
+  {
+    "canonical": "Railway",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Random Forests",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Rate Limiting",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Ray",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Razorpay Dashboard",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "React",
+    "category": "framework",
+    "aliases": [
+      "React.js",
+      "reactjs"
+    ]
+  },
+  {
+    "canonical": "React Native",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Realm",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Recharts",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Recommender Systems",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Recursion",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Redis",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Redis Insight",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Redux",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Regression",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Regular Expressions",
+    "category": "cs_concept",
+    "aliases": [
+      "Regex"
+    ]
+  },
+  {
+    "canonical": "Regularization",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Reinforcement Learning",
+    "category": "ai_ml",
+    "aliases": [
+      "RL"
+    ]
+  },
+  {
+    "canonical": "Remix",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Render",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Replit",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Repository Pattern",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Requests",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Reranking",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Resend",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Responsible AI",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "REST",
+    "category": "framework",
+    "aliases": [
+      "RESTful"
+    ]
+  },
+  {
+    "canonical": "REST API",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "REST API Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Retrofit",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "RLHF",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "RNNs",
+    "category": "ai_ml",
+    "aliases": [
+      "Recurrent Neural Networks"
+    ]
+  },
+  {
+    "canonical": "Robot Framework",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Room",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Ruby",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Rust",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "RxJS",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Scala",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "scikit-learn",
+    "category": "framework",
+    "aliases": [
+      "sklearn"
+    ]
+  },
+  {
+    "canonical": "SciPy",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Scrapy",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Seaborn",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Searching Algorithms",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Selenium",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Self-Attention",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Semantic Search",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Semaphores",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "SendGrid",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Sentiment Analysis",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Sentry",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Sentry Dashboard",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Sequelize",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Serverless",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Service Mesh",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Shadcn UI",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "SHAP",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Shell/Bash",
+    "category": "programming_language",
+    "aliases": [
+      "Bash",
+      "Shell"
+    ]
+  },
+  {
+    "canonical": "Site Reliability Engineering",
+    "category": "cs_concept",
+    "aliases": [
+      "SRE"
+    ]
+  },
+  {
+    "canonical": "Slack",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Sliding Window",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Snowflake",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Snyk",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Socket.IO",
+    "category": "framework",
+    "aliases": [
+      "SocketIO"
+    ]
+  },
+  {
+    "canonical": "SOLID Principles",
+    "category": "cs_concept",
+    "aliases": [
+      "SOLID"
+    ]
+  },
+  {
+    "canonical": "SolidJS",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Solr",
+    "category": "database",
+    "aliases": [
+      "Apache Solr"
+    ]
+  },
+  {
+    "canonical": "SonarQube",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Sorting Algorithms",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "SourceTree",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Space Complexity",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "SpaCy",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Speech Recognition",
+    "category": "ai_ml",
+    "aliases": [
+      "ASR"
+    ]
+  },
+  {
+    "canonical": "Splunk",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Spring Boot",
+    "category": "framework",
+    "aliases": [
+      "Spring"
+    ]
+  },
+  {
+    "canonical": "Spring Cloud",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Spring Data",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Spring Security",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "SQL",
+    "category": "programming_language",
+    "aliases": [
+      "Structured Query Language"
+    ]
+  },
+  {
+    "canonical": "SQL Injection",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "SQL Queries",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "SQL Server",
+    "category": "database",
+    "aliases": [
+      "MSSQL"
+    ]
+  },
+  {
+    "canonical": "SQLAlchemy",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "SQLite",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "SSH",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Stable Diffusion",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "StackBlitz",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Stacks",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Statistics",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Storybook",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Streamlit",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Stripe Dashboard",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Summarization",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Supabase",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Supertest",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Supervised Learning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "SurrealDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Svelte",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "SVM",
+    "category": "ai_ml",
+    "aliases": [
+      "Support Vector Machines"
+    ]
+  },
+  {
+    "canonical": "Swagger",
+    "category": "platform",
+    "aliases": [
+      "Swagger UI"
+    ]
+  },
+  {
+    "canonical": "Swift",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "SwiftUI",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Symfony",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "System Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "t-SNE",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "T5",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Tableau",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Tailwind CSS",
+    "category": "framework",
+    "aliases": [
+      "Tailwind"
+    ]
+  },
+  {
+    "canonical": "TCP/IP",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "TensorBoard",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "TensorFlow",
+    "category": "framework",
+    "aliases": [
+      "TF"
+    ]
+  },
+  {
+    "canonical": "Terraform",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Testing Library",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "TestNG",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Text Classification",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Text-to-Speech",
+    "category": "ai_ml",
+    "aliases": [
+      "TTS"
+    ]
+  },
+  {
+    "canonical": "Three.js",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Throughput Optimization",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Time Complexity",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Time Series Forecasting",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "TimescaleDB",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "TLS/SSL",
+    "category": "cs_concept",
+    "aliases": [
+      "TLS",
+      "SSL"
+    ]
+  },
+  {
+    "canonical": "tmux",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Tokenization",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Tool Use",
+    "category": "ai_ml",
+    "aliases": [
+      "Function Calling"
+    ]
+  },
+  {
+    "canonical": "Topological Sort",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Tracing",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Traefik",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Transactions",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Transfer Learning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Transformers",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Trees",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Trello",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Tries",
+    "category": "cs_concept",
+    "aliases": [
+      "Prefix Tree"
+    ]
+  },
+  {
+    "canonical": "Trivy",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "tRPC",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Turso",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Two Pointers",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "TypeORM",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "TypeScript",
+    "category": "programming_language",
+    "aliases": [
+      "TS"
+    ]
+  },
+  {
+    "canonical": "Ubuntu",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "UDP",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "UMAP",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Underfitting",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Union-Find",
+    "category": "cs_concept",
+    "aliases": [
+      "Disjoint Set"
+    ]
+  },
+  {
+    "canonical": "Unsupervised Learning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Upstash",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "URL Shortener Design",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "uv",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "VAEs",
+    "category": "ai_ml",
+    "aliases": [
+      "Variational Autoencoders"
+    ]
+  },
+  {
+    "canonical": "Valkey",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Vault",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "VBA",
+    "category": "programming_language",
+    "aliases": []
+  },
+  {
+    "canonical": "Vector Databases",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Vercel",
+    "category": "devops",
+    "aliases": []
+  },
+  {
+    "canonical": "Vertical Scaling",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Vim",
+    "category": "platform",
+    "aliases": [
+      "Neovim"
+    ]
+  },
+  {
+    "canonical": "Virtual Memory",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "ViT",
+    "category": "ai_ml",
+    "aliases": [
+      "Vision Transformer"
+    ]
+  },
+  {
+    "canonical": "Vite",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Vitest",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "vLLM",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "VS Code",
+    "category": "platform",
+    "aliases": [
+      "Visual Studio Code"
+    ]
+  },
+  {
+    "canonical": "Vue.js",
+    "category": "framework",
+    "aliases": [
+      "Vue"
+    ]
+  },
+  {
+    "canonical": "Weaviate",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "WebAssembly",
+    "category": "framework",
+    "aliases": [
+      "WASM"
+    ]
+  },
+  {
+    "canonical": "Webpack",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "WebSockets",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "WebStorm",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Weights & Biases",
+    "category": "framework",
+    "aliases": [
+      "W&B",
+      "WandB"
+    ]
+  },
+  {
+    "canonical": "Whisper",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Windows",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Wireshark",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Word Embeddings",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Word2Vec",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "WordPress",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "Xcode",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "XGBoost",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "XSS",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "yarn",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "YOLO",
+    "category": "framework",
+    "aliases": [
+      "YOLOv8"
+    ]
+  },
+  {
+    "canonical": "Zero Trust Architecture",
+    "category": "cs_concept",
+    "aliases": []
+  },
+  {
+    "canonical": "Zero-Shot Learning",
+    "category": "ai_ml",
+    "aliases": []
+  },
+  {
+    "canonical": "Zod",
+    "category": "framework",
+    "aliases": []
+  },
+  {
+    "canonical": "ZooKeeper",
+    "category": "database",
+    "aliases": []
+  },
+  {
+    "canonical": "Zoom",
+    "category": "platform",
+    "aliases": []
+  },
+  {
+    "canonical": "Zustand",
+    "category": "framework",
+    "aliases": []
+  }
+]

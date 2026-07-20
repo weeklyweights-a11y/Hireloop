@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+.env
+.git
+tests/
+*.md
+.cursor/
+.cursorrules
+.ruff_cache
+.pytest_cache
+docs/
+*.log
+.venv/
+_*.log

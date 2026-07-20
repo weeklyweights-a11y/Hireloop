@@ -1,0 +1,34 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+venv/
+.venv/
+celerybeat-schedule*
+*.log
+_*.log
+_*.txt
+
+# Local / editor / agent
+.cursor/
+.cursorrules
+.idea/
+.vscode/
+
+# Specs & docs (not required to run; may contain private deploy notes)
+*.md
+docs/
+PHASE-*.md
+PROGRESS.md
+project.md
+COMPANIES.md
+CONTRIBUTING.md
+README.md
+
+# Misc local artifacts
+.github/

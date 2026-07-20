@@ -1,0 +1,3668 @@
+[
+  {
+    "company_name": "KKR",
+    "company_slug": "kkr",
+    "company_website": "https://www.kkr.com",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/stage/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Hasbro",
+    "company_slug": "hasbro",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://job-boards.greenhouse.io/hasbro?error=true&keyword=Engineer&_data=routes%2F%24url_token",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Carvana",
+    "company_slug": "carvana",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/carvana/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lyft",
+    "company_slug": "lyft",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/lyft/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Abnormal Security",
+    "company_slug": "abnormal-security",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/abnormalsecurity/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ACCEL Schools LLC",
+    "company_slug": "accel-schools-llc",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/accelschools/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Accenture Federal Services",
+    "company_slug": "accenture-federal-services",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/accenturefederalservices/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Acrisureinnovation",
+    "company_slug": "acrisureinnovation",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/acrisureinnovation/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Affirm",
+    "company_slug": "affirm",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/affirm/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Airbnb",
+    "company_slug": "airbnb",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/airbnb/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Airtable",
+    "company_slug": "airtable",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/airtable/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Akoyaexternal",
+    "company_slug": "akoyaexternal",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/akoyaexternal/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Alloy",
+    "company_slug": "alloy",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/alloy/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ALTEN Technology USA",
+    "company_slug": "alten-technology-usa",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/altentechnologyusa/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Amperesand",
+    "company_slug": "amperesand",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/amperesand/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Anduril Industries",
+    "company_slug": "anduril-industries",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/andurilindustries/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Anthropic",
+    "company_slug": "anthropic",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Apollo.io",
+    "company_slug": "apollo-io",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/apolloio/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Appian",
+    "company_slug": "appian",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/appian/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "AppLovin",
+    "company_slug": "applovin",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/applovin/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Art of Problem Solving",
+    "company_slug": "art-of-problem-solving",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/artofproblemsolving/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Asana",
+    "company_slug": "asana",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/asana/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Astranis",
+    "company_slug": "astranis",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/astranis/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Atoms",
+    "company_slug": "atoms",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/atoms/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Aurora Innovation",
+    "company_slug": "aurora-innovation",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/aurorainnovation/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Axon",
+    "company_slug": "axon",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/axon/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bill.com",
+    "company_slug": "bill-com",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/billcom/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bitwarden",
+    "company_slug": "bitwarden",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/bitwarden/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Block",
+    "company_slug": "block",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/block/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Brandonjbroderick",
+    "company_slug": "brandonjbroderick",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/brandonjbroderick/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Brex",
+    "company_slug": "brex",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/brex/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Calendly",
+    "company_slug": "calendly",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/calendly/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Canonical",
+    "company_slug": "canonical",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/canonical/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Centessapharmaceuticalsinc",
+    "company_slug": "centessapharmaceuticalsinc",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/centessapharmaceuticalsinc/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Centrumhealth",
+    "company_slug": "centrumhealth",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/centrumhealth/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Chime",
+    "company_slug": "chime",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/chime/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Clearway Energy Group",
+    "company_slug": "clearway-energy-group",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/clearway/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cloudflare",
+    "company_slug": "cloudflare",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cockroach Labs",
+    "company_slug": "cockroach-labs",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/cockroachlabs/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Coinbase",
+    "company_slug": "coinbase",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/coinbase/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cookunity",
+    "company_slug": "cookunity",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/cookunity/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Coursera",
+    "company_slug": "coursera",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/coursera/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Crisprecruit",
+    "company_slug": "crisprecruit",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/crisprecruit/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dashlane",
+    "company_slug": "dashlane",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/dashlane/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Databricks",
+    "company_slug": "databricks",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/databricks/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Datadog",
+    "company_slug": "datadog",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/datadog/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Discord",
+    "company_slug": "discord",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/discord/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Doordashusa",
+    "company_slug": "doordashusa",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/doordashusa/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "DoubleVerify",
+    "company_slug": "doubleverify",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/doubleverify/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dropbox",
+    "company_slug": "dropbox",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/dropbox/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Duolingo",
+    "company_slug": "duolingo",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Elastic",
+    "company_slug": "elastic",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/elastic/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Epic Games",
+    "company_slug": "epic-games",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/epicgames/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Faire",
+    "company_slug": "faire",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/faire/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Fastly",
+    "company_slug": "fastly",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/fastly/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Figma",
+    "company_slug": "figma",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/figma/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Figure AI",
+    "company_slug": "figure-ai",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/figureai/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Flexport",
+    "company_slug": "flexport",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/flexport/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Galvanize Climate Solutions, LLC",
+    "company_slug": "galvanize-climate-solutions-llc",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/galvanizeclimatesolutions/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "GitLab",
+    "company_slug": "gitlab",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/gitlab/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Gong.io",
+    "company_slug": "gong-io",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/gongio/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Gusto",
+    "company_slug": "gusto",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/gusto/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Imagine Pediatrics",
+    "company_slug": "imagine-pediatrics",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/imaginepediatrics/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "IMC Trading",
+    "company_slug": "imc-trading",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/imc/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Instacart",
+    "company_slug": "instacart",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/instacart/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "InstaLILY AI",
+    "company_slug": "instalily-ai",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/instalilyai/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "IOVINO ENTERPRISES LLC",
+    "company_slug": "iovino-enterprises-llc",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/iovino/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ITD",
+    "company_slug": "itd",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/itd/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Jane Street",
+    "company_slug": "jane-street",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/janestreet/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Jump Trading",
+    "company_slug": "jump-trading",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kaseya",
+    "company_slug": "kaseya",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/kaseya/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lattice",
+    "company_slug": "lattice",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/lattice/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Legendcareers",
+    "company_slug": "legendcareers",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/legendcareers/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lucid Motors",
+    "company_slug": "lucid-motors",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/lucidmotors/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lucid Software",
+    "company_slug": "lucid-software",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/lucidsoftware/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "MetOx International Inc",
+    "company_slug": "metox-international-inc",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/metoxinternationalinc/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Michelscorporation",
+    "company_slug": "michelscorporation",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/michelscorporation/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "MongoDB Atlas",
+    "company_slug": "mongodb-atlas",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Morganmorganjobsapplynow",
+    "company_slug": "morganmorganjobsapplynow",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/morganmorganjobsapplynow/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Motive",
+    "company_slug": "motive",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/motive/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Moversshakers",
+    "company_slug": "moversshakers",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/moversshakers/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Myfundedfutures",
+    "company_slug": "myfundedfutures",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/myfundedfutures/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Netlify",
+    "company_slug": "netlify",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/netlify/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "New Relic",
+    "company_slug": "new-relic",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/newrelic/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nextdoor",
+    "company_slug": "nextdoor",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/nextdoor/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nuro",
+    "company_slug": "nuro",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/nuro/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Okta",
+    "company_slug": "okta",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/okta/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "One Medical",
+    "company_slug": "one-medical",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/onemedical/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Optiver US",
+    "company_slug": "optiver-us",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/optiverus/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Panthalassa",
+    "company_slug": "panthalassa",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/panthalassa/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Peloton",
+    "company_slug": "peloton",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/peloton/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Pinterest",
+    "company_slug": "pinterest",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/pinterest/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Planet Labs",
+    "company_slug": "planet-labs",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/planetlabs/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PlanetScale",
+    "company_slug": "planetscale",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/planetscale/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Plscareers",
+    "company_slug": "plscareers",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/plscareers/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Point72",
+    "company_slug": "point72",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/point72/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PubMatic",
+    "company_slug": "pubmatic",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/pubmatic/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Qgenda",
+    "company_slug": "qgenda",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/qgenda/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Rdccareers",
+    "company_slug": "rdccareers",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/rdccareers/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Reddit",
+    "company_slug": "reddit",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/reddit/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Relativity",
+    "company_slug": "relativity",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/relativity/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Relaypayments",
+    "company_slug": "relaypayments",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/relaypayments/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ridemobilityllc",
+    "company_slug": "ridemobilityllc",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/ridemobilityllc/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Riot Games",
+    "company_slug": "riot-games",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/riotgames/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ripple",
+    "company_slug": "ripple",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/ripple/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Robinhood",
+    "company_slug": "robinhood",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/robinhood/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Roblox",
+    "company_slug": "roblox",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/roblox/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Rocket Lab",
+    "company_slug": "rocket-lab",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/rocketlab/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Roku",
+    "company_slug": "roku",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/roku/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Roo",
+    "company_slug": "roo",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/roo/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Roofstock",
+    "company_slug": "roofstock",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/roofstock/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Samsara",
+    "company_slug": "samsara",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/samsara/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Sanmar",
+    "company_slug": "sanmar",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/sanmar/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Scaleai",
+    "company_slug": "scaleai",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/scaleai/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Simplisafe",
+    "company_slug": "simplisafe",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/simplisafe/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Smartsheet",
+    "company_slug": "smartsheet",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/smartsheet/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "SoFi",
+    "company_slug": "sofi",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/sofi/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Sohohouseco",
+    "company_slug": "sohohouseco",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/sohohouseco/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Solarwinds",
+    "company_slug": "solarwinds",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/solarwinds/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "SpaceX",
+    "company_slug": "spacex",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/spacex/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Stable Kernel",
+    "company_slug": "stable-kernel",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/stablekernel/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Story Cannabis Co",
+    "company_slug": "story-cannabis-co",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/storycannabis/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Stripe Treasury",
+    "company_slug": "stripe-treasury",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/stripe/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tanium",
+    "company_slug": "tanium",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/tanium/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "The New York Times",
+    "company_slug": "the-new-york-times",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/thenewyorktimes/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "The Trade Desk",
+    "company_slug": "the-trade-desk",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/thetradedesk/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Thinkacademyus",
+    "company_slug": "thinkacademyus",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/thinkacademyus/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Toast",
+    "company_slug": "toast",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/toast/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Together AI",
+    "company_slug": "together-ai",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/togetherai/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Togetherwork",
+    "company_slug": "togetherwork",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/togetherwork/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Torc Robotics",
+    "company_slug": "torc-robotics",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/torcrobotics/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Twilio",
+    "company_slug": "twilio",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/twilio/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Urbancompass",
+    "company_slug": "urbancompass",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/urbancompass/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Van Leeuwen Ice Cream",
+    "company_slug": "van-leeuwen-ice-cream",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/vanleeuwenicecream/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Vercel",
+    "company_slug": "vercel",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/vercel/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Waymo",
+    "company_slug": "waymo",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/waymo/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Webflow",
+    "company_slug": "webflow",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/webflow/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "xAI",
+    "company_slug": "xai",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/xai/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ZipRecruiter",
+    "company_slug": "ziprecruiter",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/ziprecruiter/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ZoomInfo",
+    "company_slug": "zoominfo",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/zoominfo/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Zscaler",
+    "company_slug": "zscaler",
+    "company_website": "https://job-boards.greenhouse.io",
+    "ats_type": "greenhouse",
+    "api_endpoint": "https://boards-api.greenhouse.io/v1/boards/zscaler/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {
+      "content": "true"
+    },
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.name",
+      "description": "content",
+      "apply_url": "absolute_url",
+      "department": "departments[0].name",
+      "updated_at": "updated_at"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  }
+]

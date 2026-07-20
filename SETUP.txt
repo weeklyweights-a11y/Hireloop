@@ -1,0 +1,26 @@
+HireLoop — local run
+====================
+
+Requirements: Docker Desktop (or Docker Engine + Compose). ~3GB free RAM.
+
+  git clone https://github.com/weeklyweights-a11y/Hireloop.git
+  cd Hireloop
+  copy .env.example .env          # Windows
+  # cp .env.example .env          # macOS / Linux
+  docker compose up --build
+
+Web UI:  http://localhost:8000/
+MCP:     http://localhost:8000/mcp
+REST:    http://localhost:8000/jobs/search
+Health:  http://localhost:8000/health
+
+First start migrates the DB, seeds sources, and runs an initial poll (can take several minutes).
+Polls continue about every 2 hours.
+
+Optional (dev outside Docker):
+  python -m venv .venv
+  .venv\Scripts\activate          # Windows
+  pip install -r requirements.txt
+  # Start postgres/redis/neo4j via compose, then run the API locally.
+
+Do not commit .env. Local defaults in .env.example / docker-compose are for development only.

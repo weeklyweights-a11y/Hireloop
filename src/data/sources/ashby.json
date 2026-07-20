@@ -1,0 +1,866 @@
+[
+  {
+    "company_name": "1Password",
+    "company_slug": "1password",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/1password",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Abridge",
+    "company_slug": "abridge",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/abridge",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Angi",
+    "company_slug": "angi",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/angi",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Anyscale",
+    "company_slug": "anyscale-2",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/anyscale",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Baseten",
+    "company_slug": "baseten",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/baseten",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bubble",
+    "company_slug": "bubble",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/bubble",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ClickUp",
+    "company_slug": "clickup",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/clickup",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Coastal Community",
+    "company_slug": "coastal-community",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/coastal",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cursor",
+    "company_slug": "cursor",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/cursor",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Grow Therapy",
+    "company_slug": "grow-therapy",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/grow-therapy",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Handshake",
+    "company_slug": "handshake",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/handshake",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Harvey",
+    "company_slug": "harvey",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/harvey",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ICON",
+    "company_slug": "icon",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/icon",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Instructure",
+    "company_slug": "instructure",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/instructure",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "LangChain",
+    "company_slug": "langchain",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/langchain",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Linear",
+    "company_slug": "linear",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/linear",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Miro",
+    "company_slug": "miro",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/miro",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Moonshot AI",
+    "company_slug": "moonshot-ai",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/moonshot",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Moonshot AI",
+    "company_slug": "moonshot-ai-2",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/moonshot-ai",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Neon",
+    "company_slug": "neon-2",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/neon",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "NerdWallet",
+    "company_slug": "nerdwallet",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/nerdwallet",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Notion",
+    "company_slug": "notion",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/notion",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "OpenAI",
+    "company_slug": "openai",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/openai",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Plaid",
+    "company_slug": "plaid",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/plaid",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ramp",
+    "company_slug": "ramp",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/ramp",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Render",
+    "company_slug": "render",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/render",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Replit",
+    "company_slug": "replit",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/replit",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Runway ML",
+    "company_slug": "runway-ml",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/runway-ml",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Snowflake",
+    "company_slug": "snowflake",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/snowflake",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "SpotOn",
+    "company_slug": "spoton",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/spoton",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Supabase",
+    "company_slug": "supabase",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/supabase",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Thumbtack",
+    "company_slug": "thumbtack",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/thumbtack",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "UiPath",
+    "company_slug": "uipath",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/uipath",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "WHOOP",
+    "company_slug": "whoop-2",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/whoop",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Writer",
+    "company_slug": "writer",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/writer",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Zapier",
+    "company_slug": "zapier",
+    "company_website": "https://jobs.ashbyhq.com",
+    "ats_type": "ashby",
+    "api_endpoint": "https://api.ashbyhq.com/posting-api/job-board/zapier",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionHtml",
+      "apply_url": "jobUrl",
+      "department": "department",
+      "updated_at": "publishedAt"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  }
+]

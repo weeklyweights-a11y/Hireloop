@@ -1,0 +1,8071 @@
+[
+  {
+    "canonical": ".NET Developer",
+    "function": "engineering",
+    "aliases": [
+      "c# developer",
+      "dotnet developer",
+      ".net engineer",
+      "c# engineer"
+    ]
+  },
+  {
+    "canonical": "3D Artist",
+    "function": "creative",
+    "aliases": [
+      "3d modeler",
+      "character artist",
+      "environment artist",
+      "texture artist"
+    ]
+  },
+  {
+    "canonical": "Account Executive",
+    "function": "business",
+    "aliases": [
+      "ae",
+      "enterprise account executive",
+      "sales account executive",
+      "senior account executive"
+    ]
+  },
+  {
+    "canonical": "Account Manager",
+    "function": "business",
+    "aliases": [
+      "am",
+      "client account manager",
+      "customer account manager",
+      "senior account manager"
+    ]
+  },
+  {
+    "canonical": "Accountant",
+    "function": "finance",
+    "aliases": [
+      "staff accountant",
+      "senior accountant",
+      "senior accountant",
+      "sr. accountant",
+      "general ledger accountant",
+      "gl accountant",
+      "corporate accountant",
+      "cpa",
+      "fund accountant",
+      "property accountant",
+      "project accountant",
+      "cost accountant"
+    ]
+  },
+  {
+    "canonical": "Accounting Manager",
+    "function": "finance",
+    "aliases": [
+      "accounting supervisor",
+      "assistant controller",
+      "accounting lead"
+    ]
+  },
+  {
+    "canonical": "Accounts Payable Specialist",
+    "function": "finance",
+    "aliases": [
+      "ap specialist",
+      "accounts payable clerk",
+      "ap clerk",
+      "accounts payable coordinator"
+    ]
+  },
+  {
+    "canonical": "Accounts Receivable Specialist",
+    "function": "finance",
+    "aliases": [
+      "ar specialist",
+      "accounts receivable clerk",
+      "ar clerk",
+      "collections specialist",
+      "billing specialist",
+      "billing coordinator"
+    ]
+  },
+  {
+    "canonical": "Actuarial Manager",
+    "function": "finance",
+    "aliases": [
+      "actuarial director",
+      "pricing actuary",
+      "reserving actuary"
+    ]
+  },
+  {
+    "canonical": "Actuary",
+    "function": "finance",
+    "aliases": [
+      "actuarial analyst",
+      "senior actuary",
+      "sr. actuary",
+      "actuarial associate",
+      "associate actuary"
+    ]
+  },
+  {
+    "canonical": "Administrative Assistant",
+    "function": "operations",
+    "aliases": [
+      "admin assistant",
+      "office assistant",
+      "administrative coordinator",
+      "administrative specialist",
+      "clerical assistant"
+    ]
+  },
+  {
+    "canonical": "Ads Engineer",
+    "function": "engineering",
+    "aliases": [
+      "ad tech engineer",
+      "advertising engineer"
+    ]
+  },
+  {
+    "canonical": "Aerospace Engineer",
+    "function": "engineering",
+    "aliases": [
+      "aeronautical engineer",
+      "flight systems engineer"
+    ]
+  },
+  {
+    "canonical": "AI Engineer",
+    "function": "data",
+    "aliases": [
+      "artificial intelligence engineer",
+      "generative ai engineer",
+      "senior ai engineer",
+      "sr. ai engineer"
+    ]
+  },
+  {
+    "canonical": "AI Safety Researcher",
+    "function": "engineering",
+    "aliases": [
+      "alignment researcher",
+      "ai alignment engineer",
+      "responsible ai engineer"
+    ]
+  },
+  {
+    "canonical": "AI/ML Engineer",
+    "function": "data",
+    "aliases": [
+      "ai engineer",
+      "ai ml engineer",
+      "artificial intelligence engineer",
+      "senior ai/ml engineer",
+      "sr ai/ml engineer",
+      "staff ai/ml engineer"
+    ]
+  },
+  {
+    "canonical": "Air Traffic Controller",
+    "function": "public_service",
+    "aliases": [
+      "atc specialist"
+    ]
+  },
+  {
+    "canonical": "Aircraft Mechanic",
+    "function": "trades",
+    "aliases": [
+      "a&p mechanic",
+      "aircraft maintenance technician",
+      "avionics technician"
+    ]
+  },
+  {
+    "canonical": "Analytics Engineer",
+    "function": "data",
+    "aliases": [
+      "analytics eng",
+      "data analytics engineer",
+      "senior analytics engineer",
+      "sr analytics engineer",
+      "staff analytics engineer"
+    ]
+  },
+  {
+    "canonical": "Analytics Manager",
+    "function": "data",
+    "aliases": [
+      "analytics lead",
+      "head of analytics",
+      "senior analytics manager",
+      "sr. analytics manager"
+    ]
+  },
+  {
+    "canonical": "Anesthesia Technician",
+    "function": "healthcare",
+    "aliases": [
+      "anesthesia tech"
+    ]
+  },
+  {
+    "canonical": "Anesthesiologist",
+    "function": "healthcare",
+    "aliases": [
+      "anesthesia physician"
+    ]
+  },
+  {
+    "canonical": "Animator",
+    "function": "creative",
+    "aliases": [
+      "motion designer",
+      "motion graphics designer",
+      "2d animator",
+      "3d animator"
+    ]
+  },
+  {
+    "canonical": "Antenna Engineer",
+    "function": "engineering",
+    "aliases": [
+      "rf antenna engineer",
+      "senior antenna engineer",
+      "sr. antenna engineer"
+    ]
+  },
+  {
+    "canonical": "Appliance Repair Technician",
+    "function": "trades",
+    "aliases": [
+      "appliance technician",
+      "appliance service technician"
+    ]
+  },
+  {
+    "canonical": "Application Security Engineer",
+    "function": "security",
+    "aliases": [
+      "appsec engineer",
+      "application security",
+      "app sec",
+      "senior application security engineer",
+      "senior application security eng",
+      "sr application security engineer",
+      "sr application security eng",
+      "staff application security engineer",
+      "staff application security eng",
+      "principal application security engineer",
+      "principal application security eng",
+      "lead application security engineer",
+      "lead application security eng"
+    ]
+  },
+  {
+    "canonical": "Applied Scientist",
+    "function": "data",
+    "aliases": [
+      "applied research scientist",
+      "senior applied scientist",
+      "sr applied scientist",
+      "staff applied scientist"
+    ]
+  },
+  {
+    "canonical": "Architect",
+    "function": "management",
+    "aliases": [
+      "software architect",
+      "technical architect",
+      "system architect"
+    ]
+  },
+  {
+    "canonical": "Architect (Building)",
+    "function": "engineering",
+    "aliases": [
+      "building architect",
+      "licensed architect",
+      "senior architect (building)",
+      "sr. architect (building)",
+      "project architect",
+      "architectural designer",
+      "design architect"
+    ]
+  },
+  {
+    "canonical": "Archivist",
+    "function": "public_service",
+    "aliases": [
+      "records manager",
+      "records analyst",
+      "records clerk"
+    ]
+  },
+  {
+    "canonical": "Art Director",
+    "function": "creative",
+    "aliases": [
+      "advertising art director",
+      "senior art director",
+      "sr. art director",
+      "associate art director",
+      "creative lead"
+    ]
+  },
+  {
+    "canonical": "Art Teacher",
+    "function": "education",
+    "aliases": [
+      "art instructor"
+    ]
+  },
+  {
+    "canonical": "Art Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "licensed art therapist"
+    ]
+  },
+  {
+    "canonical": "ASIC Engineer",
+    "function": "engineering",
+    "aliases": [
+      "asic design engineer",
+      "senior asic engineer",
+      "sr. asic engineer"
+    ]
+  },
+  {
+    "canonical": "Assembler",
+    "function": "trades",
+    "aliases": [
+      "production assembler",
+      "senior assembler",
+      "sr. assembler",
+      "assembly technician",
+      "assembly worker",
+      "manufacturing associate"
+    ]
+  },
+  {
+    "canonical": "Assistant Store Manager",
+    "function": "retail",
+    "aliases": [
+      "assistant manager",
+      "motor vehicle assistant store manager",
+      "assistant general manager"
+    ]
+  },
+  {
+    "canonical": "Athletic Coach",
+    "function": "education",
+    "aliases": [
+      "coach",
+      "head coach",
+      "assistant coach",
+      "fitness coach",
+      "personal trainer"
+    ]
+  },
+  {
+    "canonical": "Athletic Trainer",
+    "function": "healthcare",
+    "aliases": [
+      "certified athletic trainer",
+      "sports medicine trainer"
+    ]
+  },
+  {
+    "canonical": "Attorney",
+    "function": "legal",
+    "aliases": [
+      "lawyer",
+      "associate attorney",
+      "staff attorney",
+      "counsel",
+      "of counsel"
+    ]
+  },
+  {
+    "canonical": "Audio Engineer",
+    "function": "creative",
+    "aliases": [
+      "sound engineer",
+      "sound designer",
+      "audio technician",
+      "mixing engineer"
+    ]
+  },
+  {
+    "canonical": "Audio Software Engineer",
+    "function": "engineering",
+    "aliases": [
+      "dsp engineer",
+      "audio dsp engineer"
+    ]
+  },
+  {
+    "canonical": "Audiologist",
+    "function": "healthcare",
+    "aliases": [
+      "hearing specialist",
+      "hearing aid specialist"
+    ]
+  },
+  {
+    "canonical": "Auditor",
+    "function": "finance",
+    "aliases": [
+      "internal auditor",
+      "external auditor",
+      "audit associate",
+      "audit manager",
+      "it auditor",
+      "staff auditor"
+    ]
+  },
+  {
+    "canonical": "Auto Body Repair Technician",
+    "function": "trades",
+    "aliases": [
+      "auto body technician",
+      "collision repair technician",
+      "body shop technician",
+      "automotive wheel repair technician",
+      "auto body prepper",
+      "paintless dent repair technician",
+      "automotive cosmetic inspector"
+    ]
+  },
+  {
+    "canonical": "Auto Glass Installer",
+    "function": "trades",
+    "aliases": [
+      "windshield technician",
+      "auto glass repair technician"
+    ]
+  },
+  {
+    "canonical": "Automation Engineer",
+    "function": "qa",
+    "aliases": [
+      "test automation",
+      "automation qa",
+      "qa automation engineer",
+      "senior automation engineer",
+      "senior automation eng",
+      "sr automation engineer",
+      "sr automation eng",
+      "staff automation engineer",
+      "staff automation eng",
+      "principal automation engineer",
+      "principal automation eng",
+      "lead automation engineer",
+      "lead automation eng"
+    ]
+  },
+  {
+    "canonical": "Automotive Parts Associate",
+    "function": "trades",
+    "aliases": [
+      "parts associate",
+      "parts counter associate",
+      "automotive parts specialist",
+      "parts advisor"
+    ]
+  },
+  {
+    "canonical": "Automotive Technician",
+    "function": "trades",
+    "aliases": [
+      "auto technician",
+      "automotive mechanic",
+      "auto mechanic",
+      "car mechanic",
+      "experienced automotive technician",
+      "automotive service technician"
+    ]
+  },
+  {
+    "canonical": "Autonomous Vehicle Engineer",
+    "function": "engineering",
+    "aliases": [
+      "av engineer",
+      "self-driving engineer",
+      "senior autonomous vehicle engineer",
+      "sr. autonomous vehicle engineer"
+    ]
+  },
+  {
+    "canonical": "Backend Engineer",
+    "function": "engineering",
+    "aliases": [
+      "backend developer",
+      "back-end engineer",
+      "back end developer",
+      "server-side engineer",
+      "api engineer",
+      "backend software engineer",
+      "backend eng",
+      "back end engineer",
+      "senior backend engineer",
+      "senior backend eng",
+      "sr backend engineer",
+      "sr backend eng",
+      "staff backend engineer",
+      "staff backend eng",
+      "principal backend engineer",
+      "principal backend eng",
+      "lead backend engineer",
+      "lead backend eng"
+    ]
+  },
+  {
+    "canonical": "Baker",
+    "function": "retail",
+    "aliases": [
+      "pastry baker",
+      "bakery associate",
+      "bread baker",
+      "cake decorator"
+    ]
+  },
+  {
+    "canonical": "Bank Teller",
+    "function": "finance",
+    "aliases": [
+      "teller",
+      "personal banker",
+      "universal banker",
+      "relationship banker",
+      "branch associate"
+    ]
+  },
+  {
+    "canonical": "Banker",
+    "function": "business",
+    "aliases": [
+      "investment banker",
+      "relationship banker",
+      "senior banker",
+      "sr. banker"
+    ]
+  },
+  {
+    "canonical": "Bankruptcy Attorney",
+    "function": "legal",
+    "aliases": [
+      "bankruptcy lawyer",
+      "bankruptcy associate attorney"
+    ]
+  },
+  {
+    "canonical": "Barista",
+    "function": "retail",
+    "aliases": [
+      "coffee barista",
+      "cafe associate"
+    ]
+  },
+  {
+    "canonical": "Bartender",
+    "function": "retail",
+    "aliases": [
+      "mixologist"
+    ]
+  },
+  {
+    "canonical": "Behavior Technician",
+    "function": "healthcare",
+    "aliases": [
+      "rbt",
+      "registered behavior technician",
+      "aba therapist",
+      "behavioral therapist"
+    ]
+  },
+  {
+    "canonical": "Bellhop",
+    "function": "retail",
+    "aliases": [
+      "bell attendant",
+      "bellman",
+      "luggage attendant"
+    ]
+  },
+  {
+    "canonical": "Benefits Specialist",
+    "function": "business",
+    "aliases": [
+      "employee benefits",
+      "senior benefits specialist",
+      "sr. benefits specialist"
+    ]
+  },
+  {
+    "canonical": "BI Analyst",
+    "function": "data",
+    "aliases": [
+      "business intelligence analyst",
+      "bi developer",
+      "power bi analyst",
+      "senior bi analyst",
+      "sr bi analyst",
+      "staff bi analyst"
+    ]
+  },
+  {
+    "canonical": "Billing Analyst",
+    "function": "finance",
+    "aliases": [
+      "invoicing specialist",
+      "billing analyst revenue"
+    ]
+  },
+  {
+    "canonical": "Billing Manager",
+    "function": "finance",
+    "aliases": [
+      "revenue cycle director",
+      "patient financial services manager"
+    ]
+  },
+  {
+    "canonical": "Biologist",
+    "function": "science",
+    "aliases": [
+      "molecular biologist",
+      "microbiologist",
+      "cell biologist",
+      "wildlife biologist"
+    ]
+  },
+  {
+    "canonical": "Biomedical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "bioengineer",
+      "senior biomedical engineer",
+      "sr. biomedical engineer"
+    ]
+  },
+  {
+    "canonical": "Biostatistician",
+    "function": "science",
+    "aliases": [
+      "statistical programmer",
+      "sas programmer",
+      "senior biostatistician"
+    ]
+  },
+  {
+    "canonical": "Blockchain Engineer",
+    "function": "engineering",
+    "aliases": [
+      "web3 engineer",
+      "smart contract engineer",
+      "crypto engineer",
+      "senior blockchain engineer",
+      "sr. blockchain engineer",
+      "solidity engineer"
+    ]
+  },
+  {
+    "canonical": "Bookkeeper",
+    "function": "finance",
+    "aliases": [
+      "full charge bookkeeper",
+      "accounting clerk",
+      "accounts clerk"
+    ]
+  },
+  {
+    "canonical": "Brake and Tire Technician",
+    "function": "trades",
+    "aliases": [
+      "tire technician",
+      "brake technician",
+      "brake and tire auto technician",
+      "tire installer"
+    ]
+  },
+  {
+    "canonical": "Branch Manager",
+    "function": "business",
+    "aliases": [
+      "bank branch manager",
+      "senior branch manager",
+      "sr. branch manager"
+    ]
+  },
+  {
+    "canonical": "Branch Manager (Banking)",
+    "function": "finance",
+    "aliases": [
+      "bank branch manager",
+      "banking center manager",
+      "assistant branch manager"
+    ]
+  },
+  {
+    "canonical": "Brand Ambassador",
+    "function": "marketing",
+    "aliases": [
+      "promotional representative",
+      "product ambassador",
+      "part time brand ambassador",
+      "street team member"
+    ]
+  },
+  {
+    "canonical": "Brand Designer",
+    "function": "design",
+    "aliases": [
+      "brand design",
+      "visual brand designer",
+      "senior brand designer",
+      "sr. brand designer"
+    ]
+  },
+  {
+    "canonical": "Brand Manager",
+    "function": "marketing",
+    "aliases": [
+      "brand management",
+      "senior brand manager",
+      "sr. brand manager",
+      "associate brand manager",
+      "brand marketing manager",
+      "brand strategist"
+    ]
+  },
+  {
+    "canonical": "Broadcast Engineer",
+    "function": "engineering",
+    "aliases": [
+      "av engineer",
+      "audio visual technician",
+      "av technician",
+      "broadcast technician"
+    ]
+  },
+  {
+    "canonical": "Build Engineer",
+    "function": "devops",
+    "aliases": [
+      "build systems engineer",
+      "ci engineer",
+      "senior build engineer",
+      "senior build eng",
+      "sr build engineer",
+      "sr build eng",
+      "staff build engineer",
+      "staff build eng",
+      "principal build engineer",
+      "principal build eng",
+      "lead build engineer",
+      "lead build eng"
+    ]
+  },
+  {
+    "canonical": "Bus Driver",
+    "function": "logistics",
+    "aliases": [
+      "school bus driver",
+      "shuttle driver",
+      "transit operator"
+    ]
+  },
+  {
+    "canonical": "Business Analyst",
+    "function": "business",
+    "aliases": [
+      "ba",
+      "business analysis",
+      "it business analyst",
+      "senior business analyst"
+    ]
+  },
+  {
+    "canonical": "Business Development Manager",
+    "function": "sales",
+    "aliases": [
+      "bdm",
+      "bizdev manager",
+      "senior business development manager",
+      "sr. business development manager",
+      "bd manager",
+      "business development director",
+      "business development executive",
+      "partnerships development manager"
+    ]
+  },
+  {
+    "canonical": "Business Development Representative",
+    "function": "sales",
+    "aliases": [
+      "bdr",
+      "business development rep",
+      "development representative",
+      "hybrid development representative",
+      "outbound sdr"
+    ]
+  },
+  {
+    "canonical": "Business Intelligence Developer",
+    "function": "data",
+    "aliases": [
+      "bi developer",
+      "bi engineer",
+      "power bi developer",
+      "tableau developer",
+      "looker developer"
+    ]
+  },
+  {
+    "canonical": "Business Systems Analyst",
+    "function": "data",
+    "aliases": [
+      "it business analyst",
+      "systems analyst",
+      "erp business analyst",
+      "technical business analyst",
+      "business system analyst"
+    ]
+  },
+  {
+    "canonical": "Butcher",
+    "function": "retail",
+    "aliases": [
+      "meat cutter",
+      "meat clerk",
+      "butcher block associate"
+    ]
+  },
+  {
+    "canonical": "Buyer",
+    "function": "business",
+    "aliases": [
+      "merchandise buyer",
+      "procurement buyer",
+      "senior buyer",
+      "sr. buyer"
+    ]
+  },
+  {
+    "canonical": "C++ Developer",
+    "function": "engineering",
+    "aliases": [
+      "c++ engineer",
+      "c++ software engineer",
+      "c/c++ developer"
+    ]
+  },
+  {
+    "canonical": "CAD Designer",
+    "function": "engineering",
+    "aliases": [
+      "cad technician",
+      "cad drafter",
+      "drafter",
+      "autocad drafter",
+      "revit designer",
+      "bim modeler"
+    ]
+  },
+  {
+    "canonical": "Campaign Manager",
+    "function": "business",
+    "aliases": [
+      "political campaign manager",
+      "senior campaign manager",
+      "sr. campaign manager"
+    ]
+  },
+  {
+    "canonical": "Campus Recruiter",
+    "function": "operations",
+    "aliases": [
+      "campus recruitment specialist"
+    ]
+  },
+  {
+    "canonical": "Capacity Planner",
+    "function": "devops",
+    "aliases": [
+      "capacity planning analyst",
+      "senior capacity planner",
+      "sr. capacity planner"
+    ]
+  },
+  {
+    "canonical": "Cardiologist",
+    "function": "healthcare",
+    "aliases": [
+      "cardiology physician"
+    ]
+  },
+  {
+    "canonical": "Carpenter",
+    "function": "trades",
+    "aliases": [
+      "finish carpenter",
+      "framing carpenter"
+    ]
+  },
+  {
+    "canonical": "Case Manager",
+    "function": "healthcare",
+    "aliases": [
+      "case management",
+      "senior case manager",
+      "sr. case manager",
+      "care manager",
+      "care coordinator",
+      "rn case manager"
+    ]
+  },
+  {
+    "canonical": "Cashier",
+    "function": "retail",
+    "aliases": [
+      "front end cashier",
+      "checkout associate"
+    ]
+  },
+  {
+    "canonical": "Casino Dealer",
+    "function": "retail",
+    "aliases": [
+      "table games dealer",
+      "poker dealer"
+    ]
+  },
+  {
+    "canonical": "Category Manager",
+    "function": "operations",
+    "aliases": [
+      "category management",
+      "senior category manager",
+      "sr. category manager",
+      "category supervisor",
+      "manager of category"
+    ]
+  },
+  {
+    "canonical": "Cath Lab Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "cath lab rn",
+      "cath lab registered nurse"
+    ]
+  },
+  {
+    "canonical": "Cath Lab Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "cardiovascular technologist",
+      "cardiac cath tech"
+    ]
+  },
+  {
+    "canonical": "Certified Nursing Assistant",
+    "function": "healthcare",
+    "aliases": [
+      "cna",
+      "nursing assistant",
+      "nurse aide",
+      "patient care assistant",
+      "patient care technician"
+    ]
+  },
+  {
+    "canonical": "Change Manager",
+    "function": "devops",
+    "aliases": [
+      "it change manager",
+      "senior change manager",
+      "sr. change manager"
+    ]
+  },
+  {
+    "canonical": "Channel Manager",
+    "function": "sales",
+    "aliases": [
+      "channel sales manager",
+      "partner manager",
+      "channel account manager",
+      "alliances manager",
+      "partner development manager"
+    ]
+  },
+  {
+    "canonical": "Chef",
+    "function": "retail",
+    "aliases": [
+      "executive chef",
+      "sous chef",
+      "senior chef",
+      "sr. chef",
+      "head chef",
+      "chef de partie",
+      "pastry chef"
+    ]
+  },
+  {
+    "canonical": "Chemical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "chem engineer",
+      "senior chemical engineer",
+      "sr. chemical engineer",
+      "process chemical engineer"
+    ]
+  },
+  {
+    "canonical": "Chemist",
+    "function": "science",
+    "aliases": [
+      "analytical chemist",
+      "organic chemist",
+      "formulation chemist",
+      "qc chemist"
+    ]
+  },
+  {
+    "canonical": "Chief Analytics Officer",
+    "function": "management",
+    "aliases": [
+      "cao analytics",
+      "senior chief analytics officer",
+      "sr. chief analytics officer"
+    ]
+  },
+  {
+    "canonical": "Chief Data Officer",
+    "function": "management",
+    "aliases": [
+      "cdo",
+      "senior chief data officer",
+      "sr. chief data officer"
+    ]
+  },
+  {
+    "canonical": "Chief Financial Officer",
+    "function": "finance",
+    "aliases": [
+      "cfo",
+      "vp of finance",
+      "vice president of finance",
+      "head of finance",
+      "finance director",
+      "director of finance"
+    ]
+  },
+  {
+    "canonical": "Chief of Staff",
+    "function": "management",
+    "aliases": [
+      "chief of staff to ceo",
+      "senior chief of staff",
+      "sr. chief of staff",
+      "business chief of staff"
+    ]
+  },
+  {
+    "canonical": "Childcare Provider",
+    "function": "education",
+    "aliases": [
+      "childcare worker",
+      "daycare teacher",
+      "nanny",
+      "child care assistant"
+    ]
+  },
+  {
+    "canonical": "Chiropractor",
+    "function": "healthcare",
+    "aliases": [
+      "dc"
+    ]
+  },
+  {
+    "canonical": "CIO",
+    "function": "management",
+    "aliases": [
+      "chief information officer",
+      "senior cio",
+      "sr. cio"
+    ]
+  },
+  {
+    "canonical": "CISO",
+    "function": "management",
+    "aliases": [
+      "chief information security officer",
+      "senior ciso",
+      "sr. ciso"
+    ]
+  },
+  {
+    "canonical": "City Administrator",
+    "function": "public_service",
+    "aliases": [
+      "city manager",
+      "town manager",
+      "county administrator"
+    ]
+  },
+  {
+    "canonical": "Civil Engineer",
+    "function": "engineering",
+    "aliases": [
+      "civil eng",
+      "senior civil engineer",
+      "sr. civil engineer",
+      "civil design engineer",
+      "site civil engineer",
+      "civil project engineer"
+    ]
+  },
+  {
+    "canonical": "Claims Adjuster",
+    "function": "legal",
+    "aliases": [
+      "claims specialist",
+      "senior claims adjuster",
+      "sr. claims adjuster",
+      "claims examiner",
+      "claims representative",
+      "claims analyst"
+    ]
+  },
+  {
+    "canonical": "Clergy",
+    "function": "public_service",
+    "aliases": [
+      "pastor",
+      "chaplain",
+      "minister"
+    ]
+  },
+  {
+    "canonical": "Client Partner",
+    "function": "sales",
+    "aliases": [
+      "regional client partner",
+      "senior client partner",
+      "principal client partner"
+    ]
+  },
+  {
+    "canonical": "Clinical Director",
+    "function": "healthcare",
+    "aliases": [
+      "director of clinical services",
+      "clinical services manager",
+      "director of clinical operations"
+    ]
+  },
+  {
+    "canonical": "Clinical Manager",
+    "function": "business",
+    "aliases": [
+      "clinic manager",
+      "senior clinical manager",
+      "sr. clinical manager"
+    ]
+  },
+  {
+    "canonical": "Clinical Nurse Educator",
+    "function": "healthcare",
+    "aliases": [
+      "nurse educator",
+      "clinical educator",
+      "nursing instructor"
+    ]
+  },
+  {
+    "canonical": "Clinical Research Associate",
+    "function": "healthcare",
+    "aliases": [
+      "cra",
+      "senior clinical research associate",
+      "sr. clinical research associate"
+    ]
+  },
+  {
+    "canonical": "Clinical Research Coordinator",
+    "function": "healthcare",
+    "aliases": [
+      "clinical trial coordinator",
+      "study coordinator"
+    ]
+  },
+  {
+    "canonical": "Cloud Architect",
+    "function": "devops",
+    "aliases": [
+      "cloud architecture",
+      "aws architect",
+      "solutions architect cloud",
+      "senior cloud architect",
+      "senior cloud architect",
+      "sr cloud architect",
+      "sr cloud architect",
+      "staff cloud architect",
+      "staff cloud architect",
+      "principal cloud architect",
+      "principal cloud architect",
+      "lead cloud architect",
+      "lead cloud architect"
+    ]
+  },
+  {
+    "canonical": "Cloud Engineer",
+    "function": "devops",
+    "aliases": [
+      "cloud developer",
+      "aws engineer",
+      "gcp engineer",
+      "azure engineer",
+      "senior cloud engineer",
+      "senior cloud eng",
+      "sr cloud engineer",
+      "sr cloud eng",
+      "staff cloud engineer",
+      "staff cloud eng",
+      "principal cloud engineer",
+      "principal cloud eng",
+      "lead cloud engineer",
+      "lead cloud eng"
+    ]
+  },
+  {
+    "canonical": "Cloud Security Engineer",
+    "function": "security",
+    "aliases": [
+      "cloudsec engineer",
+      "aws security engineer",
+      "senior cloud security engineer",
+      "sr. cloud security engineer"
+    ]
+  },
+  {
+    "canonical": "CNC Operator",
+    "function": "trades",
+    "aliases": [
+      "cnc machine operator",
+      "machine operator"
+    ]
+  },
+  {
+    "canonical": "Code Enforcement Officer",
+    "function": "public_service",
+    "aliases": [
+      "building inspector",
+      "code compliance officer",
+      "housing inspector"
+    ]
+  },
+  {
+    "canonical": "Collections Agent",
+    "function": "finance",
+    "aliases": [
+      "debt collector",
+      "collections representative",
+      "recovery specialist collections"
+    ]
+  },
+  {
+    "canonical": "Commercial Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive commercial",
+      "commercial ae"
+    ]
+  },
+  {
+    "canonical": "Communications Manager",
+    "function": "marketing",
+    "aliases": [
+      "corporate communications manager",
+      "internal communications manager",
+      "communications specialist",
+      "pr manager",
+      "public relations manager",
+      "communications director"
+    ]
+  },
+  {
+    "canonical": "Community Health Worker",
+    "function": "healthcare",
+    "aliases": [
+      "outreach worker",
+      "health educator",
+      "community outreach specialist"
+    ]
+  },
+  {
+    "canonical": "Community Manager",
+    "function": "business",
+    "aliases": [
+      "community lead",
+      "senior community manager",
+      "sr. community manager"
+    ]
+  },
+  {
+    "canonical": "Community Organizer",
+    "function": "public_service",
+    "aliases": [
+      "field organizer",
+      "advocacy coordinator",
+      "campaign organizer"
+    ]
+  },
+  {
+    "canonical": "Compensation Analyst",
+    "function": "operations",
+    "aliases": [
+      "comp analyst",
+      "total rewards analyst",
+      "senior compensation analyst",
+      "sr. compensation analyst",
+      "benefits analyst",
+      "compensation and benefits analyst",
+      "benefits administrator",
+      "benefits specialist"
+    ]
+  },
+  {
+    "canonical": "Compiler Engineer",
+    "function": "engineering",
+    "aliases": [
+      "language tools engineer",
+      "compiler developer"
+    ]
+  },
+  {
+    "canonical": "Compliance Analyst",
+    "function": "security",
+    "aliases": [
+      "grc analyst",
+      "security compliance",
+      "senior compliance analyst",
+      "sr. compliance analyst"
+    ]
+  },
+  {
+    "canonical": "Compliance Manager",
+    "function": "legal",
+    "aliases": [
+      "compliance supervisor",
+      "manager of compliance"
+    ]
+  },
+  {
+    "canonical": "Compliance Officer",
+    "function": "legal",
+    "aliases": [
+      "compliance manager",
+      "compliance specialist",
+      "regulatory compliance officer",
+      "compliance analyst"
+    ]
+  },
+  {
+    "canonical": "Computer Science Teacher",
+    "function": "education",
+    "aliases": [
+      "computer science instructor"
+    ]
+  },
+  {
+    "canonical": "Computer Vision Engineer",
+    "function": "data",
+    "aliases": [
+      "cv engineer",
+      "vision engineer",
+      "computer vision",
+      "senior computer vision engineer",
+      "sr computer vision engineer",
+      "staff computer vision engineer"
+    ]
+  },
+  {
+    "canonical": "Computer Vision Scientist",
+    "function": "data",
+    "aliases": [
+      "cv scientist",
+      "senior computer vision scientist",
+      "sr. computer vision scientist"
+    ]
+  },
+  {
+    "canonical": "Concierge",
+    "function": "retail",
+    "aliases": [
+      "hotel concierge",
+      "residential concierge",
+      "lifestyle concierge"
+    ]
+  },
+  {
+    "canonical": "Concrete Finisher",
+    "function": "trades",
+    "aliases": [
+      "cement mason",
+      "concrete laborer",
+      "concrete worker"
+    ]
+  },
+  {
+    "canonical": "Configuration Analyst",
+    "function": "engineering",
+    "aliases": [
+      "configuration manager",
+      "configuration specialist"
+    ]
+  },
+  {
+    "canonical": "Construction Attorney",
+    "function": "legal",
+    "aliases": [
+      "construction lawyer",
+      "construction associate attorney"
+    ]
+  },
+  {
+    "canonical": "Construction Laborer",
+    "function": "trades",
+    "aliases": [
+      "general laborer",
+      "construction worker",
+      "laborer",
+      "skilled laborer"
+    ]
+  },
+  {
+    "canonical": "Construction Project Manager",
+    "function": "engineering",
+    "aliases": [
+      "construction manager",
+      "associate construction project manager",
+      "construction pm",
+      "preconstruction manager"
+    ]
+  },
+  {
+    "canonical": "Construction Superintendent",
+    "function": "trades",
+    "aliases": [
+      "site superintendent",
+      "construction supervisor",
+      "site supervisor"
+    ]
+  },
+  {
+    "canonical": "Content Creator",
+    "function": "creative",
+    "aliases": [
+      "content producer",
+      "digital content creator",
+      "multimedia content producer",
+      "content specialist"
+    ]
+  },
+  {
+    "canonical": "Content Designer",
+    "function": "design",
+    "aliases": [
+      "content design",
+      "ux writer",
+      "ux content designer",
+      "senior content designer",
+      "lead content designer"
+    ]
+  },
+  {
+    "canonical": "Content Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "content marketing",
+      "content manager marketing",
+      "senior content marketing manager"
+    ]
+  },
+  {
+    "canonical": "Contract Manager",
+    "function": "legal",
+    "aliases": [
+      "contracts administrator",
+      "contract specialist",
+      "contracts manager"
+    ]
+  },
+  {
+    "canonical": "Controller",
+    "function": "finance",
+    "aliases": [
+      "financial controller",
+      "accounting controller",
+      "senior controller",
+      "sr. controller",
+      "corporate controller",
+      "plant controller"
+    ]
+  },
+  {
+    "canonical": "Controls Engineer",
+    "function": "engineering",
+    "aliases": [
+      "plc engineer",
+      "automation controls",
+      "senior controls engineer",
+      "sr. controls engineer",
+      "automation engineer controls",
+      "instrumentation and controls engineer",
+      "scada engineer"
+    ]
+  },
+  {
+    "canonical": "Cook",
+    "function": "retail",
+    "aliases": [
+      "line cook",
+      "prep cook",
+      "grill cook",
+      "kitchen cook",
+      "fry cook"
+    ]
+  },
+  {
+    "canonical": "Copywriter",
+    "function": "marketing",
+    "aliases": [
+      "marketing copywriter",
+      "content writer",
+      "senior copywriter",
+      "sr. copywriter",
+      "creative copywriter"
+    ]
+  },
+  {
+    "canonical": "Corporate Attorney",
+    "function": "legal",
+    "aliases": [
+      "corporate counsel",
+      "in-house counsel",
+      "transactional attorney",
+      "commercial counsel"
+    ]
+  },
+  {
+    "canonical": "Corporate Development Manager",
+    "function": "finance",
+    "aliases": [
+      "corp dev associate",
+      "m&a associate",
+      "corporate development analyst"
+    ]
+  },
+  {
+    "canonical": "Corporate Recruiter",
+    "function": "operations",
+    "aliases": [
+      "corporate recruitment specialist"
+    ]
+  },
+  {
+    "canonical": "Correctional Officer",
+    "function": "public_service",
+    "aliases": [
+      "detention officer",
+      "corrections officer"
+    ]
+  },
+  {
+    "canonical": "Court Clerk",
+    "function": "public_service",
+    "aliases": [
+      "deputy court clerk",
+      "judicial assistant",
+      "court administrator"
+    ]
+  },
+  {
+    "canonical": "Court Reporter",
+    "function": "public_service",
+    "aliases": [
+      "stenographer",
+      "digital court reporter"
+    ]
+  },
+  {
+    "canonical": "CPO",
+    "function": "management",
+    "aliases": [
+      "chief product officer",
+      "senior cpo",
+      "sr. cpo"
+    ]
+  },
+  {
+    "canonical": "Creative Director",
+    "function": "creative",
+    "aliases": [
+      "art director creative",
+      "senior creative director",
+      "sr. creative director",
+      "executive creative director",
+      "group creative director",
+      "head of creative"
+    ]
+  },
+  {
+    "canonical": "Credit Analyst",
+    "function": "finance",
+    "aliases": [
+      "credit risk analyst",
+      "credit underwriter",
+      "credit officer"
+    ]
+  },
+  {
+    "canonical": "Credit Manager",
+    "function": "finance",
+    "aliases": [
+      "credit supervisor",
+      "manager of credit"
+    ]
+  },
+  {
+    "canonical": "Criminal Defense Attorney",
+    "function": "legal",
+    "aliases": [
+      "criminal defense lawyer",
+      "criminal defense associate attorney"
+    ]
+  },
+  {
+    "canonical": "Cryptography Engineer",
+    "function": "engineering",
+    "aliases": [
+      "applied cryptographer",
+      "cryptographer"
+    ]
+  },
+  {
+    "canonical": "CT Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "ct tech",
+      "computed tomography technologist"
+    ]
+  },
+  {
+    "canonical": "CTO",
+    "function": "management",
+    "aliases": [
+      "chief technology officer",
+      "chief technical officer"
+    ]
+  },
+  {
+    "canonical": "Custodian",
+    "function": "retail",
+    "aliases": [
+      "janitor",
+      "custodial worker",
+      "janitorial associate",
+      "porter"
+    ]
+  },
+  {
+    "canonical": "Customer Experience Manager",
+    "function": "sales",
+    "aliases": [
+      "customer experience supervisor",
+      "manager of customer experience"
+    ]
+  },
+  {
+    "canonical": "Customer Service Representative",
+    "function": "retail",
+    "aliases": [
+      "csr",
+      "customer service rep",
+      "customer service agent",
+      "customer support representative",
+      "customer service delivery advocate",
+      "customer care representative",
+      "overnight customer service representative",
+      "call center representative",
+      "contact center agent"
+    ]
+  },
+  {
+    "canonical": "Customer Success Associate",
+    "function": "sales",
+    "aliases": [
+      "customer success specialist",
+      "customer success coordinator",
+      "client success associate",
+      "clinical success specialist"
+    ]
+  },
+  {
+    "canonical": "Customer Success Engineer",
+    "function": "other",
+    "aliases": [
+      "cse",
+      "customer success technical",
+      "senior customer success engineer",
+      "senior customer success eng",
+      "sr customer success engineer",
+      "sr customer success eng",
+      "staff customer success engineer",
+      "staff customer success eng",
+      "principal customer success engineer",
+      "principal customer success eng",
+      "lead customer success engineer",
+      "lead customer success eng"
+    ]
+  },
+  {
+    "canonical": "Customer Success Manager",
+    "function": "business",
+    "aliases": [
+      "csm",
+      "customer success",
+      "client success manager",
+      "senior customer success manager"
+    ]
+  },
+  {
+    "canonical": "Customer Support Specialist",
+    "function": "retail",
+    "aliases": [
+      "support specialist",
+      "customer service specialist",
+      "senior customer support specialist",
+      "sr. customer support specialist",
+      "customer support associate",
+      "customer experience specialist",
+      "customer care specialist",
+      "technical support representative"
+    ]
+  },
+  {
+    "canonical": "Customs Broker",
+    "function": "logistics",
+    "aliases": [
+      "customs entry writer",
+      "customs compliance specialist",
+      "trade compliance analyst",
+      "import export coordinator"
+    ]
+  },
+  {
+    "canonical": "Data Analyst",
+    "function": "data",
+    "aliases": [
+      "data analytics",
+      "analytics analyst",
+      "business data analyst",
+      "senior data analyst",
+      "sr data analyst",
+      "staff data analyst"
+    ]
+  },
+  {
+    "canonical": "Data Annotation Specialist",
+    "function": "engineering",
+    "aliases": [
+      "data labeling specialist",
+      "annotation analyst",
+      "ai data trainer"
+    ]
+  },
+  {
+    "canonical": "Data Architect",
+    "function": "data",
+    "aliases": [
+      "enterprise data architect",
+      "data architecture",
+      "senior data architect",
+      "sr. data architect",
+      "data solutions architect",
+      "data warehouse architect",
+      "analytics architect"
+    ]
+  },
+  {
+    "canonical": "Data Engineer",
+    "function": "data",
+    "aliases": [
+      "data eng",
+      "etl engineer",
+      "data platform engineer",
+      "senior data engineer",
+      "sr data engineer",
+      "staff data engineer"
+    ]
+  },
+  {
+    "canonical": "Data Entry Clerk",
+    "function": "operations",
+    "aliases": [
+      "data entry specialist",
+      "data entry operator",
+      "data entry associate"
+    ]
+  },
+  {
+    "canonical": "Data Governance Analyst",
+    "function": "data",
+    "aliases": [
+      "data steward",
+      "data quality analyst",
+      "master data analyst",
+      "data governance manager",
+      "mdm analyst"
+    ]
+  },
+  {
+    "canonical": "Data Governance Manager",
+    "function": "data",
+    "aliases": [
+      "data governance",
+      "senior data governance manager",
+      "sr. data governance manager"
+    ]
+  },
+  {
+    "canonical": "Data Platform Engineer",
+    "function": "data",
+    "aliases": [
+      "data platforms engineer",
+      "data infra engineer",
+      "senior data platform engineer",
+      "sr data platform engineer",
+      "staff data platform engineer"
+    ]
+  },
+  {
+    "canonical": "Data Scientist",
+    "function": "data",
+    "aliases": [
+      "data science",
+      "ds",
+      "applied data scientist",
+      "senior data scientist",
+      "sr data scientist",
+      "staff data scientist"
+    ]
+  },
+  {
+    "canonical": "Database Administrator",
+    "function": "engineering",
+    "aliases": [
+      "dba",
+      "oracle dba",
+      "postgres dba",
+      "senior database administrator",
+      "sr. database administrator",
+      "sql server dba",
+      "database engineer"
+    ]
+  },
+  {
+    "canonical": "Database Engineer",
+    "function": "engineering",
+    "aliases": [
+      "dba engineer",
+      "database developer",
+      "sql engineer",
+      "senior database engineer",
+      "sr. database engineer"
+    ]
+  },
+  {
+    "canonical": "Delivery Driver",
+    "function": "logistics",
+    "aliases": [
+      "courier",
+      "route driver",
+      "customer service delivery driver",
+      "parcel delivery driver",
+      "van driver",
+      "driver"
+    ]
+  },
+  {
+    "canonical": "Delivery Manager",
+    "function": "management",
+    "aliases": [
+      "engagement manager",
+      "client delivery manager",
+      "service delivery manager",
+      "agile delivery manager"
+    ]
+  },
+  {
+    "canonical": "Demand Generation Manager",
+    "function": "business",
+    "aliases": [
+      "demand gen manager",
+      "senior demand generation manager",
+      "sr. demand generation manager"
+    ]
+  },
+  {
+    "canonical": "Demand Planning Manager",
+    "function": "logistics",
+    "aliases": [
+      "demand planning supervisor",
+      "manager of demand planning"
+    ]
+  },
+  {
+    "canonical": "Dental Assistant",
+    "function": "healthcare",
+    "aliases": [
+      "registered dental assistant"
+    ]
+  },
+  {
+    "canonical": "Dental Hygienist",
+    "function": "healthcare",
+    "aliases": [
+      "registered dental hygienist",
+      "rdh"
+    ]
+  },
+  {
+    "canonical": "Dentist",
+    "function": "healthcare",
+    "aliases": [
+      "dental surgeon",
+      "senior dentist",
+      "sr. dentist",
+      "general dentist",
+      "dds"
+    ]
+  },
+  {
+    "canonical": "Deployment Strategist",
+    "function": "engineering",
+    "aliases": [
+      "forward deployed strategist",
+      "implementation strategist"
+    ]
+  },
+  {
+    "canonical": "Dermatologist",
+    "function": "healthcare",
+    "aliases": [
+      "dermatology physician"
+    ]
+  },
+  {
+    "canonical": "Design Engineer",
+    "function": "design",
+    "aliases": [
+      "design systems engineer",
+      "ui engineering",
+      "senior design engineer",
+      "sr. design engineer"
+    ]
+  },
+  {
+    "canonical": "Design Manager",
+    "function": "design",
+    "aliases": [
+      "design lead",
+      "head of design",
+      "senior design manager",
+      "lead design manager"
+    ]
+  },
+  {
+    "canonical": "Detection Engineer",
+    "function": "engineering",
+    "aliases": [
+      "detection and response engineer",
+      "threat detection engineer"
+    ]
+  },
+  {
+    "canonical": "Developer Advocate",
+    "function": "other",
+    "aliases": [
+      "developer relations",
+      "devrel",
+      "developer evangelist",
+      "senior developer advocate",
+      "senior developer advocate",
+      "sr developer advocate",
+      "sr developer advocate",
+      "staff developer advocate",
+      "staff developer advocate",
+      "principal developer advocate",
+      "principal developer advocate",
+      "lead developer advocate",
+      "lead developer advocate"
+    ]
+  },
+  {
+    "canonical": "Developer Productivity Engineer",
+    "function": "engineering",
+    "aliases": [
+      "developer experience engineer",
+      "devex engineer",
+      "engineering productivity engineer",
+      "tools engineer"
+    ]
+  },
+  {
+    "canonical": "DevOps Engineer",
+    "function": "devops",
+    "aliases": [
+      "devops",
+      "dev ops engineer",
+      "devops developer",
+      "senior devops engineer",
+      "senior devops eng",
+      "sr devops engineer",
+      "sr devops eng",
+      "staff devops engineer",
+      "staff devops eng",
+      "principal devops engineer",
+      "principal devops eng",
+      "lead devops engineer",
+      "lead devops eng"
+    ]
+  },
+  {
+    "canonical": "Dialysis Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "dialysis rn",
+      "dialysis registered nurse"
+    ]
+  },
+  {
+    "canonical": "Dialysis Technician",
+    "function": "healthcare",
+    "aliases": [
+      "hemodialysis technician",
+      "patient care technician dialysis"
+    ]
+  },
+  {
+    "canonical": "Diesel Mechanic",
+    "function": "trades",
+    "aliases": [
+      "diesel technician",
+      "fleet mechanic",
+      "heavy equipment mechanic"
+    ]
+  },
+  {
+    "canonical": "Dietitian",
+    "function": "healthcare",
+    "aliases": [
+      "registered dietitian",
+      "nutritionist"
+    ]
+  },
+  {
+    "canonical": "Digital Marketing Manager",
+    "function": "marketing",
+    "aliases": [
+      "digital marketing specialist",
+      "performance marketing manager",
+      "paid media manager",
+      "digital marketing coordinator",
+      "ppc specialist"
+    ]
+  },
+  {
+    "canonical": "Director of Engineering",
+    "function": "management",
+    "aliases": [
+      "engineering director",
+      "dir of engineering",
+      "director engineering"
+    ]
+  },
+  {
+    "canonical": "Director of Operations",
+    "function": "operations",
+    "aliases": [
+      "vp of operations",
+      "head of operations",
+      "coo",
+      "chief operating officer",
+      "vice president of operations"
+    ]
+  },
+  {
+    "canonical": "Dishwasher",
+    "function": "retail",
+    "aliases": [
+      "kitchen steward",
+      "utility worker"
+    ]
+  },
+  {
+    "canonical": "Dispatcher",
+    "function": "logistics",
+    "aliases": [
+      "truck dispatcher",
+      "fleet dispatcher",
+      "transportation dispatcher"
+    ]
+  },
+  {
+    "canonical": "Distinguished Engineer",
+    "function": "engineering",
+    "aliases": [
+      "distinguished software engineer",
+      "senior distinguished engineer",
+      "sr. distinguished engineer"
+    ]
+  },
+  {
+    "canonical": "District Manager",
+    "function": "retail",
+    "aliases": [
+      "district supervisor",
+      "manager of district"
+    ]
+  },
+  {
+    "canonical": "Diversity Recruiter",
+    "function": "business",
+    "aliases": [
+      "dei recruiter",
+      "senior diversity recruiter",
+      "sr. diversity recruiter"
+    ]
+  },
+  {
+    "canonical": "Dog Trainer",
+    "function": "retail",
+    "aliases": [
+      "pet trainer",
+      "canine trainer"
+    ]
+  },
+  {
+    "canonical": "Doula",
+    "function": "healthcare",
+    "aliases": [
+      "birth doula",
+      "postpartum doula"
+    ]
+  },
+  {
+    "canonical": "Drama Teacher",
+    "function": "education",
+    "aliases": [
+      "drama instructor"
+    ]
+  },
+  {
+    "canonical": "Driver",
+    "function": "business",
+    "aliases": [
+      "delivery driver",
+      "truck driver",
+      "senior driver",
+      "sr. driver"
+    ]
+  },
+  {
+    "canonical": "Dry Cleaner",
+    "function": "retail",
+    "aliases": [
+      "laundry attendant",
+      "laundry associate",
+      "presser"
+    ]
+  },
+  {
+    "canonical": "Drywall Installer",
+    "function": "trades",
+    "aliases": [
+      "drywall finisher",
+      "taper",
+      "plasterer"
+    ]
+  },
+  {
+    "canonical": "E-commerce Manager",
+    "function": "marketing",
+    "aliases": [
+      "e-commerce supervisor",
+      "manager of e-commerce"
+    ]
+  },
+  {
+    "canonical": "Economist",
+    "function": "data",
+    "aliases": [
+      "quantitative economist",
+      "senior economist",
+      "sr. economist"
+    ]
+  },
+  {
+    "canonical": "Editor",
+    "function": "creative",
+    "aliases": [
+      "content editor",
+      "senior editor",
+      "sr. editor",
+      "managing editor",
+      "copy editor",
+      "editorial manager"
+    ]
+  },
+  {
+    "canonical": "EHS Specialist",
+    "function": "business",
+    "aliases": [
+      "environmental health and safety",
+      "senior ehs specialist",
+      "sr. ehs specialist"
+    ]
+  },
+  {
+    "canonical": "EKG Technician",
+    "function": "healthcare",
+    "aliases": [
+      "ecg technician",
+      "cardiac monitor technician",
+      "telemetry technician"
+    ]
+  },
+  {
+    "canonical": "Electrical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "ee",
+      "electrical eng",
+      "senior electrical engineer",
+      "sr. electrical engineer",
+      "electrical design engineer",
+      "power engineer",
+      "power systems engineer",
+      "controls electrical engineer"
+    ]
+  },
+  {
+    "canonical": "Electrician",
+    "function": "trades",
+    "aliases": [
+      "licensed electrician",
+      "senior electrician",
+      "sr. electrician",
+      "journeyman electrician",
+      "master electrician",
+      "electrical technician",
+      "apprentice electrician"
+    ]
+  },
+  {
+    "canonical": "Elevator Mechanic",
+    "function": "trades",
+    "aliases": [
+      "elevator technician",
+      "elevator installer"
+    ]
+  },
+  {
+    "canonical": "Email Marketing Manager",
+    "function": "marketing",
+    "aliases": [
+      "lifecycle marketing manager",
+      "crm marketing manager",
+      "email marketing specialist",
+      "retention marketing manager"
+    ]
+  },
+  {
+    "canonical": "Embedded Engineer",
+    "function": "engineering",
+    "aliases": [
+      "embedded developer",
+      "embedded systems engineer",
+      "firmware engineer",
+      "senior embedded engineer",
+      "senior embedded eng",
+      "sr embedded engineer",
+      "sr embedded eng",
+      "staff embedded engineer",
+      "staff embedded eng",
+      "principal embedded engineer",
+      "principal embedded eng",
+      "lead embedded engineer",
+      "lead embedded eng"
+    ]
+  },
+  {
+    "canonical": "Emergency Dispatcher",
+    "function": "public_service",
+    "aliases": [
+      "911 dispatcher",
+      "public safety dispatcher",
+      "emergency communications operator"
+    ]
+  },
+  {
+    "canonical": "Emergency Medicine Physician",
+    "function": "healthcare",
+    "aliases": [
+      "er physician",
+      "emergency room physician",
+      "ed physician"
+    ]
+  },
+  {
+    "canonical": "Emergency Room Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "emergency room rn",
+      "emergency room registered nurse"
+    ]
+  },
+  {
+    "canonical": "Emergency Room Technician",
+    "function": "healthcare",
+    "aliases": [
+      "er technician",
+      "ed tech",
+      "emergency department technician"
+    ]
+  },
+  {
+    "canonical": "Employment Attorney",
+    "function": "legal",
+    "aliases": [
+      "employment lawyer",
+      "employment associate attorney"
+    ]
+  },
+  {
+    "canonical": "Endocrinology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "endocrinology doctor",
+      "endocrinology specialist physician"
+    ]
+  },
+  {
+    "canonical": "Endodontist",
+    "function": "healthcare",
+    "aliases": []
+  },
+  {
+    "canonical": "Engineering Director",
+    "function": "management",
+    "aliases": [
+      "director engineering",
+      "eng director",
+      "senior engineering director",
+      "sr. engineering director"
+    ]
+  },
+  {
+    "canonical": "Engineering Manager",
+    "function": "management",
+    "aliases": [
+      "eng manager",
+      "software engineering manager",
+      "manager engineering",
+      "em"
+    ]
+  },
+  {
+    "canonical": "English Teacher",
+    "function": "education",
+    "aliases": [
+      "ela teacher",
+      "language arts teacher",
+      "english language arts teacher"
+    ]
+  },
+  {
+    "canonical": "Enterprise Account Executive",
+    "function": "sales",
+    "aliases": [
+      "enterprise ae",
+      "strategic account executive",
+      "majors account executive",
+      "large enterprise account executive"
+    ]
+  },
+  {
+    "canonical": "Enterprise Architect",
+    "function": "engineering",
+    "aliases": [
+      "enterprise architecture",
+      "senior enterprise architect",
+      "sr. enterprise architect",
+      "domain architect",
+      "business architect",
+      "it architect"
+    ]
+  },
+  {
+    "canonical": "Environmental Attorney",
+    "function": "legal",
+    "aliases": [
+      "environmental lawyer",
+      "environmental associate attorney"
+    ]
+  },
+  {
+    "canonical": "Environmental Engineer",
+    "function": "engineering",
+    "aliases": [
+      "environmental compliance engineer"
+    ]
+  },
+  {
+    "canonical": "Environmental Manager",
+    "function": "operations",
+    "aliases": [
+      "environmental supervisor",
+      "manager of environmental"
+    ]
+  },
+  {
+    "canonical": "Environmental Scientist",
+    "function": "science",
+    "aliases": [
+      "environmental analyst",
+      "senior environmental scientist",
+      "sr. environmental scientist",
+      "environmental specialist",
+      "environmental consultant",
+      "ecologist"
+    ]
+  },
+  {
+    "canonical": "Epidemiologist",
+    "function": "science",
+    "aliases": [
+      "public health analyst",
+      "public health epidemiologist"
+    ]
+  },
+  {
+    "canonical": "Equipment Operator",
+    "function": "trades",
+    "aliases": [
+      "heavy equipment operator",
+      "crane operator",
+      "excavator operator"
+    ]
+  },
+  {
+    "canonical": "Equity Administration Specialist",
+    "function": "finance",
+    "aliases": [
+      "stock plan administrator",
+      "equity compensation analyst"
+    ]
+  },
+  {
+    "canonical": "ERP Analyst",
+    "function": "business",
+    "aliases": [
+      "sap analyst",
+      "oracle erp analyst",
+      "senior erp analyst",
+      "sr. erp analyst"
+    ]
+  },
+  {
+    "canonical": "Escalation Engineer",
+    "function": "engineering",
+    "aliases": [
+      "escalation manager",
+      "critical situation manager",
+      "premier support engineer"
+    ]
+  },
+  {
+    "canonical": "Escrow Officer",
+    "function": "finance",
+    "aliases": [
+      "title officer",
+      "escrow assistant",
+      "title examiner",
+      "settlement officer"
+    ]
+  },
+  {
+    "canonical": "ESL Teacher",
+    "function": "education",
+    "aliases": [
+      "esol teacher",
+      "english as a second language teacher"
+    ]
+  },
+  {
+    "canonical": "Estate Planning Attorney",
+    "function": "legal",
+    "aliases": [
+      "estate planning lawyer",
+      "estate planning associate attorney"
+    ]
+  },
+  {
+    "canonical": "Esthetician",
+    "function": "retail",
+    "aliases": [
+      "skincare specialist",
+      "facialist",
+      "licensed esthetician"
+    ]
+  },
+  {
+    "canonical": "Estimator",
+    "function": "engineering",
+    "aliases": [
+      "construction estimator",
+      "cost estimator",
+      "senior estimator",
+      "preconstruction estimator"
+    ]
+  },
+  {
+    "canonical": "Event Coordinator",
+    "function": "operations",
+    "aliases": [
+      "event planner",
+      "event specialist",
+      "events manager",
+      "event operations manager",
+      "meeting planner"
+    ]
+  },
+  {
+    "canonical": "Event Manager",
+    "function": "business",
+    "aliases": [
+      "events manager",
+      "senior event manager",
+      "sr. event manager"
+    ]
+  },
+  {
+    "canonical": "Event Server",
+    "function": "retail",
+    "aliases": [
+      "catering server",
+      "banquet captain",
+      "catering attendant"
+    ]
+  },
+  {
+    "canonical": "Executive Assistant",
+    "function": "operations",
+    "aliases": [
+      "ea",
+      "exec assistant",
+      "senior executive assistant",
+      "sr. executive assistant",
+      "executive administrative assistant",
+      "executive assistant to ceo",
+      "personal assistant"
+    ]
+  },
+  {
+    "canonical": "Executive Recruiter",
+    "function": "operations",
+    "aliases": [
+      "executive search consultant",
+      "headhunter",
+      "search consultant"
+    ]
+  },
+  {
+    "canonical": "Executive Search Recruiter",
+    "function": "operations",
+    "aliases": [
+      "executive search recruitment specialist"
+    ]
+  },
+  {
+    "canonical": "Fabricator",
+    "function": "trades",
+    "aliases": [
+      "metal fabricator",
+      "sheet metal worker"
+    ]
+  },
+  {
+    "canonical": "Facilities Manager",
+    "function": "operations",
+    "aliases": [
+      "workplace manager",
+      "senior facilities manager",
+      "sr. facilities manager",
+      "facilities coordinator",
+      "facility manager",
+      "building manager"
+    ]
+  },
+  {
+    "canonical": "Family Law Attorney",
+    "function": "legal",
+    "aliases": [
+      "family law lawyer",
+      "family law associate attorney"
+    ]
+  },
+  {
+    "canonical": "Family Medicine Physician",
+    "function": "healthcare",
+    "aliases": [
+      "family physician",
+      "family practice physician",
+      "per diem family medicine physician"
+    ]
+  },
+  {
+    "canonical": "Fellow",
+    "function": "engineering",
+    "aliases": [
+      "technical fellow",
+      "engineering fellow",
+      "senior fellow",
+      "sr. fellow"
+    ]
+  },
+  {
+    "canonical": "Field Engineer",
+    "function": "engineering",
+    "aliases": [
+      "field applications engineer",
+      "fae",
+      "site engineer"
+    ]
+  },
+  {
+    "canonical": "Field Marketing Manager",
+    "function": "marketing",
+    "aliases": [
+      "field marketing",
+      "senior field marketing manager",
+      "sr. field marketing manager",
+      "events marketing manager",
+      "regional marketing manager",
+      "field marketing specialist"
+    ]
+  },
+  {
+    "canonical": "Field Operations Manager",
+    "function": "operations",
+    "aliases": [
+      "field operations supervisor",
+      "manager of field operations"
+    ]
+  },
+  {
+    "canonical": "Field Service Technician",
+    "function": "trades",
+    "aliases": [
+      "field technician",
+      "field service engineer",
+      "service technician"
+    ]
+  },
+  {
+    "canonical": "Finance Manager",
+    "function": "business",
+    "aliases": [
+      "financial manager",
+      "senior finance manager",
+      "sr. finance manager"
+    ]
+  },
+  {
+    "canonical": "Financial Advisor",
+    "function": "finance",
+    "aliases": [
+      "wealth advisor",
+      "financial planner",
+      "wealth manager",
+      "financial consultant",
+      "investment advisor"
+    ]
+  },
+  {
+    "canonical": "Financial Analyst",
+    "function": "business",
+    "aliases": [
+      "finance analyst",
+      "fp&a analyst",
+      "senior financial analyst"
+    ]
+  },
+  {
+    "canonical": "Financial Analyst (Corporate)",
+    "function": "finance",
+    "aliases": [
+      "senior financial analyst",
+      "finance analyst",
+      "business finance analyst"
+    ]
+  },
+  {
+    "canonical": "Financial Planning Analyst",
+    "function": "finance",
+    "aliases": [
+      "fp&a analyst",
+      "fp&a manager",
+      "financial planning and analysis analyst",
+      "corporate finance analyst"
+    ]
+  },
+  {
+    "canonical": "Financial Services Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive financial services",
+      "financial services ae"
+    ]
+  },
+  {
+    "canonical": "Fire Sprinkler Technician",
+    "function": "trades",
+    "aliases": [
+      "fire alarm technician",
+      "fire protection technician",
+      "sprinkler fitter"
+    ]
+  },
+  {
+    "canonical": "Firefighter",
+    "function": "public_service",
+    "aliases": [
+      "fire fighter",
+      "senior firefighter",
+      "sr. firefighter",
+      "firefighter emt",
+      "fire captain"
+    ]
+  },
+  {
+    "canonical": "Firmware Engineer",
+    "function": "engineering",
+    "aliases": [
+      "firmware developer",
+      "embedded firmware",
+      "senior firmware engineer",
+      "sr. firmware engineer",
+      "embedded firmware engineer"
+    ]
+  },
+  {
+    "canonical": "Fitness Instructor",
+    "function": "retail",
+    "aliases": [
+      "group fitness instructor",
+      "yoga instructor",
+      "pilates instructor",
+      "cycling instructor",
+      "gym instructor"
+    ]
+  },
+  {
+    "canonical": "Fleet Operations Manager",
+    "function": "logistics",
+    "aliases": [
+      "fleet operations supervisor",
+      "manager of fleet operations"
+    ]
+  },
+  {
+    "canonical": "Flight Attendant",
+    "function": "public_service",
+    "aliases": [
+      "cabin crew",
+      "senior flight attendant",
+      "sr. flight attendant",
+      "inflight crew member"
+    ]
+  },
+  {
+    "canonical": "Flooring Installer",
+    "function": "trades",
+    "aliases": [
+      "carpet installer",
+      "tile setter",
+      "hardwood floor installer"
+    ]
+  },
+  {
+    "canonical": "Floral Designer",
+    "function": "retail",
+    "aliases": [
+      "florist",
+      "flower shop associate"
+    ]
+  },
+  {
+    "canonical": "Flutter Developer",
+    "function": "engineering",
+    "aliases": [
+      "flutter engineer",
+      "dart developer"
+    ]
+  },
+  {
+    "canonical": "Food Runner",
+    "function": "retail",
+    "aliases": [
+      "runner",
+      "busser",
+      "busboy"
+    ]
+  },
+  {
+    "canonical": "Food Scientist",
+    "function": "science",
+    "aliases": [
+      "food technologist",
+      "r&d food scientist",
+      "flavor scientist"
+    ]
+  },
+  {
+    "canonical": "Foreman",
+    "function": "trades",
+    "aliases": [
+      "construction foreman",
+      "crew foreman",
+      "crew lead"
+    ]
+  },
+  {
+    "canonical": "Forklift Operator",
+    "function": "logistics",
+    "aliases": [
+      "forklift driver",
+      "material handler",
+      "warehouse forklift operator"
+    ]
+  },
+  {
+    "canonical": "Forward Deployed Engineer",
+    "function": "engineering",
+    "aliases": [
+      "fde",
+      "deployed engineer",
+      "forward deployed software engineer",
+      "sr. forward deployed engineer"
+    ]
+  },
+  {
+    "canonical": "Founder's Office Associate",
+    "function": "management",
+    "aliases": [
+      "founders office",
+      "ceo office associate",
+      "strategy and operations associate"
+    ]
+  },
+  {
+    "canonical": "FPGA Engineer",
+    "function": "engineering",
+    "aliases": [
+      "fpga developer",
+      "senior fpga engineer",
+      "sr. fpga engineer"
+    ]
+  },
+  {
+    "canonical": "Franchise Manager",
+    "function": "operations",
+    "aliases": [
+      "franchise supervisor",
+      "manager of franchise"
+    ]
+  },
+  {
+    "canonical": "Fraud Analyst",
+    "function": "finance",
+    "aliases": [
+      "fraud detection analyst",
+      "senior fraud analyst",
+      "sr. fraud analyst",
+      "fraud investigator",
+      "fraud specialist",
+      "aml analyst",
+      "bsa analyst",
+      "kyc analyst",
+      "sanctions analyst"
+    ]
+  },
+  {
+    "canonical": "French Teacher",
+    "function": "education",
+    "aliases": [
+      "french instructor"
+    ]
+  },
+  {
+    "canonical": "Front Office Manager",
+    "function": "retail",
+    "aliases": [
+      "front office supervisor",
+      "manager of front office"
+    ]
+  },
+  {
+    "canonical": "Frontend Engineer",
+    "function": "engineering",
+    "aliases": [
+      "frontend developer",
+      "front-end engineer",
+      "front end developer",
+      "ui engineer",
+      "frontend software engineer",
+      "front-end developer",
+      "fe engineer",
+      "senior frontend engineer",
+      "senior frontend eng",
+      "sr frontend engineer",
+      "sr frontend eng",
+      "staff frontend engineer",
+      "staff frontend eng",
+      "principal frontend engineer",
+      "principal frontend eng",
+      "lead frontend engineer",
+      "lead frontend eng"
+    ]
+  },
+  {
+    "canonical": "Full Stack Engineer",
+    "function": "engineering",
+    "aliases": [
+      "fullstack engineer",
+      "full-stack engineer",
+      "full stack developer",
+      "fullstack developer",
+      "full-stack developer",
+      "senior full stack engineer",
+      "senior full stack eng",
+      "sr full stack engineer",
+      "sr full stack eng",
+      "staff full stack engineer",
+      "staff full stack eng",
+      "principal full stack engineer",
+      "principal full stack eng",
+      "lead full stack engineer",
+      "lead full stack eng"
+    ]
+  },
+  {
+    "canonical": "Fundraising Manager",
+    "function": "public_service",
+    "aliases": [
+      "development manager nonprofit",
+      "senior fundraising manager",
+      "sr. fundraising manager",
+      "development director",
+      "major gifts officer",
+      "annual giving manager",
+      "advancement officer"
+    ]
+  },
+  {
+    "canonical": "Funeral Director",
+    "function": "public_service",
+    "aliases": [
+      "mortician",
+      "embalmer"
+    ]
+  },
+  {
+    "canonical": "Game Designer",
+    "function": "creative",
+    "aliases": [
+      "level designer",
+      "gameplay designer",
+      "systems designer games"
+    ]
+  },
+  {
+    "canonical": "Game Engineer",
+    "function": "engineering",
+    "aliases": [
+      "game developer",
+      "gameplay engineer",
+      "unity engineer",
+      "senior game engineer",
+      "sr. game engineer",
+      "unity developer",
+      "unreal engineer",
+      "game programmer"
+    ]
+  },
+  {
+    "canonical": "Game Producer",
+    "function": "creative",
+    "aliases": [
+      "producer games",
+      "associate producer",
+      "executive producer"
+    ]
+  },
+  {
+    "canonical": "Gastroenterology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "gastroenterology doctor",
+      "gastroenterology specialist physician"
+    ]
+  },
+  {
+    "canonical": "General Counsel",
+    "function": "legal",
+    "aliases": [
+      "chief legal officer",
+      "deputy general counsel",
+      "associate general counsel",
+      "assistant general counsel"
+    ]
+  },
+  {
+    "canonical": "General Manager",
+    "function": "business",
+    "aliases": [
+      "gm",
+      "business general manager",
+      "senior general manager",
+      "sr. general manager"
+    ]
+  },
+  {
+    "canonical": "Genetic Counselor",
+    "function": "healthcare",
+    "aliases": [
+      "genetics counselor"
+    ]
+  },
+  {
+    "canonical": "Geologist",
+    "function": "science",
+    "aliases": [
+      "geoscientist",
+      "hydrogeologist",
+      "field geologist"
+    ]
+  },
+  {
+    "canonical": "Geotechnical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "geotech engineer"
+    ]
+  },
+  {
+    "canonical": "Geriatric Physician",
+    "function": "healthcare",
+    "aliases": [
+      "geriatric doctor",
+      "geriatric specialist physician"
+    ]
+  },
+  {
+    "canonical": "GIS Analyst",
+    "function": "data",
+    "aliases": [
+      "gis specialist",
+      "gis technician",
+      "gis developer",
+      "geospatial analyst"
+    ]
+  },
+  {
+    "canonical": "Glazier",
+    "function": "trades",
+    "aliases": [
+      "glass installer",
+      "auto glass technician",
+      "window installer"
+    ]
+  },
+  {
+    "canonical": "Golang Developer",
+    "function": "engineering",
+    "aliases": [
+      "go developer",
+      "go engineer",
+      "golang engineer"
+    ]
+  },
+  {
+    "canonical": "Government Affairs Manager",
+    "function": "public_service",
+    "aliases": [
+      "public affairs manager",
+      "government relations manager",
+      "lobbyist"
+    ]
+  },
+  {
+    "canonical": "Grant Writer",
+    "function": "business",
+    "aliases": [
+      "grants specialist",
+      "senior grant writer",
+      "sr. grant writer"
+    ]
+  },
+  {
+    "canonical": "Grants Accountant",
+    "function": "finance",
+    "aliases": [
+      "fund accountant nonprofit",
+      "grants financial analyst"
+    ]
+  },
+  {
+    "canonical": "Grants Manager",
+    "function": "operations",
+    "aliases": [
+      "grant writer",
+      "grants administrator",
+      "development coordinator nonprofit"
+    ]
+  },
+  {
+    "canonical": "Graphic Designer",
+    "function": "creative",
+    "aliases": [
+      "visual designer graphic",
+      "senior graphic designer",
+      "sr. graphic designer",
+      "visual designer print",
+      "junior graphic designer",
+      "graphic artist",
+      "production designer"
+    ]
+  },
+  {
+    "canonical": "Graphics Engineer",
+    "function": "engineering",
+    "aliases": [
+      "rendering engineer",
+      "gpu engineer",
+      "shader engineer"
+    ]
+  },
+  {
+    "canonical": "GRC Analyst",
+    "function": "engineering",
+    "aliases": [
+      "governance risk and compliance analyst",
+      "security compliance analyst",
+      "security grc manager"
+    ]
+  },
+  {
+    "canonical": "Grocery Clerk",
+    "function": "retail",
+    "aliases": [
+      "grocery associate",
+      "produce clerk",
+      "deli clerk",
+      "dairy clerk",
+      "grocery stocker"
+    ]
+  },
+  {
+    "canonical": "Groomer",
+    "function": "retail",
+    "aliases": [
+      "pet groomer",
+      "dog groomer",
+      "bather brusher"
+    ]
+  },
+  {
+    "canonical": "Growth Engineer",
+    "function": "engineering",
+    "aliases": [
+      "growth software engineer",
+      "growth hacker engineer",
+      "senior growth engineer",
+      "sr. growth engineer",
+      "experimentation engineer"
+    ]
+  },
+  {
+    "canonical": "Growth Manager",
+    "function": "business",
+    "aliases": [
+      "growth marketing manager",
+      "growth lead",
+      "senior growth manager"
+    ]
+  },
+  {
+    "canonical": "Hair Stylist",
+    "function": "retail",
+    "aliases": [
+      "hairdresser",
+      "cosmetologist",
+      "barber",
+      "salon stylist"
+    ]
+  },
+  {
+    "canonical": "Hardware Engineer",
+    "function": "engineering",
+    "aliases": [
+      "hardware developer",
+      "electrical hardware engineer",
+      "senior hardware engineer",
+      "sr. hardware engineer",
+      "hardware design engineer",
+      "pcb design engineer",
+      "asic engineer",
+      "fpga engineer"
+    ]
+  },
+  {
+    "canonical": "Hardware Security Engineer",
+    "function": "engineering",
+    "aliases": [
+      "silicon security engineer"
+    ]
+  },
+  {
+    "canonical": "Head of Engineering",
+    "function": "management",
+    "aliases": [
+      "head of eng",
+      "engineering head",
+      "senior head of engineering",
+      "sr. head of engineering"
+    ]
+  },
+  {
+    "canonical": "Health Information Technician",
+    "function": "healthcare",
+    "aliases": [
+      "health information specialist",
+      "medical records clerk",
+      "medical records specialist",
+      "him technician"
+    ]
+  },
+  {
+    "canonical": "Health Teacher",
+    "function": "education",
+    "aliases": [
+      "health instructor"
+    ]
+  },
+  {
+    "canonical": "Healthcare Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive healthcare",
+      "healthcare ae"
+    ]
+  },
+  {
+    "canonical": "Healthcare Attorney",
+    "function": "legal",
+    "aliases": [
+      "healthcare lawyer",
+      "healthcare associate attorney"
+    ]
+  },
+  {
+    "canonical": "Healthcare Recruiter",
+    "function": "operations",
+    "aliases": [
+      "healthcare recruitment specialist"
+    ]
+  },
+  {
+    "canonical": "Heavy Equipment Technician",
+    "function": "trades",
+    "aliases": [
+      "construction equipment mechanic",
+      "equipment service technician"
+    ]
+  },
+  {
+    "canonical": "History Teacher",
+    "function": "education",
+    "aliases": [
+      "history instructor"
+    ]
+  },
+  {
+    "canonical": "Home Health Aide",
+    "function": "healthcare",
+    "aliases": [
+      "hha",
+      "caregiver",
+      "home care aide",
+      "personal care aide",
+      "direct support professional"
+    ]
+  },
+  {
+    "canonical": "Home Health Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "home health rn",
+      "home health registered nurse"
+    ]
+  },
+  {
+    "canonical": "Hospice Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "hospice rn",
+      "hospice registered nurse"
+    ]
+  },
+  {
+    "canonical": "Hospital Administrator",
+    "function": "healthcare",
+    "aliases": [
+      "healthcare administrator",
+      "health services administrator"
+    ]
+  },
+  {
+    "canonical": "Hospitalist",
+    "function": "healthcare",
+    "aliases": [
+      "hospital medicine physician"
+    ]
+  },
+  {
+    "canonical": "Host",
+    "function": "retail",
+    "aliases": [
+      "hostess",
+      "restaurant host",
+      "front of house host"
+    ]
+  },
+  {
+    "canonical": "Hotel Front Desk Agent",
+    "function": "retail",
+    "aliases": [
+      "front desk agent",
+      "guest service agent",
+      "front desk associate",
+      "front desk receptionist"
+    ]
+  },
+  {
+    "canonical": "Hotel Manager",
+    "function": "retail",
+    "aliases": [
+      "hospitality manager",
+      "senior hotel manager",
+      "sr. hotel manager",
+      "hotel general manager",
+      "lodging manager",
+      "resort manager"
+    ]
+  },
+  {
+    "canonical": "Housekeeper",
+    "function": "retail",
+    "aliases": [
+      "room attendant",
+      "housekeeping attendant",
+      "hotel housekeeper",
+      "cleaner"
+    ]
+  },
+  {
+    "canonical": "HR Business Partner",
+    "function": "business",
+    "aliases": [
+      "hrbp",
+      "people business partner",
+      "senior hr business partner",
+      "sr. hr business partner"
+    ]
+  },
+  {
+    "canonical": "HR Manager",
+    "function": "business",
+    "aliases": [
+      "human resources manager",
+      "people manager hr",
+      "senior hr manager"
+    ]
+  },
+  {
+    "canonical": "HSE Coordinator",
+    "function": "operations",
+    "aliases": [
+      "health safety and environmental coordinator",
+      "ehs coordinator",
+      "hse manager",
+      "ehs manager",
+      "safety coordinator",
+      "environmental health and safety specialist"
+    ]
+  },
+  {
+    "canonical": "Human Resources Business Partner",
+    "function": "operations",
+    "aliases": [
+      "hrbp",
+      "hr business partner",
+      "people business partner",
+      "senior hrbp"
+    ]
+  },
+  {
+    "canonical": "Human Resources Coordinator",
+    "function": "operations",
+    "aliases": [
+      "hr coordinator",
+      "hr assistant",
+      "people operations coordinator",
+      "hr administrator"
+    ]
+  },
+  {
+    "canonical": "Human Resources Director",
+    "function": "operations",
+    "aliases": [
+      "hr director",
+      "vp of people",
+      "chief people officer",
+      "vp of human resources",
+      "head of people",
+      "chro"
+    ]
+  },
+  {
+    "canonical": "Human Resources Generalist",
+    "function": "operations",
+    "aliases": [
+      "hr generalist",
+      "human resources specialist",
+      "hr specialist",
+      "people operations generalist"
+    ]
+  },
+  {
+    "canonical": "HVAC Technician",
+    "function": "trades",
+    "aliases": [
+      "hvac tech",
+      "senior hvac technician",
+      "sr. hvac technician",
+      "hvac installer",
+      "hvac service technician",
+      "hvac mechanic"
+    ]
+  },
+  {
+    "canonical": "ICU Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "icu rn",
+      "icu registered nurse"
+    ]
+  },
+  {
+    "canonical": "Identity Engineer",
+    "function": "engineering",
+    "aliases": [
+      "iam engineer",
+      "identity and access engineer",
+      "senior identity engineer",
+      "sr. identity engineer",
+      "identity and access management engineer",
+      "identity architect"
+    ]
+  },
+  {
+    "canonical": "Illustrator",
+    "function": "design",
+    "aliases": [
+      "digital illustrator",
+      "senior illustrator",
+      "sr. illustrator"
+    ]
+  },
+  {
+    "canonical": "Immigration Attorney",
+    "function": "legal",
+    "aliases": [
+      "immigration lawyer",
+      "immigration associate attorney"
+    ]
+  },
+  {
+    "canonical": "Immigration Officer",
+    "function": "public_service",
+    "aliases": [
+      "immigration services officer",
+      "asylum officer"
+    ]
+  },
+  {
+    "canonical": "Implementation Consultant",
+    "function": "engineering",
+    "aliases": [
+      "implementation specialist consultant",
+      "senior implementation consultant",
+      "sr. implementation consultant",
+      "implementation specialist",
+      "onboarding consultant",
+      "deployment consultant",
+      "professional services consultant"
+    ]
+  },
+  {
+    "canonical": "Implementation Engineer",
+    "function": "engineering",
+    "aliases": [
+      "implementation specialist",
+      "implementation consultant",
+      "senior implementation engineer",
+      "senior implementation eng",
+      "sr implementation engineer",
+      "sr implementation eng",
+      "staff implementation engineer",
+      "staff implementation eng",
+      "principal implementation engineer",
+      "principal implementation eng",
+      "lead implementation engineer",
+      "lead implementation eng"
+    ]
+  },
+  {
+    "canonical": "Incident Manager",
+    "function": "devops",
+    "aliases": [
+      "incident response manager",
+      "senior incident manager",
+      "sr. incident manager"
+    ]
+  },
+  {
+    "canonical": "Incident Response Analyst",
+    "function": "engineering",
+    "aliases": [
+      "incident responder",
+      "dfir analyst",
+      "csirt analyst"
+    ]
+  },
+  {
+    "canonical": "Industrial Designer",
+    "function": "design",
+    "aliases": [
+      "product industrial designer",
+      "senior industrial designer",
+      "sr. industrial designer"
+    ]
+  },
+  {
+    "canonical": "Industrial Engineer",
+    "function": "engineering",
+    "aliases": [
+      "process improvement engineer",
+      "manufacturing systems engineer"
+    ]
+  },
+  {
+    "canonical": "Infection Preventionist",
+    "function": "healthcare",
+    "aliases": [
+      "infection control nurse",
+      "infection control practitioner"
+    ]
+  },
+  {
+    "canonical": "Infrastructure Engineer",
+    "function": "engineering",
+    "aliases": [
+      "infra engineer",
+      "infrastructure developer",
+      "swe infrastructure",
+      "senior infrastructure engineer",
+      "senior infrastructure eng",
+      "sr infrastructure engineer",
+      "sr infrastructure eng",
+      "staff infrastructure engineer",
+      "staff infrastructure eng",
+      "principal infrastructure engineer",
+      "principal infrastructure eng",
+      "lead infrastructure engineer",
+      "lead infrastructure eng"
+    ]
+  },
+  {
+    "canonical": "Infusion Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "infusion rn",
+      "infusion registered nurse"
+    ]
+  },
+  {
+    "canonical": "Inside Sales Manager",
+    "function": "sales",
+    "aliases": [
+      "inside sales supervisor",
+      "manager of inside sales"
+    ]
+  },
+  {
+    "canonical": "Installation Technician",
+    "function": "trades",
+    "aliases": [
+      "installer",
+      "install technician",
+      "cable technician",
+      "solar installer"
+    ]
+  },
+  {
+    "canonical": "Instructional Designer",
+    "function": "education",
+    "aliases": [
+      "l&d designer",
+      "learning designer",
+      "senior instructional designer",
+      "sr. instructional designer",
+      "curriculum designer",
+      "learning experience designer",
+      "curriculum developer"
+    ]
+  },
+  {
+    "canonical": "Insulation Installer",
+    "function": "trades",
+    "aliases": [
+      "insulator",
+      "weatherization technician"
+    ]
+  },
+  {
+    "canonical": "Insurance Account Manager",
+    "function": "finance",
+    "aliases": [
+      "commercial lines account manager",
+      "personal lines account manager",
+      "insurance csr"
+    ]
+  },
+  {
+    "canonical": "Insurance Agent",
+    "function": "finance",
+    "aliases": [
+      "insurance broker",
+      "insurance producer",
+      "licensed insurance agent",
+      "insurance sales agent"
+    ]
+  },
+  {
+    "canonical": "Insurance Claims Processor",
+    "function": "finance",
+    "aliases": [
+      "claims processor",
+      "claims clerk",
+      "claims coordinator"
+    ]
+  },
+  {
+    "canonical": "Integration Developer",
+    "function": "engineering",
+    "aliases": [
+      "mulesoft developer",
+      "boomi developer",
+      "api integration developer",
+      "middleware developer",
+      "edi developer",
+      "edi analyst"
+    ]
+  },
+  {
+    "canonical": "Integration Engineer",
+    "function": "engineering",
+    "aliases": [
+      "integrations engineer",
+      "api integration engineer",
+      "senior integration engineer",
+      "senior integration eng",
+      "sr integration engineer",
+      "sr integration eng",
+      "staff integration engineer",
+      "staff integration eng",
+      "principal integration engineer",
+      "principal integration eng",
+      "lead integration engineer",
+      "lead integration eng"
+    ]
+  },
+  {
+    "canonical": "Interior Designer",
+    "function": "design",
+    "aliases": [
+      "interior design",
+      "senior interior designer",
+      "sr. interior designer"
+    ]
+  },
+  {
+    "canonical": "Internal Communications Manager",
+    "function": "business",
+    "aliases": [
+      "employee communications",
+      "senior internal communications manager",
+      "sr. internal communications manager"
+    ]
+  },
+  {
+    "canonical": "Internal Medicine Physician",
+    "function": "healthcare",
+    "aliases": [
+      "internist",
+      "internal medicine doctor"
+    ]
+  },
+  {
+    "canonical": "Intervention Specialist",
+    "function": "healthcare",
+    "aliases": [
+      "behavior intervention specialist",
+      "early intervention specialist"
+    ]
+  },
+  {
+    "canonical": "Inventory Analyst",
+    "function": "business",
+    "aliases": [
+      "inventory control analyst",
+      "senior inventory analyst",
+      "sr. inventory analyst"
+    ]
+  },
+  {
+    "canonical": "Inventory Manager",
+    "function": "logistics",
+    "aliases": [
+      "inventory supervisor",
+      "manager of inventory"
+    ]
+  },
+  {
+    "canonical": "Inventory Specialist",
+    "function": "logistics",
+    "aliases": [
+      "inventory control specialist",
+      "inventory analyst",
+      "inventory coordinator",
+      "stock associate",
+      "stocker"
+    ]
+  },
+  {
+    "canonical": "Investment Analyst",
+    "function": "finance",
+    "aliases": [
+      "equity research analyst",
+      "senior investment analyst",
+      "sr. investment analyst",
+      "research analyst finance",
+      "investment associate",
+      "private equity analyst",
+      "venture capital analyst"
+    ]
+  },
+  {
+    "canonical": "Investment Banking Analyst",
+    "function": "finance",
+    "aliases": [
+      "investment banking associate",
+      "ib analyst",
+      "m&a analyst"
+    ]
+  },
+  {
+    "canonical": "Investor Relations Manager",
+    "function": "finance",
+    "aliases": [
+      "investor relations analyst",
+      "ir manager",
+      "shareholder relations"
+    ]
+  },
+  {
+    "canonical": "Ironworker",
+    "function": "trades",
+    "aliases": [
+      "structural ironworker",
+      "rebar worker",
+      "steel erector"
+    ]
+  },
+  {
+    "canonical": "IT Manager",
+    "function": "engineering",
+    "aliases": [
+      "information technology manager",
+      "it operations manager",
+      "senior it manager",
+      "sr. it manager",
+      "it director",
+      "director of it",
+      "vp of it"
+    ]
+  },
+  {
+    "canonical": "IT Support Specialist",
+    "function": "engineering",
+    "aliases": [
+      "help desk specialist",
+      "desktop support",
+      "senior it support specialist",
+      "sr. it support specialist",
+      "help desk technician",
+      "helpdesk analyst",
+      "it technician",
+      "desktop support technician",
+      "it support analyst",
+      "service desk analyst",
+      "technical support specialist",
+      "it help desk"
+    ]
+  },
+  {
+    "canonical": "Janitor",
+    "function": "business",
+    "aliases": [
+      "custodian",
+      "cleaner",
+      "senior janitor",
+      "sr. janitor"
+    ]
+  },
+  {
+    "canonical": "Java Developer",
+    "function": "engineering",
+    "aliases": [
+      "java engineer",
+      "java software engineer",
+      "j2ee developer",
+      "spring developer"
+    ]
+  },
+  {
+    "canonical": "Jeweler",
+    "function": "retail",
+    "aliases": [
+      "jewelry consultant",
+      "bench jeweler",
+      "jewelry sales associate"
+    ]
+  },
+  {
+    "canonical": "Journalist",
+    "function": "creative",
+    "aliases": [
+      "reporter",
+      "news writer",
+      "senior journalist",
+      "sr. journalist",
+      "staff writer",
+      "news reporter",
+      "correspondent"
+    ]
+  },
+  {
+    "canonical": "Kennel Technician",
+    "function": "healthcare",
+    "aliases": [
+      "kennel attendant",
+      "animal care technician",
+      "animal caretaker",
+      "pet care specialist"
+    ]
+  },
+  {
+    "canonical": "Kindergarten Teacher",
+    "function": "education",
+    "aliases": [
+      "kindergarten instructor"
+    ]
+  },
+  {
+    "canonical": "Kitchen Manager",
+    "function": "retail",
+    "aliases": [
+      "back of house manager",
+      "culinary manager"
+    ]
+  },
+  {
+    "canonical": "Kotlin Developer",
+    "function": "engineering",
+    "aliases": [
+      "kotlin engineer"
+    ]
+  },
+  {
+    "canonical": "Kubernetes Engineer",
+    "function": "devops",
+    "aliases": [
+      "k8s engineer",
+      "kubernetes developer",
+      "senior kubernetes engineer",
+      "senior kubernetes eng",
+      "sr kubernetes engineer",
+      "sr kubernetes eng",
+      "staff kubernetes engineer",
+      "staff kubernetes eng",
+      "principal kubernetes engineer",
+      "principal kubernetes eng",
+      "lead kubernetes engineer",
+      "lead kubernetes eng"
+    ]
+  },
+  {
+    "canonical": "Lab Manager",
+    "function": "business",
+    "aliases": [
+      "laboratory manager",
+      "senior lab manager",
+      "sr. lab manager"
+    ]
+  },
+  {
+    "canonical": "Lab Technician",
+    "function": "business",
+    "aliases": [
+      "laboratory technician",
+      "senior lab technician",
+      "sr. lab technician"
+    ]
+  },
+  {
+    "canonical": "Lab Technician (Science)",
+    "function": "science",
+    "aliases": [
+      "laboratory assistant",
+      "research technician",
+      "lab assistant",
+      "r&d technician"
+    ]
+  },
+  {
+    "canonical": "Labor and Delivery Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "labor and delivery rn",
+      "labor and delivery registered nurse"
+    ]
+  },
+  {
+    "canonical": "Lactation Consultant",
+    "function": "healthcare",
+    "aliases": [
+      "ibclc",
+      "lactation specialist"
+    ]
+  },
+  {
+    "canonical": "Landscaper",
+    "function": "trades",
+    "aliases": [
+      "groundskeeper",
+      "landscape technician",
+      "lawn technician",
+      "grounds maintenance"
+    ]
+  },
+  {
+    "canonical": "Lean Engineer",
+    "function": "engineering",
+    "aliases": [
+      "continuous improvement engineer",
+      "six sigma engineer",
+      "senior lean engineer",
+      "sr. lean engineer"
+    ]
+  },
+  {
+    "canonical": "Leasing Consultant",
+    "function": "operations",
+    "aliases": [
+      "leasing agent",
+      "leasing specialist",
+      "leasing associate"
+    ]
+  },
+  {
+    "canonical": "Legal Assistant",
+    "function": "legal",
+    "aliases": [
+      "legal secretary",
+      "litigation assistant",
+      "presuit secretary",
+      "legal administrative assistant"
+    ]
+  },
+  {
+    "canonical": "Legal Counsel",
+    "function": "business",
+    "aliases": [
+      "corporate counsel",
+      "attorney",
+      "senior legal counsel",
+      "sr. legal counsel"
+    ]
+  },
+  {
+    "canonical": "Legal Engineer",
+    "function": "legal",
+    "aliases": [
+      "legal technologist",
+      "legal solutions engineer"
+    ]
+  },
+  {
+    "canonical": "Librarian",
+    "function": "education",
+    "aliases": [
+      "research librarian",
+      "senior librarian",
+      "sr. librarian",
+      "library assistant",
+      "media specialist"
+    ]
+  },
+  {
+    "canonical": "Licensed Practical Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "lpn",
+      "lvn",
+      "licensed vocational nurse"
+    ]
+  },
+  {
+    "canonical": "Lifecycle Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "crm marketing manager",
+      "email marketing manager",
+      "senior lifecycle marketing manager",
+      "sr. lifecycle marketing manager"
+    ]
+  },
+  {
+    "canonical": "Lifeguard",
+    "function": "retail",
+    "aliases": [
+      "pool lifeguard",
+      "aquatics attendant",
+      "swim instructor"
+    ]
+  },
+  {
+    "canonical": "Lineworker",
+    "function": "trades",
+    "aliases": [
+      "lineman",
+      "electrical lineworker",
+      "powerline technician",
+      "utility lineworker"
+    ]
+  },
+  {
+    "canonical": "Linux Engineer",
+    "function": "engineering",
+    "aliases": [
+      "linux systems engineer",
+      "linux administrator",
+      "unix engineer",
+      "unix administrator"
+    ]
+  },
+  {
+    "canonical": "Litigation Attorney",
+    "function": "legal",
+    "aliases": [
+      "litigation associate",
+      "trial attorney",
+      "litigator",
+      "workers compensation attorney",
+      "personal injury attorney",
+      "insurance defense attorney"
+    ]
+  },
+  {
+    "canonical": "Loan Officer",
+    "function": "finance",
+    "aliases": [
+      "mortgage loan officer",
+      "senior loan officer",
+      "sr. loan officer",
+      "loan originator",
+      "commercial loan officer",
+      "loan processor"
+    ]
+  },
+  {
+    "canonical": "Lobbyist",
+    "function": "business",
+    "aliases": [
+      "government affairs",
+      "senior lobbyist",
+      "sr. lobbyist"
+    ]
+  },
+  {
+    "canonical": "Localization Engineer",
+    "function": "engineering",
+    "aliases": [
+      "internationalization engineer",
+      "i18n engineer"
+    ]
+  },
+  {
+    "canonical": "Locksmith",
+    "function": "trades",
+    "aliases": []
+  },
+  {
+    "canonical": "Logistics Coordinator",
+    "function": "logistics",
+    "aliases": [
+      "shipping coordinator",
+      "senior logistics coordinator",
+      "sr. logistics coordinator",
+      "logistics associate",
+      "logistics specialist",
+      "transportation coordinator",
+      "freight coordinator"
+    ]
+  },
+  {
+    "canonical": "Logistics Manager",
+    "function": "logistics",
+    "aliases": [
+      "logistics",
+      "senior logistics manager",
+      "sr. logistics manager",
+      "transportation manager",
+      "distribution manager",
+      "fleet manager"
+    ]
+  },
+  {
+    "canonical": "Loss Prevention Manager",
+    "function": "retail",
+    "aliases": [
+      "loss prevention supervisor",
+      "manager of loss prevention"
+    ]
+  },
+  {
+    "canonical": "Low-Code Developer",
+    "function": "engineering",
+    "aliases": [
+      "power platform developer",
+      "powerapps developer",
+      "appian developer",
+      "outsystems developer"
+    ]
+  },
+  {
+    "canonical": "Machine Learning Engineer",
+    "function": "data",
+    "aliases": [
+      "ml engineer",
+      "ml eng",
+      "machine learning eng",
+      "mle",
+      "senior machine learning engineer",
+      "sr machine learning engineer",
+      "staff machine learning engineer"
+    ]
+  },
+  {
+    "canonical": "Machinist",
+    "function": "trades",
+    "aliases": [
+      "cnc machinist",
+      "senior machinist",
+      "sr. machinist",
+      "manual machinist",
+      "tool and die maker"
+    ]
+  },
+  {
+    "canonical": "Mainframe Developer",
+    "function": "engineering",
+    "aliases": [
+      "cobol developer",
+      "mainframe engineer",
+      "as400 developer",
+      "rpg developer"
+    ]
+  },
+  {
+    "canonical": "Maintenance Manager",
+    "function": "trades",
+    "aliases": [
+      "maintenance supervisor",
+      "manager of maintenance"
+    ]
+  },
+  {
+    "canonical": "Maintenance Technician",
+    "function": "trades",
+    "aliases": [
+      "facilities technician",
+      "building maintenance",
+      "senior maintenance technician",
+      "sr. maintenance technician",
+      "facilities maintenance technician",
+      "building maintenance technician",
+      "maintenance mechanic",
+      "industrial maintenance technician"
+    ]
+  },
+  {
+    "canonical": "Mammography Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "mammographer"
+    ]
+  },
+  {
+    "canonical": "Management Consultant",
+    "function": "business",
+    "aliases": [
+      "consultant",
+      "strategy consultant",
+      "senior management consultant",
+      "sr. management consultant"
+    ]
+  },
+  {
+    "canonical": "Manager Trainee",
+    "function": "retail",
+    "aliases": [
+      "manager in training",
+      "assistant manager trainee",
+      "management trainee"
+    ]
+  },
+  {
+    "canonical": "Manufacturing Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive manufacturing",
+      "manufacturing ae"
+    ]
+  },
+  {
+    "canonical": "Manufacturing Engineer",
+    "function": "engineering",
+    "aliases": [
+      "process manufacturing engineer",
+      "senior manufacturing engineer",
+      "sr. manufacturing engineer",
+      "production engineer",
+      "process engineer manufacturing"
+    ]
+  },
+  {
+    "canonical": "Manufacturing Manager",
+    "function": "operations",
+    "aliases": [
+      "manufacturing supervisor",
+      "manager of manufacturing"
+    ]
+  },
+  {
+    "canonical": "Market Research Analyst",
+    "function": "marketing",
+    "aliases": [
+      "consumer insights analyst",
+      "shopper insights manager",
+      "insights analyst",
+      "market intelligence analyst",
+      "consumer insights manager"
+    ]
+  },
+  {
+    "canonical": "Marketing Coordinator",
+    "function": "marketing",
+    "aliases": [
+      "marketing assistant",
+      "marketing associate",
+      "marketing specialist"
+    ]
+  },
+  {
+    "canonical": "Marketing Director",
+    "function": "marketing",
+    "aliases": [
+      "vp of marketing",
+      "head of marketing",
+      "cmo",
+      "chief marketing officer",
+      "vice president of marketing"
+    ]
+  },
+  {
+    "canonical": "Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "digital marketing manager",
+      "marketing mgr",
+      "senior marketing manager"
+    ]
+  },
+  {
+    "canonical": "Marketing Operations Manager",
+    "function": "business",
+    "aliases": [
+      "mops",
+      "marketing ops",
+      "senior marketing operations manager",
+      "sr. marketing operations manager"
+    ]
+  },
+  {
+    "canonical": "Massage Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "licensed massage therapist",
+      "lmt"
+    ]
+  },
+  {
+    "canonical": "Materials Engineer",
+    "function": "engineering",
+    "aliases": [
+      "materials science engineer",
+      "senior materials engineer",
+      "sr. materials engineer"
+    ]
+  },
+  {
+    "canonical": "Materials Scientist",
+    "function": "science",
+    "aliases": [
+      "materials engineer",
+      "polymer scientist",
+      "metallurgist"
+    ]
+  },
+  {
+    "canonical": "Math Teacher",
+    "function": "education",
+    "aliases": [
+      "mathematics teacher"
+    ]
+  },
+  {
+    "canonical": "Mechanical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "mech engineer",
+      "senior mechanical engineer",
+      "sr. mechanical engineer",
+      "mechanical design engineer",
+      "hvac engineer",
+      "product mechanical engineer"
+    ]
+  },
+  {
+    "canonical": "Med Surg Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "med surg rn",
+      "med surg registered nurse"
+    ]
+  },
+  {
+    "canonical": "Medical Assistant",
+    "function": "healthcare",
+    "aliases": [
+      "ma",
+      "certified medical assistant",
+      "clinical assistant"
+    ]
+  },
+  {
+    "canonical": "Medical Biller",
+    "function": "healthcare",
+    "aliases": [
+      "medical billing specialist",
+      "medical coder",
+      "billing and coding specialist"
+    ]
+  },
+  {
+    "canonical": "Medical Director",
+    "function": "healthcare",
+    "aliases": [
+      "clinical medical director",
+      "senior medical director",
+      "sr. medical director",
+      "associate medical director",
+      "regional medical director",
+      "chief medical officer",
+      "cmo medical"
+    ]
+  },
+  {
+    "canonical": "Medical Laboratory Technician",
+    "function": "healthcare",
+    "aliases": [
+      "lab technician",
+      "medical lab tech",
+      "laboratory technologist",
+      "clinical laboratory scientist"
+    ]
+  },
+  {
+    "canonical": "Medical Receptionist",
+    "function": "healthcare",
+    "aliases": [
+      "front desk medical receptionist",
+      "patient service representative",
+      "patient access representative"
+    ]
+  },
+  {
+    "canonical": "Mental Health Technician",
+    "function": "healthcare",
+    "aliases": [
+      "psychiatric technician",
+      "behavioral health technician",
+      "mental health associate",
+      "psych tech"
+    ]
+  },
+  {
+    "canonical": "Merchandiser",
+    "function": "retail",
+    "aliases": [
+      "visual merchandiser",
+      "senior merchandiser",
+      "sr. merchandiser",
+      "retail merchandiser",
+      "merchandising associate"
+    ]
+  },
+  {
+    "canonical": "Merchandising Manager",
+    "function": "retail",
+    "aliases": [
+      "merchandising supervisor",
+      "manager of merchandising"
+    ]
+  },
+  {
+    "canonical": "Midwife",
+    "function": "healthcare",
+    "aliases": [
+      "certified nurse midwife",
+      "cnm"
+    ]
+  },
+  {
+    "canonical": "Military Officer",
+    "function": "business",
+    "aliases": [
+      "commissioned officer",
+      "senior military officer",
+      "sr. military officer"
+    ]
+  },
+  {
+    "canonical": "Millwright",
+    "function": "trades",
+    "aliases": [
+      "industrial millwright",
+      "maintenance millwright"
+    ]
+  },
+  {
+    "canonical": "ML Platform Engineer",
+    "function": "data",
+    "aliases": [
+      "mlops engineer",
+      "ml infra engineer",
+      "ml platform",
+      "senior ml platform engineer",
+      "sr ml platform engineer",
+      "staff ml platform engineer"
+    ]
+  },
+  {
+    "canonical": "ML Research Scientist",
+    "function": "data",
+    "aliases": [
+      "machine learning researcher",
+      "senior ml research scientist",
+      "sr. ml research scientist"
+    ]
+  },
+  {
+    "canonical": "MLOps Engineer",
+    "function": "engineering",
+    "aliases": [
+      "ml infrastructure engineer",
+      "ml ops engineer",
+      "ml platform developer"
+    ]
+  },
+  {
+    "canonical": "Mobile Engineer",
+    "function": "engineering",
+    "aliases": [
+      "mobile developer",
+      "mobile software engineer",
+      "react native engineer",
+      "senior mobile engineer",
+      "sr. mobile engineer"
+    ]
+  },
+  {
+    "canonical": "Mobile Engineer (Android)",
+    "function": "engineering",
+    "aliases": [
+      "android engineer",
+      "android developer",
+      "kotlin engineer",
+      "android software engineer",
+      "senior mobile engineer (android)",
+      "senior mobile eng (android)",
+      "sr mobile engineer (android)",
+      "sr mobile eng (android)",
+      "staff mobile engineer (android)",
+      "staff mobile eng (android)",
+      "principal mobile engineer (android)",
+      "principal mobile eng (android)",
+      "lead mobile engineer (android)",
+      "lead mobile eng (android)"
+    ]
+  },
+  {
+    "canonical": "Mobile Engineer (iOS)",
+    "function": "engineering",
+    "aliases": [
+      "ios engineer",
+      "ios developer",
+      "iphone developer",
+      "swift engineer",
+      "ios software engineer",
+      "senior mobile engineer (ios)",
+      "senior mobile eng (ios)",
+      "sr mobile engineer (ios)",
+      "sr mobile eng (ios)",
+      "staff mobile engineer (ios)",
+      "staff mobile eng (ios)",
+      "principal mobile engineer (ios)",
+      "principal mobile eng (ios)",
+      "lead mobile engineer (ios)",
+      "lead mobile eng (ios)"
+    ]
+  },
+  {
+    "canonical": "Mortgage Processor",
+    "function": "finance",
+    "aliases": [
+      "loan processor mortgage",
+      "mortgage loan processor",
+      "loan closer",
+      "mortgage closer"
+    ]
+  },
+  {
+    "canonical": "Motion Designer",
+    "function": "design",
+    "aliases": [
+      "motion graphics designer",
+      "senior motion designer",
+      "sr. motion designer"
+    ]
+  },
+  {
+    "canonical": "Mover",
+    "function": "logistics",
+    "aliases": [
+      "moving crew member",
+      "furniture mover",
+      "relocation specialist"
+    ]
+  },
+  {
+    "canonical": "MRI Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "mri tech",
+      "magnetic resonance technologist"
+    ]
+  },
+  {
+    "canonical": "Museum Curator",
+    "function": "public_service",
+    "aliases": [
+      "curator",
+      "collections manager museum",
+      "exhibitions manager"
+    ]
+  },
+  {
+    "canonical": "Music Teacher",
+    "function": "education",
+    "aliases": [
+      "piano teacher",
+      "guitar teacher",
+      "voice teacher",
+      "music instructor"
+    ]
+  },
+  {
+    "canonical": "Music Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "board certified music therapist"
+    ]
+  },
+  {
+    "canonical": "Nail Technician",
+    "function": "retail",
+    "aliases": [
+      "manicurist",
+      "nail artist"
+    ]
+  },
+  {
+    "canonical": "Nephrology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "nephrology doctor",
+      "nephrology specialist physician"
+    ]
+  },
+  {
+    "canonical": "Network Administrator",
+    "function": "devops",
+    "aliases": [
+      "network admin",
+      "senior network administrator",
+      "sr. network administrator"
+    ]
+  },
+  {
+    "canonical": "Network Engineer",
+    "function": "devops",
+    "aliases": [
+      "networking engineer",
+      "network systems engineer",
+      "senior network engineer",
+      "senior network eng",
+      "sr network engineer",
+      "sr network eng",
+      "staff network engineer",
+      "staff network eng",
+      "principal network engineer",
+      "principal network eng",
+      "lead network engineer",
+      "lead network eng"
+    ]
+  },
+  {
+    "canonical": "Neurology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "neurology doctor",
+      "neurology specialist physician"
+    ]
+  },
+  {
+    "canonical": "NICU Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "nicu rn",
+      "nicu registered nurse"
+    ]
+  },
+  {
+    "canonical": "NLP Engineer",
+    "function": "data",
+    "aliases": [
+      "natural language processing engineer",
+      "nlp scientist",
+      "senior nlp engineer",
+      "sr nlp engineer",
+      "staff nlp engineer"
+    ]
+  },
+  {
+    "canonical": "NOC Technician",
+    "function": "engineering",
+    "aliases": [
+      "noc engineer",
+      "noc analyst",
+      "network operations technician"
+    ]
+  },
+  {
+    "canonical": "Node.js Developer",
+    "function": "engineering",
+    "aliases": [
+      "node developer",
+      "nodejs engineer",
+      "node engineer"
+    ]
+  },
+  {
+    "canonical": "Nonprofit Manager",
+    "function": "business",
+    "aliases": [
+      "nonprofit program manager",
+      "senior nonprofit manager",
+      "sr. nonprofit manager"
+    ]
+  },
+  {
+    "canonical": "Nuclear Medicine Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "nuc med tech"
+    ]
+  },
+  {
+    "canonical": "Nurse Manager",
+    "function": "healthcare",
+    "aliases": [
+      "nursing manager",
+      "director of nursing",
+      "nursing supervisor"
+    ]
+  },
+  {
+    "canonical": "Nurse Practitioner",
+    "function": "healthcare",
+    "aliases": [
+      "np",
+      "senior nurse practitioner",
+      "sr. nurse practitioner",
+      "family nurse practitioner",
+      "fnp",
+      "aprn",
+      "psychiatric nurse practitioner"
+    ]
+  },
+  {
+    "canonical": "OB/GYN Physician",
+    "function": "healthcare",
+    "aliases": [
+      "obgyn",
+      "obstetrician gynecologist",
+      "ob gyn"
+    ]
+  },
+  {
+    "canonical": "Observability Engineer",
+    "function": "engineering",
+    "aliases": [
+      "monitoring engineer",
+      "observability",
+      "senior observability engineer",
+      "sr. observability engineer",
+      "telemetry engineer"
+    ]
+  },
+  {
+    "canonical": "Occupational Health Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "employee health nurse",
+      "workplace health nurse"
+    ]
+  },
+  {
+    "canonical": "Occupational Medicine Physician",
+    "function": "healthcare",
+    "aliases": [
+      "occupational medicine doctor",
+      "occupational medicine specialist physician"
+    ]
+  },
+  {
+    "canonical": "Occupational Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "ot"
+    ]
+  },
+  {
+    "canonical": "Office Manager",
+    "function": "operations",
+    "aliases": [
+      "office administrator",
+      "senior office manager",
+      "sr. office manager",
+      "office coordinator",
+      "front office manager"
+    ]
+  },
+  {
+    "canonical": "Oil Field Worker",
+    "function": "trades",
+    "aliases": [
+      "roustabout",
+      "roughneck",
+      "derrickhand",
+      "floorhand"
+    ]
+  },
+  {
+    "canonical": "Onboarding Manager",
+    "function": "operations",
+    "aliases": [
+      "onboarding supervisor",
+      "manager of onboarding"
+    ]
+  },
+  {
+    "canonical": "Onboarding Specialist",
+    "function": "business",
+    "aliases": [
+      "customer onboarding",
+      "senior onboarding specialist",
+      "sr. onboarding specialist"
+    ]
+  },
+  {
+    "canonical": "Oncology Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "oncology rn",
+      "oncology registered nurse"
+    ]
+  },
+  {
+    "canonical": "Oncology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "oncology doctor",
+      "oncology specialist physician"
+    ]
+  },
+  {
+    "canonical": "Operating Room Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "operating room rn",
+      "operating room registered nurse"
+    ]
+  },
+  {
+    "canonical": "Operations Analyst",
+    "function": "operations",
+    "aliases": [
+      "ops analyst",
+      "business operations analyst",
+      "senior operations analyst",
+      "sr. operations analyst",
+      "process analyst",
+      "operations research analyst"
+    ]
+  },
+  {
+    "canonical": "Operations Associate",
+    "function": "operations",
+    "aliases": [
+      "operations coordinator",
+      "operations specialist",
+      "business operations associate",
+      "ops associate"
+    ]
+  },
+  {
+    "canonical": "Operations Manager",
+    "function": "operations",
+    "aliases": [
+      "ops manager",
+      "business operations manager",
+      "senior operations manager",
+      "general operations manager",
+      "team lead market operations",
+      "market operations lead",
+      "bizops manager",
+      "business operations lead"
+    ]
+  },
+  {
+    "canonical": "Optical Engineer",
+    "function": "engineering",
+    "aliases": [
+      "photonics engineer",
+      "senior optical engineer",
+      "sr. optical engineer"
+    ]
+  },
+  {
+    "canonical": "Optical Lab Technician",
+    "function": "healthcare",
+    "aliases": [
+      "lens technician",
+      "optical laboratory technician"
+    ]
+  },
+  {
+    "canonical": "Optician",
+    "function": "retail",
+    "aliases": [
+      "optical technician",
+      "eyewear consultant",
+      "optical associate"
+    ]
+  },
+  {
+    "canonical": "Optometric Technician",
+    "function": "healthcare",
+    "aliases": [
+      "ophthalmic technician",
+      "ophthalmic assistant",
+      "optometric assistant"
+    ]
+  },
+  {
+    "canonical": "Optometrist",
+    "function": "healthcare",
+    "aliases": [
+      "od"
+    ]
+  },
+  {
+    "canonical": "Oral Surgeon",
+    "function": "healthcare",
+    "aliases": [
+      "oral and maxillofacial surgeon"
+    ]
+  },
+  {
+    "canonical": "Orthodontist",
+    "function": "healthcare",
+    "aliases": [
+      "orthodontics dentist"
+    ]
+  },
+  {
+    "canonical": "Orthopedic Physician",
+    "function": "healthcare",
+    "aliases": [
+      "orthopedic doctor",
+      "orthopedic specialist physician"
+    ]
+  },
+  {
+    "canonical": "Orthopedic Technician",
+    "function": "healthcare",
+    "aliases": [
+      "cast technician",
+      "orthopaedic technologist"
+    ]
+  },
+  {
+    "canonical": "Packaging Engineer",
+    "function": "engineering",
+    "aliases": [
+      "product packaging engineer",
+      "senior packaging engineer",
+      "sr. packaging engineer"
+    ]
+  },
+  {
+    "canonical": "PACU Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "pacu rn",
+      "pacu registered nurse"
+    ]
+  },
+  {
+    "canonical": "Pain Management Physician",
+    "function": "healthcare",
+    "aliases": [
+      "pain management doctor",
+      "pain management specialist physician"
+    ]
+  },
+  {
+    "canonical": "Painter",
+    "function": "trades",
+    "aliases": [
+      "industrial painter",
+      "automotive painter"
+    ]
+  },
+  {
+    "canonical": "Palliative Care Physician",
+    "function": "healthcare",
+    "aliases": [
+      "palliative care doctor",
+      "palliative care specialist physician"
+    ]
+  },
+  {
+    "canonical": "Paralegal",
+    "function": "legal",
+    "aliases": [
+      "legal assistant",
+      "senior paralegal",
+      "sr. paralegal",
+      "litigation paralegal",
+      "corporate paralegal",
+      "personal injury paralegal",
+      "presuit paralegal"
+    ]
+  },
+  {
+    "canonical": "Paramedic",
+    "function": "healthcare",
+    "aliases": [
+      "emt paramedic",
+      "senior paramedic",
+      "sr. paramedic",
+      "emt",
+      "emergency medical technician"
+    ]
+  },
+  {
+    "canonical": "Park Ranger",
+    "function": "public_service",
+    "aliases": [
+      "forest ranger",
+      "conservation officer"
+    ]
+  },
+  {
+    "canonical": "Partner Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "channel marketing",
+      "senior partner marketing manager",
+      "sr. partner marketing manager"
+    ]
+  },
+  {
+    "canonical": "Partnerships Manager",
+    "function": "business",
+    "aliases": [
+      "strategic partnerships",
+      "partner manager",
+      "senior partnerships manager",
+      "sr. partnerships manager"
+    ]
+  },
+  {
+    "canonical": "Patent Attorney",
+    "function": "legal",
+    "aliases": [
+      "ip attorney",
+      "intellectual property attorney",
+      "patent agent"
+    ]
+  },
+  {
+    "canonical": "Patient Navigator",
+    "function": "healthcare",
+    "aliases": [
+      "patient advocate",
+      "patient liaison",
+      "health navigator"
+    ]
+  },
+  {
+    "canonical": "Patient Services Manager",
+    "function": "healthcare",
+    "aliases": [
+      "patient services supervisor",
+      "manager of patient services"
+    ]
+  },
+  {
+    "canonical": "Payments Engineer",
+    "function": "engineering",
+    "aliases": [
+      "fintech engineer",
+      "payment systems engineer"
+    ]
+  },
+  {
+    "canonical": "Payroll Specialist",
+    "function": "finance",
+    "aliases": [
+      "payroll administrator",
+      "senior payroll specialist",
+      "sr. payroll specialist",
+      "payroll coordinator",
+      "payroll manager",
+      "payroll analyst"
+    ]
+  },
+  {
+    "canonical": "Payroll Tax Analyst",
+    "function": "finance",
+    "aliases": [
+      "payroll tax specialist",
+      "employment tax analyst"
+    ]
+  },
+  {
+    "canonical": "Pediatric Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "pediatric rn",
+      "pediatric registered nurse"
+    ]
+  },
+  {
+    "canonical": "Pediatrician",
+    "function": "healthcare",
+    "aliases": [
+      "pediatric physician",
+      "pediatrics physician"
+    ]
+  },
+  {
+    "canonical": "Penetration Tester",
+    "function": "engineering",
+    "aliases": [
+      "pentester",
+      "ethical hacker",
+      "penetration testing engineer",
+      "senior penetration tester",
+      "senior penetration tester",
+      "sr penetration tester",
+      "sr penetration tester",
+      "staff penetration tester",
+      "staff penetration tester",
+      "principal penetration tester",
+      "principal penetration tester",
+      "lead penetration tester",
+      "lead penetration tester"
+    ]
+  },
+  {
+    "canonical": "People Operations Manager",
+    "function": "business",
+    "aliases": [
+      "people ops manager",
+      "peopleops",
+      "people operations",
+      "senior people operations manager"
+    ]
+  },
+  {
+    "canonical": "Performance Engineer",
+    "function": "engineering",
+    "aliases": [
+      "perf engineer",
+      "performance software engineer",
+      "senior performance engineer",
+      "sr. performance engineer",
+      "capacity engineer"
+    ]
+  },
+  {
+    "canonical": "Performance Marketing Manager",
+    "function": "business",
+    "aliases": [
+      "paid media manager",
+      "senior performance marketing manager",
+      "sr. performance marketing manager"
+    ]
+  },
+  {
+    "canonical": "Periodontist",
+    "function": "healthcare",
+    "aliases": []
+  },
+  {
+    "canonical": "Permit Technician",
+    "function": "public_service",
+    "aliases": [
+      "permit coordinator",
+      "permit specialist",
+      "plans examiner"
+    ]
+  },
+  {
+    "canonical": "Pest Control Technician",
+    "function": "trades",
+    "aliases": [
+      "exterminator"
+    ]
+  },
+  {
+    "canonical": "Pharmacist",
+    "function": "healthcare",
+    "aliases": [
+      "staff pharmacist",
+      "clinical pharmacist",
+      "retail pharmacist"
+    ]
+  },
+  {
+    "canonical": "Pharmacy Cashier",
+    "function": "retail",
+    "aliases": [
+      "pharmacy clerk",
+      "drug store associate"
+    ]
+  },
+  {
+    "canonical": "Pharmacy Manager",
+    "function": "business",
+    "aliases": [
+      "pharmacist manager",
+      "senior pharmacy manager",
+      "sr. pharmacy manager"
+    ]
+  },
+  {
+    "canonical": "Pharmacy Technician",
+    "function": "healthcare",
+    "aliases": [
+      "pharmacy tech",
+      "certified pharmacy technician"
+    ]
+  },
+  {
+    "canonical": "Phlebotomist",
+    "function": "healthcare",
+    "aliases": [
+      "phlebotomy technician",
+      "mobile phlebotomist"
+    ]
+  },
+  {
+    "canonical": "Photographer",
+    "function": "creative",
+    "aliases": [
+      "digital photographer",
+      "senior photographer",
+      "sr. photographer",
+      "staff photographer",
+      "product photographer",
+      "studio photographer"
+    ]
+  },
+  {
+    "canonical": "PHP Developer",
+    "function": "engineering",
+    "aliases": [
+      "laravel developer",
+      "php engineer",
+      "drupal developer",
+      "magento developer"
+    ]
+  },
+  {
+    "canonical": "Physical Education Teacher",
+    "function": "education",
+    "aliases": [
+      "physical education instructor"
+    ]
+  },
+  {
+    "canonical": "Physical Medicine Physician",
+    "function": "healthcare",
+    "aliases": [
+      "physical medicine doctor",
+      "physical medicine specialist physician"
+    ]
+  },
+  {
+    "canonical": "Physical Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "pt",
+      "physiotherapist"
+    ]
+  },
+  {
+    "canonical": "Physical Therapist Assistant",
+    "function": "healthcare",
+    "aliases": [
+      "pta"
+    ]
+  },
+  {
+    "canonical": "Physician",
+    "function": "healthcare",
+    "aliases": [
+      "md",
+      "doctor",
+      "senior physician",
+      "sr. physician",
+      "medical doctor",
+      "staff physician"
+    ]
+  },
+  {
+    "canonical": "Physician Assistant",
+    "function": "healthcare",
+    "aliases": [
+      "pa",
+      "pa-c",
+      "physician associate"
+    ]
+  },
+  {
+    "canonical": "Pilot",
+    "function": "public_service",
+    "aliases": [
+      "airline pilot",
+      "commercial pilot",
+      "senior pilot",
+      "sr. pilot",
+      "first officer",
+      "captain pilot"
+    ]
+  },
+  {
+    "canonical": "Pipeline Technician",
+    "function": "trades",
+    "aliases": [
+      "gas distribution technician",
+      "pipeline operator",
+      "pipefitter",
+      "gas technician"
+    ]
+  },
+  {
+    "canonical": "Plant Manager",
+    "function": "operations",
+    "aliases": [
+      "factory manager",
+      "senior plant manager",
+      "sr. plant manager",
+      "plant supervisor",
+      "manager of plant"
+    ]
+  },
+  {
+    "canonical": "Platform Architect",
+    "function": "devops",
+    "aliases": [
+      "developer platform architect",
+      "senior platform architect",
+      "sr. platform architect"
+    ]
+  },
+  {
+    "canonical": "Platform Engineer",
+    "function": "engineering",
+    "aliases": [
+      "platform developer",
+      "developer platform engineer",
+      "internal platform engineer",
+      "senior platform engineer",
+      "senior platform eng",
+      "sr platform engineer",
+      "sr platform eng",
+      "staff platform engineer",
+      "staff platform eng",
+      "principal platform engineer",
+      "principal platform eng",
+      "lead platform engineer",
+      "lead platform eng"
+    ]
+  },
+  {
+    "canonical": "Plumber",
+    "function": "trades",
+    "aliases": [
+      "licensed plumber",
+      "senior plumber",
+      "sr. plumber",
+      "journeyman plumber",
+      "plumbing technician",
+      "apprentice plumber"
+    ]
+  },
+  {
+    "canonical": "Podiatrist",
+    "function": "healthcare",
+    "aliases": [
+      "foot and ankle specialist",
+      "dpm"
+    ]
+  },
+  {
+    "canonical": "Police Officer",
+    "function": "public_service",
+    "aliases": [
+      "law enforcement officer",
+      "senior police officer",
+      "sr. police officer",
+      "patrol officer",
+      "deputy sheriff"
+    ]
+  },
+  {
+    "canonical": "Policy Analyst",
+    "function": "public_service",
+    "aliases": [
+      "public policy analyst",
+      "senior policy analyst",
+      "sr. policy analyst",
+      "government affairs analyst",
+      "legislative analyst",
+      "policy associate"
+    ]
+  },
+  {
+    "canonical": "Pool Technician",
+    "function": "trades",
+    "aliases": [
+      "pool service technician",
+      "pool cleaner",
+      "pool maintenance"
+    ]
+  },
+  {
+    "canonical": "Portfolio Manager",
+    "function": "finance",
+    "aliases": [
+      "investment portfolio manager",
+      "senior portfolio manager",
+      "sr. portfolio manager",
+      "asset manager",
+      "investment manager",
+      "fund manager"
+    ]
+  },
+  {
+    "canonical": "Postal Worker",
+    "function": "public_service",
+    "aliases": [
+      "mail carrier",
+      "mail handler",
+      "postal clerk"
+    ]
+  },
+  {
+    "canonical": "Power Plant Operator",
+    "function": "trades",
+    "aliases": [
+      "plant operator power",
+      "control room operator",
+      "boiler operator",
+      "stationary engineer"
+    ]
+  },
+  {
+    "canonical": "PR Manager",
+    "function": "business",
+    "aliases": [
+      "public relations manager",
+      "communications manager",
+      "senior pr manager",
+      "sr. pr manager"
+    ]
+  },
+  {
+    "canonical": "Practice Manager",
+    "function": "healthcare",
+    "aliases": [
+      "medical practice manager",
+      "clinic manager",
+      "medical office manager",
+      "dental office manager"
+    ]
+  },
+  {
+    "canonical": "Preschool Teacher",
+    "function": "education",
+    "aliases": [
+      "early childhood teacher",
+      "pre-k teacher",
+      "infant teacher",
+      "toddler teacher"
+    ]
+  },
+  {
+    "canonical": "Pricing Analyst",
+    "function": "finance",
+    "aliases": [
+      "pricing manager",
+      "pricing strategist",
+      "pricing specialist"
+    ]
+  },
+  {
+    "canonical": "Primary Care Physician",
+    "function": "healthcare",
+    "aliases": [
+      "pcp",
+      "primary care doctor",
+      "per diem primary care physician"
+    ]
+  },
+  {
+    "canonical": "Principal Engineer",
+    "function": "engineering",
+    "aliases": [
+      "principal software engineer",
+      "principal swe",
+      "senior principal engineer",
+      "sr. principal engineer"
+    ]
+  },
+  {
+    "canonical": "Print Shop Associate",
+    "function": "retail",
+    "aliases": [
+      "print production associate",
+      "print technician",
+      "copy center associate"
+    ]
+  },
+  {
+    "canonical": "Privacy Engineer",
+    "function": "engineering",
+    "aliases": [
+      "privacy software engineer",
+      "data privacy engineer",
+      "senior privacy engineer",
+      "sr. privacy engineer",
+      "privacy analyst"
+    ]
+  },
+  {
+    "canonical": "Probation Officer",
+    "function": "public_service",
+    "aliases": [
+      "parole officer",
+      "community supervision officer"
+    ]
+  },
+  {
+    "canonical": "Process Engineer",
+    "function": "engineering",
+    "aliases": [
+      "manufacturing process engineer",
+      "senior process engineer",
+      "sr. process engineer",
+      "chemical process engineer",
+      "process development engineer"
+    ]
+  },
+  {
+    "canonical": "Procurement Analyst",
+    "function": "finance",
+    "aliases": [
+      "sourcing analyst",
+      "spend analyst",
+      "purchasing analyst"
+    ]
+  },
+  {
+    "canonical": "Procurement Manager",
+    "function": "logistics",
+    "aliases": [
+      "purchasing manager",
+      "sourcing manager",
+      "senior procurement manager",
+      "sr. procurement manager",
+      "category manager"
+    ]
+  },
+  {
+    "canonical": "Procurement Specialist",
+    "function": "logistics",
+    "aliases": [
+      "buyer",
+      "purchasing agent",
+      "purchasing specialist",
+      "procurement analyst",
+      "food and beverage buyer"
+    ]
+  },
+  {
+    "canonical": "Producer",
+    "function": "business",
+    "aliases": [
+      "content producer",
+      "digital producer",
+      "senior producer",
+      "sr. producer"
+    ]
+  },
+  {
+    "canonical": "Product Analyst",
+    "function": "data",
+    "aliases": [
+      "product analytics",
+      "product data analyst",
+      "senior product analyst",
+      "sr. product analyst"
+    ]
+  },
+  {
+    "canonical": "Product Designer",
+    "function": "design",
+    "aliases": [
+      "product design",
+      "digital product designer",
+      "senior product designer",
+      "lead product designer"
+    ]
+  },
+  {
+    "canonical": "Product Lead",
+    "function": "product",
+    "aliases": [
+      "lead product manager",
+      "group product manager",
+      "gpm",
+      "head of product",
+      "principal product manager"
+    ]
+  },
+  {
+    "canonical": "Product Manager",
+    "function": "product",
+    "aliases": [
+      "pm",
+      "product mgr",
+      "digital product manager",
+      "senior product manager",
+      "lead product manager"
+    ]
+  },
+  {
+    "canonical": "Product Marketing Manager",
+    "function": "marketing",
+    "aliases": [
+      "pmm",
+      "product marketing",
+      "senior product marketing manager",
+      "sr. product marketing manager",
+      "director of product marketing",
+      "product marketing lead"
+    ]
+  },
+  {
+    "canonical": "Product Operations Manager",
+    "function": "product",
+    "aliases": [
+      "product ops manager",
+      "product operations and strategy manager",
+      "product operations analyst"
+    ]
+  },
+  {
+    "canonical": "Product Owner",
+    "function": "product",
+    "aliases": [
+      "technical product owner",
+      "digital product owner",
+      "platform product owner"
+    ]
+  },
+  {
+    "canonical": "Production Manager",
+    "function": "operations",
+    "aliases": [
+      "production supervisor",
+      "manager of production"
+    ]
+  },
+  {
+    "canonical": "Production Operator",
+    "function": "trades",
+    "aliases": [
+      "production associate",
+      "production worker",
+      "manufacturing operator",
+      "plant operator"
+    ]
+  },
+  {
+    "canonical": "Production Supervisor",
+    "function": "business",
+    "aliases": [
+      "manufacturing supervisor",
+      "senior production supervisor",
+      "sr. production supervisor"
+    ]
+  },
+  {
+    "canonical": "Professor",
+    "function": "education",
+    "aliases": [
+      "assistant professor",
+      "associate professor",
+      "senior professor",
+      "sr. professor",
+      "adjunct professor",
+      "lecturer",
+      "adjunct faculty",
+      "instructor"
+    ]
+  },
+  {
+    "canonical": "Program Coordinator",
+    "function": "operations",
+    "aliases": [
+      "program associate",
+      "program specialist",
+      "program administrator"
+    ]
+  },
+  {
+    "canonical": "Program Manager",
+    "function": "business",
+    "aliases": [
+      "program mgr",
+      "technical program manager",
+      "tpm program",
+      "senior program manager"
+    ]
+  },
+  {
+    "canonical": "Program Manager (Nonprofit)",
+    "function": "public_service",
+    "aliases": [
+      "nonprofit program manager",
+      "program director nonprofit"
+    ]
+  },
+  {
+    "canonical": "Project Coordinator",
+    "function": "business",
+    "aliases": [
+      "program coordinator",
+      "senior project coordinator",
+      "sr. project coordinator"
+    ]
+  },
+  {
+    "canonical": "Project Engineer",
+    "function": "engineering",
+    "aliases": [
+      "construction project engineer",
+      "field project engineer"
+    ]
+  },
+  {
+    "canonical": "Project Manager",
+    "function": "business",
+    "aliases": [
+      "project mgr",
+      "technical project manager",
+      "pmp",
+      "senior project manager"
+    ]
+  },
+  {
+    "canonical": "Prompt Engineer",
+    "function": "engineering",
+    "aliases": [
+      "llm prompt engineer",
+      "genai prompt engineer",
+      "senior prompt engineer",
+      "sr. prompt engineer",
+      "ai prompt engineer",
+      "llm engineer",
+      "genai engineer",
+      "generative ai engineer"
+    ]
+  },
+  {
+    "canonical": "Property Manager",
+    "function": "operations",
+    "aliases": [
+      "community manager property",
+      "assistant property manager",
+      "regional property manager",
+      "leasing manager"
+    ]
+  },
+  {
+    "canonical": "Psychiatric Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "psychiatric rn",
+      "psychiatric registered nurse"
+    ]
+  },
+  {
+    "canonical": "Psychiatrist",
+    "function": "healthcare",
+    "aliases": [
+      "psychiatry physician"
+    ]
+  },
+  {
+    "canonical": "Psychologist",
+    "function": "healthcare",
+    "aliases": [
+      "clinical psychologist",
+      "licensed psychologist"
+    ]
+  },
+  {
+    "canonical": "Public Sector Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive public sector",
+      "public sector ae"
+    ]
+  },
+  {
+    "canonical": "Pulmonology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "pulmonology doctor",
+      "pulmonology specialist physician"
+    ]
+  },
+  {
+    "canonical": "Python Developer",
+    "function": "engineering",
+    "aliases": [
+      "python engineer",
+      "django developer",
+      "python software engineer"
+    ]
+  },
+  {
+    "canonical": "QA Analyst",
+    "function": "qa",
+    "aliases": [
+      "quality assurance analyst",
+      "qa tester",
+      "senior qa analyst",
+      "senior qa analyst",
+      "sr qa analyst",
+      "sr qa analyst",
+      "staff qa analyst",
+      "staff qa analyst",
+      "principal qa analyst",
+      "principal qa analyst",
+      "lead qa analyst",
+      "lead qa analyst"
+    ]
+  },
+  {
+    "canonical": "QA Engineer",
+    "function": "qa",
+    "aliases": [
+      "quality assurance engineer",
+      "qa",
+      "quality engineer",
+      "senior qa engineer",
+      "senior qa eng",
+      "sr qa engineer",
+      "sr qa eng",
+      "staff qa engineer",
+      "staff qa eng",
+      "principal qa engineer",
+      "principal qa eng",
+      "lead qa engineer",
+      "lead qa eng"
+    ]
+  },
+  {
+    "canonical": "QA Lead",
+    "function": "qa",
+    "aliases": [
+      "qa team lead",
+      "lead qa engineer",
+      "senior qa lead",
+      "sr. qa lead"
+    ]
+  },
+  {
+    "canonical": "QA Manager",
+    "function": "qa",
+    "aliases": [
+      "quality assurance manager",
+      "senior qa manager",
+      "sr. qa manager"
+    ]
+  },
+  {
+    "canonical": "Quality Assurance Specialist",
+    "function": "operations",
+    "aliases": [
+      "quality specialist",
+      "quality control inspector",
+      "qc inspector",
+      "quality technician",
+      "quality control technician",
+      "quality inspector"
+    ]
+  },
+  {
+    "canonical": "Quality Control Inspector",
+    "function": "qa",
+    "aliases": [
+      "qc inspector",
+      "senior quality control inspector",
+      "sr. quality control inspector"
+    ]
+  },
+  {
+    "canonical": "Quality Engineer",
+    "function": "engineering",
+    "aliases": [
+      "supplier quality engineer",
+      "quality assurance engineer manufacturing",
+      "sqe"
+    ]
+  },
+  {
+    "canonical": "Quality Manager",
+    "function": "operations",
+    "aliases": [
+      "quality assurance manager",
+      "senior quality manager",
+      "sr. quality manager",
+      "qa manager operations",
+      "quality control manager",
+      "director of quality"
+    ]
+  },
+  {
+    "canonical": "Quant Analyst",
+    "function": "data",
+    "aliases": [
+      "quantitative analyst",
+      "quant",
+      "senior quant analyst",
+      "sr. quant analyst"
+    ]
+  },
+  {
+    "canonical": "Quantitative Developer",
+    "function": "finance",
+    "aliases": [
+      "quant developer",
+      "quantitative engineer",
+      "quant dev"
+    ]
+  },
+  {
+    "canonical": "Quantitative Researcher",
+    "function": "finance",
+    "aliases": [
+      "quant researcher",
+      "quantitative research analyst",
+      "quantitative analyst",
+      "quant analyst"
+    ]
+  },
+  {
+    "canonical": "Radiologic Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "radiology technician",
+      "x-ray technician",
+      "x ray tech",
+      "imaging technologist"
+    ]
+  },
+  {
+    "canonical": "Radiologist",
+    "function": "healthcare",
+    "aliases": [
+      "radiology physician"
+    ]
+  },
+  {
+    "canonical": "React Developer",
+    "function": "engineering",
+    "aliases": [
+      "react engineer",
+      "react native developer",
+      "reactjs developer"
+    ]
+  },
+  {
+    "canonical": "Reading Teacher",
+    "function": "education",
+    "aliases": [
+      "reading instructor"
+    ]
+  },
+  {
+    "canonical": "Real Estate Agent",
+    "function": "operations",
+    "aliases": [
+      "realtor",
+      "real estate salesperson",
+      "real estate associate",
+      "real estate broker"
+    ]
+  },
+  {
+    "canonical": "Real Estate Attorney",
+    "function": "legal",
+    "aliases": [
+      "real estate lawyer",
+      "real estate associate attorney"
+    ]
+  },
+  {
+    "canonical": "Real Estate Manager",
+    "function": "business",
+    "aliases": [
+      "corporate real estate",
+      "senior real estate manager",
+      "sr. real estate manager"
+    ]
+  },
+  {
+    "canonical": "Receptionist",
+    "function": "operations",
+    "aliases": [
+      "front desk receptionist",
+      "front office receptionist",
+      "office receptionist"
+    ]
+  },
+  {
+    "canonical": "Recreation Coordinator",
+    "function": "public_service",
+    "aliases": [
+      "parks and recreation coordinator",
+      "recreation leader",
+      "recreation supervisor"
+    ]
+  },
+  {
+    "canonical": "Recreation Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "recreational therapist",
+      "activities director",
+      "activities coordinator",
+      "life enrichment coordinator"
+    ]
+  },
+  {
+    "canonical": "Recruiter",
+    "function": "business",
+    "aliases": [
+      "talent recruiter",
+      "technical recruiting",
+      "recruiting specialist",
+      "senior recruiter"
+    ]
+  },
+  {
+    "canonical": "Recruiting Coordinator",
+    "function": "operations",
+    "aliases": [
+      "recruitment coordinator",
+      "talent coordinator",
+      "hiring coordinator"
+    ]
+  },
+  {
+    "canonical": "Regional Operations Manager",
+    "function": "operations",
+    "aliases": [
+      "regional operations supervisor",
+      "manager of regional operations"
+    ]
+  },
+  {
+    "canonical": "Registered Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "rn",
+      "staff nurse",
+      "charge nurse",
+      "er nurse",
+      "icu nurse",
+      "or nurse"
+    ]
+  },
+  {
+    "canonical": "Rehab Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "rehab rn",
+      "rehab registered nurse"
+    ]
+  },
+  {
+    "canonical": "Release Engineer",
+    "function": "devops",
+    "aliases": [
+      "release manager engineer",
+      "build and release engineer",
+      "senior release engineer",
+      "senior release eng",
+      "sr release engineer",
+      "sr release eng",
+      "staff release engineer",
+      "staff release eng",
+      "principal release engineer",
+      "principal release eng",
+      "lead release engineer",
+      "lead release eng"
+    ]
+  },
+  {
+    "canonical": "Release Manager",
+    "function": "engineering",
+    "aliases": [
+      "software release manager",
+      "senior release manager",
+      "sr. release manager",
+      "release coordinator",
+      "change manager it",
+      "deployment manager"
+    ]
+  },
+  {
+    "canonical": "Reliability Engineer",
+    "function": "engineering",
+    "aliases": [
+      "equipment reliability engineer",
+      "senior reliability engineer",
+      "sr. reliability engineer"
+    ]
+  },
+  {
+    "canonical": "Renewals Specialist",
+    "function": "sales",
+    "aliases": [
+      "renewal specialist",
+      "renewals manager",
+      "renewals account manager"
+    ]
+  },
+  {
+    "canonical": "Research Engineer",
+    "function": "data",
+    "aliases": [
+      "applied research engineer",
+      "senior research engineer",
+      "sr. research engineer"
+    ]
+  },
+  {
+    "canonical": "Research Manager",
+    "function": "design",
+    "aliases": [
+      "user research manager",
+      "senior research manager",
+      "sr. research manager"
+    ]
+  },
+  {
+    "canonical": "Research Scientist",
+    "function": "data",
+    "aliases": [
+      "research sci",
+      "scientist research",
+      "senior research scientist",
+      "sr research scientist",
+      "staff research scientist"
+    ]
+  },
+  {
+    "canonical": "Research Scientist (Life Sciences)",
+    "function": "science",
+    "aliases": [
+      "research associate",
+      "senior research associate",
+      "lab scientist",
+      "bench scientist",
+      "r&d scientist"
+    ]
+  },
+  {
+    "canonical": "Reservation Agent",
+    "function": "retail",
+    "aliases": [
+      "reservations coordinator",
+      "booking agent",
+      "travel coordinator"
+    ]
+  },
+  {
+    "canonical": "Respiratory Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "rt",
+      "respiratory care practitioner"
+    ]
+  },
+  {
+    "canonical": "Restaurant Manager",
+    "function": "retail",
+    "aliases": [
+      "f&b manager",
+      "senior restaurant manager",
+      "sr. restaurant manager",
+      "food service manager",
+      "restaurant general manager",
+      "front of house manager"
+    ]
+  },
+  {
+    "canonical": "Retail Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive retail",
+      "retail ae"
+    ]
+  },
+  {
+    "canonical": "Retail Sales Associate",
+    "function": "retail",
+    "aliases": [
+      "sales associate",
+      "retail associate",
+      "store associate",
+      "sales floor associate",
+      "retail team member"
+    ]
+  },
+  {
+    "canonical": "Retail Sales Manager",
+    "function": "sales",
+    "aliases": [
+      "counter sales",
+      "showroom sales",
+      "floor sales manager"
+    ]
+  },
+  {
+    "canonical": "Retention Manager",
+    "function": "marketing",
+    "aliases": [
+      "retention supervisor",
+      "manager of retention"
+    ]
+  },
+  {
+    "canonical": "Revenue Cycle Specialist",
+    "function": "finance",
+    "aliases": [
+      "revenue cycle analyst",
+      "revenue cycle manager",
+      "revenue analyst",
+      "revenue operations analyst"
+    ]
+  },
+  {
+    "canonical": "Revenue Operations Manager",
+    "function": "business",
+    "aliases": [
+      "revops manager",
+      "revenue ops",
+      "senior revenue operations manager",
+      "sr. revenue operations manager"
+    ]
+  },
+  {
+    "canonical": "RF Engineer",
+    "function": "engineering",
+    "aliases": [
+      "radio frequency engineer",
+      "senior rf engineer",
+      "sr. rf engineer"
+    ]
+  },
+  {
+    "canonical": "Rheumatology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "rheumatology doctor",
+      "rheumatology specialist physician"
+    ]
+  },
+  {
+    "canonical": "Rigger",
+    "function": "trades",
+    "aliases": [
+      "rigging specialist",
+      "crane rigger"
+    ]
+  },
+  {
+    "canonical": "Risk Analyst",
+    "function": "finance",
+    "aliases": [
+      "credit risk analyst",
+      "operational risk",
+      "senior risk analyst",
+      "sr. risk analyst",
+      "risk manager",
+      "market risk analyst",
+      "operational risk analyst",
+      "enterprise risk manager",
+      "risk management analyst"
+    ]
+  },
+  {
+    "canonical": "Robotics Engineer",
+    "function": "engineering",
+    "aliases": [
+      "robotics developer",
+      "senior robotics engineer",
+      "sr. robotics engineer",
+      "robotics software engineer",
+      "autonomy engineer",
+      "motion planning engineer"
+    ]
+  },
+  {
+    "canonical": "Roofer",
+    "function": "trades",
+    "aliases": [
+      "roofing technician",
+      "roofing installer",
+      "commercial roofer"
+    ]
+  },
+  {
+    "canonical": "Route Manager",
+    "function": "logistics",
+    "aliases": [
+      "route supervisor",
+      "manager of route"
+    ]
+  },
+  {
+    "canonical": "RPA Developer",
+    "function": "engineering",
+    "aliases": [
+      "automation developer",
+      "uipath developer",
+      "rpa engineer",
+      "process automation developer"
+    ]
+  },
+  {
+    "canonical": "Ruby Developer",
+    "function": "engineering",
+    "aliases": [
+      "ruby on rails developer",
+      "rails engineer",
+      "ruby engineer"
+    ]
+  },
+  {
+    "canonical": "Rust Developer",
+    "function": "engineering",
+    "aliases": [
+      "rust engineer",
+      "rust software engineer"
+    ]
+  },
+  {
+    "canonical": "Safety Manager",
+    "function": "operations",
+    "aliases": [
+      "safety specialist",
+      "site safety manager",
+      "safety officer",
+      "occupational health and safety specialist"
+    ]
+  },
+  {
+    "canonical": "Sales Director",
+    "function": "sales",
+    "aliases": [
+      "director of sales",
+      "vp of sales",
+      "vice president of sales",
+      "head of sales",
+      "cro",
+      "chief revenue officer",
+      "director of strategic sales"
+    ]
+  },
+  {
+    "canonical": "Sales Enablement Manager",
+    "function": "sales",
+    "aliases": [
+      "enablement manager",
+      "revenue enablement manager",
+      "sales enablement specialist"
+    ]
+  },
+  {
+    "canonical": "Sales Engineer",
+    "function": "other",
+    "aliases": [
+      "sales engineering",
+      "se",
+      "pre sales engineer",
+      "senior sales engineer",
+      "senior sales eng",
+      "sr sales engineer",
+      "sr sales eng",
+      "staff sales engineer",
+      "staff sales eng",
+      "principal sales engineer",
+      "principal sales eng",
+      "lead sales engineer",
+      "lead sales eng"
+    ]
+  },
+  {
+    "canonical": "Sales Manager",
+    "function": "sales",
+    "aliases": [
+      "regional sales manager",
+      "territory sales manager",
+      "area sales manager",
+      "district sales manager",
+      "inside sales manager"
+    ]
+  },
+  {
+    "canonical": "Sales Operations Analyst",
+    "function": "sales",
+    "aliases": [
+      "sales ops analyst",
+      "revenue operations manager",
+      "revops",
+      "sales operations manager",
+      "deal desk analyst"
+    ]
+  },
+  {
+    "canonical": "Sales Operations Manager",
+    "function": "business",
+    "aliases": [
+      "sales ops manager",
+      "salesops",
+      "senior sales operations manager",
+      "sr. sales operations manager"
+    ]
+  },
+  {
+    "canonical": "Sales Recruiter",
+    "function": "operations",
+    "aliases": [
+      "sales recruitment specialist"
+    ]
+  },
+  {
+    "canonical": "Sales Representative",
+    "function": "sales",
+    "aliases": [
+      "sales rep",
+      "outside sales representative",
+      "inside sales representative",
+      "field sales representative",
+      "territory sales representative",
+      "b2b sales representative"
+    ]
+  },
+  {
+    "canonical": "Sales Specialist",
+    "function": "sales",
+    "aliases": [
+      "product sales specialist",
+      "sales consultant",
+      "lakebase sales specialist",
+      "solutions specialist",
+      "specialist seller"
+    ]
+  },
+  {
+    "canonical": "Salesforce Developer",
+    "function": "engineering",
+    "aliases": [
+      "salesforce engineer",
+      "salesforce administrator",
+      "salesforce admin",
+      "salesforce consultant",
+      "salesforce architect"
+    ]
+  },
+  {
+    "canonical": "Salesforce Engineer",
+    "function": "engineering",
+    "aliases": [
+      "salesforce developer",
+      "salesforce admin engineer",
+      "senior salesforce engineer",
+      "sr. salesforce engineer"
+    ]
+  },
+  {
+    "canonical": "Sanitation Worker",
+    "function": "trades",
+    "aliases": [
+      "garbage collector",
+      "refuse collector",
+      "waste management driver",
+      "recycling worker"
+    ]
+  },
+  {
+    "canonical": "SAP Consultant",
+    "function": "engineering",
+    "aliases": [
+      "sap analyst",
+      "sap developer",
+      "sap basis administrator",
+      "sap functional consultant",
+      "erp consultant",
+      "erp analyst"
+    ]
+  },
+  {
+    "canonical": "Scala Developer",
+    "function": "engineering",
+    "aliases": [
+      "scala engineer"
+    ]
+  },
+  {
+    "canonical": "School Counselor",
+    "function": "education",
+    "aliases": [
+      "guidance counselor",
+      "academic counselor",
+      "college counselor"
+    ]
+  },
+  {
+    "canonical": "School Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "campus nurse"
+    ]
+  },
+  {
+    "canonical": "School Principal",
+    "function": "education",
+    "aliases": [
+      "assistant principal",
+      "head of school",
+      "vice principal"
+    ]
+  },
+  {
+    "canonical": "Science Teacher",
+    "function": "education",
+    "aliases": [
+      "biology teacher",
+      "chemistry teacher",
+      "physics teacher"
+    ]
+  },
+  {
+    "canonical": "Scrum Master",
+    "function": "business",
+    "aliases": [
+      "agile scrum master",
+      "certified scrum master",
+      "senior scrum master"
+    ]
+  },
+  {
+    "canonical": "Scrum Master (Senior)",
+    "function": "management",
+    "aliases": [
+      "agile coach",
+      "agile delivery lead",
+      "rte",
+      "release train engineer",
+      "agile program manager"
+    ]
+  },
+  {
+    "canonical": "SDET",
+    "function": "qa",
+    "aliases": [
+      "software development engineer in test",
+      "sdet engineer",
+      "test automation engineer",
+      "senior sdet",
+      "senior sdet",
+      "sr sdet",
+      "sr sdet",
+      "staff sdet",
+      "staff sdet",
+      "principal sdet",
+      "principal sdet",
+      "lead sdet",
+      "lead sdet"
+    ]
+  },
+  {
+    "canonical": "SDR",
+    "function": "business",
+    "aliases": [
+      "sales development representative",
+      "bdr",
+      "business development representative",
+      "senior sdr"
+    ]
+  },
+  {
+    "canonical": "Search Engineer",
+    "function": "engineering",
+    "aliases": [
+      "search relevance engineer",
+      "elasticsearch engineer",
+      "senior search engineer",
+      "sr. search engineer",
+      "information retrieval engineer"
+    ]
+  },
+  {
+    "canonical": "Security Analyst",
+    "function": "security",
+    "aliases": [
+      "infosec analyst",
+      "cybersecurity analyst",
+      "security operations analyst",
+      "senior security analyst",
+      "senior security analyst",
+      "sr security analyst",
+      "sr security analyst",
+      "staff security analyst",
+      "staff security analyst",
+      "principal security analyst",
+      "principal security analyst",
+      "lead security analyst",
+      "lead security analyst"
+    ]
+  },
+  {
+    "canonical": "Security Architect",
+    "function": "security",
+    "aliases": [
+      "infosec architect",
+      "cybersecurity architect",
+      "senior security architect",
+      "senior security architect",
+      "sr security architect",
+      "sr security architect",
+      "staff security architect",
+      "staff security architect",
+      "principal security architect",
+      "principal security architect",
+      "lead security architect",
+      "lead security architect"
+    ]
+  },
+  {
+    "canonical": "Security Engineer",
+    "function": "security",
+    "aliases": [
+      "infosec engineer",
+      "cybersecurity engineer",
+      "security software engineer",
+      "senior security engineer",
+      "senior security eng",
+      "sr security engineer",
+      "sr security eng",
+      "staff security engineer",
+      "staff security eng",
+      "principal security engineer",
+      "principal security eng",
+      "lead security engineer",
+      "lead security eng"
+    ]
+  },
+  {
+    "canonical": "Security Guard",
+    "function": "retail",
+    "aliases": [
+      "security officer",
+      "senior security guard",
+      "sr. security guard",
+      "security associate",
+      "unarmed security officer",
+      "armed security officer",
+      "loss prevention officer",
+      "loss prevention associate"
+    ]
+  },
+  {
+    "canonical": "SEM Specialist",
+    "function": "business",
+    "aliases": [
+      "paid search specialist",
+      "ppc specialist",
+      "senior sem specialist",
+      "sr. sem specialist"
+    ]
+  },
+  {
+    "canonical": "SEO Specialist",
+    "function": "marketing",
+    "aliases": [
+      "seo manager",
+      "search engine optimization",
+      "senior seo specialist",
+      "sr. seo specialist",
+      "seo analyst",
+      "search engine optimization specialist",
+      "sem specialist",
+      "sem manager"
+    ]
+  },
+  {
+    "canonical": "Server",
+    "function": "retail",
+    "aliases": [
+      "waiter",
+      "waitress",
+      "restaurant server",
+      "food server",
+      "banquet server"
+    ]
+  },
+  {
+    "canonical": "Service Advisor",
+    "function": "trades",
+    "aliases": [
+      "automotive service advisor",
+      "service writer",
+      "service consultant"
+    ]
+  },
+  {
+    "canonical": "Service Designer",
+    "function": "design",
+    "aliases": [
+      "service design",
+      "senior service designer",
+      "sr. service designer"
+    ]
+  },
+  {
+    "canonical": "Service Manager",
+    "function": "operations",
+    "aliases": [
+      "service supervisor",
+      "manager of service"
+    ]
+  },
+  {
+    "canonical": "ServiceNow Developer",
+    "function": "engineering",
+    "aliases": [
+      "servicenow administrator",
+      "servicenow engineer",
+      "servicenow architect"
+    ]
+  },
+  {
+    "canonical": "Shift Operations Manager",
+    "function": "operations",
+    "aliases": [
+      "shift operations supervisor",
+      "manager of shift operations"
+    ]
+  },
+  {
+    "canonical": "Shift Supervisor",
+    "function": "retail",
+    "aliases": [
+      "shift lead",
+      "shift leader",
+      "shift manager",
+      "motor vehicle shift supervisor"
+    ]
+  },
+  {
+    "canonical": "Shipping and Receiving Clerk",
+    "function": "logistics",
+    "aliases": [
+      "shipping clerk",
+      "receiving clerk",
+      "shipping coordinator",
+      "freight handler"
+    ]
+  },
+  {
+    "canonical": "Sign Installer",
+    "function": "trades",
+    "aliases": [
+      "sign technician",
+      "sign maker",
+      "sign fabricator"
+    ]
+  },
+  {
+    "canonical": "Simulation Engineer",
+    "function": "engineering",
+    "aliases": [
+      "simulation software engineer",
+      "modeling and simulation engineer"
+    ]
+  },
+  {
+    "canonical": "Site Reliability Engineer",
+    "function": "devops",
+    "aliases": [
+      "sre",
+      "site reliability",
+      "reliability engineer",
+      "senior site reliability engineer",
+      "senior site reliability eng",
+      "sr site reliability engineer",
+      "sr site reliability eng",
+      "staff site reliability engineer",
+      "staff site reliability eng",
+      "principal site reliability engineer",
+      "principal site reliability eng",
+      "lead site reliability engineer",
+      "lead site reliability eng"
+    ]
+  },
+  {
+    "canonical": "Site Reliability Manager",
+    "function": "management",
+    "aliases": [
+      "sre manager",
+      "infrastructure manager",
+      "platform engineering manager",
+      "devops manager",
+      "cloud operations manager"
+    ]
+  },
+  {
+    "canonical": "Small Engine Mechanic",
+    "function": "trades",
+    "aliases": [
+      "motorcycle mechanic",
+      "marine mechanic",
+      "powersports technician"
+    ]
+  },
+  {
+    "canonical": "SMB Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive smb",
+      "smb ae"
+    ]
+  },
+  {
+    "canonical": "SOC Analyst",
+    "function": "engineering",
+    "aliases": [
+      "security operations center analyst",
+      "soc engineer",
+      "senior soc analyst",
+      "senior soc analyst",
+      "sr soc analyst",
+      "sr soc analyst",
+      "staff soc analyst",
+      "staff soc analyst",
+      "principal soc analyst",
+      "principal soc analyst",
+      "lead soc analyst",
+      "lead soc analyst"
+    ]
+  },
+  {
+    "canonical": "Social Media Manager",
+    "function": "marketing",
+    "aliases": [
+      "social media specialist",
+      "senior social media manager",
+      "sr. social media manager",
+      "social media coordinator",
+      "community manager",
+      "social media strategist"
+    ]
+  },
+  {
+    "canonical": "Social Studies Teacher",
+    "function": "education",
+    "aliases": [
+      "social studies instructor"
+    ]
+  },
+  {
+    "canonical": "Social Worker",
+    "function": "healthcare",
+    "aliases": [
+      "licensed social worker",
+      "lcsw",
+      "senior social worker",
+      "sr. social worker",
+      "case worker",
+      "clinical social worker",
+      "msw"
+    ]
+  },
+  {
+    "canonical": "Software Architect",
+    "function": "engineering",
+    "aliases": [
+      "application architect",
+      "software solutions architect",
+      "principal architect",
+      "chief architect"
+    ]
+  },
+  {
+    "canonical": "Software Engineer",
+    "function": "engineering",
+    "aliases": [
+      "software developer",
+      "swe",
+      "sde",
+      "software eng",
+      "software engineer i",
+      "software engineer ii",
+      "software engineer iii",
+      "full time software engineer",
+      "senior software engineer",
+      "senior software eng",
+      "sr software engineer",
+      "sr software eng",
+      "staff software engineer",
+      "staff software eng",
+      "principal software engineer",
+      "principal software eng",
+      "lead software engineer",
+      "lead software eng",
+      "member of technical staff",
+      "mts",
+      "principal member of technical staff"
+    ]
+  },
+  {
+    "canonical": "Solar Technician",
+    "function": "trades",
+    "aliases": [
+      "solar panel installer",
+      "pv installer",
+      "solar field technician"
+    ]
+  },
+  {
+    "canonical": "Solution Engineer",
+    "function": "engineering",
+    "aliases": [
+      "solutions engineer presales",
+      "customer solutions engineer",
+      "partner solutions engineer"
+    ]
+  },
+  {
+    "canonical": "Solutions Architect",
+    "function": "management",
+    "aliases": [
+      "solution architect",
+      "enterprise solutions architect"
+    ]
+  },
+  {
+    "canonical": "Solutions Consultant",
+    "function": "sales",
+    "aliases": [
+      "presales consultant",
+      "pre-sales engineer",
+      "solution consultant",
+      "value engineer",
+      "presales solutions consultant"
+    ]
+  },
+  {
+    "canonical": "Solutions Engineer",
+    "function": "engineering",
+    "aliases": [
+      "solutions developer",
+      "pre-sales engineer",
+      "presales engineer",
+      "senior solutions engineer",
+      "senior solutions eng",
+      "sr solutions engineer",
+      "sr solutions eng",
+      "staff solutions engineer",
+      "staff solutions eng",
+      "principal solutions engineer",
+      "principal solutions eng",
+      "lead solutions engineer",
+      "lead solutions eng"
+    ]
+  },
+  {
+    "canonical": "Sourcer",
+    "function": "business",
+    "aliases": [
+      "talent sourcer",
+      "recruiting sourcer",
+      "senior sourcer",
+      "sr. sourcer"
+    ]
+  },
+  {
+    "canonical": "Spa Manager",
+    "function": "retail",
+    "aliases": [
+      "salon manager",
+      "spa coordinator",
+      "spa director"
+    ]
+  },
+  {
+    "canonical": "Spanish Teacher",
+    "function": "education",
+    "aliases": [
+      "spanish instructor"
+    ]
+  },
+  {
+    "canonical": "Special Education Teacher",
+    "function": "education",
+    "aliases": [
+      "sped teacher",
+      "special ed teacher",
+      "resource teacher"
+    ]
+  },
+  {
+    "canonical": "Speech Language Pathologist",
+    "function": "healthcare",
+    "aliases": [
+      "slp",
+      "speech therapist"
+    ]
+  },
+  {
+    "canonical": "Sports Medicine Physician",
+    "function": "healthcare",
+    "aliases": [
+      "sports medicine doctor",
+      "sports medicine specialist physician"
+    ]
+  },
+  {
+    "canonical": "Staff Engineer",
+    "function": "engineering",
+    "aliases": [
+      "staff software engineer",
+      "staff swe",
+      "senior staff engineer",
+      "sr. staff engineer"
+    ]
+  },
+  {
+    "canonical": "Staffing Recruiter",
+    "function": "operations",
+    "aliases": [
+      "staffing recruitment specialist"
+    ]
+  },
+  {
+    "canonical": "Startup Account Executive",
+    "function": "sales",
+    "aliases": [
+      "account executive startup",
+      "startup ae"
+    ]
+  },
+  {
+    "canonical": "Statistician",
+    "function": "data",
+    "aliases": [
+      "statistical analyst",
+      "senior statistician",
+      "sr. statistician"
+    ]
+  },
+  {
+    "canonical": "Sterile Processing Technician",
+    "function": "healthcare",
+    "aliases": [
+      "sterilization technician",
+      "spd technician",
+      "central sterile technician"
+    ]
+  },
+  {
+    "canonical": "Store Manager",
+    "function": "retail",
+    "aliases": [
+      "retail store manager",
+      "senior store manager",
+      "sr. store manager",
+      "branch manager",
+      "general manager retail"
+    ]
+  },
+  {
+    "canonical": "Strategy Analyst",
+    "function": "business",
+    "aliases": [
+      "corporate strategy analyst",
+      "senior strategy analyst",
+      "sr. strategy analyst"
+    ]
+  },
+  {
+    "canonical": "Strategy and Operations Manager",
+    "function": "management",
+    "aliases": [
+      "strategy and ops manager",
+      "business strategy manager",
+      "corporate strategy manager",
+      "strategy manager"
+    ]
+  },
+  {
+    "canonical": "Strategy Consultant",
+    "function": "management",
+    "aliases": [
+      "management consultant",
+      "strategy associate",
+      "consultant",
+      "senior consultant",
+      "principal consultant",
+      "associate consultant"
+    ]
+  },
+  {
+    "canonical": "Strategy Manager",
+    "function": "business",
+    "aliases": [
+      "corporate strategy",
+      "strategic initiatives",
+      "senior strategy manager",
+      "sr. strategy manager"
+    ]
+  },
+  {
+    "canonical": "Structural Engineer",
+    "function": "engineering",
+    "aliases": [
+      "structural design engineer"
+    ]
+  },
+  {
+    "canonical": "Substance Abuse Counselor",
+    "function": "healthcare",
+    "aliases": [
+      "addiction counselor",
+      "recovery specialist",
+      "cadc",
+      "substance use disorder counselor",
+      "peer recovery specialist"
+    ]
+  },
+  {
+    "canonical": "Substitute Teacher",
+    "function": "education",
+    "aliases": [
+      "daily substitute teacher",
+      "guest teacher",
+      "supply teacher"
+    ]
+  },
+  {
+    "canonical": "Supply Chain Analyst",
+    "function": "logistics",
+    "aliases": [
+      "supply chain",
+      "senior supply chain analyst",
+      "sr. supply chain analyst",
+      "supply chain specialist",
+      "supply chain coordinator"
+    ]
+  },
+  {
+    "canonical": "Supply Chain Manager",
+    "function": "logistics",
+    "aliases": [
+      "supply chain director",
+      "head of supply chain"
+    ]
+  },
+  {
+    "canonical": "Support Engineer",
+    "function": "engineering",
+    "aliases": [
+      "technical support engineer",
+      "customer support engineer",
+      "product support engineer",
+      "senior support engineer",
+      "senior support eng",
+      "sr support engineer",
+      "sr support eng",
+      "staff support engineer",
+      "staff support eng",
+      "principal support engineer",
+      "principal support eng",
+      "lead support engineer",
+      "lead support eng"
+    ]
+  },
+  {
+    "canonical": "Support Manager",
+    "function": "business",
+    "aliases": [
+      "customer support manager",
+      "support team lead",
+      "senior support manager",
+      "sr. support manager"
+    ]
+  },
+  {
+    "canonical": "Surgeon",
+    "function": "healthcare",
+    "aliases": [
+      "general surgeon",
+      "surgery physician"
+    ]
+  },
+  {
+    "canonical": "Surgical Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "surgical tech",
+      "operating room technician",
+      "scrub tech"
+    ]
+  },
+  {
+    "canonical": "Surveyor",
+    "function": "engineering",
+    "aliases": [
+      "land surveyor",
+      "survey technician",
+      "survey crew chief"
+    ]
+  },
+  {
+    "canonical": "Sustainability Manager",
+    "function": "business",
+    "aliases": [
+      "esg manager",
+      "sustainability lead",
+      "senior sustainability manager",
+      "sr. sustainability manager"
+    ]
+  },
+  {
+    "canonical": "Systems Administrator",
+    "function": "engineering",
+    "aliases": [
+      "sysadmin",
+      "system administrator",
+      "linux administrator",
+      "senior systems administrator",
+      "sr. systems administrator",
+      "windows administrator",
+      "windows systems administrator",
+      "it systems administrator"
+    ]
+  },
+  {
+    "canonical": "Systems Engineer",
+    "function": "engineering",
+    "aliases": [
+      "systems developer",
+      "system engineer",
+      "senior systems engineer",
+      "senior systems eng",
+      "sr systems engineer",
+      "sr systems eng",
+      "staff systems engineer",
+      "staff systems eng",
+      "principal systems engineer",
+      "principal systems eng",
+      "lead systems engineer",
+      "lead systems eng"
+    ]
+  },
+  {
+    "canonical": "Tailor",
+    "function": "retail",
+    "aliases": [
+      "seamstress",
+      "alterations specialist",
+      "sewing machine operator"
+    ]
+  },
+  {
+    "canonical": "Talent Acquisition Manager",
+    "function": "business",
+    "aliases": [
+      "ta manager",
+      "recruiting manager",
+      "senior talent acquisition manager",
+      "sr. talent acquisition manager"
+    ]
+  },
+  {
+    "canonical": "Talent Acquisition Specialist",
+    "function": "operations",
+    "aliases": [
+      "talent acquisition partner",
+      "talent acquisition coordinator",
+      "talent sourcer",
+      "sourcing recruiter",
+      "talent acquisition manager"
+    ]
+  },
+  {
+    "canonical": "Tax Accountant",
+    "function": "finance",
+    "aliases": [
+      "tax associate",
+      "tax analyst",
+      "tax manager",
+      "tax preparer",
+      "tax senior"
+    ]
+  },
+  {
+    "canonical": "Tax Attorney",
+    "function": "legal",
+    "aliases": [
+      "tax lawyer",
+      "tax associate attorney"
+    ]
+  },
+  {
+    "canonical": "Teacher",
+    "function": "education",
+    "aliases": [
+      "educator",
+      "instructor",
+      "senior teacher",
+      "sr. teacher",
+      "classroom teacher",
+      "lead teacher",
+      "elementary teacher",
+      "elementary school teacher",
+      "middle school teacher",
+      "high school teacher"
+    ]
+  },
+  {
+    "canonical": "Teaching Assistant",
+    "function": "education",
+    "aliases": [
+      "teacher aide",
+      "paraprofessional",
+      "instructional aide",
+      "classroom aide",
+      "teacher assistant"
+    ]
+  },
+  {
+    "canonical": "Technical Account Executive",
+    "function": "sales",
+    "aliases": [
+      "technical sales representative",
+      "technical sales specialist"
+    ]
+  },
+  {
+    "canonical": "Technical Account Manager",
+    "function": "other",
+    "aliases": [
+      "tam",
+      "technical account mgr",
+      "senior technical account manager",
+      "senior technical account manager",
+      "sr technical account manager",
+      "sr technical account manager",
+      "staff technical account manager",
+      "staff technical account manager",
+      "principal technical account manager",
+      "principal technical account manager",
+      "lead technical account manager",
+      "lead technical account manager"
+    ]
+  },
+  {
+    "canonical": "Technical Consultant",
+    "function": "engineering",
+    "aliases": [
+      "it consultant",
+      "technology consultant",
+      "software consultant",
+      "digital consultant"
+    ]
+  },
+  {
+    "canonical": "Technical Lead",
+    "function": "management",
+    "aliases": [
+      "tech lead",
+      "team lead engineering",
+      "engineering tech lead"
+    ]
+  },
+  {
+    "canonical": "Technical Product Manager",
+    "function": "product",
+    "aliases": [
+      "tpm",
+      "technical pm",
+      "tech product manager",
+      "senior technical product manager",
+      "lead technical product manager"
+    ]
+  },
+  {
+    "canonical": "Technical Program Manager",
+    "function": "management",
+    "aliases": [
+      "tpm",
+      "technical program lead",
+      "senior technical program manager",
+      "principal technical program manager"
+    ]
+  },
+  {
+    "canonical": "Technical Recruiter",
+    "function": "business",
+    "aliases": [
+      "tech recruiter",
+      "engineering recruiter",
+      "software recruiter",
+      "senior technical recruiter"
+    ]
+  },
+  {
+    "canonical": "Technical Writer",
+    "function": "other",
+    "aliases": [
+      "docs engineer",
+      "documentation engineer",
+      "technical documentation",
+      "senior technical writer",
+      "senior technical writer",
+      "sr technical writer",
+      "sr technical writer",
+      "staff technical writer",
+      "staff technical writer",
+      "principal technical writer",
+      "principal technical writer",
+      "lead technical writer",
+      "lead technical writer"
+    ]
+  },
+  {
+    "canonical": "Telecommunications Technician",
+    "function": "engineering",
+    "aliases": [
+      "telecom technician",
+      "telecom engineer",
+      "voip engineer",
+      "fiber technician",
+      "fiber splicer"
+    ]
+  },
+  {
+    "canonical": "Telemetry Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "telemetry rn",
+      "telemetry registered nurse"
+    ]
+  },
+  {
+    "canonical": "Terminal Manager",
+    "function": "logistics",
+    "aliases": [
+      "terminal supervisor",
+      "manager of terminal"
+    ]
+  },
+  {
+    "canonical": "Territory Manager",
+    "function": "sales",
+    "aliases": [
+      "territory supervisor",
+      "manager of territory"
+    ]
+  },
+  {
+    "canonical": "Test Automation Architect",
+    "function": "qa",
+    "aliases": [
+      "automation architect",
+      "senior test automation architect",
+      "sr. test automation architect"
+    ]
+  },
+  {
+    "canonical": "Test Engineer",
+    "function": "qa",
+    "aliases": [
+      "software test engineer",
+      "testing engineer",
+      "senior test engineer",
+      "senior test eng",
+      "sr test engineer",
+      "sr test eng",
+      "staff test engineer",
+      "staff test eng",
+      "principal test engineer",
+      "principal test eng",
+      "lead test engineer",
+      "lead test eng"
+    ]
+  },
+  {
+    "canonical": "Test Engineer (Hardware)",
+    "function": "engineering",
+    "aliases": [
+      "hardware test engineer",
+      "validation engineer",
+      "verification engineer hardware"
+    ]
+  },
+  {
+    "canonical": "Therapist",
+    "function": "healthcare",
+    "aliases": [
+      "mental health therapist",
+      "counselor",
+      "senior therapist",
+      "sr. therapist",
+      "licensed therapist",
+      "lmft",
+      "lcsw",
+      "mental health counselor"
+    ]
+  },
+  {
+    "canonical": "Threat Intelligence Analyst",
+    "function": "engineering",
+    "aliases": [
+      "threat intel analyst",
+      "senior threat intelligence analyst",
+      "sr. threat intelligence analyst",
+      "cyber threat intelligence analyst",
+      "cti analyst"
+    ]
+  },
+  {
+    "canonical": "Tour Guide",
+    "function": "retail",
+    "aliases": [
+      "tour operator",
+      "excursion guide",
+      "museum guide"
+    ]
+  },
+  {
+    "canonical": "Trader",
+    "function": "finance",
+    "aliases": [
+      "equity trader",
+      "sales trader",
+      "senior trader",
+      "sr. trader",
+      "options trader",
+      "fixed income trader",
+      "execution trader",
+      "quantitative trader",
+      "trading specialist"
+    ]
+  },
+  {
+    "canonical": "Trainer",
+    "function": "education",
+    "aliases": [
+      "corporate trainer",
+      "learning and development",
+      "senior trainer",
+      "sr. trainer",
+      "training specialist",
+      "learning and development specialist",
+      "l&d specialist",
+      "technical trainer"
+    ]
+  },
+  {
+    "canonical": "Training Manager",
+    "function": "education",
+    "aliases": [
+      "training supervisor",
+      "manager of training"
+    ]
+  },
+  {
+    "canonical": "Transaction Coordinator",
+    "function": "operations",
+    "aliases": [
+      "real estate transaction coordinator",
+      "escrow transaction coordinator"
+    ]
+  },
+  {
+    "canonical": "Transit Planner",
+    "function": "public_service",
+    "aliases": [
+      "transportation planner",
+      "mobility planner"
+    ]
+  },
+  {
+    "canonical": "Translator",
+    "function": "operations",
+    "aliases": [
+      "interpreter",
+      "medical interpreter",
+      "linguist"
+    ]
+  },
+  {
+    "canonical": "Travel Agent",
+    "function": "retail",
+    "aliases": [
+      "travel consultant",
+      "travel advisor",
+      "corporate travel consultant"
+    ]
+  },
+  {
+    "canonical": "Travel Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "travel rn",
+      "travel registered nurse"
+    ]
+  },
+  {
+    "canonical": "Treasury Analyst",
+    "function": "finance",
+    "aliases": [
+      "treasury manager",
+      "cash management analyst",
+      "treasurer"
+    ]
+  },
+  {
+    "canonical": "Tree Trimmer",
+    "function": "trades",
+    "aliases": [
+      "arborist",
+      "tree climber",
+      "tree care specialist"
+    ]
+  },
+  {
+    "canonical": "Truck Driver",
+    "function": "logistics",
+    "aliases": [
+      "cdl driver",
+      "cdl a driver",
+      "cdl a local truck driver",
+      "class a driver",
+      "otr driver",
+      "local truck driver",
+      "cdl b driver",
+      "regional truck driver"
+    ]
+  },
+  {
+    "canonical": "Tutor",
+    "function": "education",
+    "aliases": [
+      "academic tutor",
+      "math tutor",
+      "reading tutor",
+      "online tutor"
+    ]
+  },
+  {
+    "canonical": "UI Designer",
+    "function": "design",
+    "aliases": [
+      "user interface designer",
+      "visual ui designer",
+      "senior ui designer",
+      "lead ui designer"
+    ]
+  },
+  {
+    "canonical": "Ultrasound Technologist",
+    "function": "healthcare",
+    "aliases": [
+      "sonographer",
+      "ultrasound technician"
+    ]
+  },
+  {
+    "canonical": "Underwriter",
+    "function": "finance",
+    "aliases": [
+      "insurance underwriter",
+      "senior underwriter",
+      "sr. underwriter",
+      "mortgage underwriter",
+      "commercial underwriter",
+      "underwriting analyst"
+    ]
+  },
+  {
+    "canonical": "Urban Planner",
+    "function": "public_service",
+    "aliases": [
+      "city planner",
+      "senior urban planner",
+      "sr. urban planner",
+      "planning analyst",
+      "community planner"
+    ]
+  },
+  {
+    "canonical": "Urgent Care Physician",
+    "function": "healthcare",
+    "aliases": [
+      "urgent care doctor"
+    ]
+  },
+  {
+    "canonical": "Urology Physician",
+    "function": "healthcare",
+    "aliases": [
+      "urology doctor",
+      "urology specialist physician"
+    ]
+  },
+  {
+    "canonical": "Utility Technician",
+    "function": "trades",
+    "aliases": [
+      "utility worker",
+      "meter technician",
+      "meter reader",
+      "utility locator"
+    ]
+  },
+  {
+    "canonical": "Utilization Review Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "utilization management nurse",
+      "ur nurse",
+      "prior authorization nurse"
+    ]
+  },
+  {
+    "canonical": "UX Designer",
+    "function": "design",
+    "aliases": [
+      "user experience designer",
+      "user experience designer",
+      "senior ux designer",
+      "lead ux designer"
+    ]
+  },
+  {
+    "canonical": "UX Manager",
+    "function": "design",
+    "aliases": [
+      "ux design manager",
+      "head of ux",
+      "senior ux manager",
+      "sr. ux manager"
+    ]
+  },
+  {
+    "canonical": "UX Researcher",
+    "function": "design",
+    "aliases": [
+      "user researcher",
+      "ux research",
+      "senior ux researcher",
+      "lead ux researcher"
+    ]
+  },
+  {
+    "canonical": "UX Writer",
+    "function": "creative",
+    "aliases": [
+      "content strategist",
+      "ux content designer",
+      "product content strategist"
+    ]
+  },
+  {
+    "canonical": "Valet Attendant",
+    "function": "retail",
+    "aliases": [
+      "valet driver",
+      "valet parking attendant",
+      "parking attendant"
+    ]
+  },
+  {
+    "canonical": "Validation Engineer",
+    "function": "engineering",
+    "aliases": [
+      "csv engineer",
+      "validation specialist",
+      "senior validation engineer",
+      "sr. validation engineer"
+    ]
+  },
+  {
+    "canonical": "Vehicle Detailer",
+    "function": "trades",
+    "aliases": [
+      "car detailer",
+      "automotive detailer",
+      "auto detailer",
+      "detailer",
+      "lot attendant",
+      "automotive detailer lot attendant",
+      "car washer"
+    ]
+  },
+  {
+    "canonical": "Vendor Manager",
+    "function": "operations",
+    "aliases": [
+      "vendor management",
+      "senior vendor manager",
+      "sr. vendor manager",
+      "vendor supervisor",
+      "manager of vendor"
+    ]
+  },
+  {
+    "canonical": "Veterinarian",
+    "function": "healthcare",
+    "aliases": [
+      "vet",
+      "dvm",
+      "senior veterinarian",
+      "sr. veterinarian",
+      "associate veterinarian"
+    ]
+  },
+  {
+    "canonical": "Veterinary Receptionist",
+    "function": "healthcare",
+    "aliases": [
+      "veterinary client service representative",
+      "vet front desk"
+    ]
+  },
+  {
+    "canonical": "Veterinary Technician",
+    "function": "healthcare",
+    "aliases": [
+      "vet tech",
+      "veterinary assistant",
+      "veterinary nurse"
+    ]
+  },
+  {
+    "canonical": "Video Editor",
+    "function": "creative",
+    "aliases": [
+      "video producer",
+      "post production editor",
+      "multimedia editor",
+      "videographer"
+    ]
+  },
+  {
+    "canonical": "Videographer",
+    "function": "design",
+    "aliases": [
+      "video producer",
+      "senior videographer",
+      "sr. videographer"
+    ]
+  },
+  {
+    "canonical": "Volunteer Coordinator",
+    "function": "public_service",
+    "aliases": [
+      "volunteer manager",
+      "volunteer services coordinator"
+    ]
+  },
+  {
+    "canonical": "VP of Engineering",
+    "function": "management",
+    "aliases": [
+      "vice president of engineering",
+      "vp engineering",
+      "vpe"
+    ]
+  },
+  {
+    "canonical": "VP Product",
+    "function": "management",
+    "aliases": [
+      "vice president of product",
+      "vp of product",
+      "senior vp product",
+      "sr. vp product"
+    ]
+  },
+  {
+    "canonical": "Warehouse Associate",
+    "function": "logistics",
+    "aliases": [
+      "warehouse worker",
+      "fulfillment associate",
+      "senior warehouse associate",
+      "sr. warehouse associate",
+      "warehouse operative",
+      "picker packer",
+      "order picker",
+      "package handler",
+      "warehouse team member",
+      "fulfillment team member",
+      "freight receiving associate"
+    ]
+  },
+  {
+    "canonical": "Warehouse Manager",
+    "function": "logistics",
+    "aliases": [
+      "warehouse supervisor",
+      "warehouse lead",
+      "distribution center manager",
+      "fulfillment manager"
+    ]
+  },
+  {
+    "canonical": "Water Treatment Operator",
+    "function": "trades",
+    "aliases": [
+      "wastewater operator",
+      "water plant operator",
+      "wastewater treatment technician"
+    ]
+  },
+  {
+    "canonical": "Web Developer",
+    "function": "engineering",
+    "aliases": [
+      "website developer",
+      "wordpress developer",
+      "webmaster",
+      "web programmer",
+      "shopify developer"
+    ]
+  },
+  {
+    "canonical": "Welder",
+    "function": "trades",
+    "aliases": [
+      "welding technician",
+      "senior welder",
+      "sr. welder",
+      "welder fabricator",
+      "mig welder",
+      "tig welder",
+      "pipe welder"
+    ]
+  },
+  {
+    "canonical": "Wind Turbine Technician",
+    "function": "trades",
+    "aliases": [
+      "wind technician",
+      "turbine technician"
+    ]
+  },
+  {
+    "canonical": "Wireless Engineer",
+    "function": "engineering",
+    "aliases": [
+      "rf engineer",
+      "radio frequency engineer",
+      "5g engineer",
+      "cellular engineer"
+    ]
+  },
+  {
+    "canonical": "Workday Analyst",
+    "function": "engineering",
+    "aliases": [
+      "workday consultant",
+      "workday administrator",
+      "hris analyst",
+      "hris administrator",
+      "hris manager"
+    ]
+  },
+  {
+    "canonical": "Workday Engineer",
+    "function": "engineering",
+    "aliases": [
+      "workday developer",
+      "workday integration",
+      "senior workday engineer",
+      "sr. workday engineer"
+    ]
+  },
+  {
+    "canonical": "Workplace Experience Coordinator",
+    "function": "operations",
+    "aliases": [
+      "workplace coordinator",
+      "workplace experience manager",
+      "employee experience specialist"
+    ]
+  },
+  {
+    "canonical": "Wound Care Nurse",
+    "function": "healthcare",
+    "aliases": [
+      "wound ostomy nurse",
+      "wocn"
+    ]
+  }
+]

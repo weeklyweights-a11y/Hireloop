@@ -1,0 +1,4102 @@
+[
+  {
+    "company_name": "Walmart",
+    "company_slug": "walmart",
+    "company_website": "https://walmart.wd504.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://walmart.wd504.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "CVS Health",
+    "company_slug": "cvs-health",
+    "company_website": "https://jobs.cvshealth.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jobs.cvshealth.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "keywords": "",
+      "sortBy": "Most recent",
+      "sort": {
+        "order": "desc",
+        "field": "postedDate"
+      },
+      "pageName": "search-results",
+      "siteType": "external",
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "refNum": "CVSCHLUS",
+      "ddoKey": "eagerLoadRefineSearch"
+    },
+    "response_path": "eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionTeaser",
+      "apply_url": "applyUrl",
+      "department": "category",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "McKesson",
+    "company_slug": "mckesson",
+    "company_website": "https://mckesson.wd3.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://mckesson.wd3.myworkdayjobs.com/wday/cxs/mckesson/External_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://mckesson.wd3.myworkdayjobs.com/External_Careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cigna",
+    "company_slug": "cigna",
+    "company_website": "https://cigna.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://cigna.wd5.myworkdayjobs.com/wday/cxs/cigna/cignacareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Marathon Petroleum",
+    "company_slug": "marathon-petroleum",
+    "company_website": "https://mpc.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://mpc.wd1.myworkdayjobs.com/wday/cxs/mpc/MPCCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Fannie Mae",
+    "company_slug": "fannie-mae",
+    "company_website": "https://www.fanniemae.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://fanniemae9glu2r77.org.coveo.com/rest/search/v2?organizationId=fanniemae9glu2r77",
+    "api_method": "POST",
+    "api_headers": {
+      "Authorization": "Bearer <access_token from token_api>",
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "api_params": {},
+    "api_body": "q=&searchHub=external-jobs&numberOfResults=50&firstResult=0 (form-encoded)",
+    "response_path": "results",
+    "field_mapping": {
+      "id": "raw.jobrefid",
+      "title": "title (or raw.fmjobtitle)",
+      "location": "raw.joblocation",
+      "apply_url": "raw.fmjobdetailsurl"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Comcast",
+    "company_slug": "comcast",
+    "company_website": "https://comcast.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://comcast.wd5.myworkdayjobs.com/wday/cxs/comcast/Comcast_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://comcast.wd5.myworkdayjobs.com/en-US/Comcast_Careers?bid=1&bid=1&bid=1&bid=1",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {
+        "bid": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Wells Fargo",
+    "company_slug": "wells-fargo",
+    "company_website": "https://wf.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://wf.wd1.myworkdayjobs.com/wday/cxs/wf/wellsfargojobs/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://wf.wd1.myworkdayjobs.com/wellsfargojobs/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Johnson & Johnson",
+    "company_slug": "johnson-johnson",
+    "company_website": "https://jj.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Target",
+    "company_slug": "target",
+    "company_website": "https://target.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://target.wd5.myworkdayjobs.com/en-US/targetcareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Centene",
+    "company_slug": "centene",
+    "company_website": "https://centene.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://centene.wd5.myworkdayjobs.com/wday/cxs/centene/centene_external/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "UPS",
+    "company_slug": "ups",
+    "company_website": "https://hcmportal.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://hcmportal.wd5.myworkdayjobs.com/wday/cxs/hcmportal/Search/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://hcmportal.wd5.myworkdayjobs.com/Search",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Intel",
+    "company_slug": "intel",
+    "company_website": "https://intel.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{\"appliedFacets\":{},\"limit\":20,\"offset\":0,\"searchText\":\"\"}",
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Walt Disney",
+    "company_slug": "walt-disney",
+    "company_website": "https://disney.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://disney.wd5.myworkdayjobs.com/wday/cxs/disney/disneycareer/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://disney.wd5.myworkdayjobs.com/disneycareer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Humana",
+    "company_slug": "humana",
+    "company_website": "https://humana.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://humana.wd5.myworkdayjobs.com/wday/cxs/humana/Humana_External_Career_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Prudential Financial (U.S.)",
+    "company_slug": "prudential-financial-u-s",
+    "company_website": "https://pru.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://pru.wd5.myworkdayjobs.com/wday/cxs/pru/Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Morgan Stanley",
+    "company_slug": "morgan-stanley",
+    "company_website": "https://ms.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://ms.wd5.myworkdayjobs.com/wday/cxs/ms/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://ms.wd5.myworkdayjobs.com/External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Pfizer",
+    "company_slug": "pfizer",
+    "company_website": "https://pfizer.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "American International Group",
+    "company_slug": "american-international-group",
+    "company_website": "https://aig.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://aig.wd1.myworkdayjobs.com/wday/cxs/aig/aig/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nationwide",
+    "company_slug": "nationwide",
+    "company_website": "https://nationwide.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://nationwide.wd1.myworkdayjobs.com/wday/cxs/nationwide/Nationwide_Career/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://nationwide.wd1.myworkdayjobs.com/Nationwide_Career",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dow",
+    "company_slug": "dow",
+    "company_website": "https://corporate.dow.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://platform.cloud.coveo.com/rest/search/v2?organizationId=thedowchemicalcompanyproductiondzftal89",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "results",
+    "field_mapping": {
+      "title": "title / raw fields"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tyson Foods",
+    "company_slug": "tyson-foods",
+    "company_website": "https://tysonfoods.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "TJX",
+    "company_slug": "tjx",
+    "company_website": "https://tjx.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://tjx.wd1.myworkdayjobs.com/wday/cxs/tjx/TJX_EXTERNAL/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://tjx.wd1.myworkdayjobs.com/TJX_EXTERNAL/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "TIAA",
+    "company_slug": "tiaa",
+    "company_website": "https://tiaa.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://tiaa.wd1.myworkdayjobs.com/wday/cxs/tiaa/Search/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://tiaa.wd1.myworkdayjobs.com/Search",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Coca-Cola",
+    "company_slug": "coca-cola",
+    "company_website": "https://coke.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://coke.wd1.myworkdayjobs.com/wday/cxs/coke/coca-cola-careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://coke.wd1.myworkdayjobs.com/coca-cola-careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tech Data",
+    "company_slug": "tech-data",
+    "company_website": "https://synnex.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://synnex.wd5.myworkdayjobs.com/wday/cxs/synnex/tdsynnexcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "World Fuel Services",
+    "company_slug": "world-fuel-services",
+    "company_website": "https://wfscorp.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://wfscorp.wd5.myworkdayjobs.com/wday/cxs/wfscorp/wfscareers/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ConocoPhillips",
+    "company_slug": "conocophillips",
+    "company_website": "https://conocophillips.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://conocophillips.wd1.myworkdayjobs.com/wday/cxs/conocophillips/External/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "USAA",
+    "company_slug": "usaa",
+    "company_website": "https://usaa.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://usaa.wd1.myworkdayjobs.com/wday/cxs/usaa/USAAJOBSWD/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://usaa.wd1.myworkdayjobs.com/USAAJOBSWD",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Northrop Grumman",
+    "company_slug": "northrop-grumman",
+    "company_website": "https://ngc.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://ngc.wd1.myworkdayjobs.com/wday/cxs/ngc/Northrop_Grumman_External_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Plains GP Holdings",
+    "company_slug": "plains-gp-holdings",
+    "company_website": "https://plains.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://plains.wd1.myworkdayjobs.com/wday/cxs/plains/plains/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[1]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "3M",
+    "company_slug": "3m",
+    "company_website": "https://3m.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://3m.wd1.myworkdayjobs.com/wday/cxs/3m/Search/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://3m.wd1.myworkdayjobs.com/Search?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Abbott Laboratories",
+    "company_slug": "abbott-laboratories",
+    "company_website": "https://abbott.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Travelers Cos.",
+    "company_slug": "travelers-cos",
+    "company_website": "https://travelers.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Hewlett Packard Enterprise",
+    "company_slug": "hewlett-packard-enterprise",
+    "company_website": "https://hpe.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Arrow Electronics",
+    "company_slug": "arrow-electronics",
+    "company_website": "https://arrow.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://arrow.wd1.myworkdayjobs.com/wday/cxs/arrow/AC/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "U.S. Bancorp",
+    "company_slug": "u-s-bancorp",
+    "company_website": "https://usbank.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://usbank.wd1.myworkdayjobs.com/wday/cxs/usbank/US_Bank_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bristol-Myers Squibb",
+    "company_slug": "bristol-myers-squibb",
+    "company_website": "https://bristolmyerssquibb.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "US Foods Holding",
+    "company_slug": "us-foods-holding",
+    "company_website": "https://usfoods.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://usfoods.wd1.myworkdayjobs.com/wday/cxs/usfoods/usfoodscareersExternal/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Mondelez International",
+    "company_slug": "mondelez-international",
+    "company_website": "https://mdlz.wd3.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://mdlz.wd3.myworkdayjobs.com/wday/cxs/mdlz/External/jobs",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Jabil",
+    "company_slug": "jabil",
+    "company_website": "https://jabil.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Duke Energy",
+    "company_slug": "duke-energy",
+    "company_website": "https://dukeenergy.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/search/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://dukeenergy.wd1.myworkdayjobs.com/search",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PBF Energy",
+    "company_slug": "pbf-energy",
+    "company_website": "https://pbfenergy.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "NGL Energy Partners",
+    "company_slug": "ngl-energy-partners",
+    "company_website": "https://nglenergypartners.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://nglenergypartners.wd5.myworkdayjobs.com/wday/cxs/nglenergypartners/jobs/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[1]",
+      "title": "title",
+      "location": "bulletFields[0]",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dollar Tree",
+    "company_slug": "dollar-tree",
+    "company_website": "https://dollartree.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://dollartree.wd5.myworkdayjobs.com/wday/cxs/dollartree/dollartreeus/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://dollartree.wd5.myworkdayjobs.com/dollartreeus",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Amgen",
+    "company_slug": "amgen",
+    "company_website": "https://amgen.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://amgen.wd1.myworkdayjobs.com/wday/cxs/amgen/Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://amgen.wd1.myworkdayjobs.com/Careers/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Visa",
+    "company_slug": "visa",
+    "company_website": "https://visa.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Broadcom",
+    "company_slug": "broadcom",
+    "company_website": "https://broadcom.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Gilead Sciences",
+    "company_slug": "gilead-sciences",
+    "company_website": "https://gilead.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Occidental Petroleum",
+    "company_slug": "occidental-petroleum",
+    "company_website": "https://oxy.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "externalPath",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Rite Aid",
+    "company_slug": "rite-aid",
+    "company_website": "https://riteaid.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://riteaid.wd1.myworkdayjobs.com/wday/cxs/riteaid/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://riteaid.wd1.myworkdayjobs.com/External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "DuPont",
+    "company_slug": "dupont",
+    "company_website": "https://dupont.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://dupont.wd5.myworkdayjobs.com/wday/cxs/dupont/Jobs/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://dupont.wd5.myworkdayjobs.com/Jobs",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Avnet",
+    "company_slug": "avnet",
+    "company_website": "https://avnet.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://avnet.wd1.myworkdayjobs.com/wday/cxs/avnet/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0] / externalPath",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://avnet.wd1.myworkdayjobs.com/External{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kimberly-Clark",
+    "company_slug": "kimberly-clark",
+    "company_website": "https://kimberlyclark.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://kimberlyclark.wd1.myworkdayjobs.com/wday/cxs/kimberlyclark/GLOBAL/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (job req id in path)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://kimberlyclark.wd1.myworkdayjobs.com/GLOBAL{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Jones Lang LaSalle (JLL)",
+    "company_slug": "jones-lang-lasalle-jll",
+    "company_website": "https://jll.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (req id in path)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://jll.wd1.myworkdayjobs.com/jllcareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "BD",
+    "company_slug": "bd",
+    "company_website": "https://jobs.bd.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jobs.bd.com/en/search-jobs/results?ActiveFacetID=6252001&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=True&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job URL trailing id (.../159/{id})",
+      "title": "job card title text",
+      "location": "job card location text",
+      "apply_url": "https://jobs.bd.com/en/job/{location}/{slug}/159/{id}",
+      "updated_at": "job card date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Salesforce",
+    "company_slug": "salesforce",
+    "company_website": "https://salesforce.wd12.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "American Electric Power",
+    "company_slug": "american-electric-power",
+    "company_website": "https://www.aep.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://aepcom-api.aep.com/api/careers/search?SearchString=&SearchCategory=&SearchLocation=",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data",
+    "field_mapping": {
+      "id": "requisitionID (R-number) / autoReqID",
+      "title": "title",
+      "location": "location / geographicProximity / additionalLocations[]",
+      "apply_url": "jobApplyURL (Workday) or https://www.aep.com{jobDetailURL}",
+      "updated_at": "jobPostingDate (jobPostingEndDate also present)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nordstrom",
+    "company_slug": "nordstrom",
+    "company_website": "https://careers.nordstrom.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://careers.nordstrom.com/api/get-jobs?radius=25&page_number=1&enable_kilometers=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "R-number (e.g. R-858480)",
+      "title": "title",
+      "location": "job location (street, city, state, zip)",
+      "apply_url": "apply -> nordstrom.wd5.myworkdayjobs.com/nordstrom_careers/job/{externalPath}",
+      "updated_at": "posting date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "C.H. Robinson Worldwide",
+    "company_slug": "c-h-robinson-worldwide",
+    "company_website": "https://chrobinson.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0] / externalPath trailing R-number",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PPG Industries",
+    "company_slug": "ppg-industries",
+    "company_website": "https://ppg.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://ppg.wd5.myworkdayjobs.com/wday/cxs/ppg/PPG_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath trailing JR-number",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://ppg.wd5.myworkdayjobs.com/PPG_Careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Booking Holdings",
+    "company_slug": "booking-holdings",
+    "company_website": "https://priceline.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://priceline.wd1.myworkdayjobs.com/wday/cxs/priceline/BookingHoldings/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath trailing R-number",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://priceline.wd1.myworkdayjobs.com/BookingHoldings{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Loews",
+    "company_slug": "loews",
+    "company_website": "https://loewshotels.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://loewshotels.wd5.myworkdayjobs.com/wday/cxs/loewshotels/loewshotels/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath trailing R-number",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://loewshotels.wd5.myworkdayjobs.com/loewshotels{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ecolab",
+    "company_slug": "ecolab",
+    "company_website": "https://jobs.ecolab.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jobs.ecolab.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_global",
+      "deviceType": "desktop",
+      "country": "global",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "sortBy": "",
+      "subsearch": "",
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "all_fields": [
+        "category",
+        "country",
+        "state",
+        "city",
+        "department"
+      ],
+      "size": 10,
+      "clearAll": false,
+      "jdsource": "facets",
+      "isSliderEnable": false,
+      "pageId": "page11",
+      "siteType": "external",
+      "keywords": "",
+      "global": true,
+      "selected_fields": {},
+      "locationData": {}
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "reqId / jobId / jobSeqNo",
+      "title": "title",
+      "location": "cityStateCountry / cityState / location",
+      "apply_url": "applyUrl (Workday) or https://jobs.ecolab.com/global/en/job/{jobId}/{slug}",
+      "updated_at": "postedDate / dateCreated"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Stryker",
+    "company_slug": "stryker",
+    "company_website": "https://stryker.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://stryker.wd1.myworkdayjobs.com/wday/cxs/stryker/StrykerCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Goodyear Tire & Rubber",
+    "company_slug": "goodyear-tire-rubber",
+    "company_website": "https://goodyear.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://goodyear.wd1.myworkdayjobs.com/wday/cxs/goodyear/GoodyearCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://goodyear.wd1.myworkdayjobs.com/GoodyearCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Stanley Black & Decker",
+    "company_slug": "stanley-black-decker",
+    "company_website": "https://sbdinc.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://sbdinc.wd1.myworkdayjobs.com/wday/cxs/sbdinc/Stanley_Black_Decker_Career_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://sbdinc.wd1.myworkdayjobs.com/Stanley_Black_Decker_Career_Site{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Biogen",
+    "company_slug": "biogen",
+    "company_website": "https://biibhr.wd3.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://biibhr.wd3.myworkdayjobs.com/wday/cxs/biibhr/external/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://biibhr.wd3.myworkdayjobs.com/en-US/external",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "DaVita",
+    "company_slug": "davita",
+    "company_website": "https://davita.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://davita.wd1.myworkdayjobs.com/wday/cxs/davita/DKC_External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://davita.wd1.myworkdayjobs.com/en-US/DKC_External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Land O&#8217;Lakes",
+    "company_slug": "land-o-8217-lakes",
+    "company_website": "https://landolakes.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "VF",
+    "company_slug": "vf",
+    "company_website": "https://vfc.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://vfc.wd5.myworkdayjobs.com/wday/cxs/vfc/vfc_careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Las Vegas Sands",
+    "company_slug": "las-vegas-sands",
+    "company_website": "https://sands.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://sands.wd1.myworkdayjobs.com/wday/cxs/sands/sands_careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://sands.wd1.myworkdayjobs.com/sands_careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Guardian Life Ins. Co. of America",
+    "company_slug": "guardian-life-ins-co-of-america",
+    "company_website": "https://guardianlife.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Qurate Retail",
+    "company_slug": "qurate-retail",
+    "company_website": "https://qvc.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://qvc.wd5.myworkdayjobs.com/QRG{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "BJ's Wholesale Club",
+    "company_slug": "bj-s-wholesale-club",
+    "company_website": "https://bjswholesaleclub.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://bjswholesaleclub.wd1.myworkdayjobs.com/wday/cxs/bjswholesaleclub/BJsCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://bjswholesaleclub.wd1.myworkdayjobs.com/BJsCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "State Street",
+    "company_slug": "state-street",
+    "company_website": "https://statestreet.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://statestreet.wd1.myworkdayjobs.com/Global",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "MGM Resorts International",
+    "company_slug": "mgm-resorts-international",
+    "company_website": "https://mgmresorts.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://mgmresorts.wd5.myworkdayjobs.com/wday/cxs/mgmresorts/MGMCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://mgmresorts.wd5.myworkdayjobs.com/MGMCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "L3Harris Technologies",
+    "company_slug": "l3harris-technologies",
+    "company_website": "https://careers.l3harris.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://careers.l3harris.com/en/search-jobs/results?CurrentPage=1&RecordsPerPage=15&SearchType=5",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest",
+      "accept": "*/*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job link (/en/job/<city>/<slug>/4832/<jobid>)",
+      "title": "job link data-job-title / job-title span",
+      "location": "job card location",
+      "apply_url": "job link href",
+      "department": "job card category"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lithia Motors",
+    "company_slug": "lithia-motors",
+    "company_website": "https://lithia.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://lithia.wd5.myworkdayjobs.com/wday/cxs/lithia/LithiaCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://lithia.wd5.myworkdayjobs.com/LithiaCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "LKQ",
+    "company_slug": "lkq",
+    "company_website": "https://lkqcorp.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://lkqcorp.wd5.myworkdayjobs.com/wday/cxs/lkqcorp/ExternalCareerSite-LKQ/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://lkqcorp.wd5.myworkdayjobs.com/ExternalCareerSite-LKQ{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Expedia Group",
+    "company_slug": "expedia-group",
+    "company_website": "https://expedia.wd108.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://expedia.wd108.myworkdayjobs.com/en-US/search{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bed Bath & Beyond",
+    "company_slug": "bed-bath-beyond",
+    "company_website": "https://overstock.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://overstock.wd5.myworkdayjobs.com/wday/cxs/overstock/BedBathandBeyond_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://overstock.wd5.myworkdayjobs.com/BedBathandBeyond_Careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Unum Group",
+    "company_slug": "unum-group",
+    "company_website": "https://unum.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://unum.wd1.myworkdayjobs.com/en-US/External{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Pacific Life",
+    "company_slug": "pacific-life",
+    "company_website": "https://pacificlife.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://pacificlife.wd1.myworkdayjobs.com/wday/cxs/pacificlife/PacificLifeCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://pacificlife.wd1.myworkdayjobs.com/PacificLifeCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Vistra Energy",
+    "company_slug": "vistra-energy",
+    "company_website": "https://vst.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://vst.wd5.myworkdayjobs.com/wday/cxs/vst/vistra_careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://vst.wd5.myworkdayjobs.com/vistra_careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Crown Holdings",
+    "company_slug": "crown-holdings",
+    "company_website": "https://crownholdings.wd501.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Xcel Energy",
+    "company_slug": "xcel-energy",
+    "company_website": "https://xcelenergy.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://xcelenergy.wd1.myworkdayjobs.com/External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Fox",
+    "company_slug": "fox",
+    "company_website": "https://fox.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://fox.wd1.myworkdayjobs.com/wday/cxs/fox/FOXTVST_EAST/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://fox.wd1.myworkdayjobs.com/FOXTVST_EAST?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Adobe",
+    "company_slug": "adobe",
+    "company_website": "https://adobe.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://adobe.wd5.myworkdayjobs.com/external_experienced",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Leidos Holdings",
+    "company_slug": "leidos-holdings",
+    "company_website": "https://leidos.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://leidos.wd5.myworkdayjobs.com/wday/cxs/leidos/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://leidos.wd5.myworkdayjobs.com/External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "IQVIA Holdings",
+    "company_slug": "iqvia-holdings",
+    "company_website": "https://iqvia.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://iqvia.wd1.myworkdayjobs.com/wday/cxs/iqvia/IQVIA/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nvidia",
+    "company_slug": "nvidia",
+    "company_website": "https://nvidia.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (trailing _JR...)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Alcoa",
+    "company_slug": "alcoa",
+    "company_website": "https://alcoa.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (trailing _Req-...)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://alcoa.wd5.myworkdayjobs.com/careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Fidelity National Information Services",
+    "company_slug": "fidelity-national-information-services",
+    "company_website": "https://fis.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (trailing _JR...)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://fis.wd5.myworkdayjobs.com/SearchJobs{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Henry Schein",
+    "company_slug": "henry-schein",
+    "company_website": "https://henryschein.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://henryschein.wd1.myworkdayjobs.com/en-US/External_Careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Republic Services",
+    "company_slug": "republic-services",
+    "company_website": "https://republic.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://republic.wd5.myworkdayjobs.com/wday/cxs/republic/Republic/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://republic.wd5.myworkdayjobs.com/Republic",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PulteGroup",
+    "company_slug": "pultegroup",
+    "company_website": "https://pultegroup.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (contains JR id)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://pultegroup.wd1.myworkdayjobs.com/en-US/PGI{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "AES",
+    "company_slug": "aes",
+    "company_website": "https://aes.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://aes.wd1.myworkdayjobs.com/wday/cxs/aes/AES_US/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://aes.wd1.myworkdayjobs.com/AES_US/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Fiserv",
+    "company_slug": "fiserv",
+    "company_website": "https://fiserv.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://fiserv.wd5.myworkdayjobs.com/wday/cxs/fiserv/EXT/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://fiserv.wd5.myworkdayjobs.com/EXT/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Oneok",
+    "company_slug": "oneok",
+    "company_website": "https://oneok.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://oneok.wd1.myworkdayjobs.com/wday/cxs/oneok/ONEOK/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (contains R id)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://oneok.wd1.myworkdayjobs.com/en-US/ONEOK{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Assurant",
+    "company_slug": "assurant",
+    "company_website": "https://assurant.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://assurant.wd1.myworkdayjobs.com/wday/cxs/assurant/Assurant_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Auto-Owners Insurance",
+    "company_slug": "auto-owners-insurance",
+    "company_website": "https://aoins.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://aoins.wd5.myworkdayjobs.com/wday/cxs/aoins/AutoOwners/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (contains R_ id)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://aoins.wd5.myworkdayjobs.com/en-US/AutoOwners{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Campbell Soup",
+    "company_slug": "campbell-soup",
+    "company_website": "https://campbellsoup.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://campbellsoup.wd5.myworkdayjobs.com/wday/cxs/campbellsoup/ExternalCareers_GlobalSite/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://campbellsoup.wd5.myworkdayjobs.com/en-US/ExternalCareers_GlobalSite",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Fifth Third Bancorp",
+    "company_slug": "fifth-third-bancorp",
+    "company_website": "https://fifththird.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://fifththird.wd5.myworkdayjobs.com/wday/cxs/fifththird/53careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (contains R id)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://fifththird.wd5.myworkdayjobs.com/en-US/53careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Advance Auto Parts",
+    "company_slug": "advance-auto-parts",
+    "company_website": "https://advanceauto.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://advanceauto.wd5.myworkdayjobs.com/wday/cxs/advanceauto/AdvanceExternalCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://advanceauto.wd5.myworkdayjobs.com/AdvanceExternalCareers/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Owens & Minor",
+    "company_slug": "owens-minor",
+    "company_website": "https://owensminor.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://owensminor.wd1.myworkdayjobs.com/wday/cxs/owensminor/OMCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "externalPath (contains REQ id)",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://owensminor.wd1.myworkdayjobs.com/en-US/OMCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Markel",
+    "company_slug": "markel",
+    "company_website": "https://markelcorp.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://markelcorp.wd5.myworkdayjobs.com/wday/cxs/markelcorp/GlobalCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://markelcorp.wd5.myworkdayjobs.com/GlobalCareers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "United Rentals",
+    "company_slug": "united-rentals",
+    "company_website": "https://ur.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://ur.wd1.myworkdayjobs.com/wday/cxs/ur/URcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://ur.wd1.myworkdayjobs.com/en-US/URcareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "J.B. Hunt Transport Services",
+    "company_slug": "j-b-hunt-transport-services",
+    "company_website": "https://jbhunt.wd501.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://jbhunt.wd501.myworkdayjobs.com/Careers{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Air Products & Chemicals",
+    "company_slug": "air-products-chemicals",
+    "company_website": "https://airproducts.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://airproducts.wd5.myworkdayjobs.com/wday/cxs/airproducts/AP0001/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "apply_url": "https://airproducts.wd5.myworkdayjobs.com/en-US/AP0001{externalPath}",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Oshkosh",
+    "company_slug": "oshkosh",
+    "company_website": "https://oshkoshcorporation.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://oshkoshcorporation.wd5.myworkdayjobs.com/wday/cxs/oshkoshcorporation/Oshkosh/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://oshkoshcorporation.wd5.myworkdayjobs.com/Oshkosh",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Huntsman",
+    "company_slug": "huntsman",
+    "company_website": "https://huntsman.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://huntsman.wd1.myworkdayjobs.com/wday/cxs/huntsman/Huntsman/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "American Financial Group",
+    "company_slug": "american-financial-group",
+    "company_website": "https://gaig.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://gaig.wd1.myworkdayjobs.com/wday/cxs/gaig/GAIG_External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Williams",
+    "company_slug": "williams",
+    "company_website": "https://williams.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://williams.wd5.myworkdayjobs.com/wday/cxs/williams/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://williams.wd5.myworkdayjobs.com/en-US/External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Andersons",
+    "company_slug": "andersons",
+    "company_website": "https://andersonsinc.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://andersonsinc.wd1.myworkdayjobs.com/wday/cxs/andersonsinc/TheAndersonsCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Constellation Brands",
+    "company_slug": "constellation-brands",
+    "company_website": "https://cbrands.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://cbrands.wd5.myworkdayjobs.com/wday/cxs/cbrands/CBI_External_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Raymond James Financial",
+    "company_slug": "raymond-james-financial",
+    "company_website": "https://raymondjames.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://raymondjames.wd1.myworkdayjobs.com/wday/cxs/raymondjames/RaymondJamesCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "bulletFields[0]",
+      "title": "title",
+      "location": "locationsText",
+      "updated_at": "postedOn"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "KeyCorp",
+    "company_slug": "keycorp",
+    "company_website": "https://keybank.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://keybank.wd5.myworkdayjobs.com/wday/cxs/keybank/External_Career_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Burlington Stores",
+    "company_slug": "burlington-stores",
+    "company_website": "https://burlington.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://burlington.wd5.myworkdayjobs.com/wday/cxs/burlington/BurlingtonCareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://burlington.wd5.myworkdayjobs.com/BurlingtonCareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Rockwell Automation",
+    "company_slug": "rockwell-automation",
+    "company_website": "https://rockwellautomation.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External_Rockwell_Automation/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Zoetis",
+    "company_slug": "zoetis",
+    "company_website": "https://zoetis.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://zoetis.wd5.myworkdayjobs.com/wday/cxs/zoetis/zoetis/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://zoetis.wd5.myworkdayjobs.com/zoetis",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tapestry",
+    "company_slug": "tapestry",
+    "company_website": "https://tapestry.wd108.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://tapestry.wd108.myworkdayjobs.com/wday/cxs/tapestry/Tapestry_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://tapestry.wd108.myworkdayjobs.com/Tapestry_Careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "KBR",
+    "company_slug": "kbr",
+    "company_website": "https://kbr.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://kbr.wd5.myworkdayjobs.com/wday/cxs/kbr/KBR_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://kbr.wd5.myworkdayjobs.com/en-US/KBR_Careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "T. Rowe Price",
+    "company_slug": "t-rowe-price",
+    "company_website": "https://troweprice.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://troweprice.wd5.myworkdayjobs.com/wday/cxs/troweprice/TRowePrice/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://troweprice.wd5.myworkdayjobs.com/TRowePrice/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Chemours",
+    "company_slug": "chemours",
+    "company_website": "https://chemours.wd103.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://chemours.wd103.myworkdayjobs.com/wday/cxs/chemours/chemours/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://chemours.wd103.myworkdayjobs.com/chemours",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Agilent Technologies",
+    "company_slug": "agilent-technologies",
+    "company_website": "https://agilent.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://agilent.wd5.myworkdayjobs.com/wday/cxs/agilent/Agilent_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://agilent.wd5.myworkdayjobs.com/Agilent_Careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Terex",
+    "company_slug": "terex",
+    "company_website": "https://terex.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://terex.wd1.myworkdayjobs.com/wday/cxs/terex/terexcareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://terex.wd1.myworkdayjobs.com/terexcareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Syneos Health",
+    "company_slug": "syneos-health",
+    "company_website": "https://syneoshealth.wd12.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://syneoshealth.wd12.myworkdayjobs.com/wday/cxs/syneoshealth/Syneos_Health_External_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://syneoshealth.wd12.myworkdayjobs.com/Syneos_Health_External_Site",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "FMC",
+    "company_slug": "fmc",
+    "company_website": "https://fmc.wd12.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://fmc.wd12.myworkdayjobs.com/wday/cxs/fmc/FMC/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://fmc.wd12.myworkdayjobs.com/FMC",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Greif",
+    "company_slug": "greif",
+    "company_website": "https://greif.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://greif.wd5.myworkdayjobs.com/wday/cxs/greif/Greif/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://greif.wd5.myworkdayjobs.com/Greif",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Silgan Holdings",
+    "company_slug": "silgan-holdings",
+    "company_website": "https://silgancontainers.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://silgancontainers.wd1.myworkdayjobs.com/wday/cxs/silgancontainers/silgan/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://silgancontainers.wd1.myworkdayjobs.com/silgan",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Broadridge Financial Solutions",
+    "company_slug": "broadridge-financial-solutions",
+    "company_website": "https://broadridge.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://broadridge.wd5.myworkdayjobs.com/wday/cxs/broadridge/Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://broadridge.wd5.myworkdayjobs.com/Careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Edwards Lifesciences",
+    "company_slug": "edwards-lifesciences",
+    "company_website": "https://edwards.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://edwards.wd5.myworkdayjobs.com/wday/cxs/edwards/edwardscareers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://edwards.wd5.myworkdayjobs.com/edwardscareers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Iron Mountain",
+    "company_slug": "iron-mountain",
+    "company_website": "https://ironmountain.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://ironmountain.wd5.myworkdayjobs.com/wday/cxs/ironmountain/iron-mountain-jobs/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://ironmountain.wd5.myworkdayjobs.com/iron-mountain-jobs",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Flowserve",
+    "company_slug": "flowserve",
+    "company_website": "https://flowserve.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://flowserve.wd1.myworkdayjobs.com/wday/cxs/flowserve/applied/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://flowserve.wd1.myworkdayjobs.com/en/applied/?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Abercrombie & Fitch",
+    "company_slug": "abercrombie-fitch",
+    "company_website": "https://abercrombie.wd108.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://abercrombie.wd108.myworkdayjobs.com/wday/cxs/abercrombie/anf/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://abercrombie.wd108.myworkdayjobs.com/anf",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Illumina",
+    "company_slug": "illumina",
+    "company_website": "https://illumina.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://illumina.wd1.myworkdayjobs.com/illumina-careers",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Red Hat",
+    "company_slug": "red-hat",
+    "company_website": "https://redhat.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://redhat.wd5.myworkdayjobs.com/wday/cxs/redhat/jobs/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://redhat.wd5.myworkdayjobs.com/jobs/",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Autodesk",
+    "company_slug": "autodesk",
+    "company_website": "https://autodesk.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://autodesk.wd1.myworkdayjobs.com/wday/cxs/autodesk/Ext/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://autodesk.wd1.myworkdayjobs.com/en-US/Ext",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Toro",
+    "company_slug": "toro",
+    "company_website": "https://ttc.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://ttc.wd1.myworkdayjobs.com/wday/cxs/ttc/Toro_External_Careers/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://ttc.wd1.myworkdayjobs.com/Toro_External_Careers?q=Engineer",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "GMS",
+    "company_slug": "gms",
+    "company_website": "https://srsdistribution.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://srsdistribution.wd1.myworkdayjobs.com/wday/cxs/srsdistribution/GMS/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://srsdistribution.wd1.myworkdayjobs.com/GMS",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Elanco Animal Health",
+    "company_slug": "elanco-animal-health",
+    "company_website": "https://elanco.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://elanco.wd5.myworkdayjobs.com/wday/cxs/elanco/External_Career/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://elanco.wd5.myworkdayjobs.com/External_Career",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Moog",
+    "company_slug": "moog",
+    "company_website": "https://moog.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://moog.wd5.myworkdayjobs.com/wday/cxs/moog/MOOG_External_Career_Site/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://moog.wd5.myworkdayjobs.com/MOOG_External_Career_Site",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Woodward",
+    "company_slug": "woodward",
+    "company_website": "https://woodward.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://woodward.wd5.myworkdayjobs.com/wday/cxs/woodward/woodward/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://woodward.wd5.myworkdayjobs.com/woodward",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PerkinElmer",
+    "company_slug": "perkinelmer",
+    "company_website": "https://newperkinelmer.wd1.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://newperkinelmer.wd1.myworkdayjobs.com/wday/cxs/newperkinelmer/External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://newperkinelmer.wd1.myworkdayjobs.com/External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "TransUnion",
+    "company_slug": "transunion",
+    "company_website": "https://transunion.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://transunion.wd5.myworkdayjobs.com/wday/cxs/transunion/transunion/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://transunion.wd5.myworkdayjobs.com/en-US/transunion",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "externalPath"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Deluxe",
+    "company_slug": "deluxe",
+    "company_website": "https://bydeluxe.wd5.myworkdayjobs.com",
+    "ats_type": "workday",
+    "api_endpoint": "https://bydeluxe.wd5.myworkdayjobs.com/wday/cxs/bydeluxe/Deluxe_External/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://bydeluxe.wd5.myworkdayjobs.com/Deluxe_External",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": "jobPostings",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  }
+]

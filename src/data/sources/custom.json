@@ -1,0 +1,5457 @@
+[
+  {
+    "company_name": "Amazon",
+    "company_slug": "amazon",
+    "company_website": "https://www.amazon.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.amazon.jobs/en/search.json?radius=24km&facets%5B%5D=normalized_country_code&facets%5B%5D=normalized_state_name&facets%5B%5D=normalized_city_name&facets%5B%5D=location&facets%5B%5D=business_category&facets%5B%5D=category&facets%5B%5D=schedule_type_id&facets%5B%5D=employee_class&facets%5B%5D=normalized_location&facets%5B%5D=job_function_id&facets%5B%5D=is_manager&facets%5B%5D=is_intern&offset=0&result_limit=10&sort=relevant&latitude=&longitude=&loc_group_id=&loc_query=&base_query=&city=&country=&region=&county=&query_options=&",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.amazon.jobs/en/search",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Exxon Mobil",
+    "company_slug": "exxon-mobil",
+    "company_website": "https://jobs.exxonmobil.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.exxonmobil.com/services/jobs/options/facetValues/",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jobs.exxonmobil.com/go/View-all-openings/3012100/",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "page": 0,
+      "keywords": "",
+      "locationsearch": "",
+      "sortby": "referencedate",
+      "sortdir": "desc",
+      "sortfield": "title",
+      "recordsperpage": 25,
+      "startrow": 0,
+      "facetquery": {
+        "facet": true,
+        "mincount": 1,
+        "limit": 5000,
+        "fields": [
+          "department",
+          "shifttype",
+          "country"
+        ],
+        "sort": "index",
+        "showPicklistAllLocales": false
+      },
+      "filterquery": {}
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Apple",
+    "company_slug": "apple",
+    "company_website": "https://jobs.apple.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.apple.com/api/v1/search",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json",
+      "X-Apple-CSRF-Token": "<obtain per request>"
+    },
+    "api_params": {},
+    "api_body": {
+      "query": "",
+      "filters": {
+        "locations": [
+          "postLocation-USA"
+        ]
+      },
+      "page": 1,
+      "locale": "en-us",
+      "sort": "",
+      "format": {
+        "longDate": "MMMM D, YYYY",
+        "mediumDate": "MMM D, YYYY"
+      }
+    },
+    "response_path": "res.searchResults",
+    "field_mapping": {
+      "id": "id",
+      "title": "postingTitle",
+      "location": "locations",
+      "description": "jobSummary",
+      "department": "team",
+      "updated_at": "postingDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "AT&T",
+    "company_slug": "at-t",
+    "company_website": "https://www.att.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.att.jobs/search-jobs/results",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "AmerisourceBergen",
+    "company_slug": "amerisourcebergen",
+    "company_website": "https://careers.cencora.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.cencora.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "keywords": "",
+      "sortBy": "Most recent",
+      "sort": {
+        "order": "desc",
+        "field": "postedDate"
+      },
+      "pageName": "search-results",
+      "siteType": "external",
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "refNum": "CHKCENUS",
+      "ddoKey": "eagerLoadRefineSearch"
+    },
+    "response_path": "eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "location",
+      "description": "descriptionTeaser",
+      "apply_url": "applyUrl",
+      "department": "category",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Alphabet",
+    "company_slug": "alphabet",
+    "company_website": "https://www.google.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.google.com/about/careers/applications/_/HiringCportalFrontendUi/data/batchexecute",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ford Motor",
+    "company_slug": "ford-motor",
+    "company_website": "https://www.careers.ford.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.careers.ford.com/en/search-jobs/results",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Costco Wholesale",
+    "company_slug": "costco-wholesale",
+    "company_website": "https://careers.costco.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.costco.com/api/jobs",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "req_id",
+      "title": "title",
+      "location": "location_name",
+      "description": "description",
+      "department": "categories"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Chevron",
+    "company_slug": "chevron",
+    "company_website": "https://careers.chevron.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.chevron.com/search-jobs/results",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cardinal Health",
+    "company_slug": "cardinal-health",
+    "company_website": "https://jobs.cardinalhealth.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.cardinalhealth.com/Search/SearchResults?jtStartIndex=0&jtPageSize=12&jtSorting=",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "Records",
+    "field_mapping": {
+      "id": "ID",
+      "title": "Title (strip <span>)",
+      "location": "CityStateData (strip <span>)",
+      "updated_at": "PostedDateRaw"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "JPMorgan Chase",
+    "company_slug": "jpmorgan-chase",
+    "company_website": "https://jpmc.fa.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jpmc.fa.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "General Motors",
+    "company_slug": "general-motors",
+    "company_website": "https://search-careers.gm.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://search-careers.gm.com/en/jobs/",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": "Engineer"
+    },
+    "response_path": null,
+    "field_mapping": {
+      "id": "href segment jr-XXXXXXXXX",
+      "title": "card h2 text",
+      "apply_url": "href"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Walgreens Boots Alliance",
+    "company_slug": "walgreens-boots-alliance",
+    "company_website": "https://jobs.walgreens.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.walgreens.com/en/search-jobs/results",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Verizon Communications",
+    "company_slug": "verizon-communications",
+    "company_website": "https://mycareer.verizon.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://mycareer.verizon.com/jobs/",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": {
+      "appliedFacets": {},
+      "limit": 20,
+      "offset": 0,
+      "searchText": ""
+    },
+    "response_path": null,
+    "field_mapping": {
+      "id": "href segment r-XXXXXXX",
+      "title": "card heading text",
+      "apply_url": "href"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Microsoft",
+    "company_slug": "microsoft",
+    "company_website": "https://apply.careers.microsoft.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://apply.careers.microsoft.com/api/pcsx/search",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "department": "department",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kroger",
+    "company_slug": "kroger",
+    "company_website": "https://www.krogerfamilycareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://eluq.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bank of America",
+    "company_slug": "bank-of-america",
+    "company_website": "https://careers.bankofamerica.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.bankofamerica.com/services/jobssearchservlet?start=0&rows=50&search=getAllJobs",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobsList",
+    "field_mapping": {
+      "id": "jobRequisitionId",
+      "title": "postingTitle",
+      "location": "locationString",
+      "apply_url": "jcrURL (relative)",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Home Depot",
+    "company_slug": "home-depot",
+    "company_website": "https://careers.homedepot.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobsapi-internal.m-cloud.io/api/job?organization=1814&limit=50&offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "queryResult",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "primary_location",
+      "description": "description",
+      "department": "primary_category"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Phillips 66",
+    "company_slug": "phillips-66",
+    "company_website": "https://careers.phillips66.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.phillips66.com/search/",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "data-careersite-propertyid",
+      "title": "jobTitle-link text"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Citigroup",
+    "company_slug": "citigroup",
+    "company_website": "https://jobs.citi.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.citi.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&SortCriteria=0&SortDirection=0&SearchType=5&keyword=",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Valero Energy",
+    "company_slug": "valero-energy",
+    "company_website": "https://valero.taleo.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://valero.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=101430233",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json, text/plain, */*",
+      "tz": "GMT-04:00 (REQUIRED - Taleo returns 'An Error Occurred in TEE' without a tz header)"
+    },
+    "api_params": {},
+    "api_body": {
+      "multilineEnabled": true,
+      "sortingSelection": {
+        "sortBySelectionParam": "3",
+        "ascendingSortingOrder": "false"
+      },
+      "fieldData": {
+        "fields": {
+          "KEYWORD": "",
+          "LOCATION": ""
+        },
+        "valid": true
+      },
+      "filterSelectionParam": {
+        "searchFilterSelections": [
+          {
+            "id": "LOCATION",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_FIELD",
+            "selectedValues": []
+          }
+        ]
+      },
+      "advancedSearchFiltersSelectionParam": {
+        "searchFilterSelections": [
+          {
+            "id": "ORGANIZATION",
+            "selectedValues": []
+          },
+          {
+            "id": "LOCATION",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_FIELD",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_NUMBER",
+            "selectedValues": []
+          },
+          {
+            "id": "URGENT_JOB",
+            "selectedValues": []
+          },
+          {
+            "id": "STUDY_LEVEL",
+            "selectedValues": []
+          },
+          {
+            "id": "WILL_TRAVEL",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_SHIFT",
+            "selectedValues": []
+          }
+        ]
+      },
+      "pageNo": 1
+    },
+    "response_path": "requisitionList",
+    "field_mapping": {
+      "id": "contestNo"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "General Electric",
+    "company_slug": "general-electric",
+    "company_website": "https://careers.geaerospace.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.geaerospace.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{lang:'en_global',country:'global',pageName:'search-results',ddoKey:'refineSearch',from:0,size:10,jobs:true,counts:true,jdsource:'facets',siteType:'external',keywords:'',global:true}",
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "reqId",
+      "title": "title",
+      "location": "cityState",
+      "apply_url": "applyUrl",
+      "department": "multi_category"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dell Technologies",
+    "company_slug": "dell-technologies",
+    "company_website": "https://iawmqy.fa.ocs.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://iawmqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "State Farm Insurance",
+    "company_slug": "state-farm-insurance",
+    "company_website": "https://jobs.statefarm.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.statefarm.com/api/jobs?page=1&limit=10&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "data.req_id",
+      "title": "data.title",
+      "location": "data.location_name"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "IBM",
+    "company_slug": "ibm",
+    "company_website": "https://www.ibm.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www-api.ibm.com/search/api/v2",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{\"appId\":\"careers\",\"scopes\":[\"careers2\"],\"query\":{\"bool\":{\"must\":[]}},\"size\":30,\"from\":0,\"sort\":[{\"pageviews\":\"desc\"}],\"_source\":[\"title\",\"url\",\"description\",\"field_keyword_08\"]}",
+    "response_path": null,
+    "field_mapping": {
+      "title": "_source.title",
+      "description": "_source.description",
+      "apply_url": "_source.url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Raytheon Technologies",
+    "company_slug": "raytheon-technologies",
+    "company_website": "https://careers.rtx.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.rtx.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{lang:'en_global',country:'global',pageName:'search-results',ddoKey:'refineSearch',from:0,size:10,jobs:true,counts:true,jdsource:'facets',siteType:'external',keywords:'',global:true}",
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "reqId",
+      "title": "title",
+      "location": "cityState",
+      "apply_url": "applyUrl",
+      "department": "multi_category"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Boeing",
+    "company_slug": "boeing",
+    "company_website": "https://jobs.boeing.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.boeing.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&SortCriteria=0&SortDirection=0&SearchType=5&keyword=",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Freddie Mac",
+    "company_slug": "freddie-mac",
+    "company_website": "https://careers.freddiemac.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.freddiemac.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{lang:'en_us',country:'us',pageName:'search-results',ddoKey:'refineSearch',from:0,size:10,jobs:true,counts:true,jdsource:'facets',siteType:'external',keywords:'',global:false}",
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "reqId",
+      "title": "title",
+      "apply_url": "applyUrl",
+      "department": "multi_category"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lowe&#8217;s",
+    "company_slug": "lowe-8217-s",
+    "company_website": "https://talent.lowes.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://talent.lowes.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": "{lang:'en_us',country:'us',pageName:'search-results',ddoKey:'refineSearch',from:0,size:10,jobs:true,counts:true,jdsource:'facets',siteType:'external',keywords:'',global:false}",
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "reqId",
+      "title": "title",
+      "apply_url": "applyUrl",
+      "department": "multi_category"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Facebook",
+    "company_slug": "facebook",
+    "company_website": "https://www.metacareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.metacareers.com/graphql",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.job_search_with_featured_jobs_v2.all_jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "locations (array)",
+      "department": "teams (array)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "FedEx",
+    "company_slug": "fedex",
+    "company_website": "https://careers.fedex.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.fedex.com/api/get-jobs?radius=15&page_number=1&enable_kilometers=false",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "uniqueID / reference",
+      "title": "title",
+      "location": "locations",
+      "apply_url": "applyURL"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PepsiCo",
+    "company_slug": "pepsico",
+    "company_website": "https://www.pepsicojobs.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://cdn13.icims.com/icims-translations/latest/locales/en-GB/jobchat.json",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://assets.textrecruit.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Archer Daniels Midland",
+    "company_slug": "archer-daniels-midland",
+    "company_website": "https://sjobs.brassring.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://sjobs.brassring.com/TGnewUI/Search/Ajax/ProcessSortAndShowMoreJobs",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "Jobs.Job",
+    "field_mapping": {
+      "apply_url": "Link (contains jobid)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Albertsons",
+    "company_slug": "albertsons",
+    "company_website": "https://eofd.fa.us6.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://eofd.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1001,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocationCountry / secondaryLocations",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Sysco",
+    "company_slug": "sysco",
+    "company_website": "https://careers.sysco.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.sysco.com/en/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&SortCriteria=0&SortDirection=0&SearchType=5&keyword=",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "application/json, text/javascript, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "HP",
+    "company_slug": "hp",
+    "company_website": "https://apply.hp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://apply.hp.com/api/pcsx/search?domain=hp.com&query=&location=&start=0&num=10&sort_by=timestamp",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id / displayJobId",
+      "title": "name",
+      "location": "locations",
+      "department": "department",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Goldman Sachs Group",
+    "company_slug": "goldman-sachs-group",
+    "company_website": "https://higher.gs.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://api-higher.gs.com/gateway/api/v1/graphql",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.roleSearch.items",
+    "field_mapping": {
+      "id": "roleId",
+      "title": "jobTitle",
+      "location": "locations"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cisco Systems",
+    "company_slug": "cisco-systems",
+    "company_website": "https://careers.cisco.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.cisco.com/global/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "reqId",
+      "title": "title",
+      "location": "cityState / multi_location",
+      "apply_url": "applyUrl"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "American Express",
+    "company_slug": "american-express",
+    "company_website": "https://careers.americanexpress.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://egug.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,limit=10,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Merck",
+    "company_slug": "merck",
+    "company_website": "https://jobs.merck.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.merck.com/us/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "jobUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Charter Communications",
+    "company_slug": "charter-communications",
+    "company_website": "https://jobs.spectrum.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.spectrum.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&ShowRadius=False&IsPagination=False&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Allstate",
+    "company_slug": "allstate",
+    "company_website": "https://www.allstate.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobsapi-internal.m-cloud.io/api/job?sortfield=open_date&sortorder=descending&facet[]=ats_portalid:Workday-MuleAPI-External&Limit=10&Organization=2030&offset=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "queryResult",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "department": "function"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "New York Life Insurance",
+    "company_slug": "new-york-life-insurance",
+    "company_website": "https://careers.newyorklife.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.newyorklife.com/api/apply/v2/jobs?domain=newyorklife.com&start=0&num=10&sort_by=relevance",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location",
+      "apply_url": "canonicalPositionUrl"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Best Buy",
+    "company_slug": "best-buy",
+    "company_website": "https://jobs.bestbuy.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.bestbuy.com/api/now/sp/widget/dd786d721b71b010b4c011f18c4bcb87?country=US&id=all_jobs&s=req_id_num&spa=1",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "United Airlines Holdings",
+    "company_slug": "united-airlines-holdings",
+    "company_website": "https://careers.united.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.united.com/us/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "jobUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Liberty Mutual Insurance Group",
+    "company_slug": "liberty-mutual-insurance-group",
+    "company_website": "https://searchjobs.libertymutualgroup.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://searchjobs.libertymutualgroup.com/api/apply/v2/jobs?domain=libertymutual.com&start=0&num=10&sort_by=relevance",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location",
+      "apply_url": "canonicalPositionUrl"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Oracle",
+    "company_slug": "oracle",
+    "company_website": "https://careers.oracle.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://eeho.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.oracle.com/",
+      "content-type": "application/vnd.oracle.adf.resourceitem+json;charset=utf-8"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "General Dynamics",
+    "company_slug": "general-dynamics",
+    "company_website": "https://www.gd.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.gd.com/API/Careers/CareerSearch?request=<gzip+base64 JSON>",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "Results",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "LocationNames",
+      "apply_url": "Link",
+      "updated_at": "Date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Deere",
+    "company_slug": "deere",
+    "company_website": "https://johndeere.eightfold.ai",
+    "ats_type": "custom",
+    "api_endpoint": "https://johndeere.eightfold.ai/api/pcsx/search?domain=johndeere.com&query=&location=&start=0&num=10",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "locations",
+      "apply_url": "positionUrl",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nike",
+    "company_slug": "nike",
+    "company_website": "https://careers.nike.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.nike.com/api/get-jobs?radius=15&keyword=Engineer&enable_kilometers=false",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://careers.nike.com/jobs?keyword=Engineer",
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "disable_switch_search_mode": false,
+      "site_available_languages": [
+        "de",
+        "es-es",
+        "fr",
+        "he",
+        "it",
+        "ja",
+        "ko",
+        "nl",
+        "pl",
+        "tr",
+        "vi",
+        "zh-cn",
+        "zh-tw",
+        "es",
+        "en",
+        "en-us"
+      ]
+    },
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Massachusetts Mutual Life",
+    "company_slug": "massachusetts-mutual-life",
+    "company_website": "https://careers.massmutual.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.massmutual.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=False&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5&ResultsType=0",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Honeywell International",
+    "company_slug": "honeywell-international",
+    "company_website": "https://careers.honeywell.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS%3BTITLES,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Exelon",
+    "company_slug": "exelon",
+    "company_website": "https://jobs.exeloncorp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.exeloncorp.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "req_id",
+      "title": "title",
+      "location": "locations",
+      "apply_url": "slug"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Capital One Financial",
+    "company_slug": "capital-one-financial",
+    "company_website": "https://www.capitalonecareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.capitalonecareers.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=False&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5&OrganizationIds=234&ResultsType=0",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Enterprise Products Partners",
+    "company_slug": "enterprise-products-partners",
+    "company_website": "https://epco.taleo.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://epco.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=101430233",
+    "api_method": "POST",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "requisitionList",
+    "field_mapping": {
+      "id": "contestNo (jobId also present)",
+      "title": "column[0]",
+      "location": "column[1]",
+      "updated_at": "column[2]"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Philip Morris International",
+    "company_slug": "philip-morris-international",
+    "company_website": "https://join.pmicareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://join.pmicareers.com/gb/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "jobUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Raytheon",
+    "company_slug": "raytheon",
+    "company_website": "https://careers.rtx.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.rtx.com/global/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "jobUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ViacomCBS",
+    "company_slug": "viacomcbs",
+    "company_website": "https://careers.paramount.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.paramount.com/services/jobs/options/facetValues/",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://careers.paramount.com/",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "page": 0,
+      "keywords": "",
+      "locationsearch": "",
+      "sortby": "referencedate",
+      "sortdir": "desc",
+      "sortfield": "title",
+      "recordsperpage": 25,
+      "startrow": 0,
+      "facetquery": {
+        "facet": true,
+        "mincount": 1,
+        "limit": 5000,
+        "fields": [
+          "customfield1",
+          "customfield2",
+          "customfield3"
+        ],
+        "sort": "index",
+        "showPicklistAllLocales": true
+      },
+      "filterquery": {}
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dollar General",
+    "company_slug": "dollar-general",
+    "company_website": "https://careers.dollargeneral.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.dollargeneral.com/api/jobs?page=1&sortBy=relevance&descending=false&featured=true&limit=3&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.dollargeneral.com/jobs",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Paccar",
+    "company_slug": "paccar",
+    "company_website": "https://jobs.paccar.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.paccar.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "class job-id-<digits> / data-url path segment",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation / job-location",
+      "apply_url": "li[data-url] (prefix https://jobs.paccar.com)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Thermo Fisher Scientific",
+    "company_slug": "thermo-fisher-scientific",
+    "company_website": "https://jobs.thermofisher.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.thermofisher.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jobs.thermofisher.com/global/en/search-results",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "data": {
+        "hf-thermocaasheader": "KZFVv6",
+        "hf-thermocaasheader$$z4HDz3vS": "gbobHe",
+        "hf-thermocaasheader$$4HDz3vS": "fmAme4",
+        "hf-thermocaasheader$$Aq1abxJ": "q1abxJ",
+        "hf-thermocaasheader$$Ahl5Fa2": "hl5Fa2",
+        "qKxJxl": "ph-cookie-popup-v2-default",
+        "60mww1": "ph-hero-block-cc-view7-option1-theme3",
+        "": "ph-global-search-v1-view3",
+        "z89jln": "ph-global-search-v1-view3",
+        "r7iov4": "default-default",
+        "x25c65": "ph-facets-v1-view3",
+        "23pq1w": "ph-create-job-alert-v1-default",
+        "e7fPm8": "ph-media-cc-view1-option1-theme12",
+        "w9gb8q": "ph-skills-v1-default",
+        "zcdusz": "ph-search-results-v2-default",
+        "w9gb0q": "ph-create-job-alert-v1-default",
+        "Jib6PI": "ph-media-cc-view1-option3-theme1",
+        "4k73uz": "footer-default",
+        "xvyust": "footer-default"
+      },
+      "refNum": "TFSCGLOBAL",
+      "lang": "en_global",
+      "deviceType": "desktop",
+      "pageName": "search-results",
+      "siteType": "external",
+      "pageId": "page13-ds",
+      "country": "global",
+      "ddoKey": "canvasGetWidgetContent"
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Macy&#8217;s",
+    "company_slug": "macy-8217-s",
+    "company_website": "https://www.macysjobs.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ebwh.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS;WORK_LOCATIONS;WORKPLACE_TYPES;TITLES;CATEGORIES;ORGANIZATIONS;POSTING_DATES;FLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "/job/{Id} (append to careers site)",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kraft Heinz",
+    "company_slug": "kraft-heinz",
+    "company_website": "https://jobs.kraftheinz.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.kraftheinz.com/api/pcsx/search?domain=kraftheinz.com&query=&location=&start=0&sort_by=hot&num=10",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id (or displayJobId / atsJobId)",
+      "title": "name",
+      "location": "locations[0]",
+      "apply_url": "positionUrl",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tesla",
+    "company_slug": "tesla",
+    "company_website": "https://www.tesla.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.tesla.com/cua-api/apps/careers/state",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "listings",
+    "field_mapping": {
+      "id": "id",
+      "title": "t",
+      "location": "l (id -> resolve via geo/lookup)",
+      "apply_url": "https://www.tesla.com/careers/search/job/{id}",
+      "department": "dp (id -> resolve via departments)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Qualcomm",
+    "company_slug": "qualcomm",
+    "company_website": "https://www.qualcomm.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.qualcomm.com/content/qcomm-martech/us/en/jcr:content/content/commonconfiguration.model.commonconfiguration.json",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": "languageDetails",
+    "field_mapping": {
+      "title": "title",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Baker Hughes",
+    "company_slug": "baker-hughes",
+    "company_website": "https://careers.bakerhughes.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.bakerhughes.com/global/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Synnex",
+    "company_slug": "synnex",
+    "company_website": "https://careers.tdsynnex.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.tdsynnex.com/us/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "United Natural Foods",
+    "company_slug": "united-natural-foods",
+    "company_website": "https://jobs.unfi.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.unfi.com/jobs/?page_jobs=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{id}/ path segment",
+      "title": "anchor text",
+      "location": "in title/slug (e.g. Edison, NJ)",
+      "apply_url": "anchor href (absolute)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Micron Technology",
+    "company_slug": "micron-technology",
+    "company_website": "https://careers.micron.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.micron.com/api/pcsx/search?domain=micron.com&query=&location=&start=0&sort_by=hot&num=10",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "locations[0]",
+      "apply_url": "positionUrl",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Penske Automotive Group",
+    "company_slug": "penske-automotive-group",
+    "company_website": "https://pagjobs.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://prod-search-api.jobsyn.org/api/v1/solr/search",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "origin": "https://pagjobs.com",
+      "referer": "https://pagjobs.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job req id",
+      "title": "title",
+      "location": "location",
+      "apply_url": "job detail url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Nucor",
+    "company_slug": "nucor",
+    "company_website": "https://jobs.nucor.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.nucor.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "class job-id-<digits> / data-url path segment",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "job anchor href (absolute)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Southwest Airlines",
+    "company_slug": "southwest-airlines",
+    "company_website": "https://careers.southwestair.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.southwestair.com/us/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Halliburton",
+    "company_slug": "halliburton",
+    "company_website": "https://jobs.halliburton.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.halliburton.com/search/?q=&locale=en_US&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "class job-id-<digits> / data-url path segment",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "job anchor href (absolute)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lumen Technologies",
+    "company_slug": "lumen-technologies",
+    "company_website": "https://careers.lumen.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.lumen.com/api/pcsx/search?domain=lumen.com&query=&location=&start=0&sort_by=hot&num=10",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "locations[0]",
+      "apply_url": "positionUrl",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "International Paper",
+    "company_slug": "international-paper",
+    "company_website": "https://iazbqy.fa.ocs.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://iazbqy.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS;WORK_LOCATIONS;WORKPLACE_TYPES;TITLES;CATEGORIES;ORGANIZATIONS;POSTING_DATES;FLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC,offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "/job/{Id} (append to careers site)",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Eli Lilly",
+    "company_slug": "eli-lilly",
+    "company_website": "https://careers.lilly.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.lilly.com/us/en/search-results?from=0&s=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "phApp.ddo.eagerLoadRefineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Aflac",
+    "company_slug": "aflac",
+    "company_website": "https://careers.aflac.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.aflac.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "class job-id-<digits> / data-url path segment",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "job anchor href (absolute)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lennar",
+    "company_slug": "lennar",
+    "company_website": "https://careers.lennar.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.lennar.com/api/requisitions/search/en?page=1",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{id}/ path segment",
+      "title": "row title",
+      "location": "row location",
+      "apply_url": "job anchor href (absolute)",
+      "updated_at": "row date posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Union Pacific",
+    "company_slug": "union-pacific",
+    "company_website": "https://up.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://up.jobs/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{slug}/{id}/ path segment",
+      "title": "tile title text",
+      "location": "tile location text",
+      "apply_url": "job anchor href (absolute)",
+      "updated_at": "tile date posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PNC Financial Services Group",
+    "company_slug": "pnc-financial-services-group",
+    "company_website": "https://careers.pnc.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.pnc.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_global",
+      "deviceType": "desktop",
+      "country": "global",
+      "ddoKey": "refineSearch",
+      "clientName": "PNC1GLOBAL",
+      "pageName": "search-results",
+      "from": 0,
+      "size": 10,
+      "keywords": "",
+      "global": true
+    },
+    "response_path": "refineSearch.data.hits",
+    "field_mapping": {
+      "id": "jobId / jobSeqNo",
+      "title": "title",
+      "location": "cityStateCountry / location",
+      "apply_url": "jobUrl / applyUrl",
+      "updated_at": "postedDate / postingStartDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Southern Company",
+    "company_slug": "southern-company",
+    "company_website": "https://southerncompany.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://prod-search-api.jobsyn.org/api/v1/solr/search?page=1&num_items=10",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job id",
+      "title": "title",
+      "location": "location / city+state",
+      "apply_url": "job apply url",
+      "updated_at": "posted date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "AutoNation",
+    "company_slug": "autonation",
+    "company_website": "https://careers.autonation.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.autonation.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "ddoKey": "refineSearch",
+      "clientName": "AUMAIHUS",
+      "pageName": "search-results",
+      "from": 0,
+      "size": 10,
+      "keywords": ""
+    },
+    "response_path": "refineSearch.data.hits",
+    "field_mapping": {
+      "id": "jobId / jobSeqNo",
+      "title": "title",
+      "location": "cityStateCountry / location",
+      "apply_url": "jobUrl / applyUrl",
+      "updated_at": "postedDate / postingStartDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "DXC Technology",
+    "company_slug": "dxc-technology",
+    "company_website": "https://careers.dxc.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobsapi-internal.m-cloud.io/api/job?sortfield=open_date&sortorder=descending&Limit=10&Organization=2492&offset=1&fuzzy=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "queryResult",
+    "field_mapping": {
+      "id": "id (also ref)",
+      "title": "title",
+      "location": "primary_city + primary_state + primary_country",
+      "apply_url": "apply_url / job_url (ref-based)",
+      "updated_at": "open_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "McDonald&#8217;s",
+    "company_slug": "mcdonald-8217-s",
+    "company_website": "https://careers.mcdonalds.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.mcdonalds.com/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{HEXID} path segment",
+      "title": "card heading (h3) text",
+      "location": "'Job Location' text in card",
+      "apply_url": "job title anchor href (absolute)",
+      "updated_at": "sort by Date Posted (not always shown per card)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Marriott International",
+    "company_slug": "marriott-international",
+    "company_website": "https://careers.marriott.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.marriott.com/jobs",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{HEXID} path segment (+ req number in title, e.g. 26081136)",
+      "title": "card heading (h3) text",
+      "location": "'Job Location' text + property/brand in card",
+      "apply_url": "job title anchor href (absolute)",
+      "updated_at": "sort by Posting Date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ManpowerGroup",
+    "company_slug": "manpowergroup",
+    "company_website": "https://manpowergroup.taleo.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://manpowergroup.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=2101382850",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "multilineEnabled": false,
+      "sortingSelection": {
+        "sortBySelectionParam": "3",
+        "ascendingSortingOrder": "false"
+      },
+      "fieldData": {
+        "fields": [
+          "JOB_TITLE",
+          "LOCATION",
+          "JOB_FIELD"
+        ],
+        "valueSet": false
+      },
+      "filterSelectionParam": {
+        "searchFilterSelections": []
+      },
+      "advancedSearchFiltersSelectionParam": {
+        "searchFilterSelections": []
+      },
+      "pageNo": 1
+    },
+    "response_path": "requisitionList",
+    "field_mapping": {
+      "id": "contestNo / jobId",
+      "title": "column[0] (JOB_TITLE)",
+      "location": "column[1] (LOCATION)",
+      "apply_url": "jobdetail.ftl?job={contestNo}",
+      "updated_at": "column with POSTING_DATE"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bank of New York Mellon",
+    "company_slug": "bank-of-new-york-mellon",
+    "company_website": "https://eofe.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://eofe.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1001,facetsList=LOCATIONS;WORK_LOCATIONS;WORKPLACE_TYPES;TITLES;CATEGORIES;ORGANIZATIONS;POSTING_DATES;FLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "job/{Id} on the CX site",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Hartford Financial Services Group",
+    "company_slug": "hartford-financial-services-group",
+    "company_website": "https://www.jointhehartford.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.jointhehartford.com/jobs/?page_jobs=1",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{id}/ path segment",
+      "title": "tile title",
+      "location": "tile location (from slug: us-il-chicago etc)",
+      "apply_url": "job anchor href (absolute)",
+      "updated_at": "tile date posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Danaher",
+    "company_slug": "danaher",
+    "company_website": "https://jobs.danaher.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.danaher.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_global",
+      "deviceType": "desktop",
+      "country": "global",
+      "ddoKey": "refineSearch",
+      "clientName": "DANAGLOBAL",
+      "pageName": "search-results",
+      "from": 0,
+      "size": 10,
+      "keywords": ""
+    },
+    "response_path": "refineSearch.data.hits",
+    "field_mapping": {
+      "id": "jobId / jobSeqNo",
+      "title": "title",
+      "location": "cityStateCountry / location",
+      "apply_url": "jobUrl / applyUrl",
+      "updated_at": "postedDate / postingStartDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "AECOM",
+    "company_slug": "aecom",
+    "company_website": "https://aecom.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://prod-search-api.jobsyn.org/api/v1/solr/search?page=1&num_items=10",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/{HEXID}/job/ path segment",
+      "title": "title",
+      "location": "location / city+state+country",
+      "apply_url": "job detail url",
+      "updated_at": "posted date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Netflix",
+    "company_slug": "netflix",
+    "company_website": "https://explore.jobs.netflix.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://explore.jobs.netflix.net/api/apply/v2/jobs?domain=netflix.com&start=0&num=10&sort_by=relevance",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location / locations[]",
+      "apply_url": "canonicalPositionUrl / apply URL (job/{id})",
+      "updated_at": "t_create / posting date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kohl&#8217;s",
+    "company_slug": "kohl-8217-s",
+    "company_website": "https://careers.kohls.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.kohls.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "ddoKey": "refineSearch",
+      "pageName": "search-results",
+      "from": 0,
+      "size": 10,
+      "keywords": ""
+    },
+    "response_path": "refineSearch.data.hits",
+    "field_mapping": {
+      "id": "jobId / jobSeqNo",
+      "title": "title",
+      "location": "cityStateCountry / location",
+      "apply_url": "jobUrl / applyUrl",
+      "updated_at": "postedDate / postingStartDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lear",
+    "company_slug": "lear",
+    "company_website": "https://jobs.lear.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.lear.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {},
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "/job/{slug}/{id}/ path segment",
+      "title": "tile title text",
+      "location": "tile location text",
+      "apply_url": "job anchor href (absolute)",
+      "updated_at": "tile date posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Altria Group",
+    "company_slug": "altria-group",
+    "company_website": "https://careers.altria.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.altria.com/services/recruiting/v1/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "locale": "en_US",
+      "page": 1,
+      "pageSize": 10,
+      "searchText": "",
+      "descending": true,
+      "sortBy": "posted_date"
+    },
+    "response_path": "jobSearchResult[].response",
+    "field_mapping": {
+      "id": "id",
+      "title": "unifiedStandardTitle",
+      "location": "cust_MarketLocation / jobLocationShort",
+      "apply_url": "https://careers.altria.com/job/{urlTitle}/{id}",
+      "updated_at": "unifiedStandardStart"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Synchrony Financial",
+    "company_slug": "synchrony-financial",
+    "company_website": "https://www.synchronycareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.synchronycareers.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=True&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job URL trailing id (.../49398/{id})",
+      "title": "job card title text",
+      "location": "job card location text",
+      "apply_url": "https://www.synchronycareers.com/job/{location}/{slug}/49398/{id}",
+      "updated_at": "job card date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Genuine Parts",
+    "company_slug": "genuine-parts",
+    "company_website": "https://jobs.genpt.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.genpt.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=True&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job URL trailing id (.../505/{id})",
+      "title": "job card title text",
+      "location": "job card location text",
+      "apply_url": "https://jobs.genpt.com/en/job/{location}/{slug}/505/{id}",
+      "updated_at": "job card date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "NextEra Energy",
+    "company_slug": "nextera-energy",
+    "company_website": "https://jobs.nexteraenergy.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.nexteraenergy.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job link href trailing /{id}/",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "https://jobs.nexteraenergy.com{href}",
+      "updated_at": "span.jobDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "CarMax",
+    "company_slug": "carmax",
+    "company_website": "https://careers.carmax.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.carmax.com/jobs/page/1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job req id (JR-/JC-/JV-...) and job URL hex id",
+      "title": "h3 job title",
+      "location": "Job Location text",
+      "apply_url": "https://careers.carmax.com/{slug}/job/{HEXID}",
+      "updated_at": "n/a (sort by Date available)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tenet Healthcare",
+    "company_slug": "tenet-healthcare",
+    "company_website": "https://tenet.taleo.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://tenet.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=6260110087",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://tenet.taleo.net/careersection/10100/jobsearch.ftl",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "multilineEnabled": true,
+      "sortingSelection": {
+        "sortBySelectionParam": "1",
+        "ascendingSortingOrder": "false"
+      },
+      "fieldData": {
+        "fields": {
+          "KEYWORD": "",
+          "JOB_NUMBER": "",
+          "ORGANIZATION": ""
+        },
+        "valid": true
+      },
+      "filterSelectionParam": {
+        "searchFilterSelections": [
+          {
+            "id": "POSTING_DATE",
+            "selectedValues": []
+          },
+          {
+            "id": "LOCATION",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_FIELD",
+            "selectedValues": []
+          },
+          {
+            "id": "ORGANIZATION",
+            "selectedValues": []
+          }
+        ]
+      },
+      "advancedSearchFiltersSelectionParam": {
+        "searchFilterSelections": [
+          {
+            "id": "ORGANIZATION",
+            "selectedValues": []
+          },
+          {
+            "id": "LOCATION",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_FIELD",
+            "selectedValues": []
+          }
+        ]
+      },
+      "pageNo": 1
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Emerson Electric",
+    "company_slug": "emerson-electric",
+    "company_website": "https://hdjq.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://hdjq.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,facetsList=LOCATIONS;WORK_LOCATIONS;WORKPLACE_TYPES;TITLES;CATEGORIES;ORGANIZATIONS;POSTING_DATES;FLEX_FIELDS,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id / requisitionNumber",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Sherwin-Williams",
+    "company_slug": "sherwin-williams",
+    "company_website": "https://careers.sherwin-williams.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.sherwin-williams.com/bin/api/corp/regionSelectorData.json/content/experience-fragments/sherwin/corp/careers/us/en/site/header/master/jcr:content/root/container_1596074899/container/regionselector.json",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.sherwin-williams.com/us/en/home.html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PayPal Holdings",
+    "company_slug": "paypal-holdings",
+    "company_website": "https://paypal.eightfold.ai",
+    "ats_type": "custom",
+    "api_endpoint": "https://paypal.eightfold.ai/api/pcsx/search?domain=paypal.com&query=&location=&start=0&sort_by=relevance",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location / locations",
+      "apply_url": "https://paypal.eightfold.ai/careers?domain=paypal.com&pid={id}",
+      "updated_at": "t_create / display_job_posted_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "D.R. Horton",
+    "company_slug": "d-r-horton",
+    "company_website": "https://drhorton.referrals.selectminds.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://drhorton.referrals.selectminds.com/jobs/search/30028?pg=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job URL trailing id (/jobs/{slug}-{id})",
+      "title": "job title link",
+      "location": "'Location:' text",
+      "apply_url": "https://drhorton.referrals.selectminds.com/jobs/{slug}-{id}",
+      "updated_at": "n/a on list"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "HollyFrontier",
+    "company_slug": "hollyfrontier",
+    "company_website": "https://careers.hfsinclair.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.hfsinclair.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job link href trailing /{id}/",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "https://careers.hfsinclair.com{href}",
+      "updated_at": "span.jobDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "EOG Resources",
+    "company_slug": "eog-resources",
+    "company_website": "https://careers.eogresources.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.eogresources.com/process_jobsearch.asp",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "jo_num query param",
+      "title": "job title link text",
+      "location": "row location text",
+      "apply_url": "https://careers.eogresources.com/jobdetails.asp?jo_num={id}",
+      "updated_at": "'Posted M/D/YYYY' text"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lincoln National",
+    "company_slug": "lincoln-national",
+    "company_website": "https://jobs.lincolnfinancial.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.lincolnfinancial.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job link href trailing /{id}/",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "https://jobs.lincolnfinancial.com{href}",
+      "updated_at": "span.jobDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PG&E",
+    "company_slug": "pg-e",
+    "company_website": "https://jobs.pge.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.pge.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keywords=&Location=&ShowRadius=False&IsPagination=True&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job URL trailing id",
+      "title": "job card title text",
+      "location": "job card location text",
+      "apply_url": "https://jobs.pge.com/job/{location}/{slug}/{clientid}/{id}",
+      "updated_at": "job card date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "General Mills",
+    "company_slug": "general-mills",
+    "company_website": "https://careers.generalmills.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://cdn13.icims.com/icims-translations/latest/locales/en-GB/jobchat.json",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://assets.textrecruit.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cognizant Technology Solutions",
+    "company_slug": "cognizant-technology-solutions",
+    "company_website": "https://careers.cognizant.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.cognizant.com/us-en/jobs/?page=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job URL req id (/us-en/jobs/{id}/)",
+      "title": "h2 job title",
+      "location": "location listitem",
+      "apply_url": "https://careers.cognizant.com/us-en/jobs/{id}/{slug}/",
+      "updated_at": "n/a on list (Date published on detail)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "XPO Logistics",
+    "company_slug": "xpo-logistics",
+    "company_website": "https://jobs.xpo.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.xpo.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job req ID column / link href",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "https://jobs.xpo.com{href}",
+      "updated_at": "span.jobDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Dominion Energy",
+    "company_slug": "dominion-energy",
+    "company_website": "https://careers.dominionenergy.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.dominionenergy.com/search/?q=&startrow=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "Req ID column / job link href trailing /{id}/",
+      "title": "a.jobTitle-link",
+      "location": "span.jobLocation",
+      "apply_url": "https://careers.dominionenergy.com{href}",
+      "updated_at": "span.jobDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Western Digital",
+    "company_slug": "western-digital",
+    "company_website": "https://careers.smartrecruiters.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://api.smartrecruiters.com/v1/companies/WesternDigital/postings?limit=100&offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "content",
+    "field_mapping": {
+      "id": "id / refNumber",
+      "title": "name",
+      "location": "location.city / location.country",
+      "apply_url": "https://jobs.smartrecruiters.com/WesternDigital/{id}",
+      "updated_at": "releasedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Aramark",
+    "company_slug": "aramark",
+    "company_website": "https://careers.aramark.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.aramark.com/wp-json/aramark/jobs?limit=20000&path=&zips=&industries=&categories=&jobfunction=&sub_categories=&types=&keyword=",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "req_id (SuccessFactors jobId) / id (internal)",
+      "title": "title",
+      "location": "city + state + zipcode (lat/lng also present)",
+      "apply_url": "url (career4.successfactors.com/sfcareer/jobreqcareer?jobId={req_id}&company=ARAMARKPROD)",
+      "updated_at": "pub_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Principal Financial",
+    "company_slug": "principal-financial",
+    "company_website": "https://careers.principal.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.principal.com/api/jobs?page=1&limit=100&sortBy=relevance&descending=false&internal=false&country=United%20States",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs[].data",
+    "field_mapping": {
+      "id": "req_id / slug",
+      "title": "title",
+      "location": "city + state + country (full_location / short_location also present)",
+      "apply_url": "apply_url (or https://careers.principal.com/careers-home/jobs/{slug})",
+      "updated_at": "posted_date / create_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ross Stores",
+    "company_slug": "ross-stores",
+    "company_website": "https://jobs.rossstores.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.rossstores.com/Search/SearchResults?jtStartIndex=0&jtPageSize=100",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "Records",
+    "field_mapping": {
+      "id": "ReferenceNumber (strip span) / ID (guid)",
+      "title": "Title (strip span)",
+      "location": "CityStateData / FullAddress (strip span)",
+      "apply_url": "job detail via ID; Apply routes to rossstores.taleo.net (reqNo=ReferenceNumber)",
+      "updated_at": "PostedDateRaw / PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Colgate-Palmolive",
+    "company_slug": "colgate-palmolive",
+    "company_website": "https://jobs.colgate.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.colgate.com/services/recruiting/v1/jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "locale": "en_US",
+      "pageNumber": 0,
+      "pageSize": 10
+    },
+    "response_path": "jobSearchResult[].response",
+    "field_mapping": {
+      "id": "id",
+      "title": "unifiedStandardTitle / unifiedStandardTitle",
+      "location": "jobLocationShort[] (e.g. 'Seattle, WA, USA')",
+      "apply_url": "https://jobs.colgate.com/job/{urlTitle}/{id} (unifiedUrlTitle + id)",
+      "updated_at": "unifiedStandardStart"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Jacobs Engineering Group",
+    "company_slug": "jacobs-engineering-group",
+    "company_website": "https://careers.jacobs.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.jacobs.com/en_US/careers/SearchJobs/?jobRecordsPerPage=10&jobOffset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "trailing numeric id in JobDetail URL",
+      "title": "job card title / JobDetail slug",
+      "location": "job card 'City, State, Country' text",
+      "apply_url": "https://careers.jacobs.com/en_US/careers/JobDetail/{slug}/{id}",
+      "updated_at": "job card posting date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Estée Lauder",
+    "company_slug": "est-e-lauder",
+    "company_website": "https://careers.elcompanies.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.elcompanies.com/api/pcsx/search?domain=elcompanies.com&query=&location=United%20States&start=0&sort_by=relevance&",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "locations",
+      "apply_url": "https://careers.elcompanies.com{positionUrl}",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Truist Financial",
+    "company_slug": "truist-financial",
+    "company_website": "https://careers.truist.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.truist.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "country": "us",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "jdsource": "facets",
+      "siteType": "external",
+      "keywords": "",
+      "global": false
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "https://careers.truist.com/us/en/job/{jobId}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Applied Materials",
+    "company_slug": "applied-materials",
+    "company_website": "https://appliedabc.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ekr.zdassets.com/compose/f3cf0b3e-0d26-4ecd-8376-bdfe991b3b0b",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://appliedabc.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "products",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "BlackRock",
+    "company_slug": "blackrock",
+    "company_website": "https://careers.blackrock.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.blackrock.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keyword=&Location=&ShowRadius=False&IsPagination=False&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "data-job-id attribute",
+      "title": "<h2> text in job card",
+      "location": "job-info location span",
+      "apply_url": "https://careers.blackrock.com{href}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Freeport-McMoRan",
+    "company_slug": "freeport-mcmoran",
+    "company_website": "https://jobs.fcx.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.fcx.com/tile-search-results/?data=%7B%22searchString%22%3A%22%22%2C%22startrow%22%3A0%7D",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job id in data-url path segment (e.g. 1400738100)",
+      "title": "job-tile anchor text",
+      "location": "li .job-location text",
+      "apply_url": "https://jobs.fcx.com{data-url}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Texas Instruments",
+    "company_slug": "texas-instruments",
+    "company_website": "https://careers.ti.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://edbz.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://careers.ti.com/en/sites/CX/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Parker-Hannifin",
+    "company_slug": "parker-hannifin",
+    "company_website": "https://parkercareers.ttcportals.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://parkercareers.ttcportals.com/jobs/search.json?page=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "entries",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location.locality + location.region_abbr + location.country",
+      "apply_url": "https://parkercareers.ttcportals.com/jobs/{id}/{permalink}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Reinsurance Group of America",
+    "company_slug": "reinsurance-group-of-america",
+    "company_website": "https://www.rgarecareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.rgarecareers.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "country": "us",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "jdsource": "facets",
+      "siteType": "external",
+      "keywords": "",
+      "global": false
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "https://www.rgarecareers.com/us/en/job/{jobId}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Howmet Aerospace",
+    "company_slug": "howmet-aerospace",
+    "company_website": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://fa-exty-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Automatic Data Processing",
+    "company_slug": "automatic-data-processing",
+    "company_website": "https://jobs.adp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.adp.com/en/jobs/?orderby=0&pagesize=20&page=1&radius=100&rType=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "ref id in job link path (/en/jobs/{id}/{slug}/)",
+      "title": "card h2 text",
+      "location": "card location line",
+      "apply_url": "https://jobs.adp.com/en/jobs/{id}/{slug}/",
+      "updated_at": "card date line (MM/DD/YYYY)"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Uber Technologies",
+    "company_slug": "uber-technologies",
+    "company_website": "https://jobs.uber.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.uber.com/api/jobs/search?locale=en&limit=10&page=0",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "Locations[0].Address",
+      "apply_url": "https://jobs.uber.com{Urls[0].Url}",
+      "updated_at": "DisplayDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Illinois Tool Works",
+    "company_slug": "illinois-tool-works",
+    "company_website": "https://careers.itw.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.itw.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "country": "us",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "jdsource": "facets",
+      "siteType": "external",
+      "keywords": "",
+      "global": false
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "https://careers.itw.com/us/en/job/{jobId}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Discover Financial Services",
+    "company_slug": "discover-financial-services",
+    "company_website": "https://www.capitalonecareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.capitalonecareers.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Keyword=&ShowRadius=False&IsPagination=False&CustomFacetName=&FacetTerm=&FacetType=0&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "data-job-id attribute",
+      "title": "<h2> text in job card",
+      "apply_url": "https://www.capitalonecareers.com{href}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Corteva",
+    "company_slug": "corteva",
+    "company_website": "https://apply.corteva.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://apply.corteva.com/api/pcsx/search?domain=corteva.com&query=&location=&start=0&",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "locations",
+      "apply_url": "https://apply.corteva.com/careers/job/{id}",
+      "updated_at": "postedTs"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Textron",
+    "company_slug": "textron",
+    "company_website": "https://careers.textron.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://prod-search-api.jobsyn.org/api/v1/solr/search?page=1&num_items=10",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "hex id segment in job URL path",
+      "title": "job card title",
+      "location": "job card location",
+      "apply_url": "https://careers.textron.com{href}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kellogg",
+    "company_slug": "kellogg",
+    "company_website": "https://jobs.kellanova.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.kellanova.com/tile-search-results/?data=%7B%22searchString%22%3A%22%22%2C%22startrow%22%3A0%7D",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job id in data-url path segment (e.g. 1400613400)",
+      "title": "job-tile anchor text",
+      "location": "li .job-location text",
+      "apply_url": "https://jobs.kellanova.com{data-url}"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Core-Mark Holding",
+    "company_slug": "core-mark-holding",
+    "company_website": "https://careers.core-mark.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.core-mark.com/calc-results/?pg=1",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "li id attr (result-<JobID>BR)",
+      "title": "div.title strong",
+      "location": "div.info-basic location text",
+      "apply_url": "https://careers.core-mark.com{a.href}",
+      "updated_at": "date-posted text"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Community Health Systems",
+    "company_slug": "community-health-systems",
+    "company_website": "https://www.careershealthcare.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://api.careershealthcare.com/job/wp_job_grid?limit=60&order-by=title&offset=0&_directory=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "div.chs-job data-id attr",
+      "title": "h5.job-title a",
+      "location": "h5.job-location",
+      "apply_url": "h5.job-title a href"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kinder Morgan",
+    "company_slug": "kinder-morgan",
+    "company_website": "https://careers.kindermorgan.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.kindermorgan.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "data.req_id",
+      "title": "data.title",
+      "location": "data.full_location / data.city + data.state",
+      "apply_url": "https://careers.kindermorgan.com/careers-home/jobs/{data.slug}",
+      "department": "data.category",
+      "updated_at": "data.create_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "United States Steel",
+    "company_slug": "united-states-steel",
+    "company_website": "https://sjobs.brassring.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://sjobs.brassring.com/TGnewUI/Search/Ajax/ProcessSortAndShowMoreJobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "partnerId": "25307",
+      "siteId": "5238",
+      "keyword": "",
+      "location": "",
+      "sortColumn": "JobRequisitionsIsHot",
+      "sortDirection": "descending",
+      "pageNumber": "1",
+      "startrow": "0",
+      "numberOfResults": "10"
+    },
+    "response_path": "Jobs.Job",
+    "field_mapping": {
+      "title": "Questions[QuestionName=jobtitle].Value",
+      "location": "Questions[QuestionName=formtext13].Value (city)",
+      "apply_url": "Job.Link",
+      "updated_at": "Questions[QuestionName=lastupdated].Value"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "L Brands",
+    "company_slug": "l-brands",
+    "company_website": "https://careers.bathandbodyworks.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobsapi-internal.m-cloud.io/api/job?sortfield=open_date&sortorder=descending&Limit=15&Organization=1107&offset=1&fuzzy=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "queryResult",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "primary_city + primary_state",
+      "apply_url": "apply_url / job_url",
+      "department": "function",
+      "updated_at": "open_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "DISH Network",
+    "company_slug": "dish-network",
+    "company_website": "https://jobs.echostar.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.echostar.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "data.req_id",
+      "title": "data.title",
+      "location": "data.full_location / data.city + data.state",
+      "apply_url": "data.apply_url",
+      "department": "data.category",
+      "updated_at": "data.posted_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Consolidated Edison",
+    "company_slug": "consolidated-edison",
+    "company_website": "https://ejcu.fa.us6.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ejcu.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1035,limit=25,offset=0,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1035/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Sempra Energy",
+    "company_slug": "sempra-energy",
+    "company_website": "https://myjobs.adp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://my.adp.com/myadp_prefix/mycareer/public/staffing/v1/job-requisitions/apply-custom-filters?$orderby=postingDate%20desc&$select=reqId,jobTitle,publishedJobTitle,type,jobDescription,workLocations,workLevelCode,clientRequisitionID,postingDate,requisitionLocations&$top=10&tz=America/New_York",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json",
+      "orgoid": "G3AWJ7PAVPW7ZPAD",
+      "postingChannelId": "<required; site-specific channel GUID sent by the myjobs.adp.com SPA>"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobRequisitions",
+    "field_mapping": {
+      "id": "clientRequisitionID",
+      "title": "publishedJobTitle",
+      "location": "workLocations[0].address.city",
+      "apply_url": "https://myjobs.adp.com/sempra/cx/job-details?reqId={reqId}",
+      "updated_at": "postingDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Edison International",
+    "company_slug": "edison-international",
+    "company_website": "https://www.edisoncareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobsapi-google.m-cloud.io/api/job/search?pageSize=10&offset=0&companyName=companies%2F3f187166-f813-42e8-b28c-afdaec98d345&orderBy=posting_publish_time%20desc",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "searchResults[].job",
+    "field_mapping": {
+      "id": "ref",
+      "title": "title",
+      "location": "primary_location",
+      "apply_url": "seo_url",
+      "updated_at": "open_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "CSX",
+    "company_slug": "csx",
+    "company_website": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers/jobs",
+      "content-type": "application/vnd.oracle.adf.resourceitem+json;charset=utf-8"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Charles Schwab",
+    "company_slug": "charles-schwab",
+    "company_website": "https://www.schwabjobs.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.schwabjobs.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=0&SearchType=5",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "Requisition ID text",
+      "title": "a.job-title-link",
+      "location": ".job-location / .location",
+      "apply_url": "https://www.schwabjobs.com{job href}",
+      "updated_at": ".job-date-posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Laboratory Corp. of America (Labcorp)",
+    "company_slug": "laboratory-corp-of-america-labcorp",
+    "company_website": "https://careers.labcorp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.labcorp.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_global",
+      "deviceType": "desktop",
+      "country": "global",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "sortBy": "",
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "all_fields": [
+        "category",
+        "country",
+        "state",
+        "city",
+        "type"
+      ],
+      "size": 10,
+      "clearAll": false,
+      "jdsource": "facet",
+      "pageId": "page11",
+      "siteType": "external",
+      "keywords": "",
+      "global": true
+    },
+    "response_path": "data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl / jobSeoUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Universal Health Services",
+    "company_slug": "universal-health-services",
+    "company_website": "https://jobs.uhsinc.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.uhsinc.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs[].data",
+    "field_mapping": {
+      "id": "req_id",
+      "title": "title",
+      "location": "city + ', ' + state",
+      "apply_url": "https://jobs.uhsinc.com/careers/job/{slug}",
+      "updated_at": "create_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Baxter International",
+    "company_slug": "baxter-international",
+    "company_website": "https://jobs.baxter.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.baxter.com/en/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&RadiusUnitType=0&Latitude=0&Longitude=0&ShowRadius=false&IsPagination=false&SearchResultsModuleName=Search+Results&SearchFiltersModuleName=Search+Filters&SortCriteria=0&SortDirection=1&SearchType=5",
+    "api_method": "GET",
+    "api_headers": {
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "trailing numeric segment of job href",
+      "title": "a.job-title-link",
+      "location": ".job-location",
+      "apply_url": "job href e.g. https://jobs.baxter.com/en/job/{city}/{slug}/152/{jobid}",
+      "updated_at": ".job-date-posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Navistar International",
+    "company_slug": "navistar-international",
+    "company_website": "https://careers.navistar.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.navistar.com/api/jobs?keywords=Engineer&page=1&sortBy=posted_date&descending=true&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.navistar.com/jobs?keywords=Engineer",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "J.C. Penney",
+    "company_slug": "j-c-penney",
+    "company_website": "https://jobs.jcp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.jcp.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs[].data",
+    "field_mapping": {
+      "id": "req_id",
+      "title": "title",
+      "location": "city + ', ' + state",
+      "apply_url": "https://jobs.jcp.com/careers-home/job/{slug}",
+      "updated_at": "create_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Discovery",
+    "company_slug": "discovery",
+    "company_website": "https://careers.wbd.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.wbd.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_global",
+      "deviceType": "desktop",
+      "country": "global",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "sortBy": "Most relevant",
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "all_fields": [
+        "category",
+        "country",
+        "state",
+        "city",
+        "type"
+      ],
+      "keywords": "",
+      "global": true,
+      "siteType": "external",
+      "pageId": "page1"
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Reliance Steel & Aluminum",
+    "company_slug": "reliance-steel-aluminum",
+    "company_website": "https://careers.reliance.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.reliance.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs[].data",
+    "field_mapping": {
+      "id": "req_id",
+      "title": "title",
+      "location": "city + ', ' + state",
+      "apply_url": "https://careers.reliance.com/careers-home/job/{slug}",
+      "updated_at": "create_date"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Entergy",
+    "company_slug": "entergy",
+    "company_website": "https://jobs.entergy.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.entergy.com/services/jobs/options/facetValues/",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jobs.entergy.com/search/?createNewAlert=false&q=Engineer&locationsearch=&optionsFacetsDD_title=&optionsFacetsDD_department=&optionsFacetsDD_state=",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "page": 0,
+      "keywords": "",
+      "locationsearch": "",
+      "sortby": "referencedate",
+      "sortdir": "desc",
+      "sortfield": "title",
+      "recordsperpage": 25,
+      "startrow": 0,
+      "facetquery": {
+        "facet": true,
+        "mincount": 1,
+        "limit": 5000,
+        "fields": [
+          "title",
+          "department",
+          "state"
+        ],
+        "sort": "index",
+        "showPicklistAllLocales": false
+      },
+      "filterquery": {}
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "FirstEnergy",
+    "company_slug": "firstenergy",
+    "company_website": "https://careers.firstenergycorp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://fa-etjd-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,limit=25,offset=0,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://careers.firstenergycorp.com/#en/sites/FirstEnergyCareers/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "eBay",
+    "company_slug": "ebay",
+    "company_website": "https://jobs.ebayinc.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.ebayinc.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "sortBy": "Most relevant",
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "all_fields": [
+        "category",
+        "country",
+        "state",
+        "city",
+        "type"
+      ],
+      "keywords": "",
+      "global": false,
+      "clearAll": false,
+      "jdsource": "facets",
+      "isSliderEnable": false,
+      "pageId": "page1",
+      "siteType": "external",
+      "selected_fields": {},
+      "locationData": {}
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ODP",
+    "company_slug": "odp",
+    "company_website": "https://careers.theodpgroup.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.theodpgroup.com/search/jobs.json?page=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "entries",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "location": "location (object -> name/city/state)",
+      "apply_url": "https://careers.theodpgroup.com{permalink}",
+      "updated_at": "n/a"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Molson Coors Beverage",
+    "company_slug": "molson-coors-beverage",
+    "company_website": "https://careers.molsoncoors.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.molsoncoors.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "pageName": "search-results",
+      "ddoKey": "refineSearch",
+      "sortBy": "Most relevant",
+      "from": 0,
+      "size": 10,
+      "jobs": true,
+      "counts": true,
+      "all_fields": [
+        "category",
+        "country",
+        "state",
+        "city",
+        "type"
+      ],
+      "keywords": "",
+      "global": false,
+      "clearAll": false,
+      "jdsource": "facets",
+      "isSliderEnable": false,
+      "pageId": "page1",
+      "siteType": "external",
+      "selected_fields": {},
+      "locationData": {}
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Steel Dynamics",
+    "company_slug": "steel-dynamics",
+    "company_website": "https://careers-steeldynamics.icims.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers-steeldynamics.icims.com/jobs/search?pr=0&in_iframe=1",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "text/html"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "id (or idRaw)",
+      "title": "title",
+      "location": "location.city + ', ' + location.state",
+      "apply_url": "https://careers-steeldynamics.icims.com/jobs/{idRaw}/{slug}/job",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "O&#8217;Reilly Automotive",
+    "company_slug": "o-8217-reilly-automotive",
+    "company_website": "https://careers.oreillyauto.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.oreillyauto.com/widgets?ddoKey=refineSearch",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "X-CSRF-Token": "<phApp.csrfToken from careers page>"
+    },
+    "api_params": {},
+    "api_body": {
+      "ddoKey": "refineSearch",
+      "global": false,
+      "pageName": "search-results",
+      "size": 10,
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "country": "us",
+      "siteType": "external",
+      "locale": "en_US"
+    },
+    "response_path": "refineSearch.data.jobs",
+    "field_mapping": {
+      "id": "jobId / jobSeqNo",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl / jobUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "News Corp.",
+    "company_slug": "news-corp",
+    "company_website": "https://careers.newscorp.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://prod-search-api.jobsyn.org/api/v1/solr/search?page=1&num_items=15",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json",
+      "Referer": "https://careers.newscorp.com/jobs/",
+      "Origin": "https://careers.newscorp.com"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "job id",
+      "title": "title",
+      "location": "city/state",
+      "apply_url": "job url",
+      "updated_at": "date_new"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Calpine",
+    "company_slug": "calpine",
+    "company_website": "https://recruiting2.ultipro.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://recruiting2.ultipro.com/CAL1005CALCO/JobBoard/d22af9bd-a7c2-4878-9a07-27668311ea7c/JobBoardView/LoadSearchResults",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "opportunitySearch": {
+        "Top": 20,
+        "Skip": 0,
+        "QueryString": "",
+        "OrderBy": [
+          {
+            "Value": "postedDateDesc",
+            "PropertyName": "PostedDate",
+            "Ascending": false
+          }
+        ],
+        "Filters": []
+      },
+      "matchCriteria": {
+        "PreferredJobs": [],
+        "Educations": [],
+        "LicenseAndCertifications": [],
+        "Skills": [],
+        "hasNoLicenses": false,
+        "SkippedSkills": []
+      }
+    },
+    "response_path": "opportunities",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "Locations[].LocalizedDescription / LocationDescription",
+      "apply_url": "https://recruiting2.ultipro.com/CAL1005CALCO/JobBoard/d22af9bd-a7c2-4878-9a07-27668311ea7c/OpportunityDetail?opportunityId={Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PVH",
+    "company_slug": "pvh",
+    "company_website": "https://careers.pvh.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.pvh.com/api/apply/v2/jobs?domain=pvh.com&start=0&num=10&sort_by=relevance",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location / locations",
+      "apply_url": "https://careers.pvh.com/careers?pid={id}",
+      "updated_at": "t_create"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Hertz Global Holdings",
+    "company_slug": "hertz-global-holdings",
+    "company_website": "https://jobs.hertzcareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://fa-evlf-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1,limit=20",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://jobs.hertzcareers.com/#en/sites/CX_1/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Newmont",
+    "company_slug": "newmont",
+    "company_website": "https://jobs.newmont.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.newmont.com/widgets",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jobs.newmont.com/us/en/search-results",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "isEagerLoad": true,
+      "lang": "en_us",
+      "deviceType": "desktop",
+      "country": "us",
+      "pageName": "search-results",
+      "refNum": "NMCNMCUS",
+      "siteType": "external",
+      "pageId": "page10",
+      "ddoKey": "leastAppliedJobs"
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cheniere Energy",
+    "company_slug": "cheniere-energy",
+    "company_website": "https://hcgi.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://hcgi.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_2,limit=20",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://hcgi.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Lam Research",
+    "company_slug": "lam-research",
+    "company_website": "https://careers.lamresearch.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.lamresearch.com/api/pcsx/search?domain=lamresearch.com&query=&location=&start=0&sort_by=relevance",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "data.positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "locations / location (may be null; see canonicalPositionUrl)",
+      "apply_url": "https://careers.lamresearch.com/careers?pid={id}&domain=lamresearch.com",
+      "updated_at": "t_create"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Equitable Holdings",
+    "company_slug": "equitable-holdings",
+    "company_website": "https://equitable.taleo.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://equitable.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=36105020509",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json",
+      "tz": "GMT-04:00"
+    },
+    "api_params": {},
+    "api_body": {
+      "multilineEnabled": false,
+      "sortingSelection": {
+        "sortBySelectionParam": "5",
+        "ascendingSortingOrder": "false"
+      },
+      "fieldData": {
+        "fields": {
+          "KEYWORD": "",
+          "LOCATION": "",
+          "ORGANIZATION": ""
+        },
+        "valid": true
+      },
+      "filterSelectionParam": {
+        "searchFilterSelections": []
+      },
+      "advancedSearchFiltersSelectionParam": {
+        "searchFilterSelections": []
+      },
+      "pageNo": 1
+    },
+    "response_path": "requisitionList",
+    "field_mapping": {
+      "id": "contestNo",
+      "title": "column[0]",
+      "location": "locationsColumns",
+      "apply_url": "https://equitable.taleo.net/careersection/eqh_1/jobdetail.ftl?job={contestNo}&lang=en",
+      "updated_at": "column"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Conagra Brands",
+    "company_slug": "conagra-brands",
+    "company_website": "https://careers.conagrabrands.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.conagrabrands.com/widgets?ddoKey=refineSearch",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json",
+      "X-CSRF-Token": "<from phApp.sessionData.csrf on the page>"
+    },
+    "api_params": {},
+    "api_body": {
+      "deviceType": "desktop",
+      "country": "us",
+      "keywords": "",
+      "location": "",
+      "language": "en_global",
+      "size": 10,
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "all_fields": [
+        "category",
+        "country",
+        "state",
+        "city"
+      ],
+      "pageName": "search-results",
+      "global": false
+    },
+    "response_path": "data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title",
+      "location": "cityStateCountry",
+      "apply_url": "applyUrl",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Jones Financial (Edward Jones)",
+    "company_slug": "jones-financial-edward-jones",
+    "company_website": "https://sjobs.brassring.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://sjobs.brassring.com/TgNewUI/Search/Ajax/PowerSearchJobs",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Hormel Foods",
+    "company_slug": "hormel-foods",
+    "company_website": "https://ekkh.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ekkh.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_2002,limit=20",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://ekkh.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2002/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Hilton Worldwide Holdings",
+    "company_slug": "hilton-worldwide-holdings",
+    "company_website": "https://efet.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://efet.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1009,limit=20",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "apply_url": "https://efet.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1009/job/{Id}",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Pioneer Natural Resources",
+    "company_slug": "pioneer-natural-resources",
+    "company_website": "https://jobs.exxonmobil.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.exxonmobil.com/services/jobs/options/facetValues/",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jobs.exxonmobil.com/go/View-all-openings/3012100/",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "page": 0,
+      "keywords": "",
+      "locationsearch": "",
+      "sortby": "referencedate",
+      "sortdir": "desc",
+      "recordsperpage": 25,
+      "startrow": 0
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Wayfair",
+    "company_slug": "wayfair",
+    "company_website": "https://www.wayfair.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.wayfair.com/a/careers/careers/job_search_data",
+    "api_method": "GET",
+    "api_headers": {
+      "accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Anixter International",
+    "company_slug": "anixter-international",
+    "company_website": "https://eklm.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://eklm.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Caesars Holdings",
+    "company_slug": "caesars-holdings",
+    "company_website": "https://edmn.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://edmn.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_1,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Genworth Financial",
+    "company_slug": "genworth-financial",
+    "company_website": "https://careers.genworth.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.genworth.com/widgets?ddoKey=refineSearch",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json",
+      "X-CSRF-Token": "<from phApp.sessionData.csrf on the page>"
+    },
+    "api_params": {},
+    "api_body": {
+      "deviceType": "desktop",
+      "country": "us",
+      "keywords": "",
+      "location": "",
+      "language": "en",
+      "size": 10,
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "pageName": "search-results",
+      "global": false
+    },
+    "response_path": "data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Thrivent Financial for Lutherans",
+    "company_slug": "thrivent-financial-for-lutherans",
+    "company_website": "https://careers.thrivent.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.thrivent.com/umbraco/jobboard/CandidateJobs/GetJobs?culture=en",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Autoliv",
+    "company_slug": "autoliv",
+    "company_website": "https://careerunitedstates.autoliv.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careerunitedstates.autoliv.com/jobs.json",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items",
+    "field_mapping": {
+      "id": "id",
+      "title": "title",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Eversource Energy",
+    "company_slug": "eversource-energy",
+    "company_website": "https://jobs.eversource.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.eversource.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&SortCriteria=0&SortDirection=0&SearchType=5&keyword=",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "NOV",
+    "company_slug": "nov",
+    "company_website": "https://egay.fa.us6.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://egay.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX_2001,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "WESCO International",
+    "company_slug": "wesco-international",
+    "company_website": "https://eklm.fa.us2.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://eklm.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations,flexFieldsFacet.values&finder=findReqs;siteNumber=CX,limit=25,sortBy=POSTING_DATES_DESC",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items[0].requisitionList",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Title",
+      "location": "PrimaryLocation",
+      "updated_at": "PostedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Tractor Supply",
+    "company_slug": "tractor-supply",
+    "company_website": "https://www.tractorsupply.careers",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.tractorsupply.careers/services/jobs/options/facetValues/",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://www.tractorsupply.careers/viewalljobs/",
+      "accept": "application/json, text/javascript, */*; q=0.01",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "page": 0,
+      "keywords": "",
+      "locationsearch": "",
+      "sortby": "referencedate",
+      "sortdir": "desc",
+      "sortfield": "title",
+      "recordsperpage": 25,
+      "startrow": 0,
+      "facetquery": {
+        "facet": true,
+        "mincount": 1,
+        "limit": 5000,
+        "fields": [
+          "department",
+          "customfield1"
+        ],
+        "sort": "index",
+        "showPicklistAllLocales": false
+      },
+      "filterquery": {}
+    },
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Masco",
+    "company_slug": "masco",
+    "company_website": "https://jobs.masco.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.masco.com/widgets?ddoKey=refineSearch",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json",
+      "X-CSRF-Token": "<from phApp.sessionData.csrf on the page>"
+    },
+    "api_params": {},
+    "api_body": {
+      "deviceType": "desktop",
+      "country": "us",
+      "keywords": "",
+      "location": "",
+      "language": "en",
+      "size": 10,
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "pageName": "search-results",
+      "global": false
+    },
+    "response_path": "data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Sanmina",
+    "company_slug": "sanmina",
+    "company_website": "https://careers.sanmina.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.sanmina.com/api/requisitions/search?page=1",
+    "api_method": "GET",
+    "api_headers": {
+      "X-Requested-With": "XMLHttpRequest",
+      "Accept": "text/html, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "title": "a text"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Westinghouse Air Brake",
+    "company_slug": "westinghouse-air-brake",
+    "company_website": "https://careers.wabtec.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://api.smartrecruiters.com/v1/companies/Wabtec/postings?limit=10&offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "content",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location.city"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Frontier Communications",
+    "company_slug": "frontier-communications",
+    "company_website": "https://careers.frontier.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.frontier.com/api/apply/v2/jobs?domain=ftr.com&num=10&start=0",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "positions",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "location": "location"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Citizens Financial Group",
+    "company_slug": "citizens-financial-group",
+    "company_website": "https://jobs.citizensbank.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.citizensbank.com/search-jobs/results?ActiveFacetID=0&CurrentPage=1&RecordsPerPage=15&Distance=50&SortCriteria=0&SortDirection=0&SearchType=5&keyword=",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Foot Locker",
+    "company_slug": "foot-locker",
+    "company_website": "https://careers.footlocker.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.footlocker.com/api/jobs?page=1",
+    "api_method": "GET",
+    "api_headers": {
+      "Accept": "application/json"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "data.req_id",
+      "title": "data.title",
+      "location": "data.full_location"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Zimmer Biomet Holdings",
+    "company_slug": "zimmer-biomet-holdings",
+    "company_website": "https://careers.zimmerbiomet.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.zimmerbiomet.com/widgets?ddoKey=refineSearch",
+    "api_method": "POST",
+    "api_headers": {
+      "content-type": "application/json",
+      "accept": "application/json",
+      "X-CSRF-Token": "<from phApp.sessionData.csrf on the page>"
+    },
+    "api_params": {},
+    "api_body": {
+      "deviceType": "desktop",
+      "country": "us",
+      "keywords": "",
+      "location": "",
+      "language": "en",
+      "size": 10,
+      "from": 0,
+      "jobs": true,
+      "counts": true,
+      "pageName": "search-results",
+      "global": false
+    },
+    "response_path": "data.jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Cincinnati Financial",
+    "company_slug": "cincinnati-financial",
+    "company_website": "https://cinfin.taleo.net",
+    "ats_type": "custom",
+    "api_endpoint": "https://cinfin.taleo.net/careersection/rest/jobboard/searchjobs?lang=en&portal=101430233",
+    "api_method": "POST",
+    "api_headers": {
+      "Content-Type": "application/json",
+      "Accept": "application/json",
+      "tz": "GMT-04:00",
+      "tzname": "America/New_York"
+    },
+    "api_params": {},
+    "api_body": {
+      "multilineEnabled": true,
+      "sortingSelection": {
+        "sortBySelectionParam": "5",
+        "ascendingSortingOrder": "true"
+      },
+      "fieldData": {
+        "fields": {
+          "KEYWORD": "",
+          "CATEGORY": ""
+        },
+        "valid": true
+      },
+      "filterSelectionParam": {
+        "searchFilterSelections": [
+          {
+            "id": "JOB_TYPE",
+            "selectedValues": []
+          },
+          {
+            "id": "LOCATION",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_FIELD",
+            "selectedValues": []
+          },
+          {
+            "id": "STUDY_LEVEL",
+            "selectedValues": []
+          }
+        ]
+      },
+      "advancedSearchFiltersSelectionParam": {
+        "searchFilterSelections": [
+          {
+            "id": "ORGANIZATION",
+            "selectedValues": []
+          },
+          {
+            "id": "LOCATION",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_FIELD",
+            "selectedValues": []
+          },
+          {
+            "id": "URGENT_JOB",
+            "selectedValues": []
+          },
+          {
+            "id": "EMPLOYEE_STATUS",
+            "selectedValues": []
+          },
+          {
+            "id": "STUDY_LEVEL",
+            "selectedValues": []
+          },
+          {
+            "id": "WILL_TRAVEL",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_SHIFT",
+            "selectedValues": []
+          },
+          {
+            "id": "JOB_NUMBER",
+            "selectedValues": []
+          }
+        ]
+      },
+      "pageNo": 1
+    },
+    "response_path": "requisitionList",
+    "field_mapping": {
+      "id": "column[1] (req number) / contestNo",
+      "title": "column[0]"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "PPL",
+    "company_slug": "ppl",
+    "company_website": "https://careers.pplweb.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.pplweb.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.pplweb.com/jobs",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Quest Diagnostics",
+    "company_slug": "quest-diagnostics",
+    "company_website": "https://hdox.fa.us6.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://hdox.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://hdox.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+      "content-type": "application/vnd.oracle.adf.resourceitem+json;charset=utf-8"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Toll Brothers",
+    "company_slug": "toll-brothers",
+    "company_website": "https://www.tollcareercenter.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.tollcareercenter.com/jobs/associate-sales-consultant/25218/index.txt?_rsc=1p8ps",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.tollcareercenter.com/locations/pennsylvania"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "MasTec",
+    "company_slug": "mastec",
+    "company_website": "https://careers.mastec.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.mastec.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false&tags2=",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.mastec.com/corporate/jobs",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "FM Global",
+    "company_slug": "fm-global",
+    "company_website": "https://careers.fm.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://cdn13.icims.com/icims-translations/latest/locales/en-US/jobchat.json",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://assets.textrecruit.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Ralph Lauren",
+    "company_slug": "ralph-lauren",
+    "company_website": "https://www.adecco.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.adecco.com/api/data/swpjobs/jobtitleautocomplete/Engineer/en_US/adecco/US/JobTitleAutoComplete",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.adecco.com/en-us/job-seekers/companies/ralph-lauren"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "jobTitle",
+      "location": "jobLocation",
+      "description": "description",
+      "updated_at": "postedDate"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Williams-Sonoma",
+    "company_slug": "williams-sonoma",
+    "company_website": "https://ehac.fa.us6.oraclecloud.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ehac.fa.us6.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://ehac.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs",
+      "content-type": "application/vnd.oracle.adf.resourceitem+json;charset=utf-8"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Levi Strauss",
+    "company_slug": "levi-strauss",
+    "company_website": "https://www.levistrauss.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.levistrauss.com/wp-json/myroutes/legal-menu?_=1784045281838",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.levistrauss.com/who-we-are/brands/levis/",
+      "accept": "text/html, */*; q=0.01"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {
+      "id": "ID",
+      "title": "title",
+      "description": "description",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Vulcan Materials",
+    "company_slug": "vulcan-materials",
+    "company_website": "https://www.vulcanmaterials.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.vulcanmaterials.com/api/orchestration/careers/search-autosuggestions/findByKey?string=Engineer",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.vulcanmaterials.com/careers/drivers-and-operators"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items",
+    "field_mapping": {
+      "id": "Id",
+      "title": "Name",
+      "location": "City"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Conduent",
+    "company_slug": "conduent",
+    "company_website": "https://careers.conduent.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://content-us.phenompeople.com/api/COJCONUS/jobwidgetsettings?locale=en_us&siteType=external&deviceType=desktop&",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.conduent.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Keysight Technologies",
+    "company_slug": "keysight-technologies",
+    "company_website": "https://jobs.keysight.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://cdn13.icims.com/icims-translations/latest/locales/en-GB/jobchat.json",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://assets.textrecruit.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Urban Outfitters",
+    "company_slug": "urban-outfitters",
+    "company_website": "https://talent.urbn.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://talent.urbn.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://talent.urbn.com/jobs",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Spirit Airlines",
+    "company_slug": "spirit-airlines",
+    "company_website": "https://careers.spirit.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.spirit.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.spirit.com/careers-home/jobs",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Applied Industrial Technologies",
+    "company_slug": "applied-industrial-technologies",
+    "company_website": "https://appliedabc.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://ekr.zdassets.com/compose/f3cf0b3e-0d26-4ecd-8376-bdfe991b3b0b",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://appliedabc.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "products",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "ServiceNow",
+    "company_slug": "servicenow",
+    "company_website": "https://snpro.jobs",
+    "ats_type": "custom",
+    "api_endpoint": "https://snpro.jobs/api/jobs/search?q=Engineer&sortBy=date&limit=24&offset=0",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://snpro.jobs/jobs?q=Engineer"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "job_title",
+      "updated_at": "date_posted"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Boston Properties",
+    "company_slug": "boston-properties",
+    "company_website": "https://jobs.greaterwashingtonpartnership.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://jobs.greaterwashingtonpartnership.com/api-boards/search-jobs",
+    "api_method": "POST",
+    "api_headers": {
+      "referer": "https://jobs.greaterwashingtonpartnership.com/jobs/boston-properties",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "api_params": {},
+    "api_body": {
+      "meta": {
+        "size": 15
+      },
+      "board": {
+        "id": "boston-properties",
+        "isParent": false
+      },
+      "query": {
+        "promoteFeatured": true
+      },
+      "parentSlug": "greater-washington-partnership"
+    },
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "jobId",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Kansas City Southern",
+    "company_slug": "kansas-city-southern",
+    "company_website": "https://portal.kansas.gov",
+    "ats_type": "custom",
+    "api_endpoint": "https://ekr.zdassets.com/compose/dee7f4df-b2e2-4cc5-a2de-adca62ef1684",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://portal.kansas.gov/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "products",
+    "field_mapping": {
+      "id": "id",
+      "title": "name",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "BrightView Holdings",
+    "company_slug": "brightview-holdings",
+    "company_website": "https://www.brightviewcareers.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.brightviewcareers.com//search/jobs.json/?q=&amp;cfm3[]=Finance&amp;branch=search-finance-jobs",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.brightviewcareers.com/",
+      "accept": "application/json, text/javascript, */*; q=0.01"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": null,
+    "field_mapping": {},
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Incyte",
+    "company_slug": "incyte",
+    "company_website": "https://careers.incyte.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.incyte.com/api/jobs?page=1&sortBy=relevance&descending=false&internal=false",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.incyte.com/jobs",
+      "accept": "application/json, text/plain, */*"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Bruker",
+    "company_slug": "bruker",
+    "company_website": "https://www.bruker.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://www.bruker.com/content/bruker/int/en/jcr:content.navigation.json",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://www.bruker.com/en/careers.html",
+      "accept": "application/json, text/javascript, text/plain"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "items",
+    "field_mapping": {
+      "title": "name",
+      "apply_url": "url"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  },
+  {
+    "company_name": "Viasat",
+    "company_slug": "viasat",
+    "company_website": "https://careers.viasat.com",
+    "ats_type": "custom",
+    "api_endpoint": "https://careers.viasat.com/api/jobs?undefined",
+    "api_method": "GET",
+    "api_headers": {
+      "referer": "https://careers.viasat.com/"
+    },
+    "api_params": {},
+    "api_body": null,
+    "response_path": "jobs",
+    "field_mapping": {
+      "id": "id",
+      "title": "title"
+    },
+    "pagination_config": {
+      "type": "none"
+    }
+  }
+]
