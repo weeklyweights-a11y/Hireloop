@@ -1,6 +1,6 @@
 # HireLoop
 
-**Live US job data from 250+ company career pages — refreshed every ~2 hours — for browsers and AI clients.**
+**Live US job data from 250+ company career pages  refreshed every ~2 hours  for browsers and AI clients.**
 
 HireLoop is a self-hosted job-data platform. It polls company ATS APIs (Greenhouse, Lever, Ashby, Workday, and custom endpoints), parses each listing into structured fields, stores them in Postgres, builds a Neo4j skill/role graph, and exposes everything through:
 
@@ -291,4 +291,5 @@ MIT — see [LICENSE](LICENSE).
 
 Health JSON (`/health`) shows `last_poll`, `next_poll`, and active job counts — start there when debugging.
 
+We will be adding more companies soon...
 Contact: weeklyweights@gmail.com
